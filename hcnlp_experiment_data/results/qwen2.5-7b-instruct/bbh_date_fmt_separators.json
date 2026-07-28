@@ -1,0 +1,3984 @@
+{
+  "metrics": {
+    "base_accuracy": 60.0,
+    "pert_accuracy": 57.2,
+    "accuracy_drop": 2.8,
+    "flip_rate": 0.132,
+    "consistency": 0.868,
+    "n_examples": 250,
+    "_raw_flip_rate": 0.132,
+    "_raw_acc_drop": 2.8000000000000025,
+    "semantic_distance": 0.0,
+    "sensitivity_score": 0.3696,
+    "category": "formatting",
+    "n_unique_preds": 6,
+    "majority_label": "B",
+    "majority_frac": 0.288,
+    "collapsed": false,
+    "direction": "drop"
+  },
+  "pert_results": [
+    {
+      "idx": 0,
+      "prompt": "Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 12/11/1937 | (B) 12/25/1937 | (C) 01/04/1938 | (D) 12/04/1937 | (E) 12/25/2006 | (F) 07/25/1937 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.28125,
+        "B": -0.0011758804321289062,
+        "C": -16.0,
+        "D": -15.65625,
+        "E": -18.234375,
+        "F": -19.84375
+      },
+      "margin": 10.280074119567871
+    },
+    {
+      "idx": 1,
+      "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 12/02/1986 | (B) 12/01/1986 | (C) 03/02/1986 | (D) 12/02/2032 | (E) 12/02/2062 | (F) 02/06/1987 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.34765625,
+        "B": -0.002758026123046875,
+        "C": -13.28125,
+        "D": -14.421875,
+        "E": -11.140625,
+        "F": -18.375
+      },
+      "margin": 6.344898223876953
+    },
+    {
+      "idx": 2,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 01/16/1961 | (B) 01/09/1961 | (C) 01/09/1963 | (D) 03/09/1960 | (E) 07/09/1960 | (F) 02/28/1961 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.45703125,
+        "B": -0.0201263427734375,
+        "C": -10.5390625,
+        "D": -11.9140625,
+        "E": -8.9140625,
+        "F": -4.01953125
+      },
+      "margin": 3.9994049072265625
+    },
+    {
+      "idx": 3,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 07/09/1972 | (B) 12/01/1972 | (C) 07/01/2008 | (D) 05/13/1972 | (E) 07/01/1972 | (F) 08/12/1972 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.533203125,
+        "B": -9.25,
+        "C": -9.015625,
+        "D": -5.72265625,
+        "E": -0.03387451171875,
+        "F": -15.296875
+      },
+      "margin": 3.49932861328125
+    },
+    {
+      "idx": 4,
+      "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 10/22/1944 | (B) 10/22/1924 | (C) 10/07/1924 | (D) 10/21/1924 | (E) 08/22/1925 | (F) 11/21/1924 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.03125,
+        "B": -0.0017366409301757812,
+        "C": -6.65625,
+        "D": -8.78125,
+        "E": -18.203125,
+        "F": -19.203125
+      },
+      "margin": 6.654513359069824
+    },
+    {
+      "idx": 5,
+      "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 08/16/2009 | (B) 02/16/2009 | (C) 02/16/2004 | (D) 03/13/2009 | (E) 01/26/2009 | (F) 02/15/2009 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.9638671875,
+        "B": -0.1517333984375,
+        "C": -8.2265625,
+        "D": -10.6953125,
+        "E": -9.6640625,
+        "F": -10.0546875
+      },
+      "margin": 1.8121337890625
+    },
+    {
+      "idx": 6,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 06/19/2017 | (B) 07/17/2017 | (C) 06/20/2017 | (D) 06/18/2017 | (E) 06/15/2017 | (F) 07/10/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.90283203125,
+        "B": -5.26171875,
+        "C": -0.65283203125,
+        "D": -2.77734375,
+        "E": -4.99609375,
+        "F": -12.6875
+      },
+      "margin": 0.25
+    },
+    {
+      "idx": 7,
+      "prompt": "Tomorrow is 11/12/2019. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 11/10/2076 | (B) 11/10/2019 | (C) 09/10/2019 | (D) 11/06/2019 | (E) 11/11/2019 | (F) 11/17/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.015625,
+        "B": -0.047119140625,
+        "C": -20.6875,
+        "D": -20.25,
+        "E": -17.53125,
+        "F": -24.328125
+      },
+      "margin": 17.484130859375
+    },
+    {
+      "idx": 8,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 06/17/2063 | (B) 05/18/2019 | (C) 05/20/2019 | (D) 06/17/2019 | (E) 05/13/2019 | (F) 06/08/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.234375,
+        "B": -17.578125,
+        "C": -16.4375,
+        "D": -6.747245788574219e-05,
+        "E": -16.3125,
+        "F": -13.109375
+      },
+      "margin": 13.109307527542114
+    },
+    {
+      "idx": 9,
+      "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 01/08/2018 | (B) 01/07/2018 | (C) 01/02/2018 | (D) 01/12/2018 | (E) 05/07/2017 | (F) 10/29/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.087890625,
+        "B": -0.305908203125,
+        "C": -1.5244140625,
+        "D": -9.9765625,
+        "E": -12.8828125,
+        "F": -14.7578125
+      },
+      "margin": 1.218505859375
+    },
+    {
+      "idx": 10,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date today in MM/DD/YYYY? | Options: | (A) 01/08/1930 | (B) 01/06/1930 | (C) 01/01/1930 | (D) 12/31/1929 | (E) 10/01/1930 | (F) 02/27/1930 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.60546875,
+        "B": -11.8828125,
+        "C": -0.01042938232421875,
+        "D": -8.0078125,
+        "E": -17.984375,
+        "F": -21.140625
+      },
+      "margin": 4.595039367675781
+    },
+    {
+      "idx": 11,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 05/13/1985 | (B) 04/03/1985 | (C) 03/10/1986 | (D) 04/01/1985 | (E) 04/13/1985 | (F) 04/12/1986 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.828125,
+        "B": -0.0008573532104492188,
+        "C": -18.328125,
+        "D": -13.625,
+        "E": -20.65625,
+        "F": -22.59375
+      },
+      "margin": 13.62414264678955
+    },
+    {
+      "idx": 12,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 09/20/2019 | (B) 10/01/2019 | (C) 10/24/2019 | (D) 09/12/1970 | (E) 09/12/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.806640625,
+        "B": -6.3984375,
+        "C": -10.0234375,
+        "D": -13.1171875,
+        "E": -0.024658203125
+      },
+      "margin": 3.781982421875
+    },
+    {
+      "idx": 13,
+      "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 01/01/2020 | (B) 01/02/2020 | (C) 10/02/2019 | (D) 11/05/2019 | (E) 01/02/1931 | (F) 01/03/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.947265625,
+        "B": -0.44677734375,
+        "C": -2.416015625,
+        "D": -6.3828125,
+        "E": -4.7890625,
+        "F": -2.150390625
+      },
+      "margin": 1.50048828125
+    },
+    {
+      "idx": 14,
+      "prompt": "Tomorrow is 11/12/2019. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 08/21/2019 | (B) 11/18/2019 | (C) 11/18/2025 | (D) 11/18/2011 | (E) 02/18/2020 | (F) 11/04/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.484375,
+        "B": -0.0002808570861816406,
+        "C": -13.03125,
+        "D": -13.5625,
+        "E": -12.9375,
+        "F": -12.5
+      },
+      "margin": 12.499719142913818
+    },
+    {
+      "idx": 15,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 07/09/1923 | (B) 08/05/1972 | (C) 09/01/1972 | (D) 07/09/1972 | (E) 07/09/2007 | (F) 09/04/1972 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.0703125,
+        "B": -4.91796875,
+        "C": -6.96484375,
+        "D": -0.01031494140625,
+        "E": -10.8203125,
+        "F": -8.6640625
+      },
+      "margin": 4.90765380859375
+    },
+    {
+      "idx": 16,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date today in MM/DD/YYYY? | Options: | (A) 05/06/2095 | (B) 05/06/1935 | (C) 05/06/1912 | (D) 08/06/2002 | (E) 05/06/2002 | (F) 05/06/1964 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.5625,
+        "B": -12.953125,
+        "C": -14.53125,
+        "D": -14.015625,
+        "E": -7.522106170654297e-05,
+        "F": -9.984375
+      },
+      "margin": 9.984299778938293
+    },
+    {
+      "idx": 17,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 09/13/2020 | (B) 08/14/2020 | (C) 09/13/2057 | (D) 07/26/2020 | (E) 10/04/2020 | (F) 09/13/2084 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.8203125,
+        "B": -0.00872802734375,
+        "C": -9.9921875,
+        "D": -10.2265625,
+        "E": -7.5703125,
+        "F": -16.21875
+      },
+      "margin": 4.81158447265625
+    },
+    {
+      "idx": 18,
+      "prompt": "Today is Sep 9, 1909. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 08/29/1909 | (B) 08/30/1967 | (C) 08/30/1909 | (D) 08/30/1977 | (E) 08/02/1909 | (F) 08/16/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.15234375,
+        "B": -7.94921875,
+        "C": -0.137451171875,
+        "D": -13.90625,
+        "E": -2.35546875,
+        "F": -3.71484375
+      },
+      "margin": 2.218017578125
+    },
+    {
+      "idx": 19,
+      "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 06/14/2003 | (B) 05/03/2003 | (C) 12/04/2002 | (D) 06/02/2003 | (E) 05/04/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.84375,
+        "B": -3.3203125,
+        "C": -16.90625,
+        "D": -14.2109375,
+        "E": -0.038330078125
+      },
+      "margin": 3.281982421875
+    },
+    {
+      "idx": 20,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/06/2010 | (B) 01/15/2011 | (C) 01/17/2011 | (D) 03/15/2011 | (E) 12/24/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.4375,
+        "B": -0.0002301931381225586,
+        "C": -11.90625,
+        "D": -12.859375,
+        "E": -16.9375
+      },
+      "margin": 11.906019806861877
+    },
+    {
+      "idx": 21,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 01/18/2011 | (B) 01/12/2011 | (C) 01/12/2069 | (D) 01/13/2011 | (E) 05/12/2010 | (F) 08/12/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0095062255859375,
+        "B": -4.7578125,
+        "C": -13.7265625,
+        "D": -13.8359375,
+        "E": -18.453125,
+        "F": -19.6875
+      },
+      "margin": 4.7483062744140625
+    },
+    {
+      "idx": 22,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 01/29/2012 | (B) 09/30/2011 | (C) 02/06/2012 | (D) 01/30/2012 | (E) 01/30/1925 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.92578125,
+        "B": -13.8828125,
+        "C": -15.5703125,
+        "D": -0.020111083984375,
+        "E": -17.5
+      },
+      "margin": 3.905670166015625
+    },
+    {
+      "idx": 23,
+      "prompt": "2015 is coming in 36 hours. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/22/2040 | (B) 12/23/2014 | (C) 12/22/2014 | (D) 01/05/2015 | (E) 12/22/2086 | (F) 02/06/2015 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.546875,
+        "B": -1.5029296875,
+        "C": -0.252685546875,
+        "D": -11.703125,
+        "E": -13.046875,
+        "F": -16.140625
+      },
+      "margin": 1.250244140625
+    },
+    {
+      "idx": 24,
+      "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 01/01/1987 | (B) 10/19/1986 | (C) 01/08/1987 | (D) 01/01/2015 | (E) 01/01/1934 | (F) 12/29/1986 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.90625,
+        "B": -17.09375,
+        "C": -19.34375,
+        "D": -16.8125,
+        "E": -11.8125,
+        "F": -1.3113021850585938e-05
+      },
+      "margin": 11.81248688697815
+    },
+    {
+      "idx": 25,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 08/03/2002 | (B) 10/22/2002 | (C) 06/03/2002 | (D) 08/04/2002 | (E) 08/04/1930 | (F) 07/04/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.3974647521972656e-05,
+        "B": -14.390625,
+        "C": -16.234375,
+        "D": -12.59375,
+        "E": -15.65625,
+        "F": -18.1875
+      },
+      "margin": 12.593716025352478
+    },
+    {
+      "idx": 26,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 05/23/2020 | (B) 04/13/2021 | (C) 05/24/2021 | (D) 05/23/2054 | (E) 05/23/1940 | (F) 05/23/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.9296875,
+        "B": -13.0546875,
+        "C": -1.650390625,
+        "D": -14.9609375,
+        "E": -15.0234375,
+        "F": -0.213134765625
+      },
+      "margin": 1.437255859375
+    },
+    {
+      "idx": 27,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 02/05/2021 | (B) 09/05/2020 | (C) 08/15/2020 | (D) 09/06/2020 | (E) 09/04/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.1484375,
+        "B": -0.0235748291015625,
+        "C": -6.6171875,
+        "D": -4.8671875,
+        "E": -4.2734375
+      },
+      "margin": 4.2498626708984375
+    },
+    {
+      "idx": 28,
+      "prompt": "Yesterday was April 30, 2021. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 05/15/2021 | (B) 04/23/2021 | (C) 04/15/2021 | (D) 06/05/2021 | (E) 04/19/2021 | (F) 04/24/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.671875,
+        "B": -0.0010080337524414062,
+        "C": -14.453125,
+        "D": -16.34375,
+        "E": -13.25,
+        "F": -12.328125
+      },
+      "margin": 12.327116966247559
+    },
+    {
+      "idx": 29,
+      "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today in MM/DD/YYYY? | Options: | (A) 02/06/2010 | (B) 12/21/2009 | (C) 02/16/1933 | (D) 02/16/2010 | (E) 11/30/2009 | (F) 05/24/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.28515625,
+        "B": -6.36328125,
+        "C": -7.66015625,
+        "D": -0.005245208740234375,
+        "E": -7.01953125,
+        "F": -8.7421875
+      },
+      "margin": 6.279911041259766
+    },
+    {
+      "idx": 30,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 06/25/1964 | (B) 05/25/2018 | (C) 06/24/2017 | (D) 06/25/2063 | (E) 06/25/2017 | (F) 07/25/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.859375,
+        "B": -11.84375,
+        "C": -6.00390625,
+        "D": -14.34375,
+        "E": -0.002849578857421875,
+        "F": -8.1875
+      },
+      "margin": 6.001056671142578
+    },
+    {
+      "idx": 31,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 07/03/1972 | (B) 10/28/1971 | (C) 06/28/1972 | (D) 06/14/1972 | (E) 09/28/1972 | (F) 06/23/1972 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.398681640625,
+        "B": -9.6171875,
+        "C": -1.1171875,
+        "D": -9.8984375,
+        "E": -15.4296875,
+        "F": -7.9765625
+      },
+      "margin": 0.718505859375
+    },
+    {
+      "idx": 32,
+      "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 12/06/1986 | (B) 01/03/1987 | (C) 01/04/1987 | (D) 01/09/1987 | (E) 01/03/2035 | (F) 02/03/1986 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.5703125,
+        "B": -0.0086212158203125,
+        "C": -6.9453125,
+        "D": -12.0546875,
+        "E": -13.2890625,
+        "F": -15.3046875
+      },
+      "margin": 6.9366912841796875
+    },
+    {
+      "idx": 33,
+      "prompt": "Today is the second day of the third month of 1966. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 02/26/1966 | (B) 01/13/1966 | (C) 02/02/1966 | (D) 10/23/1966 | (E) 02/23/1968 | (F) 02/23/1966 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.92578125,
+        "B": -13.15625,
+        "C": -4.17578125,
+        "D": -14.515625,
+        "E": -12.953125,
+        "F": -0.0183563232421875
+      },
+      "margin": 4.1574249267578125
+    },
+    {
+      "idx": 34,
+      "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 01/08/1960 | (B) 01/01/2019 | (C) 02/08/2018 | (D) 01/08/2019 | (E) 10/22/2018 | (F) 01/08/2043 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.859375,
+        "B": -13.859375,
+        "C": -17.28125,
+        "D": -0.0001246929168701172,
+        "E": -19.140625,
+        "F": -17.9375
+      },
+      "margin": 13.85925030708313
+    },
+    {
+      "idx": 35,
+      "prompt": "This is the last day of 1899. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 02/07/1900 | (B) 02/22/1900 | (C) 01/13/1900 | (D) 01/07/1900 | (E) 10/07/1900 | (F) 01/07/1828 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.10546875,
+        "B": -5.99609375,
+        "C": -1.6044921875,
+        "D": -0.22900390625,
+        "E": -9.5546875,
+        "F": -12.6015625
+      },
+      "margin": 1.37548828125
+    },
+    {
+      "idx": 36,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 09/19/2020 | (B) 09/13/2020 | (C) 06/13/2021 | (D) 10/05/2020 | (E) 12/13/2020 | (F) 09/13/1991 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1826171875,
+        "B": -0.369873046875,
+        "C": -6.07421875,
+        "D": -8.7734375,
+        "E": -9.2421875,
+        "F": -13.3671875
+      },
+      "margin": 0.812744140625
+    },
+    {
+      "idx": 37,
+      "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 01/09/1986 | (B) 01/02/1986 | (C) 12/05/1985 | (D) 11/10/1985 | (E) 12/20/1985 | (F) 10/22/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.875,
+        "B": -0.0007071495056152344,
+        "C": -11.578125,
+        "D": -10.5,
+        "E": -7.640625,
+        "F": -10.84375
+      },
+      "margin": 7.639917850494385
+    },
+    {
+      "idx": 38,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 04/01/1930 | (B) 12/01/1929 | (C) 12/01/1973 | (D) 12/02/1929 | (E) 12/11/1929 | (F) 12/04/1929 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.703125,
+        "B": -0.0005130767822265625,
+        "C": -12.203125,
+        "D": -11.21875,
+        "E": -9.9375,
+        "F": -16.765625
+      },
+      "margin": 9.936986923217773
+    },
+    {
+      "idx": 39,
+      "prompt": "It is 4/19/1969 today. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 04/26/1969 | (B) 04/05/1969 | (C) 05/11/1969 | (D) 04/27/1969 | (E) 05/14/1969 | (F) 04/25/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0087127685546875,
+        "B": -13.1796875,
+        "C": -16.6875,
+        "D": -15.6484375,
+        "E": -16.421875,
+        "F": -4.7890625
+      },
+      "margin": 4.7803497314453125
+    },
+    {
+      "idx": 40,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 03/25/2017 | (B) 03/01/2017 | (C) 03/01/2116 | (D) 02/20/2017 | (E) 03/17/2017 | (F) 03/01/2076 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.8125,
+        "B": -5.733966827392578e-05,
+        "C": -14.09375,
+        "D": -16.8125,
+        "E": -16.921875,
+        "F": -18.328125
+      },
+      "margin": 13.812442660331726
+    },
+    {
+      "idx": 41,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 06/19/2019 | (B) 06/24/2019 | (C) 08/26/2019 | (D) 06/25/2019 | (E) 06/26/2019 | (F) 07/03/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.671875,
+        "B": -0.0007739067077636719,
+        "C": -17.359375,
+        "D": -12.375,
+        "E": -13.640625,
+        "F": -8.0625
+      },
+      "margin": 8.061726093292236
+    },
+    {
+      "idx": 42,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 04/16/2002 | (B) 04/07/2003 | (C) 05/07/2036 | (D) 05/28/2002 | (E) 05/07/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.265625,
+        "B": -13.578125,
+        "C": -16.46875,
+        "D": -14.203125,
+        "E": -0.00010454654693603516
+      },
+      "margin": 13.265520453453064
+    },
+    {
+      "idx": 43,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date today in MM/DD/YYYY? | Options: | (A) 09/12/2020 | (B) 11/12/2020 | (C) 12/12/2020 | (D) 09/12/1961 | (E) 09/17/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.2279052734375,
+        "B": -1.6025390625,
+        "C": -6.0546875,
+        "D": -13.1328125,
+        "E": -13.8359375
+      },
+      "margin": 1.3746337890625
+    },
+    {
+      "idx": 44,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 10/07/1996 | (B) 08/03/2035 | (C) 05/03/1997 | (D) 08/03/1996 | (E) 08/04/1996 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.875,
+        "B": -17.40625,
+        "C": -17.46875,
+        "D": -0.0013265609741210938,
+        "E": -16.40625
+      },
+      "margin": 16.40492343902588
+    },
+    {
+      "idx": 45,
+      "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 05/27/1943 | (B) 06/04/1943 | (C) 06/01/2005 | (D) 03/20/1943 | (E) 05/24/1943 | (F) 06/01/1943 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.1380615234375,
+        "B": -4.12109375,
+        "C": -8.28125,
+        "D": -10.5625,
+        "E": -4.15234375,
+        "F": -2.357421875
+      },
+      "margin": 2.2193603515625
+    },
+    {
+      "idx": 46,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 05/04/2017 | (B) 03/01/1919 | (C) 03/01/2017 | (D) 03/01/2005 | (E) 02/15/2017 | (F) 06/02/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.3671875,
+        "B": -5.33203125,
+        "C": -0.005481719970703125,
+        "D": -10.0546875,
+        "E": -8.5703125,
+        "F": -10.1328125
+      },
+      "margin": 5.326549530029297
+    },
+    {
+      "idx": 47,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 03/29/2008 | (B) 12/17/2007 | (C) 08/23/2007 | (D) 12/22/2007 | (E) 12/23/2007 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.8125,
+        "B": -0.360595703125,
+        "C": -8.46875,
+        "D": -1.2041015625,
+        "E": -6.25
+      },
+      "margin": 0.843505859375
+    },
+    {
+      "idx": 48,
+      "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 01/03/2020 | (B) 02/04/2020 | (C) 04/03/2020 | (D) 11/03/2020 | (E) 02/03/1964 | (F) 02/03/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.640625,
+        "B": -10.90625,
+        "C": -16.71875,
+        "D": -14.59375,
+        "E": -14.453125,
+        "F": -6.580352783203125e-05
+      },
+      "margin": 10.906184196472168
+    },
+    {
+      "idx": 49,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 12/31/2007 | (B) 01/01/2008 | (C) 02/03/2008 | (D) 01/02/2008 | (E) 12/27/2007 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.328125,
+        "B": -6.515625,
+        "C": -6.578125,
+        "D": -0.01629638671875,
+        "E": -9.640625
+      },
+      "margin": 4.31182861328125
+    },
+    {
+      "idx": 50,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date a month ago in MM/DD/YYYY? | Options: | (A) 06/08/2059 | (B) 06/22/1972 | (C) 12/08/1971 | (D) 06/08/2034 | (E) 06/08/1972 | (F) 06/07/1972 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.390625,
+        "B": -11.171875,
+        "C": -17.359375,
+        "D": -15.109375,
+        "E": -0.0009145736694335938,
+        "F": -11.125
+      },
+      "margin": 11.124085426330566
+    },
+    {
+      "idx": 51,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 09/08/1916 | (B) 09/13/2003 | (C) 08/18/2003 | (D) 09/08/2003 | (E) 09/15/2003 | (F) 09/01/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.390625,
+        "B": -21.203125,
+        "C": -20.625,
+        "D": -0.0006265640258789062,
+        "E": -22.28125,
+        "F": -22.65625
+      },
+      "margin": 19.38999843597412
+    },
+    {
+      "idx": 52,
+      "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 08/02/2020 | (B) 12/02/1950 | (C) 11/18/2019 | (D) 12/02/2019 | (E) 01/02/2020 | (F) 12/01/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.65625,
+        "B": -10.640625,
+        "C": -11.265625,
+        "D": -0.01340484619140625,
+        "E": -5.51171875,
+        "F": -4.69921875
+      },
+      "margin": 4.685813903808594
+    },
+    {
+      "idx": 53,
+      "prompt": "Yesterday was April 30, 2021. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 05/15/2020 | (B) 05/01/2020 | (C) 05/08/2020 | (D) 04/01/2020 | (E) 05/01/1971 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.953125,
+        "B": -0.0020160675048828125,
+        "C": -7.64453125,
+        "D": -8.578125,
+        "E": -11.953125
+      },
+      "margin": 7.642515182495117
+    },
+    {
+      "idx": 54,
+      "prompt": "Today is Christmas Eve of 1937. What is the date today in MM/DD/YYYY? | Options: | (A) 12/24/1937 | (B) 12/30/1937 | (C) 12/27/1937 | (D) 12/17/1937 | (E) 12/31/1937 | (F) 05/24/1938 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0009112358093261719,
+        "B": -17.859375,
+        "C": -19.21875,
+        "D": -18.140625,
+        "E": -20.546875,
+        "F": -22.015625
+      },
+      "margin": 17.858463764190674
+    },
+    {
+      "idx": 55,
+      "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 01/06/1960 | (B) 12/27/2018 | (C) 01/06/2019 | (D) 01/07/2019 | (E) 01/06/2058 | (F) 10/06/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.46875,
+        "B": -9.828125,
+        "C": -0.0002351999282836914,
+        "D": -12.53125,
+        "E": -13.21875,
+        "F": -20.265625
+      },
+      "margin": 9.827889800071716
+    },
+    {
+      "idx": 56,
+      "prompt": "This is the last day of 1899. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 01/01/1900 | (B) 01/22/1900 | (C) 01/01/1899 | (D) 02/06/1900 | (E) 01/08/1900 | (F) 01/01/1827 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00011599063873291016,
+        "B": -18.65625,
+        "C": -20.71875,
+        "D": -20.265625,
+        "E": -21.109375,
+        "F": -22.421875
+      },
+      "margin": 18.656134009361267
+    },
+    {
+      "idx": 57,
+      "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 02/28/2015 | (B) 03/10/2015 | (C) 03/08/2015 | (D) 04/28/2015 | (E) 02/21/2015 | (F) 03/28/2015 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1748046875,
+        "B": -1.1748046875,
+        "C": -4.14453125,
+        "D": -4.22265625,
+        "E": -2.78515625,
+        "F": -1.2373046875
+      },
+      "margin": 0.0
+    },
+    {
+      "idx": 58,
+      "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 03/16/2002 | (B) 02/23/2002 | (C) 03/02/2001 | (D) 03/02/2003 | (E) 11/25/2001 | (F) 03/02/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.8203125,
+        "B": -7.97265625,
+        "C": -10.4921875,
+        "D": -5.81640625,
+        "E": -11.7890625,
+        "F": -0.00405120849609375
+      },
+      "margin": 5.812355041503906
+    },
+    {
+      "idx": 59,
+      "prompt": "Today is Christmas Eve of 1937. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 12/24/1862 | (B) 01/10/1937 | (C) 10/24/1936 | (D) 12/24/1936 | (E) 03/24/1936 | (F) 12/29/1936 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.703125,
+        "B": -19.859375,
+        "C": -17.984375,
+        "D": -0.0006670951843261719,
+        "E": -21.265625,
+        "F": -21.765625
+      },
+      "margin": 17.983707904815674
+    },
+    {
+      "idx": 60,
+      "prompt": "It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 06/21/1969 | (B) 01/18/1969 | (C) 04/16/1969 | (D) 05/18/1969 | (E) 04/20/1969 | (F) 05/11/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.03125,
+        "B": -14.875,
+        "C": -12.171875,
+        "D": -14.546875,
+        "E": -0.0005521774291992188,
+        "F": -16.8125
+      },
+      "margin": 12.1713228225708
+    },
+    {
+      "idx": 61,
+      "prompt": "The day before yesterday was 11/23/1933. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 11/25/1933 | (B) 11/26/1933 | (C) 07/26/1934 | (D) 08/23/1933 | (E) 11/26/1976 | (F) 12/06/1933 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.421875,
+        "B": -0.0005979537963867188,
+        "C": -11.484375,
+        "D": -12.46875,
+        "E": -9.125,
+        "F": -9.453125
+      },
+      "margin": 8.421277046203613
+    },
+    {
+      "idx": 62,
+      "prompt": "The day before yesterday was 11/23/1933. What is the date today in MM/DD/YYYY? | Options: | (A) 08/29/1933 | (B) 01/04/1934 | (C) 11/25/1967 | (D) 11/25/1933 | (E) 11/04/1933 | (F) 12/09/1933 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.5234375,
+        "B": -2.755859375,
+        "C": -11.0078125,
+        "D": -0.06793212890625,
+        "E": -6.67578125,
+        "F": -13.5390625
+      },
+      "margin": 2.68792724609375
+    },
+    {
+      "idx": 63,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 07/29/2001 | (B) 04/24/2002 | (C) 07/30/2002 | (D) 07/28/2002 | (E) 07/29/2002 | (F) 07/29/1947 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.03125,
+        "B": -19.109375,
+        "C": -0.00015413761138916016,
+        "D": -19.5,
+        "E": -14.40625,
+        "F": -18.09375
+      },
+      "margin": 14.40609586238861
+    },
+    {
+      "idx": 64,
+      "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 03/02/2016 | (B) 03/01/1968 | (C) 02/20/2016 | (D) 03/01/2016 | (E) 03/01/2104 | (F) 03/01/2048 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.09375,
+        "B": -15.421875,
+        "C": -16.890625,
+        "D": -0.00012743473052978516,
+        "E": -19.171875,
+        "F": -21.140625
+      },
+      "margin": 9.09362256526947
+    },
+    {
+      "idx": 65,
+      "prompt": "It is 4/19/1969 today. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 03/28/1969 | (B) 04/12/1969 | (C) 04/02/1969 | (D) 03/04/1969 | (E) 02/12/1970 | (F) 04/13/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -8.8125,
+        "B": -6.53515625,
+        "C": -0.0029659271240234375,
+        "D": -10.875,
+        "E": -13.53125,
+        "F": -18.09375
+      },
+      "margin": 6.532190322875977
+    },
+    {
+      "idx": 66,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 02/05/1973 | (B) 03/08/1983 | (C) 01/02/1973 | (D) 03/05/2007 | (E) 03/05/1973 | (F) 04/05/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.005878448486328125,
+        "B": -9.0703125,
+        "C": -14.1953125,
+        "D": -15.7890625,
+        "E": -11.7421875,
+        "F": -13.2890625
+      },
+      "margin": 9.064434051513672
+    },
+    {
+      "idx": 67,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 09/02/2021 | (B) 09/07/2021 | (C) 09/01/2021 | (D) 09/01/2098 | (E) 09/01/2020 | (F) 12/06/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.578125,
+        "B": -16.453125,
+        "C": -0.0004916191101074219,
+        "D": -19.671875,
+        "E": -20.46875,
+        "F": -25.015625
+      },
+      "margin": 12.577633380889893
+    },
+    {
+      "idx": 68,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 04/29/2021 | (B) 05/21/2021 | (C) 04/06/2021 | (D) 06/24/2021 | (E) 05/20/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.08203125,
+        "B": -5.05078125,
+        "C": -0.426025390625,
+        "D": -12.9765625,
+        "E": -8.7890625
+      },
+      "margin": 0.656005859375
+    },
+    {
+      "idx": 69,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY? | Options: | (A) 08/28/2017 | (B) 02/22/2017 | (C) 03/01/2017 | (D) 01/28/2018 | (E) 02/07/2017 | (F) 02/28/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.984375,
+        "B": -6.875,
+        "C": -11.5,
+        "D": -13.328125,
+        "E": -8.3125,
+        "F": -0.0013256072998046875
+      },
+      "margin": 6.873674392700195
+    },
+    {
+      "idx": 70,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 08/04/1997 | (B) 08/04/1978 | (C) 08/04/2043 | (D) 08/07/1997 | (E) 08/04/1935 | (F) 05/01/1997 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00032520294189453125,
+        "B": -16.09375,
+        "C": -17.84375,
+        "D": -19.046875,
+        "E": -19.703125,
+        "F": -21.078125
+      },
+      "margin": 16.093424797058105
+    },
+    {
+      "idx": 71,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 05/26/2002 | (B) 05/05/2001 | (C) 05/05/1902 | (D) 05/05/2084 | (E) 05/01/2002 | (F) 05/05/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -7.41015625,
+        "B": -0.97119140625,
+        "C": -11.5,
+        "D": -9.671875,
+        "E": -0.56494140625,
+        "F": -2.955078125
+      },
+      "margin": 0.40625
+    },
+    {
+      "idx": 72,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 11/22/2001 | (B) 10/21/2002 | (C) 07/21/2002 | (D) 10/22/1923 | (E) 10/15/2002 | (F) 10/22/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.34375,
+        "B": -18.0,
+        "C": -19.828125,
+        "D": -16.203125,
+        "E": -16.8125,
+        "F": -7.62939453125e-05
+      },
+      "margin": 16.203048706054688
+    },
+    {
+      "idx": 73,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 03/16/2012 | (B) 02/01/2012 | (C) 01/31/2012 | (D) 02/06/2012 | (E) 02/07/2014 | (F) 02/07/2012 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.28125,
+        "B": -11.421875,
+        "C": -2.466796875,
+        "D": -9.3125,
+        "E": -12.96875,
+        "F": -0.0909423828125
+      },
+      "margin": 2.3758544921875
+    },
+    {
+      "idx": 74,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 12/07/2002 | (B) 08/24/2002 | (C) 09/07/2002 | (D) 09/07/1918 | (E) 09/08/2002 | (F) 09/28/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.9375,
+        "B": -17.0625,
+        "C": -0.0003151893615722656,
+        "D": -19.0,
+        "E": -19.6875,
+        "F": -22.375
+      },
+      "margin": 15.937184810638428
+    },
+    {
+      "idx": 75,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 04/15/2008 | (B) 10/07/2008 | (C) 09/07/2008 | (D) 03/24/2008 | (E) 04/07/2008 | (F) 04/06/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.734375,
+        "B": -11.0625,
+        "C": -12.625,
+        "D": -8.5625,
+        "E": -0.00140380859375,
+        "F": -13.65625
+      },
+      "margin": 6.73297119140625
+    },
+    {
+      "idx": 76,
+      "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 11/01/2019 | (B) 11/02/2019 | (C) 09/06/2019 | (D) 11/01/1933 | (E) 11/01/2089 | (F) 08/04/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.4375,
+        "B": -0.00164031982421875,
+        "C": -14.875,
+        "D": -14.75,
+        "E": -15.640625,
+        "F": -17.0
+      },
+      "margin": 6.435859680175781
+    },
+    {
+      "idx": 77,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 06/27/2002 | (B) 06/21/2002 | (C) 10/28/2001 | (D) 10/28/2002 | (E) 06/28/2002 | (F) 08/25/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.845703125,
+        "B": -0.032470703125,
+        "C": -11.296875,
+        "D": -13.40625,
+        "E": -4.71875,
+        "F": -16.734375
+      },
+      "margin": 3.813232421875
+    },
+    {
+      "idx": 78,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 01/31/2012 | (B) 02/01/2016 | (C) 02/01/2079 | (D) 11/10/2011 | (E) 01/04/2012 | (F) 02/01/2012 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.611328125,
+        "B": -12.53125,
+        "C": -14.28125,
+        "D": -14.671875,
+        "E": -0.267333984375,
+        "F": -3.392578125
+      },
+      "margin": 1.343994140625
+    },
+    {
+      "idx": 79,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 07/27/2002 | (B) 07/28/2002 | (C) 12/27/2001 | (D) 07/27/1921 | (E) 12/27/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.008392333984375,
+        "B": -5.9453125,
+        "C": -17.734375,
+        "D": -18.546875,
+        "E": -20.984375
+      },
+      "margin": 5.936920166015625
+    },
+    {
+      "idx": 80,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 12/01/2002 | (B) 11/24/2002 | (C) 06/23/2003 | (D) 05/23/2002 | (E) 11/23/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.875,
+        "B": -0.077880859375,
+        "C": -10.546875,
+        "D": -9.6875,
+        "E": -2.609375
+      },
+      "margin": 2.531494140625
+    },
+    {
+      "idx": 81,
+      "prompt": "Today is Sep 9, 1909. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 08/11/1909 | (B) 07/24/1909 | (C) 09/09/1909 | (D) 09/08/1962 | (E) 09/08/1909 | (F) 09/15/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.390625,
+        "B": -20.671875,
+        "C": -21.09375,
+        "D": -18.796875,
+        "E": -0.00835418701171875,
+        "F": -21.953125
+      },
+      "margin": 18.78852081298828
+    },
+    {
+      "idx": 82,
+      "prompt": "Today is Sep 9, 1909. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 09/09/1920 | (B) 09/09/1908 | (C) 07/05/1908 | (D) 09/09/1870 | (E) 09/04/1908 | (F) 09/13/1908 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.59375,
+        "B": -0.0011701583862304688,
+        "C": -17.796875,
+        "D": -18.34375,
+        "E": -17.453125,
+        "F": -22.671875
+      },
+      "margin": 17.45195484161377
+    },
+    {
+      "idx": 83,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 07/18/2017 | (B) 06/17/2017 | (C) 06/17/2111 | (D) 07/13/2017 | (E) 06/26/2017 | (F) 06/25/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.5390625,
+        "B": -0.56982421875,
+        "C": -8.7734375,
+        "D": -9.3828125,
+        "E": -4.9453125,
+        "F": -0.85107421875
+      },
+      "margin": 0.28125
+    },
+    {
+      "idx": 84,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 06/20/2019 | (B) 06/22/2019 | (C) 06/29/2019 | (D) 06/21/2019 | (E) 06/20/2028 | (F) 06/20/1921 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.6259765625,
+        "B": -13.125,
+        "C": -15.265625,
+        "D": -0.219482421875,
+        "E": -16.78125,
+        "F": -17.71875
+      },
+      "margin": 1.406494140625
+    },
+    {
+      "idx": 85,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 01/30/2011 | (B) 04/10/2011 | (C) 01/29/2011 | (D) 01/28/2011 | (E) 06/29/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.33203125,
+        "B": -9.1640625,
+        "C": -3.14453125,
+        "D": -0.08270263671875,
+        "E": -14.8515625
+      },
+      "margin": 3.06182861328125
+    },
+    {
+      "idx": 86,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 04/13/1985 | (B) 04/10/1985 | (C) 01/02/2071 | (D) 04/07/1985 | (E) 04/11/1985 | (F) 03/10/1986 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.9140625,
+        "B": -14.4609375,
+        "C": -18.625,
+        "D": -14.6796875,
+        "E": -0.007717132568359375,
+        "F": -20.953125
+      },
+      "margin": 7.906345367431641
+    },
+    {
+      "idx": 87,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 03/06/1973 | (B) 03/02/1973 | (C) 03/08/1983 | (D) 04/05/1973 | (E) 03/05/1972 | (F) 01/02/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.398822784423828e-05,
+        "B": -17.96875,
+        "C": -18.90625,
+        "D": -20.359375,
+        "E": -20.796875,
+        "F": -20.984375
+      },
+      "margin": 17.968706011772156
+    },
+    {
+      "idx": 88,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 08/05/2017 | (B) 06/19/2017 | (C) 06/25/2017 | (D) 06/13/2017 | (E) 06/21/2017 | (F) 06/18/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -8.8125,
+        "B": -1.3427734375,
+        "C": -4.1875,
+        "D": -0.37451171875,
+        "E": -3.40625,
+        "F": -5.90625
+      },
+      "margin": 0.96826171875
+    },
+    {
+      "idx": 89,
+      "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 06/03/1943 | (B) 03/15/1943 | (C) 08/03/1942 | (D) 06/02/1943 | (E) 07/04/1943 | (F) 05/06/1943 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.8371810913085938e-05,
+        "B": -15.890625,
+        "C": -16.6875,
+        "D": -11.484375,
+        "E": -18.328125,
+        "F": -18.140625
+      },
+      "margin": 11.484346628189087
+    },
+    {
+      "idx": 90,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 08/28/1959 | (B) 08/29/2003 | (C) 08/28/2003 | (D) 06/14/2003 | (E) 03/28/2003 | (F) 08/28/2043 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.6484375,
+        "B": -0.56689453125,
+        "C": -0.84814453125,
+        "D": -13.6953125,
+        "E": -13.5234375,
+        "F": -16.921875
+      },
+      "margin": 0.28125
+    },
+    {
+      "idx": 91,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 03/10/1986 | (B) 04/07/1985 | (C) 05/13/1985 | (D) 04/10/1984 | (E) 04/12/1986 | (F) 04/10/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.546875,
+        "B": -0.033660888671875,
+        "C": -12.765625,
+        "D": -3.533203125,
+        "E": -13.171875,
+        "F": -11.640625
+      },
+      "margin": 3.499542236328125
+    },
+    {
+      "idx": 92,
+      "prompt": "Today is Sep 9, 1909. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 09/02/1832 | (B) 05/02/1909 | (C) 09/02/1864 | (D) 09/02/1906 | (E) 09/02/1909 | (F) 08/19/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.28125,
+        "B": -9.828125,
+        "C": -7.71875,
+        "D": -7.859375,
+        "E": -0.0017337799072265625,
+        "F": -9.078125
+      },
+      "margin": 7.717016220092773
+    },
+    {
+      "idx": 93,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 03/27/1998 | (B) 09/02/1997 | (C) 07/27/1997 | (D) 06/29/1997 | (E) 07/27/1973 | (F) 12/27/1997 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.9453125,
+        "B": -0.0080413818359375,
+        "C": -7.3515625,
+        "D": -13.3671875,
+        "E": -14.3203125,
+        "F": -18.140625
+      },
+      "margin": 7.3435211181640625
+    },
+    {
+      "idx": 94,
+      "prompt": "Today is the second day of the third month of 1966. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 03/04/1966 | (B) 04/03/1966 | (C) 03/03/1965 | (D) 03/03/2021 | (E) 03/02/1966 | (F) 03/03/1966 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0175933837890625,
+        "B": -13.6875,
+        "C": -15.546875,
+        "D": -14.703125,
+        "E": -4.39453125,
+        "F": -5.76953125
+      },
+      "margin": 4.3769378662109375
+    },
+    {
+      "idx": 95,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 03/05/1972 | (B) 01/02/1973 | (C) 04/05/1973 | (D) 03/08/1983 | (E) 02/26/1973 | (F) 03/02/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.46875,
+        "B": -17.5,
+        "C": -19.046875,
+        "D": -13.703125,
+        "E": -9.796875,
+        "F": -7.259845733642578e-05
+      },
+      "margin": 9.796802401542664
+    },
+    {
+      "idx": 96,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 06/08/1933 | (B) 06/06/2017 | (C) 05/15/2017 | (D) 06/14/2017 | (E) 06/08/2017 | (F) 06/22/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.3125,
+        "B": -0.297119140625,
+        "C": -1.359375,
+        "D": -11.6875,
+        "E": -8.28125,
+        "F": -15.265625
+      },
+      "margin": 1.062255859375
+    },
+    {
+      "idx": 97,
+      "prompt": "Tomorrow is 11/12/2019. What is the date today in MM/DD/YYYY? | Options: | (A) 11/12/2019 | (B) 11/11/2042 | (C) 11/11/2020 | (D) 11/01/2019 | (E) 11/11/2019 | (F) 11/25/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.1171875,
+        "B": -11.0703125,
+        "C": -9.9609375,
+        "D": -0.0213775634765625,
+        "E": -5.66015625,
+        "F": -15.0546875
+      },
+      "margin": 5.6387786865234375
+    },
+    {
+      "idx": 98,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 02/28/2017 | (B) 02/18/2017 | (C) 03/18/2017 | (D) 02/13/2017 | (E) 02/25/2017 | (F) 03/04/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.947265625,
+        "B": -3.103515625,
+        "C": -10.6484375,
+        "D": -0.10272216796875,
+        "E": -9.3984375,
+        "F": -15.8671875
+      },
+      "margin": 2.84454345703125
+    },
+    {
+      "idx": 99,
+      "prompt": "Yesterday was April 30, 2021. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 05/10/2021 | (B) 03/13/2021 | (C) 04/10/2021 | (D) 04/27/2021 | (E) 05/09/2021 | (F) 05/08/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.541015625,
+        "B": -10.6484375,
+        "C": -13.8359375,
+        "D": -6.0546875,
+        "E": -0.10296630859375,
+        "F": -4.1015625
+      },
+      "margin": 2.43804931640625
+    },
+    {
+      "idx": 100,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 03/08/2017 | (B) 03/07/2058 | (C) 03/07/2017 | (D) 03/07/2018 | (E) 03/07/1992 | (F) 03/15/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.078125,
+        "B": -11.015625,
+        "C": -0.0005340576171875,
+        "D": -8.546875,
+        "E": -14.859375,
+        "F": -13.875
+      },
+      "margin": 8.077590942382812
+    },
+    {
+      "idx": 101,
+      "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 03/14/2002 | (B) 12/13/2001 | (C) 03/10/2002 | (D) 03/13/2002 | (E) 08/13/2001 | (F) 02/27/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.314453125,
+        "B": -15.578125,
+        "C": -15.78125,
+        "D": -0.31396484375,
+        "E": -17.40625,
+        "F": -17.453125
+      },
+      "margin": 1.00048828125
+    },
+    {
+      "idx": 102,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 11/09/2002 | (B) 12/07/2002 | (C) 11/23/2002 | (D) 06/23/2002 | (E) 10/15/2002 | (F) 08/29/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.828125,
+        "B": -13.859375,
+        "C": -3.075599670410156e-05,
+        "D": -15.46875,
+        "E": -12.765625,
+        "F": -14.328125
+      },
+      "margin": 10.828094244003296
+    },
+    {
+      "idx": 103,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/26/2007 | (B) 12/26/1951 | (C) 05/26/2007 | (D) 12/05/2007 | (E) 09/26/2008 | (F) 12/26/2099 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.82861328125,
+        "B": -0.57861328125,
+        "C": -8.59375,
+        "D": -6.203125,
+        "E": -9.296875,
+        "F": -11.140625
+      },
+      "margin": 0.25
+    },
+    {
+      "idx": 104,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 04/13/1985 | (B) 04/07/1985 | (C) 05/13/1985 | (D) 04/10/1986 | (E) 03/10/1986 | (F) 03/31/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.09375,
+        "B": -0.373046875,
+        "C": -12.265625,
+        "D": -13.15625,
+        "E": -11.328125,
+        "F": -1.185546875
+      },
+      "margin": 0.8125
+    },
+    {
+      "idx": 105,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 06/18/2030 | (B) 09/18/2016 | (C) 06/18/2016 | (D) 07/18/2015 | (E) 06/22/2016 | (F) 06/25/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.2578125,
+        "B": -2.990234375,
+        "C": -0.052764892578125,
+        "D": -13.1171875,
+        "E": -6.8515625,
+        "F": -11.2578125
+      },
+      "margin": 2.937469482421875
+    },
+    {
+      "idx": 106,
+      "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 01/13/2019 | (B) 02/11/2019 | (C) 02/04/2019 | (D) 01/14/2019 | (E) 01/16/2019 | (F) 12/31/2018 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.2139892578125,
+        "B": -7.93359375,
+        "C": -7.82421875,
+        "D": -1.6513671875,
+        "E": -8.9453125,
+        "F": -16.59375
+      },
+      "margin": 1.4373779296875
+    },
+    {
+      "idx": 107,
+      "prompt": "Today is Sep 9, 1909. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 09/16/1952 | (B) 09/16/1909 | (C) 09/16/1876 | (D) 08/22/1909 | (E) 12/16/1909 | (F) 10/14/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.3125,
+        "B": -0.002895355224609375,
+        "C": -17.8125,
+        "D": -19.71875,
+        "E": -21.03125,
+        "F": -13.953125
+      },
+      "margin": 13.95022964477539
+    },
+    {
+      "idx": 108,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 08/14/2003 | (B) 08/10/2003 | (C) 08/08/2003 | (D) 06/01/2003 | (E) 04/07/2003 | (F) 08/07/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0102996826171875,
+        "B": -6.29296875,
+        "C": -10.4140625,
+        "D": -15.0703125,
+        "E": -13.9296875,
+        "F": -9.1484375
+      },
+      "margin": 6.2826690673828125
+    },
+    {
+      "idx": 109,
+      "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 05/05/1915 | (B) 05/06/2004 | (C) 05/05/2004 | (D) 01/05/2005 | (E) 02/15/2004 | (F) 05/04/2004 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.8125,
+        "B": -0.00739288330078125,
+        "C": -10.9140625,
+        "D": -18.328125,
+        "E": -20.3125,
+        "F": -18.5
+      },
+      "margin": 10.906669616699219
+    },
+    {
+      "idx": 110,
+      "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 01/22/2020 | (B) 01/23/2020 | (C) 03/23/2020 | (D) 01/23/2078 | (E) 01/23/2011 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.490234375,
+        "B": -0.583984375,
+        "C": -5.3671875,
+        "D": -7.6953125,
+        "E": -1.552734375
+      },
+      "margin": 0.90625
+    },
+    {
+      "idx": 111,
+      "prompt": "Today is Christmas Eve of 1937. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 08/17/1937 | (B) 09/18/1937 | (C) 12/18/1937 | (D) 12/17/1937 | (E) 12/16/1937 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.6640625,
+        "B": -13.8984375,
+        "C": -3.95703125,
+        "D": -0.02044677734375,
+        "E": -7.23828125
+      },
+      "margin": 3.93658447265625
+    },
+    {
+      "idx": 112,
+      "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date today in MM/DD/YYYY? | Options: | (A) 05/05/2004 | (B) 05/04/2005 | (C) 04/28/2004 | (D) 05/04/2004 | (E) 05/03/2004 | (F) 05/11/2004 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.34375,
+        "B": -17.046875,
+        "C": -17.859375,
+        "D": -0.0002613067626953125,
+        "E": -18.59375,
+        "F": -20.3125
+      },
+      "margin": 17.046613693237305
+    },
+    {
+      "idx": 113,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 09/07/2020 | (B) 08/31/2020 | (C) 07/08/2020 | (D) 09/08/2049 | (E) 08/18/2020 | (F) 09/08/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.0703125,
+        "B": -2.818359375,
+        "C": -9.2421875,
+        "D": -7.7265625,
+        "E": -5.2578125,
+        "F": -0.06854248046875
+      },
+      "margin": 2.74981689453125
+    },
+    {
+      "idx": 114,
+      "prompt": "Yesterday was April 30, 2021. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 04/01/2094 | (B) 03/22/2021 | (C) 03/18/2021 | (D) 03/31/2021 | (E) 04/01/2021 | (F) 02/21/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.359375,
+        "B": -4.4296875,
+        "C": -11.0859375,
+        "D": -0.0229644775390625,
+        "E": -17.171875,
+        "F": -16.5
+      },
+      "margin": 4.4067230224609375
+    },
+    {
+      "idx": 115,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 03/08/1983 | (B) 03/06/1973 | (C) 03/02/1973 | (D) 04/05/1973 | (E) 03/05/2007 | (F) 01/02/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.0625,
+        "B": -0.00036835670471191406,
+        "C": -17.65625,
+        "D": -18.234375,
+        "E": -18.921875,
+        "F": -19.296875
+      },
+      "margin": 17.655881643295288
+    },
+    {
+      "idx": 116,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 07/24/2001 | (B) 09/28/2001 | (C) 07/28/2001 | (D) 10/10/2001 | (E) 01/28/2002 | (F) 07/28/2095 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.00390625,
+        "B": -7.83203125,
+        "C": -0.0032100677490234375,
+        "D": -12.59375,
+        "E": -8.921875,
+        "F": -12.75
+      },
+      "margin": 6.000696182250977
+    },
+    {
+      "idx": 117,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 09/12/2002 | (B) 11/30/2002 | (C) 11/21/2002 | (D) 11/21/2076 | (E) 11/07/2002 | (F) 11/15/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.34375,
+        "B": -11.0,
+        "C": -0.8095703125,
+        "D": -9.328125,
+        "E": -0.5908203125,
+        "F": -7.08984375
+      },
+      "margin": 0.21875
+    },
+    {
+      "idx": 118,
+      "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 02/29/2020 | (B) 11/30/2065 | (C) 02/18/2020 | (D) 09/21/2019 | (E) 11/29/2019 | (F) 11/30/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.09375,
+        "B": -12.75,
+        "C": -15.21875,
+        "D": -11.828125,
+        "E": -6.22265625,
+        "F": -0.002025604248046875
+      },
+      "margin": 6.220630645751953
+    },
+    {
+      "idx": 119,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date today in MM/DD/YYYY? | Options: | (A) 04/05/1973 | (B) 03/02/1973 | (C) 01/22/2007 | (D) 01/02/1973 | (E) 03/05/1973 | (F) 03/08/1983 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.84375,
+        "B": -15.265625,
+        "C": -20.546875,
+        "D": -18.390625,
+        "E": -0.00012755393981933594,
+        "F": -21.78125
+      },
+      "margin": 15.26549744606018
+    },
+    {
+      "idx": 120,
+      "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 10/16/1924 | (B) 07/16/1925 | (C) 10/17/1924 | (D) 10/15/1924 | (E) 10/16/1922 | (F) 10/16/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.578125,
+        "B": -20.71875,
+        "C": -0.0005359649658203125,
+        "D": -20.625,
+        "E": -24.09375,
+        "F": -25.078125
+      },
+      "margin": 18.57758903503418
+    },
+    {
+      "idx": 121,
+      "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 02/22/2010 | (B) 02/23/2010 | (C) 03/01/2010 | (D) 01/26/2010 | (E) 02/19/2010 | (F) 02/24/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.244140625,
+        "B": -0.71337890625,
+        "C": -3.431640625,
+        "D": -4.05859375,
+        "E": -2.869140625,
+        "F": -1.212890625
+      },
+      "margin": 0.49951171875
+    },
+    {
+      "idx": 122,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 01/01/2003 | (B) 11/01/1960 | (C) 02/01/1961 | (D) 01/01/1958 | (E) 01/01/1961 | (F) 04/09/1961 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.46875,
+        "B": -9.09375,
+        "C": -10.65625,
+        "D": -0.313232421875,
+        "E": -1.4384765625,
+        "F": -15.96875
+      },
+      "margin": 1.125244140625
+    },
+    {
+      "idx": 123,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 03/03/2017 | (B) 04/27/2017 | (C) 03/21/2017 | (D) 02/21/1961 | (E) 02/21/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.36083984375,
+        "B": -2.673828125,
+        "C": -1.673828125,
+        "D": -6.0625,
+        "E": -3.142578125
+      },
+      "margin": 1.31298828125
+    },
+    {
+      "idx": 124,
+      "prompt": "Today is the first day of 2007. What is the date today in MM/DD/YYYY? | Options: | (A) 05/01/2007 | (B) 01/01/2007 | (C) 01/01/1951 | (D) 01/01/2096 | (E) 01/22/2007 | (F) 12/18/2006 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.203125,
+        "B": -0.058319091796875,
+        "C": -19.75,
+        "D": -20.53125,
+        "E": -20.765625,
+        "F": -21.375
+      },
+      "margin": 19.691680908203125
+    },
+    {
+      "idx": 125,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 09/05/2021 | (B) 08/08/2021 | (C) 09/25/2021 | (D) 08/09/2021 | (E) 10/04/2021 | (F) 07/25/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.9765625,
+        "B": -5.1328125,
+        "C": -11.8046875,
+        "D": -0.006710052490234375,
+        "E": -12.8671875,
+        "F": -14.6171875
+      },
+      "margin": 5.126102447509766
+    },
+    {
+      "idx": 126,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 03/10/1986 | (B) 04/10/1985 | (C) 04/09/1985 | (D) 04/07/1985 | (E) 04/11/1986 | (F) 05/13/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.40625,
+        "B": -4.859375,
+        "C": -0.01396942138671875,
+        "D": -12.171875,
+        "E": -16.859375,
+        "F": -18.328125
+      },
+      "margin": 4.845405578613281
+    },
+    {
+      "idx": 127,
+      "prompt": "Today is the second day of the third month of 1966. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 02/01/1966 | (B) 12/17/1965 | (C) 02/02/1966 | (D) 03/18/1966 | (E) 02/03/1966 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.44140625,
+        "B": -0.003116607666015625,
+        "C": -8.5,
+        "D": -10.796875,
+        "E": -10.421875
+      },
+      "margin": 6.438289642333984
+    },
+    {
+      "idx": 128,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 02/18/2019 | (B) 06/18/2066 | (C) 06/18/2019 | (D) 06/18/1933 | (E) 05/28/2019 | (F) 11/18/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.9375,
+        "B": -12.875,
+        "C": -0.0006461143493652344,
+        "D": -15.734375,
+        "E": -9.40625,
+        "F": -14.0625
+      },
+      "margin": 9.405603885650635
+    },
+    {
+      "idx": 129,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 05/31/1966 | (B) 06/02/2021 | (C) 08/18/2021 | (D) 05/31/1941 | (E) 06/16/2021 | (F) 05/31/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.8046875,
+        "B": -0.0056610107421875,
+        "C": -13.2421875,
+        "D": -10.8984375,
+        "E": -10.8984375,
+        "F": -5.28515625
+      },
+      "margin": 5.2794952392578125
+    },
+    {
+      "idx": 130,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 06/12/1997 | (B) 07/03/1997 | (C) 08/03/1996 | (D) 07/02/1997 | (E) 09/22/1997 | (F) 07/12/1997 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.75,
+        "B": -0.005401611328125,
+        "C": -15.9453125,
+        "D": -14.8359375,
+        "E": -18.75,
+        "F": -19.5
+      },
+      "margin": 14.830535888671875
+    },
+    {
+      "idx": 131,
+      "prompt": "Today is the second day of the third month of 1966. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 12/09/1965 | (B) 03/02/1966 | (C) 03/28/1966 | (D) 03/26/1966 | (E) 03/09/1966 | (F) 02/22/1966 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.1484375,
+        "B": -2.240234375,
+        "C": -2.443359375,
+        "D": -0.349365234375,
+        "E": -2.302734375,
+        "F": -11.8828125
+      },
+      "margin": 1.890869140625
+    },
+    {
+      "idx": 132,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 06/12/2022 | (B) 06/12/2019 | (C) 06/11/2019 | (D) 06/13/2019 | (E) 08/25/2019 | (F) 03/24/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.59375,
+        "B": -0.01129913330078125,
+        "C": -4.73046875,
+        "D": -14.2109375,
+        "E": -17.90625,
+        "F": -18.234375
+      },
+      "margin": 4.719169616699219
+    },
+    {
+      "idx": 133,
+      "prompt": "The day before yesterday was 11/23/1933. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 11/25/1933 | (B) 12/02/1974 | (C) 12/16/1933 | (D) 11/11/1933 | (E) 12/23/1933 | (F) 12/02/1933 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.703125,
+        "B": -11.203125,
+        "C": -13.328125,
+        "D": -14.140625,
+        "E": -7.4375,
+        "F": -0.00063323974609375
+      },
+      "margin": 7.436866760253906
+    },
+    {
+      "idx": 134,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 02/28/2015 | (B) 03/31/2016 | (C) 02/28/2016 | (D) 02/28/1992 | (E) 03/27/2016 | (F) 03/06/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.1875,
+        "B": -10.96875,
+        "C": -0.000797271728515625,
+        "D": -13.5625,
+        "E": -15.578125,
+        "F": -16.21875
+      },
+      "margin": 7.186702728271484
+    },
+    {
+      "idx": 135,
+      "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 02/21/2016 | (B) 02/28/2016 | (C) 03/13/2016 | (D) 04/28/2016 | (E) 06/01/2016 | (F) 11/28/2015 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.619140625,
+        "B": -0.0872802734375,
+        "C": -11.6484375,
+        "D": -11.7734375,
+        "E": -10.2109375,
+        "F": -4.5546875
+      },
+      "margin": 2.5318603515625
+    },
+    {
+      "idx": 136,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 01/06/2008 | (B) 07/03/2007 | (C) 01/02/2008 | (D) 01/11/2008 | (E) 01/17/2008 | (F) 01/03/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.5078125,
+        "B": -13.4921875,
+        "C": -0.008453369140625,
+        "D": -15.8359375,
+        "E": -14.1796875,
+        "F": -4.7890625
+      },
+      "margin": 4.780609130859375
+    },
+    {
+      "idx": 137,
+      "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date today in MM/DD/YYYY? | Options: | (A) 10/15/1924 | (B) 10/15/1835 | (C) 10/14/1924 | (D) 10/29/1924 | (E) 09/17/1924 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00031495094299316406,
+        "B": -12.53125,
+        "C": -9.34375,
+        "D": -16.0,
+        "E": -16.0625
+      },
+      "margin": 9.343435049057007
+    },
+    {
+      "idx": 138,
+      "prompt": "2015 is coming in 36 hours. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 03/07/2015 | (B) 11/28/2014 | (C) 11/23/2014 | (D) 12/20/2014 | (E) 12/05/2014 | (F) 11/29/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -8.3828125,
+        "B": -0.490234375,
+        "C": -2.927734375,
+        "D": -1.115234375,
+        "E": -5.64453125,
+        "F": -6.44140625
+      },
+      "margin": 0.625
+    },
+    {
+      "idx": 139,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 05/09/2021 | (B) 05/01/2021 | (C) 08/03/2021 | (D) 02/19/2021 | (E) 04/30/2021 | (F) 07/06/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.29296875,
+        "B": -0.900390625,
+        "C": -9.3203125,
+        "D": -9.5234375,
+        "E": -0.525390625,
+        "F": -14.1796875
+      },
+      "margin": 0.375
+    },
+    {
+      "idx": 140,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 02/06/2012 | (B) 08/24/2011 | (C) 01/22/2012 | (D) 01/24/2012 | (E) 01/24/1923 | (F) 01/24/1947 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.8671875,
+        "B": -13.0078125,
+        "C": -0.207275390625,
+        "D": -1.67578125,
+        "E": -15.8671875,
+        "F": -16.546875
+      },
+      "margin": 1.468505859375
+    },
+    {
+      "idx": 141,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date today in MM/DD/YYYY? | Options: | (A) 01/31/2012 | (B) 01/29/2012 | (C) 02/10/2012 | (D) 03/22/2012 | (E) 01/30/2012 | (F) 01/21/2012 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.389617919921875e-05,
+        "B": -12.421875,
+        "C": -13.703125,
+        "D": -16.109375,
+        "E": -10.125,
+        "F": -12.859375
+      },
+      "margin": 10.1249361038208
+    },
+    {
+      "idx": 142,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 10/15/2020 | (B) 10/13/2021 | (C) 09/05/2021 | (D) 09/09/2021 | (E) 09/15/2021 | (F) 09/22/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.9609375,
+        "B": -0.1356201171875,
+        "C": -9.9140625,
+        "D": -2.072265625,
+        "E": -11.0078125,
+        "F": -11.2421875
+      },
+      "margin": 1.9366455078125
+    },
+    {
+      "idx": 143,
+      "prompt": "Yesterday was April 30, 2021. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 04/29/2021 | (B) 05/02/2021 | (C) 04/11/2021 | (D) 05/01/2021 | (E) 03/14/2021 | (F) 05/02/1960 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.375,
+        "B": -0.19482421875,
+        "C": -15.5234375,
+        "D": -5.3671875,
+        "E": -8.7421875,
+        "F": -12.9296875
+      },
+      "margin": 5.17236328125
+    },
+    {
+      "idx": 144,
+      "prompt": "It is 4/19/1969 today. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 03/19/1969 | (B) 04/08/1969 | (C) 03/24/1969 | (D) 04/04/1969 | (E) 04/10/1969 | (F) 04/09/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.75,
+        "B": -0.0130157470703125,
+        "C": -11.359375,
+        "D": -4.76171875,
+        "E": -7.38671875,
+        "F": -13.15625
+      },
+      "margin": 4.7487030029296875
+    },
+    {
+      "idx": 145,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date today in MM/DD/YYYY? | Options: | (A) 01/02/1894 | (B) 01/02/1961 | (C) 12/23/1960 | (D) 01/02/1960 | (E) 01/03/1961 | (F) 01/02/1990 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.546875,
+        "B": -0.5634765625,
+        "C": -9.921875,
+        "D": -0.8447265625,
+        "E": -9.640625,
+        "F": -14.734375
+      },
+      "margin": 0.28125
+    },
+    {
+      "idx": 146,
+      "prompt": "2015 is coming in 36 hours. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 01/30/2014 | (B) 10/30/2015 | (C) 12/30/1933 | (D) 12/31/2014 | (E) 12/30/2014 | (F) 12/29/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.9609375,
+        "B": -7.2734375,
+        "C": -9.1953125,
+        "D": -4.0078125,
+        "E": -1.6962890625,
+        "F": -0.22705078125
+      },
+      "margin": 1.46923828125
+    },
+    {
+      "idx": 147,
+      "prompt": "The day before yesterday was 11/23/1933. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 10/25/1921 | (B) 10/25/1989 | (C) 10/26/1933 | (D) 10/25/1933 | (E) 11/22/1933 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.890625,
+        "B": -9.6875,
+        "C": -2.783203125,
+        "D": -0.065185546875,
+        "E": -13.421875
+      },
+      "margin": 2.718017578125
+    },
+    {
+      "idx": 148,
+      "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 11/23/2019 | (B) 06/24/2019 | (C) 03/24/2019 | (D) 11/24/2019 | (E) 02/29/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.55029296875,
+        "B": -7.31640625,
+        "C": -7.70703125,
+        "D": -0.86279296875,
+        "E": -10.65625
+      },
+      "margin": 0.3125
+    },
+    {
+      "idx": 149,
+      "prompt": "This is the last day of 1899. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 12/11/1899 | (B) 12/21/1887 | (C) 12/24/1899 | (D) 12/21/1899 | (E) 03/22/1900 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.9375,
+        "B": -13.046875,
+        "C": -12.078125,
+        "D": -0.00022459030151367188,
+        "E": -19.171875
+      },
+      "margin": 11.937275409698486
+    },
+    {
+      "idx": 150,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 06/19/2018 | (B) 05/22/2018 | (C) 06/19/1934 | (D) 06/19/1956 | (E) 06/24/2018 | (F) 06/18/2018 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0006051063537597656,
+        "B": -15.859375,
+        "C": -18.734375,
+        "D": -18.953125,
+        "E": -16.28125,
+        "F": -7.75
+      },
+      "margin": 7.74939489364624
+    },
+    {
+      "idx": 151,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 09/11/2094 | (B) 09/11/2020 | (C) 09/10/2020 | (D) 08/14/2020 | (E) 10/09/2020 | (F) 09/17/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.75,
+        "B": -0.0130157470703125,
+        "C": -4.38671875,
+        "D": -7.90234375,
+        "E": -11.859375,
+        "F": -15.5
+      },
+      "margin": 4.3737030029296875
+    },
+    {
+      "idx": 152,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 09/06/2003 | (B) 09/21/2003 | (C) 09/05/2003 | (D) 10/23/2003 | (E) 09/06/2102 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0028057098388671875,
+        "B": -19.859375,
+        "C": -17.3125,
+        "D": -21.1875,
+        "E": -23.6875
+      },
+      "margin": 17.309694290161133
+    },
+    {
+      "idx": 153,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 02/29/2008 | (B) 02/08/2008 | (C) 12/26/2007 | (D) 02/28/2008 | (E) 02/01/2008 | (F) 08/29/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0183563232421875,
+        "B": -6.84765625,
+        "C": -9.078125,
+        "D": -4.20703125,
+        "E": -12.046875,
+        "F": -18.09375
+      },
+      "margin": 4.1886749267578125
+    },
+    {
+      "idx": 154,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week from today in MM/DD/YYYY? | Options: | (A) 06/24/1972 | (B) 07/16/1972 | (C) 07/15/1972 | (D) 06/18/1972 | (E) 07/29/1972 | (F) 07/15/2037 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.671875,
+        "B": -0.578125,
+        "C": -0.828125,
+        "D": -11.859375,
+        "E": -10.421875,
+        "F": -11.984375
+      },
+      "margin": 0.25
+    },
+    {
+      "idx": 155,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date today in MM/DD/YYYY? | Options: | (A) 04/12/1986 | (B) 04/07/1985 | (C) 03/10/1986 | (D) 04/10/1985 | (E) 04/13/1985 | (F) 05/13/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.34375,
+        "B": -0.00946044921875,
+        "C": -17.3125,
+        "D": -13.6484375,
+        "E": -16.578125,
+        "F": -20.640625
+      },
+      "margin": 13.63897705078125
+    },
+    {
+      "idx": 156,
+      "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 04/27/2004 | (B) 05/18/2004 | (C) 04/28/2004 | (D) 05/27/2004 | (E) 04/27/2003 | (F) 04/24/2004 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00025391578674316406,
+        "B": -16.484375,
+        "C": -15.90625,
+        "D": -20.359375,
+        "E": -19.21875,
+        "F": -9.78125
+      },
+      "margin": 9.780996084213257
+    },
+    {
+      "idx": 157,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date today in MM/DD/YYYY? | Options: | (A) 01/16/2003 | (B) 11/21/2002 | (C) 09/04/2002 | (D) 11/22/2002 | (E) 08/24/2002 | (F) 11/23/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.9375,
+        "B": -13.328125,
+        "C": -16.375,
+        "D": -0.019287109375,
+        "E": -14.953125,
+        "F": -3.98828125
+      },
+      "margin": 3.968994140625
+    },
+    {
+      "idx": 158,
+      "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date today in MM/DD/YYYY? | Options: | (A) 05/12/2001 | (B) 03/12/2002 | (C) 01/31/2002 | (D) 03/14/2002 | (E) 04/02/2002 | (F) 03/12/1908 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.25,
+        "B": -0.0008220672607421875,
+        "C": -16.96875,
+        "D": -10.078125,
+        "E": -17.578125,
+        "F": -20.484375
+      },
+      "margin": 10.077302932739258
+    },
+    {
+      "idx": 159,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 12/22/1929 | (B) 10/31/1929 | (C) 11/19/1929 | (D) 12/22/1973 | (E) 09/22/1929 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00014448165893554688,
+        "B": -13.0625,
+        "C": -12.015625,
+        "D": -14.234375,
+        "E": -16.796875
+      },
+      "margin": 12.015480518341064
+    },
+    {
+      "idx": 160,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date today in MM/DD/YYYY? | Options: | (A) 10/09/2002 | (B) 08/18/2002 | (C) 07/16/2002 | (D) 07/28/2002 | (E) 11/28/2002 | (F) 09/11/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.09375,
+        "B": -15.046875,
+        "C": -8.8125,
+        "D": -0.00023424625396728516,
+        "E": -17.765625,
+        "F": -20.546875
+      },
+      "margin": 8.812265753746033
+    },
+    {
+      "idx": 161,
+      "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 11/21/2019 | (B) 11/20/2019 | (C) 03/21/2020 | (D) 11/21/2080 | (E) 02/21/2020 | (F) 11/22/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.7578125,
+        "B": -0.00875091552734375,
+        "C": -11.8984375,
+        "D": -12.8515625,
+        "E": -12.5859375,
+        "F": -9.1796875
+      },
+      "margin": 4.749061584472656
+    },
+    {
+      "idx": 162,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 04/11/1985 | (B) 04/13/1985 | (C) 04/12/1987 | (D) 04/07/1975 | (E) 04/12/1986 | (F) 04/10/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.43359375,
+        "B": -2.94921875,
+        "C": -2.79296875,
+        "D": -7.26171875,
+        "E": -0.182861328125,
+        "F": -3.99609375
+      },
+      "margin": 2.610107421875
+    },
+    {
+      "idx": 163,
+      "prompt": "2015 is coming in 36 hours. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 01/09/2015 | (B) 12/30/2059 | (C) 12/30/2014 | (D) 01/01/2015 | (E) 01/04/2015 | (F) 12/31/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.203125,
+        "B": -10.734375,
+        "C": -11.875,
+        "D": -0.0164642333984375,
+        "E": -6.640625,
+        "F": -16.28125
+      },
+      "margin": 4.1866607666015625
+    },
+    {
+      "idx": 164,
+      "prompt": "2015 is coming in 36 hours. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 01/02/2015 | (B) 12/23/2014 | (C) 12/19/2014 | (D) 12/18/2014 | (E) 11/21/2014 | (F) 12/20/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.5,
+        "B": -0.173828125,
+        "C": -1.986328125,
+        "D": -3.830078125,
+        "E": -11.65625,
+        "F": -8.65625
+      },
+      "margin": 1.8125
+    },
+    {
+      "idx": 165,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 01/02/1930 | (B) 08/02/1930 | (C) 01/02/1884 | (D) 11/06/1929 | (E) 03/30/1930 | (F) 01/02/1877 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.8596649169921875e-05,
+        "B": -18.375,
+        "C": -17.0625,
+        "D": -20.03125,
+        "E": -20.125,
+        "F": -19.484375
+      },
+      "margin": 17.06248140335083
+    },
+    {
+      "idx": 166,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 01/01/1898 | (B) 01/01/1994 | (C) 08/01/1929 | (D) 01/08/1929 | (E) 01/01/1891 | (F) 01/01/1929 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.1484375,
+        "B": -5.2265625,
+        "C": -8.5859375,
+        "D": -5.1953125,
+        "E": -4.4296875,
+        "F": -0.02447509765625
+      },
+      "margin": 4.40521240234375
+    },
+    {
+      "idx": 167,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 09/05/2003 | (B) 08/30/2003 | (C) 08/31/2074 | (D) 08/31/2003 | (E) 06/30/2004 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.00032520294189453125,
+        "B": -16.5,
+        "C": -18.703125,
+        "D": -19.09375,
+        "E": -22.078125
+      },
+      "margin": 16.499674797058105
+    },
+    {
+      "idx": 168,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 02/02/2012 | (B) 02/15/2012 | (C) 01/25/2012 | (D) 04/22/2012 | (E) 02/01/2012 | (F) 02/11/2012 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.476806640625,
+        "B": -7.9140625,
+        "C": -13.8203125,
+        "D": -11.3984375,
+        "E": -0.9765625,
+        "F": -12.6015625
+      },
+      "margin": 0.499755859375
+    },
+    {
+      "idx": 169,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 04/29/2002 | (B) 04/24/2002 | (C) 04/19/2002 | (D) 04/28/2002 | (E) 02/13/2002 | (F) 05/20/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.263671875,
+        "B": -0.076416015625,
+        "C": -3.638671875,
+        "D": -4.71875,
+        "E": -9.515625,
+        "F": -13.0625
+      },
+      "margin": 3.187255859375
+    },
+    {
+      "idx": 170,
+      "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 05/13/2002 | (B) 03/20/2002 | (C) 03/19/2002 | (D) 11/19/2002 | (E) 03/26/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.421875,
+        "B": -0.060699462890625,
+        "C": -2.998046875,
+        "D": -13.890625,
+        "E": -4.921875
+      },
+      "margin": 2.937347412109375
+    },
+    {
+      "idx": 171,
+      "prompt": "Today is the second day of the third month of 1966. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 03/01/1966 | (B) 11/01/1966 | (C) 03/04/1966 | (D) 10/01/1966 | (E) 03/02/1966 | (F) 03/01/1871 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.638671875,
+        "B": -15.640625,
+        "C": -16.640625,
+        "D": -15.890625,
+        "E": -0.07623291015625,
+        "F": -19.640625
+      },
+      "margin": 2.56243896484375
+    },
+    {
+      "idx": 172,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today in MM/DD/YYYY? | Options: | (A) 06/17/2017 | (B) 07/16/2017 | (C) 06/18/2017 | (D) 06/18/2016 | (E) 06/18/2054 | (F) 12/18/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.56396484375,
+        "B": -6.640625,
+        "C": -0.84521484375,
+        "D": -10.546875,
+        "E": -9.0625,
+        "F": -15.09375
+      },
+      "margin": 0.28125
+    },
+    {
+      "idx": 173,
+      "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 01/16/2010 | (B) 12/19/2009 | (C) 01/15/2010 | (D) 02/11/2010 | (E) 01/17/2010 | (F) 10/09/2009 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.98828125,
+        "B": -2.06640625,
+        "C": -6.78515625,
+        "D": -8.546875,
+        "E": -6.87890625,
+        "F": -0.1597900390625
+      },
+      "margin": 1.9066162109375
+    },
+    {
+      "idx": 174,
+      "prompt": "Today is Sep 9, 1909. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 09/10/1909 | (B) 09/24/1909 | (C) 07/03/1909 | (D) 12/10/1909 | (E) 08/13/1909 | (F) 09/10/1892 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0003151893615722656,
+        "B": -17.234375,
+        "C": -17.546875,
+        "D": -18.46875,
+        "E": -18.109375,
+        "F": -19.6875
+      },
+      "margin": 17.234059810638428
+    },
+    {
+      "idx": 175,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 03/24/2007 | (B) 01/02/2007 | (C) 04/05/2007 | (D) 01/02/2037 | (E) 01/01/2007 | (F) 01/02/1957 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.015625,
+        "B": -0.2017822265625,
+        "C": -12.296875,
+        "D": -11.1875,
+        "E": -8.3125,
+        "F": -1.7021484375
+      },
+      "margin": 1.5003662109375
+    },
+    {
+      "idx": 176,
+      "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 05/10/2004 | (B) 05/11/2004 | (C) 04/12/2004 | (D) 05/05/2004 | (E) 05/21/2004 | (F) 05/25/2004 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.814697265625e-06,
+        "B": -13.765625,
+        "C": -18.40625,
+        "D": -19.46875,
+        "E": -20.34375,
+        "F": -21.515625
+      },
+      "margin": 13.765621185302734
+    },
+    {
+      "idx": 177,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 02/23/1973 | (B) 01/02/1973 | (C) 02/24/1973 | (D) 03/08/1983 | (E) 04/05/1973 | (F) 03/02/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0009121894836425781,
+        "B": -10.859375,
+        "C": -10.765625,
+        "D": -15.15625,
+        "E": -15.140625,
+        "F": -7.5625
+      },
+      "margin": 7.561587810516357
+    },
+    {
+      "idx": 178,
+      "prompt": "Today is Sep 9, 1909. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 12/10/1908 | (B) 12/14/1909 | (C) 09/09/1909 | (D) 07/03/1909 | (E) 09/10/1909 | (F) 09/11/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.484375,
+        "B": -19.5,
+        "C": -19.296875,
+        "D": -18.734375,
+        "E": -2.49609375,
+        "F": -0.0906982421875
+      },
+      "margin": 2.4053955078125
+    },
+    {
+      "idx": 179,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 04/01/2008 | (B) 01/17/2008 | (C) 03/31/2008 | (D) 04/01/2007 | (E) 04/01/2063 | (F) 03/22/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.109375,
+        "B": -16.1875,
+        "C": -0.00015985965728759766,
+        "D": -16.109375,
+        "E": -15.59375,
+        "F": -19.09375
+      },
+      "margin": 9.109215140342712
+    },
+    {
+      "idx": 180,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 12/02/2000 | (B) 12/02/2055 | (C) 12/01/1960 | (D) 12/02/1960 | (E) 05/02/1961 | (F) 11/18/1960 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.203125,
+        "B": -11.46875,
+        "C": -3.001953125,
+        "D": -0.1278076171875,
+        "E": -13.96875,
+        "F": -2.658203125
+      },
+      "margin": 2.5303955078125
+    },
+    {
+      "idx": 181,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 10/31/2011 | (B) 01/31/2011 | (C) 06/30/2011 | (D) 02/01/2011 | (E) 02/08/2011 | (F) 04/20/2011 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.921875,
+        "B": -0.00013566017150878906,
+        "C": -10.578125,
+        "D": -9.890625,
+        "E": -12.4375,
+        "F": -15.78125
+      },
+      "margin": 9.890489339828491
+    },
+    {
+      "idx": 182,
+      "prompt": "Today is Christmas Eve of 1937. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 09/23/1938 | (B) 12/23/1896 | (C) 12/24/1937 | (D) 01/06/1938 | (E) 12/31/1937 | (F) 12/23/1937 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.15625,
+        "B": -15.5078125,
+        "C": -0.00861358642578125,
+        "D": -16.703125,
+        "E": -18.296875,
+        "F": -5.3515625
+      },
+      "margin": 5.342948913574219
+    },
+    {
+      "idx": 183,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 04/05/1973 | (B) 03/02/1973 | (C) 03/05/1972 | (D) 01/02/1973 | (E) 03/08/1983 | (F) 03/12/1973 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.05767822265625,
+        "B": -7.43359375,
+        "C": -9.8359375,
+        "D": -6.74609375,
+        "E": -2.96484375,
+        "F": -7.05859375
+      },
+      "margin": 2.90716552734375
+    },
+    {
+      "idx": 184,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 01/09/1961 | (B) 01/02/1961 | (C) 10/01/1960 | (D) 12/26/1960 | (E) 07/26/1960 | (F) 12/26/1936 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.234375,
+        "B": -5.03125,
+        "C": -9.25,
+        "D": -0.0635986328125,
+        "E": -2.908203125,
+        "F": -8.71875
+      },
+      "margin": 2.8446044921875
+    },
+    {
+      "idx": 185,
+      "prompt": "2015 is coming in 36 hours. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 02/13/2015 | (B) 12/29/2014 | (C) 10/26/2014 | (D) 12/28/2014 | (E) 11/07/2014 | (F) 10/03/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.2890625,
+        "B": -0.006984710693359375,
+        "C": -13.6953125,
+        "D": -5.0390625,
+        "E": -13.7421875,
+        "F": -15.7890625
+      },
+      "margin": 5.032077789306641
+    },
+    {
+      "idx": 186,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 11/12/2016 | (B) 01/21/2017 | (C) 01/14/2017 | (D) 01/28/2017 | (E) 02/03/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.765625,
+        "B": -0.11016845703125,
+        "C": -4.21875,
+        "D": -3.890625,
+        "E": -5.109375
+      },
+      "margin": 2.65545654296875
+    },
+    {
+      "idx": 187,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 09/06/2002 | (B) 10/18/2001 | (C) 07/08/2002 | (D) 08/08/2002 | (E) 07/18/2002 | (F) 10/08/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.1171875,
+        "B": -12.3515625,
+        "C": -0.068115234375,
+        "D": -10.8828125,
+        "E": -2.724609375,
+        "F": -19.296875
+      },
+      "margin": 2.656494140625
+    },
+    {
+      "idx": 188,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 06/12/2021 | (B) 06/05/2021 | (C) 07/29/2021 | (D) 05/22/2021 | (E) 06/17/2021 | (F) 05/29/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.359375,
+        "B": -0.0004982948303222656,
+        "C": -11.6875,
+        "D": -9.328125,
+        "E": -9.140625,
+        "F": -9.578125
+      },
+      "margin": 9.140126705169678
+    },
+    {
+      "idx": 189,
+      "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 05/21/1943 | (B) 10/23/1942 | (C) 07/01/1943 | (D) 05/24/1943 | (E) 05/23/1943 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0173492431640625,
+        "B": -9.015625,
+        "C": -11.28125,
+        "D": -4.546875,
+        "E": -5.296875
+      },
+      "margin": 4.5295257568359375
+    },
+    {
+      "idx": 190,
+      "prompt": "Tomorrow is 11/12/2019. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 02/12/2020 | (B) 11/12/2019 | (C) 10/22/2019 | (D) 11/14/2019 | (E) 12/10/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.953125,
+        "B": -16.1875,
+        "C": -15.0625,
+        "D": -0.0005040168762207031,
+        "E": -17.15625
+      },
+      "margin": 15.06199598312378
+    },
+    {
+      "idx": 191,
+      "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 02/14/2010 | (B) 02/17/2096 | (C) 02/17/2010 | (D) 11/17/2009 | (E) 02/16/2010 | (F) 02/26/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.13671875,
+        "B": -5.73046875,
+        "C": -0.41650390625,
+        "D": -4.35546875,
+        "E": -1.134765625,
+        "F": -7.91796875
+      },
+      "margin": 0.71826171875
+    },
+    {
+      "idx": 192,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 02/08/2011 | (B) 12/22/2010 | (C) 06/22/2010 | (D) 12/01/2010 | (E) 01/05/2011 | (F) 12/21/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.046875,
+        "B": -3.26171875,
+        "C": -16.09375,
+        "D": -10.96875,
+        "E": -13.984375,
+        "F": -0.043487548828125
+      },
+      "margin": 3.218231201171875
+    },
+    {
+      "idx": 193,
+      "prompt": "Yesterday was April 30, 2021. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 05/02/2020 | (B) 05/02/2000 | (C) 05/02/2021 | (D) 05/03/2021 | (E) 05/02/2022 | (F) 04/04/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.453125,
+        "B": -14.671875,
+        "C": -4.546875,
+        "D": -0.017303466796875,
+        "E": -15.234375,
+        "F": -18.421875
+      },
+      "margin": 4.529571533203125
+    },
+    {
+      "idx": 194,
+      "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 04/12/2001 | (B) 02/11/2002 | (C) 02/12/2002 | (D) 02/08/2002 | (E) 05/22/2002 | (F) 02/18/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.1875,
+        "B": -0.0025310516357421875,
+        "C": -8.625,
+        "D": -6.25390625,
+        "E": -11.09375,
+        "F": -8.765625
+      },
+      "margin": 6.251375198364258
+    },
+    {
+      "idx": 195,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date today in MM/DD/YYYY? | Options: | (A) 01/12/2011 | (B) 01/08/2011 | (C) 01/22/1990 | (D) 01/22/2011 | (E) 01/22/2086 | (F) 01/23/2011 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.921875,
+        "B": -12.96875,
+        "C": -12.390625,
+        "D": -0.00014579296112060547,
+        "E": -16.8125,
+        "F": -13.59375
+      },
+      "margin": 12.39047920703888
+    },
+    {
+      "idx": 196,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/23/2007 | (B) 05/05/2008 | (C) 03/24/2047 | (D) 04/14/2008 | (E) 03/24/2043 | (F) 03/24/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.328125,
+        "B": -15.0,
+        "C": -12.890625,
+        "D": -12.921875,
+        "E": -8.796875,
+        "F": -0.0001697540283203125
+      },
+      "margin": 8.79670524597168
+    },
+    {
+      "idx": 197,
+      "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 04/05/1973 | (B) 03/04/1973 | (C) 01/02/1973 | (D) 03/05/1973 | (E) 03/04/2007 | (F) 03/05/1983 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.90625,
+        "B": -0.001369476318359375,
+        "C": -17.078125,
+        "D": -13.46875,
+        "E": -18.40625,
+        "F": -19.6875
+      },
+      "margin": 13.46738052368164
+    },
+    {
+      "idx": 198,
+      "prompt": "Today is Sep 9, 1909. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 08/09/1909 | (B) 08/10/1909 | (C) 05/09/1910 | (D) 08/08/1909 | (E) 08/09/1820 | (F) 08/19/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0252227783203125,
+        "B": -5.2890625,
+        "C": -15.0703125,
+        "D": -13.5390625,
+        "E": -14.9296875,
+        "F": -17.9375
+      },
+      "margin": 5.2638397216796875
+    },
+    {
+      "idx": 199,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date today in MM/DD/YYYY? | Options: | (A) 12/05/2003 | (B) 08/08/2003 | (C) 07/07/2003 | (D) 09/07/2003 | (E) 11/20/2003 | (F) 09/06/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.609375,
+        "B": -21.265625,
+        "C": -19.15625,
+        "D": -0.0030803680419921875,
+        "E": -23.21875,
+        "F": -23.96875
+      },
+      "margin": 19.153169631958008
+    },
+    {
+      "idx": 200,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 01/21/2070 | (B) 01/20/2011 | (C) 01/26/2011 | (D) 01/28/2011 | (E) 01/21/2011 | (F) 06/21/2011 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -19.15625,
+        "B": -0.007373809814453125,
+        "C": -20.15625,
+        "D": -20.0625,
+        "E": -21.828125,
+        "F": -23.125
+      },
+      "margin": 19.148876190185547
+    },
+    {
+      "idx": 201,
+      "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 09/08/2003 | (B) 09/10/2003 | (C) 09/08/1917 | (D) 09/07/2003 | (E) 08/29/2003 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00010013580322265625,
+        "B": -15.953125,
+        "C": -18.015625,
+        "D": -13.953125,
+        "E": -20.96875
+      },
+      "margin": 13.953024864196777
+    },
+    {
+      "idx": 202,
+      "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 11/29/2002 | (B) 11/15/2002 | (C) 11/30/2002 | (D) 12/27/2002 | (E) 12/11/2002 | (F) 11/29/2078 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.6083984375,
+        "B": -2.123046875,
+        "C": -3.013671875,
+        "D": -6.21875,
+        "E": -2.576171875,
+        "F": -1.5771484375
+      },
+      "margin": 0.96875
+    },
+    {
+      "idx": 203,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 06/08/2019 | (B) 08/09/2018 | (C) 06/09/2019 | (D) 05/19/2019 | (E) 06/09/2044 | (F) 06/15/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0002071857452392578,
+        "B": -11.515625,
+        "C": -13.515625,
+        "D": -16.28125,
+        "E": -14.84375,
+        "F": -10.640625
+      },
+      "margin": 10.64041781425476
+    },
+    {
+      "idx": 204,
+      "prompt": "Today is Sep 9, 1909. What is the date today in MM/DD/YYYY? | Options: | (A) 09/09/1909 | (B) 09/30/1909 | (C) 11/19/1909 | (D) 09/09/1939 | (E) 09/09/1886 | (F) 12/11/1909 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0004730224609375,
+        "B": -18.234375,
+        "C": -20.09375,
+        "D": -19.671875,
+        "E": -20.75,
+        "F": -21.875
+      },
+      "margin": 18.233901977539062
+    },
+    {
+      "idx": 205,
+      "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 08/12/2020 | (B) 07/29/2020 | (C) 09/06/2020 | (D) 08/20/2020 | (E) 08/12/2045 | (F) 08/12/2093 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.51171875,
+        "B": -0.0113983154296875,
+        "C": -10.4609375,
+        "D": -8.8046875,
+        "E": -12.1484375,
+        "F": -14.8203125
+      },
+      "margin": 4.5003204345703125
+    },
+    {
+      "idx": 206,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 02/20/2019 | (B) 06/10/2019 | (C) 06/20/2019 | (D) 06/25/2019 | (E) 12/20/2018 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.46875,
+        "B": -13.78125,
+        "C": -0.0018129348754882812,
+        "D": -15.84375,
+        "E": -18.21875
+      },
+      "margin": 13.779437065124512
+    },
+    {
+      "idx": 207,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date today in MM/DD/YYYY? | Options: | (A) 08/04/1997 | (B) 08/05/1997 | (C) 08/17/1997 | (D) 08/03/2097 | (E) 08/03/1997 | (F) 08/02/1997 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.015625,
+        "B": -21.03125,
+        "C": -21.34375,
+        "D": -20.625,
+        "E": -0.0004730224609375,
+        "F": -24.015625
+      },
+      "margin": 20.624526977539062
+    },
+    {
+      "idx": 208,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 09/09/2021 | (B) 09/08/2021 | (C) 08/19/2021 | (D) 09/09/1934 | (E) 02/09/2021 | (F) 09/13/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0031642913818359375,
+        "B": -11.734375,
+        "C": -12.015625,
+        "D": -12.421875,
+        "E": -13.609375,
+        "F": -6.30078125
+      },
+      "margin": 6.297616958618164
+    },
+    {
+      "idx": 209,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 03/09/2022 | (B) 09/10/2021 | (C) 08/31/2021 | (D) 09/09/2021 | (E) 09/02/2021 | (F) 09/17/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.3984375,
+        "B": -0.2105712890625,
+        "C": -10.6640625,
+        "D": -6.3984375,
+        "E": -1.7421875,
+        "F": -15.4921875
+      },
+      "margin": 1.5316162109375
+    },
+    {
+      "idx": 210,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 05/09/2020 | (B) 05/30/2020 | (C) 05/30/1948 | (D) 10/30/2019 | (E) 05/20/2020 | (F) 06/02/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.84765625,
+        "B": -0.003055572509765625,
+        "C": -9.796875,
+        "D": -12.9375,
+        "E": -9.578125,
+        "F": -10.796875
+      },
+      "margin": 5.844600677490234
+    },
+    {
+      "idx": 211,
+      "prompt": "2015 is coming in 36 hours. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 12/09/2013 | (B) 01/19/2014 | (C) 12/28/2013 | (D) 07/29/2013 | (E) 12/29/2013 | (F) 02/28/2014 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.9609375,
+        "B": -4.6796875,
+        "C": -0.646484375,
+        "D": -6.3828125,
+        "E": -0.771484375,
+        "F": -8.2734375
+      },
+      "margin": 0.125
+    },
+    {
+      "idx": 212,
+      "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 05/04/2017 | (B) 05/19/2017 | (C) 06/24/2017 | (D) 05/11/2017 | (E) 10/18/2017 | (F) 05/18/2017 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.111328125,
+        "B": -2.798828125,
+        "C": -10.640625,
+        "D": -1.9541015625,
+        "E": -11.5625,
+        "F": -0.39208984375
+      },
+      "margin": 1.56201171875
+    },
+    {
+      "idx": 213,
+      "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 06/04/1943 | (B) 03/09/1943 | (C) 06/03/1943 | (D) 04/11/1943 | (E) 09/03/1943 | (F) 08/03/1942 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.5341796875,
+        "B": -7.66015625,
+        "C": -0.9091796875,
+        "D": -9.65625,
+        "E": -4.84765625,
+        "F": -6.48828125
+      },
+      "margin": 0.375
+    },
+    {
+      "idx": 214,
+      "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 07/08/1910 | (B) 07/08/1971 | (C) 07/09/1971 | (D) 07/15/1971 | (E) 07/01/1971 | (F) 07/07/1971 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.75,
+        "B": -0.955078125,
+        "C": -0.486572265625,
+        "D": -13.03125,
+        "E": -13.09375,
+        "F": -15.78125
+      },
+      "margin": 0.468505859375
+    },
+    {
+      "idx": 215,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later in MM/DD/YYYY? | Options: | (A) 05/15/2002 | (B) 05/04/2002 | (C) 05/17/2002 | (D) 05/07/1982 | (E) 09/07/2001 | (F) 05/07/2002 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.75,
+        "B": -10.671875,
+        "C": -17.0625,
+        "D": -16.15625,
+        "E": -17.65625,
+        "F": -7.259845733642578e-05
+      },
+      "margin": 10.671802401542664
+    },
+    {
+      "idx": 216,
+      "prompt": "It was Sept. 1st, 2021 a week ago. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 05/25/2021 | (B) 08/29/1925 | (C) 08/30/2021 | (D) 08/29/2021 | (E) 08/28/2021 | (F) 09/19/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.8046875,
+        "B": -7.29296875,
+        "C": -1.9169921875,
+        "D": -0.16650390625,
+        "E": -5.76171875,
+        "F": -17.84375
+      },
+      "margin": 1.75048828125
+    },
+    {
+      "idx": 217,
+      "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 10/28/2019 | (B) 12/24/2018 | (C) 12/14/2018 | (D) 12/28/2018 | (E) 01/01/2019 | (F) 06/28/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.5703125,
+        "B": -0.0865478515625,
+        "C": -5.8515625,
+        "D": -2.5859375,
+        "E": -8.8359375,
+        "F": -15.6640625
+      },
+      "margin": 2.4993896484375
+    },
+    {
+      "idx": 218,
+      "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date today in MM/DD/YYYY? | Options: | (A) 05/02/2019 | (B) 11/08/2019 | (C) 01/19/2020 | (D) 02/02/2020 | (E) 02/01/2020 | (F) 01/23/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.671875,
+        "B": -16.65625,
+        "C": -14.765625,
+        "D": -2.276897430419922e-05,
+        "E": -18.109375,
+        "F": -19.421875
+      },
+      "margin": 14.765602231025696
+    },
+    {
+      "idx": 219,
+      "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 05/31/1993 | (B) 05/17/2021 | (C) 07/07/2021 | (D) 05/31/2021 | (E) 06/01/2021 | (F) 05/30/2021 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.640625,
+        "B": -14.71875,
+        "C": -14.859375,
+        "D": -0.0014314651489257812,
+        "E": -9.09375,
+        "F": -6.71875
+      },
+      "margin": 6.717318534851074
+    },
+    {
+      "idx": 220,
+      "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 08/18/2002 | (B) 10/21/2002 | (C) 07/20/2002 | (D) 10/17/2002 | (E) 07/21/2002 | (F) 11/21/2001 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.03125,
+        "B": -15.0,
+        "C": -0.0006327629089355469,
+        "D": -15.96875,
+        "E": -7.40625,
+        "F": -18.84375
+      },
+      "margin": 7.4056172370910645
+    },
+    {
+      "idx": 221,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 05/18/2019 | (B) 03/31/2019 | (C) 03/18/2019 | (D) 05/10/2019 | (E) 05/18/1989 | (F) 05/17/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.02001953125,
+        "B": -4.51953125,
+        "C": -5.51953125,
+        "D": -12.4609375,
+        "E": -10.9609375,
+        "F": -9.2890625
+      },
+      "margin": 4.49951171875
+    },
+    {
+      "idx": 222,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 12/02/2007 | (B) 12/03/2007 | (C) 01/02/2007 | (D) 11/18/2007 | (E) 11/04/2007 | (F) 12/02/1928 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.2421875,
+        "B": -2.3828125,
+        "C": -5.3984375,
+        "D": -0.258056640625,
+        "E": -2.6953125,
+        "F": -3.7421875
+      },
+      "margin": 2.124755859375
+    },
+    {
+      "idx": 223,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 07/08/2019 | (B) 06/09/2019 | (C) 06/08/2021 | (D) 06/01/2019 | (E) 06/07/2019 | (F) 06/08/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.0859375,
+        "B": -6.5703125,
+        "C": -13.5859375,
+        "D": -0.056610107421875,
+        "E": -3.025390625,
+        "F": -5.4140625
+      },
+      "margin": 2.968780517578125
+    },
+    {
+      "idx": 224,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 04/09/2008 | (B) 09/01/2008 | (C) 03/14/2008 | (D) 03/31/2008 | (E) 04/01/2058 | (F) 04/01/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.171875,
+        "B": -16.515625,
+        "C": -18.09375,
+        "D": -13.171875,
+        "E": -16.5,
+        "F": -2.2649765014648438e-05
+      },
+      "margin": 13.171852350234985
+    },
+    {
+      "idx": 225,
+      "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 08/08/1925 | (B) 10/08/2019 | (C) 11/06/1924 | (D) 04/08/1925 | (E) 10/08/1924 | (F) 10/07/1924 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.3984375,
+        "B": -13.7890625,
+        "C": -14.3984375,
+        "D": -13.6484375,
+        "E": -3.318359375,
+        "F": -0.03692626953125
+      },
+      "margin": 3.28143310546875
+    },
+    {
+      "idx": 226,
+      "prompt": "Tomorrow is 11/12/2019. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 11/01/2048 | (B) 11/01/2019 | (C) 11/02/2019 | (D) 10/27/2019 | (E) 10/23/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.734375,
+        "B": -6.71875,
+        "C": -14.328125,
+        "D": -0.0018663406372070312,
+        "E": -14.015625
+      },
+      "margin": 6.716883659362793
+    },
+    {
+      "idx": 227,
+      "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 01/23/1987 | (B) 01/09/2023 | (C) 01/09/1948 | (D) 01/08/1987 | (E) 03/17/1987 | (F) 01/09/1987 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.90625,
+        "B": -11.984375,
+        "C": -12.921875,
+        "D": -0.002056121826171875,
+        "E": -13.796875,
+        "F": -6.55078125
+      },
+      "margin": 6.548725128173828
+    },
+    {
+      "idx": 228,
+      "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 04/10/1985 | (B) 05/10/1975 | (C) 03/10/1986 | (D) 04/17/1985 | (E) 04/12/1986 | (F) 04/07/1985 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.25,
+        "B": -18.03125,
+        "C": -18.4375,
+        "D": -13.640625,
+        "E": -19.015625,
+        "F": -7.164478302001953e-05
+      },
+      "margin": 13.64055335521698
+    },
+    {
+      "idx": 229,
+      "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 03/07/2016 | (B) 02/23/2016 | (C) 03/07/2070 | (D) 03/06/2016 | (E) 03/08/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "D",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.87890625,
+        "B": -6.05078125,
+        "C": -7.25390625,
+        "D": -0.06597900390625,
+        "E": -5.42578125
+      },
+      "margin": 2.81292724609375
+    },
+    {
+      "idx": 230,
+      "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 07/07/2001 | (B) 05/05/2001 | (C) 02/11/2001 | (D) 05/06/2001 | (E) 08/06/2000 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.125,
+        "B": -6.22265625,
+        "C": -11.0625,
+        "D": -0.0020732879638671875,
+        "E": -12.515625
+      },
+      "margin": 6.220582962036133
+    },
+    {
+      "idx": 231,
+      "prompt": "Tomorrow is 11/12/2019. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 10/11/2019 | (B) 10/11/1974 | (C) 10/11/2018 | (D) 10/12/2019 | (E) 10/16/2019 | (F) 10/10/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.61328125,
+        "B": -5.26953125,
+        "C": -2.61328125,
+        "D": -12.890625,
+        "E": -11.828125,
+        "F": -1.30078125
+      },
+      "margin": 0.6875
+    },
+    {
+      "idx": 232,
+      "prompt": "Jane is celebrating the last day of Jan 2012. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 12/21/2011 | (B) 12/31/2011 | (C) 12/30/2011 | (D) 12/31/2074 | (E) 12/31/2108 | (F) 03/29/2012 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.8125,
+        "B": -0.001811981201171875,
+        "C": -17.65625,
+        "D": -20.375,
+        "E": -21.734375,
+        "F": -23.859375
+      },
+      "margin": 15.810688018798828
+    },
+    {
+      "idx": 233,
+      "prompt": "Today is the first day of 2007. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 12/23/2006 | (B) 01/31/2007 | (C) 12/22/1961 | (D) 12/21/2006 | (E) 02/24/2007 | (F) 12/22/2006 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0701904296875,
+        "B": -14.5703125,
+        "C": -13.2265625,
+        "D": -6.5703125,
+        "E": -16.9375,
+        "F": -2.7578125
+      },
+      "margin": 2.6876220703125
+    },
+    {
+      "idx": 234,
+      "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 02/23/2020 | (B) 02/13/2020 | (C) 02/09/2095 | (D) 12/09/2020 | (E) 02/09/2020 | (F) 02/27/2020 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "E",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.609375,
+        "B": -13.25,
+        "C": -14.65625,
+        "D": -17.71875,
+        "E": -7.3909759521484375e-06,
+        "F": -16.84375
+      },
+      "margin": 12.609367609024048
+    },
+    {
+      "idx": 235,
+      "prompt": "It is 4/19/1969 today. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 04/06/1969 | (B) 03/23/1969 | (C) 04/20/1969 | (D) 04/18/1969 | (E) 04/20/2035 | (F) 04/21/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "F",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.9296875,
+        "B": -15.6328125,
+        "C": -15.1171875,
+        "D": -18.03125,
+        "E": -16.96875,
+        "F": -0.0046234130859375
+      },
+      "margin": 15.112564086914062
+    },
+    {
+      "idx": 236,
+      "prompt": "Today is the first day of 2007. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/24/2006 | (B) 06/25/2006 | (C) 03/05/2007 | (D) 12/25/2016 | (E) 12/25/2006 | (F) 12/25/1945 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "E",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.408935546875,
+        "B": -14.078125,
+        "C": -16.28125,
+        "D": -14.125,
+        "E": -1.0966796875,
+        "F": -18.921875
+      },
+      "margin": 0.687744140625
+    },
+    {
+      "idx": 237,
+      "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 06/11/2019 | (B) 06/02/2019 | (C) 06/11/1942 | (D) 06/12/2019 | (E) 07/29/2019 | (F) 05/28/2019 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00016510486602783203,
+        "B": -11.21875,
+        "C": -16.921875,
+        "D": -17.28125,
+        "E": -17.953125,
+        "F": -14.5625
+      },
+      "margin": 11.218584895133972
+    },
+    {
+      "idx": 238,
+      "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 02/27/1955 | (B) 12/27/2016 | (C) 02/27/2017 | (D) 02/18/2017 | (E) 02/26/2017 | (F) 12/05/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.4375,
+        "B": -13.640625,
+        "C": -6.6875,
+        "D": -10.609375,
+        "E": -0.00152587890625,
+        "F": -18.53125
+      },
+      "margin": 6.68597412109375
+    },
+    {
+      "idx": 239,
+      "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one week ago from today in MM/DD/YYYY? | Options: | (A) 12/25/1929 | (B) 09/20/1929 | (C) 12/16/1929 | (D) 12/28/1929 | (E) 01/22/1930 | (F) 12/25/2006 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.33984375,
+        "B": -10.71875,
+        "C": -7.62109375,
+        "D": -1.24609375,
+        "E": -15.15625,
+        "F": -15.578125
+      },
+      "margin": 0.90625
+    },
+    {
+      "idx": 240,
+      "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date today in MM/DD/YYYY? | Options: | (A) 01/30/2008 | (B) 01/02/2085 | (C) 01/02/2008 | (D) 12/04/2007 | (E) 01/11/2008 | (F) 08/02/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.34375,
+        "B": -11.359375,
+        "C": -5.1975250244140625e-05,
+        "D": -17.328125,
+        "E": -16.53125,
+        "F": -21.6875
+      },
+      "margin": 11.343698024749756
+    },
+    {
+      "idx": 241,
+      "prompt": "It is 4/19/1969 today. What is the date yesterday in MM/DD/YYYY? | Options: | (A) 04/18/1969 | (B) 04/18/1961 | (C) 03/21/1969 | (D) 04/19/1969 | (E) 04/27/1969 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.007843017578125,
+        "B": -19.984375,
+        "C": -21.265625,
+        "D": -19.5,
+        "E": -23.1875
+      },
+      "margin": 19.492156982421875
+    },
+    {
+      "idx": 242,
+      "prompt": "Today is the second day of the third month of 1966. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 03/03/1966 | (B) 03/24/1966 | (C) 03/04/1966 | (D) 02/28/1966 | (E) 03/02/1966 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.84375,
+        "B": -17.5,
+        "C": -0.0011873245239257812,
+        "D": -19.078125,
+        "E": -20.875
+      },
+      "margin": 6.842562675476074
+    },
+    {
+      "idx": 243,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 02/13/2011 | (B) 01/22/2011 | (C) 01/24/2011 | (D) 01/23/2011 | (E) 12/31/2010 | (F) 12/26/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.3984375,
+        "B": -0.444091796875,
+        "C": -8.8359375,
+        "D": -1.0380859375,
+        "E": -17.59375,
+        "F": -19.21875
+      },
+      "margin": 0.593994140625
+    },
+    {
+      "idx": 244,
+      "prompt": "Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 06/02/1960 | (B) 01/02/1960 | (C) 01/02/1967 | (D) 12/19/1959 | (E) 12/26/1959 | (F) 01/02/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.046875,
+        "B": -2.12890625,
+        "C": -9.28125,
+        "D": -2.91015625,
+        "E": -0.1912841796875,
+        "F": -14.0
+      },
+      "margin": 1.9376220703125
+    },
+    {
+      "idx": 245,
+      "prompt": "Today is the last day of the first quarter of 2008. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 03/21/2104 | (B) 10/21/2008 | (C) 03/22/2008 | (D) 03/21/2008 | (E) 06/24/2008 | (F) 06/04/2008 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "D",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.328125,
+        "B": -17.484375,
+        "C": -12.03125,
+        "D": -0.0003311634063720703,
+        "E": -19.0,
+        "F": -20.953125
+      },
+      "margin": 12.030918836593628
+    },
+    {
+      "idx": 246,
+      "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date 10 days ago in MM/DD/YYYY? | Options: | (A) 08/21/1997 | (B) 10/24/1997 | (C) 07/23/1997 | (D) 07/24/1997 | (E) 08/14/1997 | (F) 06/11/1997 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "D",
+      "predicted_label": "E",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.42578125,
+        "B": -7.22265625,
+        "C": -3.56640625,
+        "D": -8.53125,
+        "E": -0.03509521484375,
+        "F": -14.84375
+      },
+      "margin": 3.53131103515625
+    },
+    {
+      "idx": 247,
+      "prompt": "Today is Christmas Eve of 1937. What is the date one week from today in MM/DD/YYYY? | Options: | (A) 12/28/1937 | (B) 12/31/1937 | (C) 12/31/1938 | (D) 12/27/1937 | (E) 12/03/1937 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.179931640625,
+        "B": -9.7734375,
+        "C": -12.0078125,
+        "D": -1.8046875,
+        "E": -13.5234375
+      },
+      "margin": 1.624755859375
+    },
+    {
+      "idx": 248,
+      "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one year ago from today in MM/DD/YYYY? | Options: | (A) 01/21/2010 | (B) 01/08/2010 | (C) 10/29/2009 | (D) 02/05/2010 | (E) 01/23/2010 | (F) 01/22/2010 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.00025773048400878906,
+        "B": -14.875,
+        "C": -17.234375,
+        "D": -17.59375,
+        "E": -16.125,
+        "F": -15.921875
+      },
+      "margin": 14.874742269515991
+    },
+    {
+      "idx": 249,
+      "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date a month ago in MM/DD/YYYY? | Options: | (A) 05/04/2016 | (B) 07/29/2015 | (C) 02/02/2016 | (D) 11/08/2015 | (E) 01/30/2016 | (F) 01/29/2016 | Choose the best answer. Respond with only the letter.",
+      "gold_label": "F",
+      "predicted_label": "F",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.390625,
+        "B": -9.078125,
+        "C": -8.875,
+        "D": -10.765625,
+        "E": -3.01953125,
+        "F": -0.050445556640625
+      },
+      "margin": 2.969085693359375
+    }
+  ]
+}

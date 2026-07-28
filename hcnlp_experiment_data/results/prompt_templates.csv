@@ -1,0 +1,162 @@
+task,perturbation,category,base_instruction,perturbed_instruction,instruction_changed,prompt_changed,base_prompt_preview,perturbed_prompt_preview,instruction_semantic_distance,closest_other_pert,min_pairwise_dsem
+mnli,lex_rewrite,lexical,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","What is the relationship between the premise and the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.111398,instruction_rewrite,0.055885
+mnli,lex_typo,lexical,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","DoeE the Lremise entail, condradict, or is it neutDal to the hypothesZs? Answer with one lette* onlc: A for entailmjnt, B for neutraA, C for contradictioU.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.347833,ctx_role,0.321455
+mnli,lex_lowercase,lexical,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","does the premise entail, contradict, or is it neutral to the hypothesis?
+answer with one letter only: A for entailment, B for neutral, C for contradiction.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.0,struct_inst_first,0.0
+mnli,struct_inst_first,structural,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",False,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradic",0.0,lex_lowercase,0.0
+mnli,ctx_role,contextual,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","You are an expert linguist and logician. Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.036142,lex_lowercase,0.036142
+mnli,ctx_irrelevant,contextual,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","Note: This is part of a larger evaluation suite. Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.061145,lex_lowercase,0.061145
+mnli,fmt_caps,formatting,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","DOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?
+ANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.0,lex_lowercase,0.0
+mnli,fmt_separators,formatting,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",False,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion. | Hypothesis: Unfortunately his face had been mutilated",0.0,lex_lowercase,0.0
+mnli,instruction_rewrite,rewrite,"Does the premise entail, contradict, or is it neutral to the hypothesis?
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.","Determine the relation between the premise and the hypothesis.
+Answer with one letter only: A for entailment, B for neutral, C for contradiction.",True,True,"Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i","Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.
+Hypothesis: Unfortunately his face had been mutilated i",0.148178,lex_rewrite,0.055885
+bbh_date,lex_rewrite,lexical,Choose the best answer. Respond with only the letter.,Select the best answer. Respond with only the letter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.06795,lex_lowercase,0.06795
+bbh_date,lex_typo,lexical,Choose the best answer. Respond with only the letter.,Ccoose the best aNswer. Respond with 2nly the Detter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.583633,lex_lowercase,0.583633
+bbh_date,lex_lowercase,lexical,Choose the best answer. Respond with only the letter.,choose the best answer. respond with only the letter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.0,struct_inst_first,0.0
+bbh_date,struct_inst_first,structural,Choose the best answer. Respond with only the letter.,Choose the best answer. Respond with only the letter.,False,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Choose the best answer. Respond with only the letter.
+Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937",0.0,lex_lowercase,0.0
+bbh_date,ctx_role,contextual,Choose the best answer. Respond with only the letter.,You are an expert linguist and logician. Choose the best answer. Respond with only the letter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.415939,lex_lowercase,0.415939
+bbh_date,ctx_irrelevant,contextual,Choose the best answer. Respond with only the letter.,Note: This is part of a larger evaluation suite. Choose the best answer. Respond with only the letter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.374796,lex_lowercase,0.374796
+bbh_date,fmt_caps,formatting,Choose the best answer. Respond with only the letter.,CHOOSE THE BEST ANSWER. RESPOND WITH ONLY THE LETTER.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.0,lex_lowercase,0.0
+bbh_date,fmt_separators,formatting,Choose the best answer. Respond with only the letter.,Choose the best answer. Respond with only the letter.,False,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY? | Options: | (A) 12/11/1937 | (B) 12/25/1937 | (C) 01/04/1938 | (D) 12/04/193,0.0,lex_lowercase,0.0
+bbh_date,instruction_rewrite,rewrite,Choose the best answer. Respond with only the letter.,Select the correct option. Write only the corresponding letter.,True,True,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2","Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/2",0.497741,lex_rewrite,0.437929
+arc,lex_rewrite,lexical,Answer with only the letter of the correct choice.,Select the correct choice and answer with only the letter.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.287199,lex_lowercase,0.287199
+arc,lex_typo,lexical,Answer with only the letter of the correct choice.,Answej with only the letter of the ccrrect cNoice.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.61239,lex_lowercase,0.61239
+arc,lex_lowercase,lexical,Answer with only the letter of the correct choice.,answer with only the letter of the correct choice.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.0,struct_inst_first,0.0
+arc,struct_inst_first,structural,Answer with only the letter of the correct choice.,Answer with only the letter of the correct choice.,False,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,"Answer with only the letter of the correct choice.
+Question: A group of engineers wanted to know how different building designs would respond during a",0.0,lex_lowercase,0.0
+arc,ctx_role,contextual,Answer with only the letter of the correct choice.,You are an expert linguist and logician. Answer with only the letter of the correct choice.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.399555,lex_lowercase,0.399555
+arc,ctx_irrelevant,contextual,Answer with only the letter of the correct choice.,Note: This is part of a larger evaluation suite. Answer with only the letter of the correct choice.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.384786,lex_lowercase,0.384786
+arc,fmt_caps,formatting,Answer with only the letter of the correct choice.,ANSWER WITH ONLY THE LETTER OF THE CORRECT CHOICE.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.0,lex_lowercase,0.0
+arc,fmt_separators,formatting,Answer with only the letter of the correct choice.,Answer with only the letter of the correct choice.,False,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.0,lex_lowercase,0.0
+arc,instruction_rewrite,rewrite,Answer with only the letter of the correct choice.,Which option is correct? Write just the letter.,True,True,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,Question: A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings,0.338404,lex_rewrite,0.314026

@@ -1,0 +1,3922 @@
+{
+  "metrics": {
+    "base_accuracy": 80.33,
+    "pert_accuracy": 83.33,
+    "accuracy_drop": -3.0,
+    "flip_rate": 0.0867,
+    "consistency": 0.9133,
+    "n_examples": 300,
+    "_raw_flip_rate": 0.08666666666666667,
+    "_raw_acc_drop": -3.0000000000000027,
+    "semantic_distance": 0.0,
+    "sensitivity_score": 0.26,
+    "category": "formatting",
+    "n_unique_preds": 3,
+    "majority_label": "B",
+    "majority_frac": 0.37,
+    "collapsed": false,
+    "direction": "improvement"
+  },
+  "pert_results": [
+    {
+      "idx": 0,
+      "prompt": "Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.\nHypothesis: Unfortunately his face had been mutilated in as least one way. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.4570693969726562e-06,
+        "B": -14.1875,
+        "C": -12.8125
+      },
+      "margin": 12.812496542930603
+    },
+    {
+      "idx": 1,
+      "prompt": "Premise: and the wind started blowing and it was one of my earlier trips to be really out in the middle of\nHypothesis: The wind was really blowing during the trip.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.2636184692382812e-05,
+        "B": -11.34375,
+        "C": -14.03125
+      },
+      "margin": 11.343737363815308
+    },
+    {
+      "idx": 2,
+      "prompt": "Premise: Why shouldn't he be? \nHypothesis: He is already that way.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.6875,
+        "B": -7.510185241699219e-06,
+        "C": -11.8125
+      },
+      "margin": 11.812492489814758
+    },
+    {
+      "idx": 3,
+      "prompt": "Premise: Land of Lincoln helped Tasha Johnson of Marion get Social Security benefits to support her four children after the 29-year-old woman was diagnosed with non-Hodgkin's lymphoma, a type of cancer, she said.\nHypothesis: She was cancer free at 29 years of age.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.984375,
+        "B": -18.796875,
+        "C": 0.0
+      },
+      "margin": 18.796875
+    },
+    {
+      "idx": 4,
+      "prompt": "Premise: High Crimes is painfully shoddy, even for a book rushed to press.\nHypothesis: High Crimes was carefully written and was not rushed. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.5625,
+        "B": -18.75,
+        "C": 0.0
+      },
+      "margin": 18.75
+    },
+    {
+      "idx": 5,
+      "prompt": "Premise: Thus, recent evidence suggests that by not including an estimate of reductions in short-term mortality due to changes in ambient ozone, both the Base and Alternative Estimates may underestimate the benefits of implementation of the Clear Skies Act.\nHypothesis: Base and Alternative estimates perfectly understand the benefits of implementing the Clear Skies Act.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.96875,
+        "B": -18.890625,
+        "C": 0.0
+      },
+      "margin": 18.890625
+    },
+    {
+      "idx": 6,
+      "prompt": "Premise: and i don't think they've repainted since\nHypothesis: I'm not sure if they've repainted it since.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.5625,
+        "B": -2.5987625122070312e-05,
+        "C": -15.859375
+      },
+      "margin": 10.562474012374878
+    },
+    {
+      "idx": 7,
+      "prompt": "Premise: If there was a bit of Fuller in Leonardo, there was also a bit of Liberace in this theatrical, high-living dandy who favored brocade doublets and bad boys with pretty faces.\nHypothesis: Leonardo's character was based on the lifestyle of Liberace.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.734375,
+        "B": -0.0021190643310546875,
+        "C": -6.16015625
+      },
+      "margin": 6.158037185668945
+    },
+    {
+      "idx": 8,
+      "prompt": "Premise: In the ancestral environment a man would be likely to have more offspring if he got his pick of the most fertile-seeming women.\nHypothesis: Only a man who stayed with one female spread his genes most efficiently.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.90625,
+        "B": -0.84375,
+        "C": -0.5625
+      },
+      "margin": 0.28125
+    },
+    {
+      "idx": 9,
+      "prompt": "Premise: The town is also known for its sparkling wine and for the caves where about 70 per?\u00adcent of France's cultivated mushrooms are grown.\nHypothesis: The town grows 40% of the sparkling wine.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.8515625,
+        "B": -0.0357666015625,
+        "C": -3.34765625
+      },
+      "margin": 3.3118896484375
+    },
+    {
+      "idx": 10,
+      "prompt": "Premise: Judge Bailey was chosen because he should be looked at as the representative of all future winners.\nHypothesis: The judge was an upstanding guy.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.09375,
+        "B": -4.76837158203125e-07,
+        "C": -15.5
+      },
+      "margin": 15.093749523162842
+    },
+    {
+      "idx": 11,
+      "prompt": "Premise: (A bigger contribution may or may not mean, I really, really support Candidate X.) Freedom of association is an even bigger stretch--one that Justice Thomas would laugh out of court if some liberal proposed it.\nHypothesis: Justice Thomas wanted to have freedom of association.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.7734375,
+        "B": -3.228515625,
+        "C": -0.040435791015625
+      },
+      "margin": 3.188079833984375
+    },
+    {
+      "idx": 12,
+      "prompt": "Premise: And really it's a great relief to think he's going, Hastings, continued my honest friend. \nHypothesis: \"Are you sure we can't do anything to keep him here?,\" admitted my long-time nemesis.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.390625,
+        "B": -8.875,
+        "C": -0.0001398324966430664
+      },
+      "margin": 8.874860167503357
+    },
+    {
+      "idx": 13,
+      "prompt": "Premise: Sainte-Anne itself has a long, broad beach used not only by fishermen in vividly painted boats, but also by families with small children.\nHypothesis: The families attending the beach of Sainte-Anne commonly purchase seafood meals from the fishermen as they return with their catch.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.375,
+        "B": -2.86102294921875e-06,
+        "C": -12.78125
+      },
+      "margin": 12.78124713897705
+    },
+    {
+      "idx": 14,
+      "prompt": "Premise: Something in his mind seemed also to have developed a \"tan\" that let him face the bite of chance without flinching.\nHypothesis: He had already lost most of his life savings at the roulette wheel, so what did one more spin count for.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.21875,
+        "B": -0.00011074542999267578,
+        "C": -9.125
+      },
+      "margin": 9.124889254570007
+    },
+    {
+      "idx": 15,
+      "prompt": "Premise: Emergency physician attitudes concerning intervention for alcohol abuse/dependence in the emergency department.\nHypothesis: Physicians were never consulted about substance abuse interventions in the ER.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.109375,
+        "B": -12.28125,
+        "C": -4.649162292480469e-06
+      },
+      "margin": 12.281245350837708
+    },
+    {
+      "idx": 16,
+      "prompt": "Premise: Explanation building is the inverse  starting with the observations, the evaluator develops a picture of what is happening and why.\nHypothesis: Explanation building is going to be the standard approach in the future.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.953125,
+        "B": -4.76837158203125e-07,
+        "C": -14.59375
+      },
+      "margin": 14.593749523162842
+    },
+    {
+      "idx": 17,
+      "prompt": "Premise: Divers can explore the deeps but you can also snorkel here, or take a glass-bottom boat or submarine tour to get a glimpse of this watery world.\nHypothesis: Divers do not like to explore the deeps here.  \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.5625,
+        "B": -0.0155487060546875,
+        "C": -4.171875
+      },
+      "margin": 4.1563262939453125
+    },
+    {
+      "idx": 18,
+      "prompt": "Premise: Every August young women convene to light joss sticks and some even climb the nine-meter (30-ft) rock to pray for good husbands.\nHypothesis: Women converge on this place to light joss sticks and climb the rock.  \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00015211105346679688,
+        "B": -8.8125,
+        "C": -12.65625
+      },
+      "margin": 8.812347888946533
+    },
+    {
+      "idx": 19,
+      "prompt": "Premise: The last 12 years of his life are a blank.\nHypothesis: He can't remember the last 12 years of his life\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0273590087890625,
+        "B": -3.62109375,
+        "C": -8.375
+      },
+      "margin": 3.5937347412109375
+    },
+    {
+      "idx": 20,
+      "prompt": "Premise: Visigoths sack Rome\nHypothesis: The Visigoths were not successful.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.375,
+        "B": -12.84375,
+        "C": -2.86102294921875e-06
+      },
+      "margin": 12.84374713897705
+    },
+    {
+      "idx": 21,
+      "prompt": "Premise: I am not aware of any studies comparing the number of words an average person could expect to hear spoken in a typical day 500 years ago vs. the number that can be heard now, but the increase surely is vast.\nHypothesis: It makes me upset that I've yet to see any study done on how many words the average person hears throughout the day.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.328125,
+        "B": -0.0004048347473144531,
+        "C": -7.8125
+      },
+      "margin": 7.8120951652526855
+    },
+    {
+      "idx": 22,
+      "prompt": "Premise: More detailed implementation plans also will be necessary to address business system, processes, and resource issues.\nHypothesis: Less detailed plans will be necessary to address business systems \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.71875,
+        "B": -19.484375,
+        "C": 0.0
+      },
+      "margin": 19.484375
+    },
+    {
+      "idx": 23,
+      "prompt": "Premise: There are a number of expensive jewelry and other duty-free shops, all with goods priced in US dollars (duty-free goods must always be paid for in foreign currency).\nHypothesis: You can pay using the US dollar when buying goods from the duty-free shops.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": 0.0,
+        "B": -18.65625,
+        "C": -16.921875
+      },
+      "margin": 16.921875
+    },
+    {
+      "idx": 24,
+      "prompt": "Premise: Also, the final rule is not intended to have any retroactive effect and administrative procedures must be exhausted prior to any judicial challenge to the provisions of the rule.\nHypothesis: The final rule is meant to have a retroactive effect.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.6875,
+        "B": -19.890625,
+        "C": 0.0
+      },
+      "margin": 19.890625
+    },
+    {
+      "idx": 25,
+      "prompt": "Premise: After being diagnosed with cancer, Carrey's Kaufman decides to do a show at Carnegie Hall.\nHypothesis: Carrey's Kaufman eventually recovers from the cancer he was diagnosed with.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.0625,
+        "B": -1.5497207641601562e-06,
+        "C": -13.34375
+      },
+      "margin": 13.343748450279236
+    },
+    {
+      "idx": 26,
+      "prompt": "Premise: It was like looking into a mirror, except infinitely more realistic.\nHypothesis: It was like looking into the toilet. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.1875,
+        "B": -15.5,
+        "C": -2.384185791015625e-07
+      },
+      "margin": 15.499999761581421
+    },
+    {
+      "idx": 27,
+      "prompt": "Premise: But they reached a shrubbery near the house quite unmolested.\nHypothesis: Try as they might, they could not reach the shrubbery unmolested.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.328125,
+        "B": -19.0625,
+        "C": 0.0
+      },
+      "margin": 19.0625
+    },
+    {
+      "idx": 28,
+      "prompt": "Premise: that's right you can work yourself to death well i'm sorry to hear your color didn't come out so good over the weekend\nHypothesis: I'm glad it didn't go as planned. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.140625,
+        "B": -0.0001024007797241211,
+        "C": -9.1875
+      },
+      "margin": 9.187397599220276
+    },
+    {
+      "idx": 29,
+      "prompt": "Premise: Part of the original design, they were destroyed by Emperor Aurangzeb, who refused images susceptible to idolatry.\nHypothesis: The images have been restored by contemporary historians.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.921875,
+        "B": -0.020538330078125,
+        "C": -3.896484375
+      },
+      "margin": 3.875946044921875
+    },
+    {
+      "idx": 30,
+      "prompt": "Premise: i'm not sure what the overnight low was\nHypothesis: I don't know how cold it got last night, but it was definitely freezing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.65625,
+        "B": -2.6226043701171875e-06,
+        "C": -12.90625
+      },
+      "margin": 12.90624737739563
+    },
+    {
+      "idx": 31,
+      "prompt": "Premise: The Journal put the point succinctly to  Is any publicity good publicity?\nHypothesis: The Journal asked \"Is this a good political move?\"\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.15625,
+        "B": -0.0007824897766113281,
+        "C": -7.15625
+      },
+      "margin": 7.155467510223389
+    },
+    {
+      "idx": 32,
+      "prompt": "Premise: Then he shrugged.\nHypothesis: He wasn't sure what to say.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.5,
+        "B": -1.1920928955078125e-07,
+        "C": -15.84375
+      },
+      "margin": 15.84374988079071
+    },
+    {
+      "idx": 33,
+      "prompt": "Premise: Under the rule, HUD may also accept an assignment of\nHypothesis: Depending on the rule, hud may or may not be able to accept. They have to check first.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.21875,
+        "B": -0.00013625621795654297,
+        "C": -8.9375
+      },
+      "margin": 8.937363743782043
+    },
+    {
+      "idx": 34,
+      "prompt": "Premise: Blair has just published a volume of speeches and articles titled New Britain : My\nHypothesis: Blair recently published an assortment of speeches.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0005450248718261719,
+        "B": -7.53125,
+        "C": -11.59375
+      },
+      "margin": 7.530704975128174
+    },
+    {
+      "idx": 35,
+      "prompt": "Premise: now you know the ball'll go straight and i go  i never broke a club or anything but you know i'd get upset about it sometimes and now i guess you know being in my forties i just kind of mellowed out a little bit i don't get upset any more so\nHypothesis: I still get upset when I don't perform well.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.53125,
+        "B": -7.5,
+        "C": -0.000553131103515625
+      },
+      "margin": 7.499446868896484
+    },
+    {
+      "idx": 36,
+      "prompt": "Premise: you know our church each year has a one of their major fund raisers is you know a garage sale and there's a ton of clothes always you know left over and i take those down to the uh\nHypothesis: Our church has a garage sale each year. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": 0.0,
+        "B": -18.734375,
+        "C": -16.9375
+      },
+      "margin": 16.9375
+    },
+    {
+      "idx": 37,
+      "prompt": "Premise: But is the Internet so miraculous an advertising vehicle that Gross will be able to siphon off $400 per person from total ad spending of $1,000 per family--or persuade advertisers to spend an additional $400 to reach each of his customers?\nHypothesis: The internet is so great at advertising that is saved Gross money.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.28125,
+        "B": -0.95458984375,
+        "C": -0.486083984375
+      },
+      "margin": 0.468505859375
+    },
+    {
+      "idx": 38,
+      "prompt": "Premise: The other bank pays the fund interest based upon tiered account levels, more typical of a large commercial account.\nHypothesis: The fund collects a flat interest rate from the bank.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.328125,
+        "B": -18.3125,
+        "C": 0.0
+      },
+      "margin": 18.3125
+    },
+    {
+      "idx": 39,
+      "prompt": "Premise: Long Bay is seven miles of sublime fine sand, gentle azure water, and cooling palm trees.\nHypothesis: Long Bay is a five mile stretch of sublime fine sand.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.53125,
+        "B": -17.859375,
+        "C": 0.0
+      },
+      "margin": 17.859375
+    },
+    {
+      "idx": 40,
+      "prompt": "Premise: Venice and its Repubblica Serena rebounded to turn to the mainland, extending its Veneto territory from Padua across the Po valley as far as Bergamo.\nHypothesis: Venice had hopes of expanding its territory.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0009813308715820312,
+        "B": -7.0,
+        "C": -9.5625
+      },
+      "margin": 6.999018669128418
+    },
+    {
+      "idx": 41,
+      "prompt": "Premise: As long as Assad lives, he can manage these troubles and keep an agreement with Israel.\nHypothesis: As long as Assad doesn't die in the hurricane, he will still be able to take care of the trouble with the soldiers. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.0,
+        "B": -0.00024890899658203125,
+        "C": -8.5
+      },
+      "margin": 8.499751091003418
+    },
+    {
+      "idx": 42,
+      "prompt": "Premise: Larger boats for up to 20 people, plus crew, offer organized gourmet cruises.\nHypothesis: You can easily find gourmet cruises.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.65625,
+        "B": -2.4318695068359375e-05,
+        "C": -14.1875
+      },
+      "margin": 10.656225681304932
+    },
+    {
+      "idx": 43,
+      "prompt": "Premise: , First-Class Mail used by households to pay their bills) and the household bill mail (i.e.\nHypothesis: First-Class Mail used by households to pay their bills\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0021953582763671875,
+        "B": -6.12890625,
+        "C": -11.46875
+      },
+      "margin": 6.126710891723633
+    },
+    {
+      "idx": 44,
+      "prompt": "Premise: 36 AC usage nationally for mercury control from power plants should be roughly proportional to the total MWe of coal-fired facilities that are equipped with the technology (this assumes an average capacity factor of 85 percent and other assumptions of Tables 4-4 and 4-5).\nHypothesis: AC usage for mercury control should be related to total coal facilities MWe.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.417533874511719e-06,
+        "B": -12.40625,
+        "C": -12.125
+      },
+      "margin": 12.124990582466125
+    },
+    {
+      "idx": 45,
+      "prompt": "Premise: Small boats tie up here with batches of crayfish, fresh fish, and eel, and housewives clamor for the fishermen to weigh their choices on rudimentary scales.\nHypothesis: The fishermen fish crayfish, fresh fish, and eel.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.03271484375,
+        "B": -3.439453125,
+        "C": -9.4375
+      },
+      "margin": 3.40673828125
+    },
+    {
+      "idx": 46,
+      "prompt": "Premise: The final rule contains a Federalism Assessment under Executive Order\nHypothesis: The final rule had a federalism assessment that was added through a special election.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.78125,
+        "B": -0.0025577545166015625,
+        "C": -5.97265625
+      },
+      "margin": 5.970098495483398
+    },
+    {
+      "idx": 47,
+      "prompt": "Premise: She's a crutch.\nHypothesis: She's an essential, key role in this, and is being used as a crutch.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.5078125,
+        "B": -1.9638671875,
+        "C": -0.1512451171875
+      },
+      "margin": 1.8126220703125
+    },
+    {
+      "idx": 48,
+      "prompt": "Premise: Nothing prior to May 7, 1915.\nHypothesis: Everything is before May 7, 1915.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.375,
+        "B": -6.9375,
+        "C": -0.0009746551513671875
+      },
+      "margin": 6.936525344848633
+    },
+    {
+      "idx": 49,
+      "prompt": "Premise: It will be held in the Maryland woods, and the telecast will consist of jittery footage of the contestants' slow descent into madness as they are systematically stalked and disappeared/disqualified by Bob Barker.\nHypothesis: The show will be set in the woods north of Boston.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.90625,
+        "B": -16.734375,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 16.73437488079071
+    },
+    {
+      "idx": 50,
+      "prompt": "Premise: You're all right now.\nHypothesis: You're not okay now. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.609375,
+        "B": -21.421875,
+        "C": 0.0
+      },
+      "margin": 21.421875
+    },
+    {
+      "idx": 51,
+      "prompt": "Premise: I don't know what I would have done without Legal Services, said James. \nHypothesis: James said Legal Services helped him a lot.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.5497207641601562e-05,
+        "B": -11.5625,
+        "C": -12.03125
+      },
+      "margin": 11.562484502792358
+    },
+    {
+      "idx": 52,
+      "prompt": "Premise: I saw that a faint streak of daylight was showing through the curtains of the windows, and that the clock on the mantelpiece pointed to close upon five o'clock. \nHypothesis: I saw that it was still the middle of the night.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.234375,
+        "B": -0.935546875,
+        "C": -0.498046875
+      },
+      "margin": 0.4375
+    },
+    {
+      "idx": 53,
+      "prompt": "Premise: For their part, family-planning organizations and the Clinton administration seem equally adamant.\nHypothesis: family-planning organizations agree with the Clinton administration about certain things.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.196044921875,
+        "B": -1.7275390625,
+        "C": -8.1640625
+      },
+      "margin": 1.531494140625
+    },
+    {
+      "idx": 54,
+      "prompt": "Premise: yeah it's just a matter of education i think\nHypothesis: I think it just depends on education.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.25,
+        "B": -0.0019292831420898438,
+        "C": -15.4375
+      },
+      "margin": 6.24807071685791
+    },
+    {
+      "idx": 55,
+      "prompt": "Premise: A more unusual dish is azure, a kind of sweet porridge made with cereals, nuts, and fruit sprinkled with rosewater.\nHypothesis: Azure is the name of a coffee.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.21875,
+        "B": -15.0625,
+        "C": -2.384185791015625e-07
+      },
+      "margin": 15.062499761581421
+    },
+    {
+      "idx": 56,
+      "prompt": "Premise:  Folklore of Ibiza\nHypothesis: Ibiza's traditions and lore\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.3134765625,
+        "B": -0.313232421875,
+        "C": -13.4375
+      },
+      "margin": 1.000244140625
+    },
+    {
+      "idx": 57,
+      "prompt": "Premise: It's thought he used the same architect who worked on the Taj Mahal.\nHypothesis: Everyone thinks he used a different architect from the one who worked on the Taj Mahal.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.703125,
+        "B": -20.78125,
+        "C": 0.0
+      },
+      "margin": 20.78125
+    },
+    {
+      "idx": 58,
+      "prompt": "Premise: Their supplies scarce, their harvest meager, and their spirit broken, they abandoned the fort in 1858.\nHypothesis: Their spirit was never broken despite having no more food.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.34375,
+        "B": -20.96875,
+        "C": 0.0
+      },
+      "margin": 20.96875
+    },
+    {
+      "idx": 59,
+      "prompt": "Premise: If I work at it, I might even be able to pick up some endorsements from members of the Sonics.\nHypothesis: I'll be able to get endorsements from Sonic if I put some work into it.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.828125,
+        "B": -0.0161285400390625,
+        "C": -4.828125
+      },
+      "margin": 4.8119964599609375
+    },
+    {
+      "idx": 60,
+      "prompt": "Premise: Jon's feeling of age and weariness must have shown.\nHypothesis: Jon was weary and feeling his age.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.337860107421875e-06,
+        "B": -12.90625,
+        "C": -14.0
+      },
+      "margin": 12.906246662139893
+    },
+    {
+      "idx": 61,
+      "prompt": "Premise: Cultural transitions of major organizations are never easy to accomplish, and I would certainly not claim that it will be easy for GAO.\nHypothesis: GAO will likely have an easier time achieving cultural transitions than other organizations of similar size.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.015625,
+        "B": -8.625,
+        "C": -0.00017952919006347656
+      },
+      "margin": 8.624820470809937
+    },
+    {
+      "idx": 62,
+      "prompt": "Premise: the the Iranian borders are still open uh from what i understand understand um\nHypothesis: From what I know the borders of Iran are still open.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.46875,
+        "B": -0.0015497207641601562,
+        "C": -15.703125
+      },
+      "margin": 6.46720027923584
+    },
+    {
+      "idx": 63,
+      "prompt": "Premise: oh really i was um i was TDY at Bent Waters\nHypothesis: I enjoyed my temporary duty at Bent Waters. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.140625,
+        "B": -2.384185791015625e-07,
+        "C": -15.609375
+      },
+      "margin": 15.609374761581421
+    },
+    {
+      "idx": 64,
+      "prompt": "Premise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: Co-requesters cannot approve more co-requesters.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.14984130859375e-05,
+        "B": -16.765625,
+        "C": -9.875
+      },
+      "margin": 9.874948501586914
+    },
+    {
+      "idx": 65,
+      "prompt": "Premise: The lucrative tin mines of Kuala Lumpur in the State of Selangor, of Sungai Ujong in Negeri Sembilan, and of Larut and Taiping in Perak were run for the Malay rulers by Chinese managers providing coolie labor.\nHypothesis: The Malay rulers directed administrated their own tin mines.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.9375,
+        "B": -16.671875,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 16.67187488079071
+    },
+    {
+      "idx": 66,
+      "prompt": "Premise: Did the ancestors of the Indians really come from Asia over the Aleutian land bridge?\nHypothesis: I wonder if the Indians ancestors actually came over the Aleutian land bridge? \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.21875,
+        "B": -9.953975677490234e-05,
+        "C": -14.84375
+      },
+      "margin": 9.218650460243225
+    },
+    {
+      "idx": 67,
+      "prompt": "Premise: Overlapping the others?\nHypothesis: Separate from the others?\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.203125,
+        "B": -11.5625,
+        "C": -9.5367431640625e-06
+      },
+      "margin": 11.562490463256836
+    },
+    {
+      "idx": 68,
+      "prompt": "Premise: yeah that's where i got to too the first i got chills up and down when i heard the on the radio and the first time they started doing the bombing\nHypothesis: The bombing in Korea was shocking to the world.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.734375,
+        "B": -0.0005364418029785156,
+        "C": -7.53125
+      },
+      "margin": 7.5307135581970215
+    },
+    {
+      "idx": 69,
+      "prompt": "Premise: And the trunk? Big? Mother asked again to keep up appearances.\nHypothesis: Mother, trying to keep up appearances, asked if the trunk was big.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.4226646423339844e-05,
+        "B": -10.03125,
+        "C": -15.21875
+      },
+      "margin": 10.031205773353577
+    },
+    {
+      "idx": 70,
+      "prompt": "Premise:  The tents had been burned, but there was a new building where the main tent had been.\nHypothesis: The tents were in the way of the building.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.046875,
+        "B": -1.0132789611816406e-05,
+        "C": -11.5
+      },
+      "margin": 11.499989867210388
+    },
+    {
+      "idx": 71,
+      "prompt": "Premise: But she's not like her photo one bit.\nHypothesis: The girl in the photo has freckles and red hair. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.8359375,
+        "B": -0.259033203125,
+        "C": -1.4775390625
+      },
+      "margin": 1.218505859375
+    },
+    {
+      "idx": 72,
+      "prompt": "Premise: The baker was not jolly.\nHypothesis: The baker was very festive last night.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -25.109375,
+        "B": -17.1875,
+        "C": 0.0
+      },
+      "margin": 17.1875
+    },
+    {
+      "idx": 73,
+      "prompt": "Premise: taken up by the oh okay oh so you know well that's i had wondered sometimes i knew that there was a lot of a lot of effort and a lot of work went into a lot of that and i just wondered if if it lasted and if it took you know like yeah\nHypothesis: A great deal of effort and work went into that.  \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.384185791015625e-07,
+        "B": -18.203125,
+        "C": -15.09375
+      },
+      "margin": 15.093749761581421
+    },
+    {
+      "idx": 74,
+      "prompt": "Premise: um-hum yes i was amazed we spent the only time we played on our trip was in Douglas Arizona and uh that was just\nHypothesis: Douglas, Arizona was a highlight of our trip.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.048828125,
+        "B": -0.048675537109375,
+        "C": -9.421875
+      },
+      "margin": 3.000152587890625
+    },
+    {
+      "idx": 75,
+      "prompt": "Premise: The formal splendor of the grounds testify to the 18th-century desire to tame nature, but it is done with such superlative results that one can only be thankful that the work was undertaken.\nHypothesis: The grounds were trashy and ugly.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.265625,
+        "B": -18.75,
+        "C": 0.0
+      },
+      "margin": 18.75
+    },
+    {
+      "idx": 76,
+      "prompt": "Premise: The church has an even more elaborate Baroque pulpit.\nHypothesis: The church has a Barogue style pulpit\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.0265579223632812e-06,
+        "B": -16.09375,
+        "C": -13.25
+      },
+      "margin": 13.249997973442078
+    },
+    {
+      "idx": 77,
+      "prompt": "Premise: I've always jumped on sentiment and here I am being more sentimental than anybody.\nHypothesis: I'm being the most sentimental of all, which isn't normal.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.26953125,
+        "B": -1.17578125,
+        "C": -0.425537109375
+      },
+      "margin": 0.750244140625
+    },
+    {
+      "idx": 78,
+      "prompt": "Premise: As a result, an estimated four out of five low-income people requiring legal help in our community do not receive it.\nHypothesis: The people with low incomes do not know what s available to them as far as legal help is concerned.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.90625,
+        "B": -4.4345855712890625e-05,
+        "C": -10.03125
+      },
+      "margin": 10.031205654144287
+    },
+    {
+      "idx": 79,
+      "prompt": "Premise: him?\" she asked.\nHypothesis: She asked about him.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.5762786865234375e-07,
+        "B": -15.59375,
+        "C": -15.53125
+      },
+      "margin": 15.531249642372131
+    },
+    {
+      "idx": 80,
+      "prompt": "Premise: Legal Services Corp., 02-CV-3866, names as defendants the national Legal Services Corp., which distributes federal grants to providers, and Legal Services of New Jersey, which distributes state money.\nHypothesis: Legal Services Corp. wasn't a named defendant.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.59375,
+        "B": -16.671875,
+        "C": -3.4570693969726562e-06
+      },
+      "margin": 12.593746542930603
+    },
+    {
+      "idx": 81,
+      "prompt": "Premise: He works himself into a fake froth; does some calculated, halfhearted gonzo writing; then collects a fat check.\nHypothesis: He's well-known in writing circles as a hack who is willing to sell out to the highest bidder.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.91015625,
+        "B": -0.036346435546875,
+        "C": -3.412109375
+      },
+      "margin": 3.375762939453125
+    },
+    {
+      "idx": 82,
+      "prompt": "Premise: Working for Philip Morris isn't like defending an indigent murderer in a death penalty appeal.\nHypothesis: Working for Philip Morris is a legal challenge.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.8515625,
+        "B": -1.2236328125,
+        "C": -0.348388671875
+      },
+      "margin": 0.875244140625
+    },
+    {
+      "idx": 83,
+      "prompt": "Premise: U.S. civil legal services delivery system.\nHypothesis: The us has a legal services delivery system \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.5367431640625e-07,
+        "B": -14.1875,
+        "C": -15.40625
+      },
+      "margin": 14.187499046325684
+    },
+    {
+      "idx": 84,
+      "prompt": "Premise: Daniel nodded, fetching me a glass of beer.\nHypothesis: It was Daniel who got me the beer. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1920928955078125e-07,
+        "B": -18.375,
+        "C": -15.84375
+      },
+      "margin": 15.84374988079071
+    },
+    {
+      "idx": 85,
+      "prompt": "Premise: probably yeah i would imagine the judge could throw it out\nHypothesis: I would guess that the judge would be able to toss that out.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.29296875,
+        "B": -0.1063232421875,
+        "C": -13.46875
+      },
+      "margin": 2.1866455078125
+    },
+    {
+      "idx": 86,
+      "prompt": "Premise: When Mr. Hastings and Mr. Lawrence came in yesterday evening, they found your mistress busy writing letters. \nHypothesis: Last night no one saw your mistress.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.609375,
+        "B": -15.78125,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 15.78124988079071
+    },
+    {
+      "idx": 87,
+      "prompt": "Premise: Look out for that overseer up there.\nHypothesis: You do not need to worry about that overseer.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.09375,
+        "B": -19.890625,
+        "C": 0.0
+      },
+      "margin": 19.890625
+    },
+    {
+      "idx": 88,
+      "prompt": "Premise: He needs to keep his finger on the pulse to succeed during the short tourist season.\nHypothesis: The tourism season is so long that he will be successful eventually.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.046875,
+        "B": -14.71875,
+        "C": -3.5762786865234375e-07
+      },
+      "margin": 14.718749642372131
+    },
+    {
+      "idx": 89,
+      "prompt": "Premise: Although it's hard to disagree with James Surowiecki's roasting of Wade Cook in The Book on Cook, Surowiecki's assertion that the equity stock option market is simply a big casino that contribute[s] nothing to the smooth functioning of capital markets is both wrong and silly.\nHypothesis: James Surowiecki asserts that the equity stock option market contributes nothing to the smooth functioning of capital markets.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0029964447021484375,
+        "B": -11.4375,
+        "C": -5.81640625
+      },
+      "margin": 5.813409805297852
+    },
+    {
+      "idx": 90,
+      "prompt": "Premise: My own little corner of the world, policy wonking, is an example.\nHypothesis: An example is birdwatching.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.265625,
+        "B": -0.1385498046875,
+        "C": -2.044921875
+      },
+      "margin": 1.9063720703125
+    },
+    {
+      "idx": 91,
+      "prompt": "Premise: To reach any of the three Carbet falls, you must continue walking after the roads come to an end for 20 minutes, 30 minutes, or two hours respectively.\nHypothesis: To reach any of the three Carbet falls you can take any of the three paths, it doesn't matter which because they are all the same length.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.765625,
+        "B": -15.8125,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 15.81249988079071
+    },
+    {
+      "idx": 92,
+      "prompt": "Premise: Thorn held a sword different from any Ca'daan had ever seen.\nHypothesis: Ca'daan had never seen someone hold a sword like Thorn held it.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.34375,
+        "B": -7.987022399902344e-05,
+        "C": -9.4375
+      },
+      "margin": 9.437420129776001
+    },
+    {
+      "idx": 93,
+      "prompt": "Premise: To savour the full effect of the architect's skill, enter the courtyard through the gate which opens onto the Hippodrome.\nHypothesis: The gate to the Hippodrome is an example of the architect's skill.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.0546875,
+        "B": -0.42919921875,
+        "C": -7.5546875
+      },
+      "margin": 0.62548828125
+    },
+    {
+      "idx": 94,
+      "prompt": "Premise: Local legend claims that he wrote part of his great saga, Os Lusadas, in what is now called the Camees Grotto, situated in the spacious tropical Camees Garden.\nHypothesis: It is claimed that a portion of Os Lusadas was written in the Camees Grotto.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.4928321838378906e-05,
+        "B": -10.28125,
+        "C": -14.15625
+      },
+      "margin": 10.281215071678162
+    },
+    {
+      "idx": 95,
+      "prompt": "Premise: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707 of the Employee Retirement Income Security Act (Pub.\nHypothesis: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.288818359375e-05,
+        "B": -10.9375,
+        "C": -12.1875
+      },
+      "margin": 10.937477111816406
+    },
+    {
+      "idx": 96,
+      "prompt": "Premise: In most methods, we plan for data collection, then we collect the information, then we analyze it, and then we write the report.\nHypothesis: information is collected, analyzed, and then a report is written.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.69384765625,
+        "B": -0.69384765625,
+        "C": -7.0703125
+      },
+      "margin": 0.0
+    },
+    {
+      "idx": 97,
+      "prompt": "Premise: Sandstone and granite were the materials used to build the Baroque church of Bom Jesus, famous for its casket of St. Francis Xavier's relics in the mausoleum to the right of the altar.\nHypothesis: Sandstone and granite were chosen as the materials for the Baroque church of Bom Jesus because of how sturdy they are.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.3125,
+        "B": -7.152557373046875e-07,
+        "C": -16.140625
+      },
+      "margin": 14.312499284744263
+    },
+    {
+      "idx": 98,
+      "prompt": "Premise: i cried when the horse got killed and when the wolf got killed\nHypothesis: I went through the entire thing without crying.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.0,
+        "B": -22.296875,
+        "C": 0.0
+      },
+      "margin": 22.0
+    },
+    {
+      "idx": 99,
+      "prompt": "Premise: This is the island's main city and financial, governmental, and administrative centre, and its charms match those of other Mediterranean  jewels.  \nHypothesis: The city is the island's governmental and financial centre. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1920928955078125e-07,
+        "B": -18.015625,
+        "C": -15.96875
+      },
+      "margin": 15.96874988079071
+    },
+    {
+      "idx": 100,
+      "prompt": "Premise: So unlike people who are fortunate enough to be able to afford attorneys and can go to another lawyer, our clients are simply lost in the legal system if they cannot get access to it from us.\nHypothesis: Our clients can afford attorneys and bouncing between lawyers.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.25,
+        "B": -18.109375,
+        "C": 0.0
+      },
+      "margin": 18.109375
+    },
+    {
+      "idx": 101,
+      "prompt": "Premise: British action wouldn't have mattered.\nHypothesis: It wouldn't have mattered if Britain got involved.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0014133453369140625,
+        "B": -6.5625,
+        "C": -12.96875
+      },
+      "margin": 6.561086654663086
+    },
+    {
+      "idx": 102,
+      "prompt": "Premise: Under Ferdinand and Isabella, Spain underwent a dramatic transformation.\nHypothesis: Ferdinand and Isabella caused stunning changes to take place in Spain.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0003924369812011719,
+        "B": -7.9375,
+        "C": -10.25
+      },
+      "margin": 7.937107563018799
+    },
+    {
+      "idx": 103,
+      "prompt": "Premise: We should seek to achieve the most good or benefit, with the least harm and destruction of things that we value, he argued.\nHypothesis: He argued that we should recklessly destroy all the things that we care the most about.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.25,
+        "B": -22.09375,
+        "C": 0.0
+      },
+      "margin": 22.09375
+    },
+    {
+      "idx": 104,
+      "prompt": "Premise: and i and i may have been the only one that did both because the mentality in Dallas was that you couldn't like both you had to like one and hate the other\nHypothesis: In Dallas, the mentality is that you have to like both of them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.671875,
+        "B": -19.90625,
+        "C": 0.0
+      },
+      "margin": 19.90625
+    },
+    {
+      "idx": 105,
+      "prompt": "Premise: On the west side of the square is Old King's House (built in 1762), which was the official residence of the British governor; it was here that the proclamation of emancipation was issued in 1838.\nHypothesis: The Old King's House had an incident where the King was murdered inside of it.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.90625,
+        "B": -0.0010671615600585938,
+        "C": -6.84375
+      },
+      "margin": 6.842682838439941
+    },
+    {
+      "idx": 106,
+      "prompt": "Premise: ooh that does get high yeah i mean\nHypothesis: That does get high because you want so many different extras.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.640625,
+        "B": -2.1457672119140625e-06,
+        "C": -13.0625
+      },
+      "margin": 13.062497854232788
+    },
+    {
+      "idx": 107,
+      "prompt": "Premise: GAO's recommendations are intended to improve the economy, efficiency, and effectiveness of an agency's operations and to improve the accountability of the federal government for the benefit of the American people.\nHypothesis: The American people look up to the GAO to handle and improve the economy of an agency's operations.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.215576171875,
+        "B": -1.6533203125,
+        "C": -6.02734375
+      },
+      "margin": 1.437744140625
+    },
+    {
+      "idx": 108,
+      "prompt": "Premise: i like the Moody Blues\nHypothesis: I do not like the music of the Moody Blues.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.296875,
+        "B": -23.640625,
+        "C": 0.0
+      },
+      "margin": 23.296875
+    },
+    {
+      "idx": 109,
+      "prompt": "Premise: Mortifyingly enough, it is all  the difficulty, the laziness, the pathetic formlessness in youth, the round peg in the square hole, the whatever do you want?\nHypothesis: Youth are always formless and lazy.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.8125,
+        "B": -0.061981201171875,
+        "C": -2.8125
+      },
+      "margin": 2.750518798828125
+    },
+    {
+      "idx": 110,
+      "prompt": "Premise: 8 A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product, while a stoichiometry of 1.05 is needed to produce waste suitable for a landfill.\nHypothesis: A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.5367431640625e-07,
+        "B": -16.359375,
+        "C": -13.9375
+      },
+      "margin": 13.937499046325684
+    },
+    {
+      "idx": 111,
+      "prompt": "Premise: He's a bad lot. \nHypothesis: He's a dishonest person\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.84375,
+        "B": -1.3828277587890625e-05,
+        "C": -11.5
+      },
+      "margin": 11.499986171722412
+    },
+    {
+      "idx": 112,
+      "prompt": "Premise: yeah okay yeah those games are fun to watch you you you watch those games\nHypothesis: Those games are a lot of fun.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.1427001953125,
+        "B": -2.017578125,
+        "C": -11.109375
+      },
+      "margin": 1.8748779296875
+    },
+    {
+      "idx": 113,
+      "prompt": "Premise: you know your children are going you know you've got five children in school instead of somebody that only has one or none and so you they're paying more income tax to pay for your children to go to school it just you know doesn't make sense\nHypothesis: The income tax laws need to be changed to make them fair.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.1953125,
+        "B": -0.00975799560546875,
+        "C": -4.6328125
+      },
+      "margin": 4.623054504394531
+    },
+    {
+      "idx": 114,
+      "prompt": "Premise: These are issues that we wrestle with in practice groups of law firms, she said. \nHypothesis: The practice groups find possible solutions to the issues.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.40625,
+        "B": -2.1457672119140625e-06,
+        "C": -13.34375
+      },
+      "margin": 13.343747854232788
+    },
+    {
+      "idx": 115,
+      "prompt": "Premise: The governing statute provides that a committee consisting of the Comptroller General, the Speaker of the House and President Pro Tempore of the Senate, the Majority and Minority leaders, and the Chairmen and Ranking Minority Members of the Senate Governmental Affairs and House Government Reform Committees recommend an individual to the President for appointment.\nHypothesis: The governing statute has considerations that have to be followed.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.10675048828125,
+        "B": -2.294921875,
+        "C": -7.76171875
+      },
+      "margin": 2.18817138671875
+    },
+    {
+      "idx": 116,
+      "prompt": "Premise: And put like that, she added confidentially to Tommy, \"nobody could boggle at the expense!\" Nobody did, which was the great thing.\nHypothesis: People boggled at the expense.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.03125,
+        "B": -15.1875,
+        "C": -2.384185791015625e-07
+      },
+      "margin": 15.187499761581421
+    },
+    {
+      "idx": 117,
+      "prompt": "Premise: Others are Zao (in Tohoku) and a number of resorts in Joshin-etsu Kogen National Park in the Japan Alps, where there are now splendid facilities thanks to the 1998 Winter Olympic Games in Nagano.\nHypothesis: There are a lot of resorts in the national park.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.213134765625,
+        "B": -1.650390625,
+        "C": -10.9921875
+      },
+      "margin": 1.437255859375
+    },
+    {
+      "idx": 118,
+      "prompt": "Premise: They just don't like it as much as men do.\nHypothesis: Guys seem to like it way more than them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.75390625,
+        "B": -5.62890625,
+        "C": -0.004764556884765625
+      },
+      "margin": 5.624141693115234
+    },
+    {
+      "idx": 119,
+      "prompt": "Premise: Blue says Blumenthal claimed Clinton had told him that Lewinsky had made unwanted sexual advances.\nHypothesis: Clinton allegedly told Blumenthal that Lewinsky made unwanted sexual advances towards him. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.14453125,
+        "B": -5.20703125,
+        "C": -0.049835205078125
+      },
+      "margin": 3.094696044921875
+    },
+    {
+      "idx": 120,
+      "prompt": "Premise: yeah i think i'll probably just have to go with one of those splint braces or something\nHypothesis: The doctors will most likely say to use a splint brace. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.734375,
+        "B": -1.1920928955078125e-05,
+        "C": -11.34375
+      },
+      "margin": 11.343738079071045
+    },
+    {
+      "idx": 121,
+      "prompt": "Premise: Jon shifted and the sword tip slid past.\nHypothesis: Jon was too slow and the sword got him in the stomach.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.046875,
+        "B": -0.66259765625,
+        "C": -0.72509765625
+      },
+      "margin": 0.0625
+    },
+    {
+      "idx": 122,
+      "prompt": "Premise: To be fair, Si doesn't pay for all such treats.\nHypothesis: Si only pays for some treats.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.62890625,
+        "B": -0.00440216064453125,
+        "C": -7.12890625
+      },
+      "margin": 5.624504089355469
+    },
+    {
+      "idx": 123,
+      "prompt": "Premise: Per week?\nHypothesis: Every day.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.5234375,
+        "B": -0.5107421875,
+        "C": -0.9169921875
+      },
+      "margin": 0.40625
+    },
+    {
+      "idx": 124,
+      "prompt": "Premise: This one-at-a-time, uncoordinated series of regulatory requirements for the power industry is not the optimal approach for the environment, the power generation sector, or American consumers.\nHypothesis: The environment and American consumers are better off as a result of this regulation.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -23.140625,
+        "B": -19.15625,
+        "C": 0.0
+      },
+      "margin": 19.15625
+    },
+    {
+      "idx": 125,
+      "prompt": "Premise: Write, write, and write.\nHypothesis: Keep on writing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.001068115234375,
+        "B": -6.84375,
+        "C": -13.0
+      },
+      "margin": 6.842681884765625
+    },
+    {
+      "idx": 126,
+      "prompt": "Premise: Many had to leave their birthplaces, fleeing to Lesvos, Chios, and Samos, the Greek-ruled islands just offshore.\nHypothesis: The Greek people were in danger.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.03125,
+        "B": -0.00020444393157958984,
+        "C": -9.375
+      },
+      "margin": 9.03104555606842
+    },
+    {
+      "idx": 127,
+      "prompt": "Premise: All of the islands are now officially and proudly part of France, not colonies as they were for some three centuries.\nHypothesis: The islands were not allowed to join France.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.5,
+        "B": -12.40625,
+        "C": -4.172325134277344e-06
+      },
+      "margin": 12.406245827674866
+    },
+    {
+      "idx": 128,
+      "prompt": "Premise: And she came to you?\nHypothesis: The person asked if the woman came to him.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.71875,
+        "B": -9.298324584960938e-05,
+        "C": -9.375
+      },
+      "margin": 9.37490701675415
+    },
+    {
+      "idx": 129,
+      "prompt": "Premise: After four years, Clinton has learned how to avoid looking unpresidential.\nHypothesis: After four torturous years, Clinton finally gets how to avoid unpresidential behavior.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.21875,
+        "B": -0.00020813941955566406,
+        "C": -9.125
+      },
+      "margin": 9.124791860580444
+    },
+    {
+      "idx": 130,
+      "prompt": "Premise: 'Wait here,' I was ordered.\nHypothesis: He told me to come with him.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.359375,
+        "B": -18.40625,
+        "C": 0.0
+      },
+      "margin": 18.40625
+    },
+    {
+      "idx": 131,
+      "prompt": "Premise: In fact, European nations need to do some serious fiscal housecleaning.\nHypothesis: European nations have a lot of wasteful spending practices.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.8125,
+        "B": -0.0004222393035888672,
+        "C": -10.9375
+      },
+      "margin": 7.812077760696411
+    },
+    {
+      "idx": 132,
+      "prompt": "Premise: After criticizing the GOP openly for weeks, Buchanan announced that he would seek the Reform presidential nomination, which would bring him $12 million in federal funds.\nHypothesis: Buchanan decided to seek the presidential nomination after he had been criticizing the GOP.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.9087066650390625e-05,
+        "B": -13.6875,
+        "C": -10.5
+      },
+      "margin": 10.49997091293335
+    },
+    {
+      "idx": 133,
+      "prompt": "Premise: yeah yeah you know we're kind of that way too i try to i'm the same way you are i kind of try to judge from day to day i know you know where i am we work a lot with the customers and we have a lot of government folks come in all the time and\nHypothesis: We've never had a visit from someone from the government.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.515625,
+        "B": -20.75,
+        "C": 0.0
+      },
+      "margin": 20.515625
+    },
+    {
+      "idx": 134,
+      "prompt": "Premise: yeah because i was saying to him i said i'm not that heavy i'm not heavy you know maybe ten to fifteen pounds like any other human being\nHypothesis: i told him i've gained a lot of weight\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.546875,
+        "B": -17.109375,
+        "C": 0.0
+      },
+      "margin": 17.109375
+    },
+    {
+      "idx": 135,
+      "prompt": "Premise: did you well it's not just that are there enough jobs for people here now\nHypothesis: there still aren't enough jobs for everyone here\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.15625,
+        "B": -0.0004856586456298828,
+        "C": -7.875
+      },
+      "margin": 7.87451434135437
+    },
+    {
+      "idx": 136,
+      "prompt": "Premise: While documenting the basis for judgments can be more difficult than documenting nonjudgmental information, overall the chain of evidence or audit trail techniques should not pose any greater difficulty for GAO evaluators than our documentation procedures for other evaluation methods.\nHypothesis: GAO evaluators should not have much more difficulty with the chain of evidence.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.08648681640625,
+        "B": -2.4921875,
+        "C": -8.7421875
+      },
+      "margin": 2.40570068359375
+    },
+    {
+      "idx": 137,
+      "prompt": "Premise: If a trace of tropical lethargy still adds to the charm in this city of sidewalk cafe, palm trees, and pedicabs, any torpor definitely ends once inside the doors of Macau's casinos, scene of some of the liveliest gambling west of Las Vegas.\nHypothesis: Macau's casinos are some of the dullest establishments in Asia.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.546875,
+        "B": -19.015625,
+        "C": 0.0
+      },
+      "margin": 19.015625
+    },
+    {
+      "idx": 138,
+      "prompt": "Premise: With most plants needing to install control equipment to meet these requirements, it is likely that this approach would lead to installation of controls that become obsolete and stranded capital investments as additional requirements are promulgated.\nHypothesis: Most plants need to install control equipment to meet requirements.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.414817810058594e-05,
+        "B": -9.5625,
+        "C": -12.46875
+      },
+      "margin": 9.5624258518219
+    },
+    {
+      "idx": 139,
+      "prompt": "Premise: yeah then you don't have you don't have that mess to clean up when you use an oil oil base painting and boy i'll tell you oh\nHypothesis: I've had to clean up oil base paint before, it isn't fun. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -8.78125,
+        "B": -1.3134765625,
+        "C": -0.3134765625
+      },
+      "margin": 1.0
+    },
+    {
+      "idx": 140,
+      "prompt": "Premise: Workers are also represented in civil rights and retaliation claims.\nHypothesis: Some workers are represented in civil rights and retaliation claims.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.384185791015625e-06,
+        "B": -14.5625,
+        "C": -13.15625
+      },
+      "margin": 13.156247615814209
+    },
+    {
+      "idx": 141,
+      "prompt": "Premise: You wonder what youre going to be when you grow up, lawyer Smith said. \nHypothesis: The lawyer, Smith, pointed out that you wanted to know what you would be when you grew up.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.51171875,
+        "B": -0.01119232177734375,
+        "C": -8.8203125
+      },
+      "margin": 4.500526428222656
+    },
+    {
+      "idx": 142,
+      "prompt": "Premise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: The State and Federal courts are the same regardless of location.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.2109375,
+        "B": -0.6474609375,
+        "C": -0.7412109375
+      },
+      "margin": 0.09375
+    },
+    {
+      "idx": 143,
+      "prompt": "Premise: Local residents will tell you where to find them.\nHypothesis: There are local tour guides to help you find them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.671875,
+        "B": -2.193450927734375e-05,
+        "C": -10.75
+      },
+      "margin": 10.749978065490723
+    },
+    {
+      "idx": 144,
+      "prompt": "Premise: they just didn't watch him on TV\nHypothesis: They watched him on TV all the time. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.125,
+        "B": -20.421875,
+        "C": 0.0
+      },
+      "margin": 20.421875
+    },
+    {
+      "idx": 145,
+      "prompt": "Premise: Are you sure we should take him down there?' Greuze asked Natalia.\nHypothesis: Natalia was certain it was alright to bring him down there, and told Greuze that no matter what, he must end up down there. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.890625,
+        "B": -11.71875,
+        "C": -8.106231689453125e-06
+      },
+      "margin": 11.71874189376831
+    },
+    {
+      "idx": 146,
+      "prompt": "Premise: This is a powerful and evocative museum.\nHypothesis: The museum is powerful.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": 0.0,
+        "B": -17.96875,
+        "C": -17.9375
+      },
+      "margin": 17.9375
+    },
+    {
+      "idx": 147,
+      "prompt": "Premise: David Cope, a professor of music at the University of California at Santa Cruz, claims to have created a 42 nd Mozart symphony.\nHypothesis: Professor of Music David Cope claims to have written a 43rd Mozart Symphony.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.140625,
+        "B": -2.841796875,
+        "C": -0.06011962890625
+      },
+      "margin": 2.78167724609375
+    },
+    {
+      "idx": 148,
+      "prompt": "Premise: As a professional courtesy, GAO will inform requesters of substantive media inquiries during an ongoing assignment.\nHypothesis: It is rare for GAO to do something as a professional courtesy. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.109375,
+        "B": -0.00011730194091796875,
+        "C": -9.75
+      },
+      "margin": 9.749882698059082
+    },
+    {
+      "idx": 149,
+      "prompt": "Premise: No, Dave Hanson, you were too important to us for that.\nHypothesis: No, Dave Hanson, you were too important to us.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.22265625,
+        "B": -0.0019931793212890625,
+        "C": -12.53125
+      },
+      "margin": 6.220663070678711
+    },
+    {
+      "idx": 150,
+      "prompt": "Premise: His plan was to drive straight up to the house.\nHypothesis: He had planned to drive a block away from the house and slowly creep up.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.84375,
+        "B": -14.75,
+        "C": -3.5762786865234375e-07
+      },
+      "margin": 14.749999642372131
+    },
+    {
+      "idx": 151,
+      "prompt": "Premise: uh-huh yeah yeah they're good\nHypothesis: They were better before.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.875,
+        "B": -0.00017642974853515625,
+        "C": -8.8125
+      },
+      "margin": 8.812323570251465
+    },
+    {
+      "idx": 152,
+      "prompt": "Premise: South Carolina has no referendum right, so the Supreme Court canceled the vote and upheld the ban.\nHypothesis: South Carolina has a referendum right, so the Supreme Court was powerless over the state.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.453125,
+        "B": -13.25,
+        "C": -1.7881393432617188e-06
+      },
+      "margin": 13.249998211860657
+    },
+    {
+      "idx": 153,
+      "prompt": "Premise: yeah yeah and i took a five year note out on my car when i right when i got out of college and uh i'll never do that again i still got a couple of years on it to go and i'm\nHypothesis: My biggest mistake was taking a five year note out on my car.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.9375,
+        "B": -0.002685546875,
+        "C": -5.94140625
+      },
+      "margin": 5.938720703125
+    },
+    {
+      "idx": 154,
+      "prompt": "Premise: The majority of the agencies that responded appreciated GAO's initiative to develop the protocols and said that they were comprehensive and provided a framework for meaningful communication.\nHypothesis: The agencies that responded despised the initiative by GAO.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -24.09375,
+        "B": -22.25,
+        "C": 0.0
+      },
+      "margin": 22.25
+    },
+    {
+      "idx": 155,
+      "prompt": "Premise: no no not at all it\nHypothesis: Not all of the animals\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.453125,
+        "B": -0.00021708011627197266,
+        "C": -8.4375
+      },
+      "margin": 8.437282919883728
+    },
+    {
+      "idx": 156,
+      "prompt": "Premise: Starting from Scratch\nHypothesis: Hanging on to what we have.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.1875,
+        "B": -4.078125,
+        "C": -0.017059326171875
+      },
+      "margin": 4.061065673828125
+    },
+    {
+      "idx": 157,
+      "prompt": "Premise: year, they gave morethan a half million dollars to Western Michigan Legal Services.\nHypothesis: Western Michigan Legal Services got half a million dollars from them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.556510925292969e-06,
+        "B": -12.40625,
+        "C": -12.90625
+      },
+      "margin": 12.406243443489075
+    },
+    {
+      "idx": 158,
+      "prompt": "Premise: I thought working on Liddy's campaign would be better than working on Bob's.\nHypothesis: Turns out, I was wrong and wished I had worked on Bob's campaign.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.0625,
+        "B": -3.439453125,
+        "C": -0.032745361328125
+      },
+      "margin": 3.406707763671875
+    },
+    {
+      "idx": 159,
+      "prompt": "Premise: or yeah exactly and that's what i say you'll you'll be you'll be so much better off for it as you get older because you know a lot of kids resent things that parents tell them and and stuff but it's because you've been there\nHypothesis: Kids don't like what their parents have told them. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.5654296875,
+        "B": -3.25390625,
+        "C": -0.284423828125
+      },
+      "margin": 1.281005859375
+    },
+    {
+      "idx": 160,
+      "prompt": "Premise: I felt an immeasurable 230 contempt for him\u2026 .\nHypothesis: I felt great respect for him...\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -24.796875,
+        "B": -23.0,
+        "C": 0.0
+      },
+      "margin": 23.0
+    },
+    {
+      "idx": 161,
+      "prompt": "Premise: Do not talk.\nHypothesis: You should start talking now.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -24.40625,
+        "B": -21.15625,
+        "C": 0.0
+      },
+      "margin": 21.15625
+    },
+    {
+      "idx": 162,
+      "prompt": "Premise: Another thing those early French and Dutch settlers agreed upon was that their island should be free of levies on any imported goods.\nHypothesis: The French settlers did not mind income taxes at all.  \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.421875,
+        "B": -1.9365234375,
+        "C": -0.1556396484375
+      },
+      "margin": 1.7808837890625
+    },
+    {
+      "idx": 163,
+      "prompt": "Premise: GAO also issued over 160 reports detailing specific findings and made over 100 recommendations to agencies and to the President's Council on Year 2000 Conversion for improving the government's readiness.\nHypothesis: The GAO made no difference to the President's Council on Year 2000 and issued no reports at all.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.90625,
+        "B": -22.078125,
+        "C": 0.0
+      },
+      "margin": 22.078125
+    },
+    {
+      "idx": 164,
+      "prompt": "Premise: 'Why isn't a lookalike good enough for them?'\nHypothesis: What are the reasons the lookalike isn't good enough?\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.9375,
+        "B": -0.00012087821960449219,
+        "C": -9.53125
+      },
+      "margin": 9.531129121780396
+    },
+    {
+      "idx": 165,
+      "prompt": "Premise: All these sites will automatically lead into George Dubbawya's Web site (www.georgewbush.com).\nHypothesis: These sites lead to George W. Bush's website.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.337860107421875e-05,
+        "B": -10.78125,
+        "C": -11.28125
+      },
+      "margin": 10.781216621398926
+    },
+    {
+      "idx": 166,
+      "prompt": "Premise: If I had chosen to be an actor, I should have been the greatest actor living! \nHypothesis: I chose to become an actor, but I wasn't very good at it. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.53125,
+        "B": -2.435546875,
+        "C": -0.09161376953125
+      },
+      "margin": 2.34393310546875
+    },
+    {
+      "idx": 167,
+      "prompt": "Premise: Recent SAB deliberations on mortality and morbidity valuation approaches suggest that some adjustments to unit values are appropriate to reflect economic theory (EPA-SAB-EEAC-00-013, 2000).\nHypothesis: Adjustments can never be made to mortality valuation.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.90625,
+        "B": -16.3125,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 16.31249988079071
+    },
+    {
+      "idx": 168,
+      "prompt": "Premise: so uh i hope you like your office\nHypothesis: I hope you like your new office.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.90625,
+        "B": -2.5033950805664062e-06,
+        "C": -17.15625
+      },
+      "margin": 12.90624749660492
+    },
+    {
+      "idx": 169,
+      "prompt": "Premise: Yet, in the mouths of the white townsfolk of Salisbury, N.C., it sounds convincing.\nHypothesis: White townsfolk in Salisbury, N.C. think it sounds convincing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0309600830078125,
+        "B": -3.53125,
+        "C": -6.71875
+      },
+      "margin": 3.5002899169921875
+    },
+    {
+      "idx": 170,
+      "prompt": "Premise: Postal Service could increase those same rates by at least 13.\nHypothesis: The rates can not be changed by the Postal Service.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.859375,
+        "B": -19.015625,
+        "C": 0.0
+      },
+      "margin": 19.015625
+    },
+    {
+      "idx": 171,
+      "prompt": "Premise: Recently, however, I have settled down and become decidedly less experimental.\nHypothesis: Lately, I have not been as wild and curious as I used to be.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0001556873321533203,
+        "B": -8.84375,
+        "C": -11.375
+      },
+      "margin": 8.843594312667847
+    },
+    {
+      "idx": 172,
+      "prompt": "Premise: yeah i mean just when uh the they military paid for her education\nHypothesis: The military didn't pay for her education.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.9375,
+        "B": -20.828125,
+        "C": 0.0
+      },
+      "margin": 20.828125
+    },
+    {
+      "idx": 173,
+      "prompt": "Premise: Taking an ecumenical tack, nation officials in Chicago recently issued edicts commanding preachers to back off their anti-Semitic rhetoric.\nHypothesis: Nation officials in Chicago are involved in religious issues.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.5762786865234375e-07,
+        "B": -15.53125,
+        "C": -15.8125
+      },
+      "margin": 15.531249642372131
+    },
+    {
+      "idx": 174,
+      "prompt": "Premise: The Ile Saint-Louis is an enchanted self-contained island of gracious living, long popular with the more affluent gentry and celebrities of Paris.\nHypothesis: The Ile Saint-Louis is popular with the wealthier citizens of Paris.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.0623207092285156e-05,
+        "B": -11.0,
+        "C": -12.4375
+      },
+      "margin": 10.999979376792908
+    },
+    {
+      "idx": 175,
+      "prompt": "Premise: In the meantime, the philosophy is to seize present-day opportunities in the thriving economy.\nHypothesis: The philosophy was to seize opportunities when the economy is doing poorly.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.765625,
+        "B": -17.515625,
+        "C": 0.0
+      },
+      "margin": 17.515625
+    },
+    {
+      "idx": 176,
+      "prompt": "Premise: Diamonds are graded from D to X, with only D, E, and F considered good, D being colorless or  river white,  J  slightly tinted,  Q  light yellow,  and S to X  yellow.  \nHypothesis: The most expensive diamonds on the planet are graded with D.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.8291015625,
+        "B": -0.360107421875,
+        "C": -1.9541015625
+      },
+      "margin": 1.468994140625
+    },
+    {
+      "idx": 177,
+      "prompt": "Premise: Expenses included in calculating net cost for education and training programs that are intended to increase or maintain national economic productive capacity shall be reported as investments in human capital as required supplementary stewardship information accompanying the financial statements of the Federal Government and its component units.\nHypothesis: Net cost for college programs can be calculated as a way to increase productivity.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0010166168212890625,
+        "B": -7.0,
+        "C": -9.15625
+      },
+      "margin": 6.998983383178711
+    },
+    {
+      "idx": 178,
+      "prompt": "Premise: oh i enjoyed it i mean it was just more for my money\nHypothesis: The performance was a good deal.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1162109375,
+        "B": -0.39697265625,
+        "C": -10.7734375
+      },
+      "margin": 0.71923828125
+    },
+    {
+      "idx": 179,
+      "prompt": "Premise: Beyond the Quantitative Cul-de- A Qualitative Perspective on Youth Employment Programs.\nHypothesis: The paper says youth employment programs are helpful.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.359375,
+        "B": -5.364418029785156e-06,
+        "C": -12.21875
+      },
+      "margin": 12.21874463558197
+    },
+    {
+      "idx": 180,
+      "prompt": "Premise: yeah well at least as they told us uh two shifts\nHypothesis: They said there was only one shift.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.90625,
+        "B": -18.359375,
+        "C": 0.0
+      },
+      "margin": 18.359375
+    },
+    {
+      "idx": 181,
+      "prompt": "Premise: Hall said that Britain has enjoyed a half-century of pre-eminence in this field of endeavor and that this could now be destroyed.\nHypothesis: Britain could lose its place at the top of this field of endeavor.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.92605972290039e-05,
+        "B": -13.96875,
+        "C": -9.59375
+      },
+      "margin": 9.593680739402771
+    },
+    {
+      "idx": 182,
+      "prompt": "Premise: yeah pay fifteen yeah yes i know yeah and when you pay fifteen dollars a month it sure takes a long time\nHypothesis: When you pay $15 a month, it takes a long time but I can't afford any more.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.78125,
+        "B": -6.556510925292969e-06,
+        "C": -12.0
+      },
+      "margin": 11.999993443489075
+    },
+    {
+      "idx": 183,
+      "prompt": "Premise: An Indian traveler described the prosperous Bujang Valley settlement as  the seat of all felicities.  \nHypothesis: A traveler said the settlement was prospering. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.344650268554688e-07,
+        "B": -15.4375,
+        "C": -14.3125
+      },
+      "margin": 14.312499165534973
+    },
+    {
+      "idx": 184,
+      "prompt": "Premise: DOD's common practice for managing this environment has been to create aggressive risk reduction efforts in its programs.\nHypothesis: The DOD increases risk to manage the environment.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.9375,
+        "B": -12.875,
+        "C": -2.6226043701171875e-06
+      },
+      "margin": 12.87499737739563
+    },
+    {
+      "idx": 185,
+      "prompt": "Premise: it was really a nice compromise especially because she felt like she was still living in her own house and she still had her own couch and her own bed and it it really helped a lot and she was a lot more comfortable and she didn't\nHypothesis: Having her own furniture in the house made it much more comfortable for her. Yet still able get assistance if she needed it.They check on them two or three times a day and give their medication also.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.407958984375,
+        "B": -1.095703125,
+        "C": -7.625
+      },
+      "margin": 0.687744140625
+    },
+    {
+      "idx": 186,
+      "prompt": "Premise: Basically, to sell myself.\nHypothesis: Selling myself is a very important thing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.828125,
+        "B": -1.6689300537109375e-06,
+        "C": -13.34375
+      },
+      "margin": 13.343748331069946
+    },
+    {
+      "idx": 187,
+      "prompt": "Premise: and have been back and every now and then some news filters in that they went to see some of the old things and of course the savings and loan program um that was that you know that that just continued to grow in fact after my group i mean we were just a very small specialized group too to get that going and spread and then of course Peace Corps bowed out of that because that's uh uh something that nationalized very quickly and the same with the coops\nHypothesis: I try to keep up with the program but since I left the Peace Corps I just do not have the time.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.953125,
+        "B": -0.00011169910430908203,
+        "C": -9.125
+      },
+      "margin": 9.124888300895691
+    },
+    {
+      "idx": 188,
+      "prompt": "Premise: that's hilarious to to get that jack off that's right oh that's a funny story\nHypothesis: The story is about the washing machine.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.625,
+        "B": -0.00975799560546875,
+        "C": -4.6328125
+      },
+      "margin": 4.623054504394531
+    },
+    {
+      "idx": 189,
+      "prompt": "Premise: The  rock  has a soft texture and can be bought in a variety of shapes.\nHypothesis: The texture of the rock comes from the way that it is formed.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.125,
+        "B": -5.960464477539062e-07,
+        "C": -14.375
+      },
+      "margin": 14.374999403953552
+    },
+    {
+      "idx": 190,
+      "prompt": "Premise: It spoke of thousands of years, even before the times of the old empire.\nHypothesis: The old Empire is still ongoing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.390625,
+        "B": -12.90625,
+        "C": -2.5033950805664062e-06
+      },
+      "margin": 12.90624749660492
+    },
+    {
+      "idx": 191,
+      "prompt": "Premise: This is my old friend, Monsieur Poirot, whom I have not seen for years.\"\nHypothesis: I haven't seen this old friend in over a year. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.001865386962890625,
+        "B": -6.78125,
+        "C": -7.21875
+      },
+      "margin": 6.779384613037109
+    },
+    {
+      "idx": 192,
+      "prompt": "Premise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Financing accounts are used to fund day to day operations.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.3359375,
+        "B": -0.2384033203125,
+        "C": -1.55078125
+      },
+      "margin": 1.3123779296875
+    },
+    {
+      "idx": 193,
+      "prompt": "Premise: Jon drew it out and stabbed again in the man's throat.\nHypothesis: Jon stabbed the man's throat multiple times.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.78125,
+        "B": -9.894371032714844e-06,
+        "C": -11.5625
+      },
+      "margin": 11.562490105628967
+    },
+    {
+      "idx": 194,
+      "prompt": "Premise: He felt the off-hand dagger's weight in the small of his back.\nHypothesis: The knife was on his back.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00017011165618896484,
+        "B": -8.6875,
+        "C": -13.4375
+      },
+      "margin": 8.687329888343811
+    },
+    {
+      "idx": 195,
+      "prompt": "Premise: Vrenna looked it and smiled.\nHypothesis: Vrenna was happy it was destroyed\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.546875,
+        "B": -5.37890625,
+        "C": -0.004619598388671875
+      },
+      "margin": 5.374286651611328
+    },
+    {
+      "idx": 196,
+      "prompt": "Premise: The remaining parts of the north, although enticing, are difficult to explore.\nHypothesis: Inexperienced explorers should take care to avoid dangerous areas of the north.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.439453125,
+        "B": -0.09625244140625,
+        "C": -5.37890625
+      },
+      "margin": 2.34320068359375
+    },
+    {
+      "idx": 197,
+      "prompt": "Premise: The most comfortable way to see these important Hoysala temples is to visit them on either side of an overnight stay at Hassan, 120 km (75 miles) northwest of Mysore.\nHypothesis: Do not book a hotel in Hassan as it is not near the Hoysala temples.  \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.234375,
+        "B": -9.5,
+        "C": -7.486343383789062e-05
+      },
+      "margin": 9.499925136566162
+    },
+    {
+      "idx": 198,
+      "prompt": "Premise: Some are reported as not having been wanted at all.\nHypothesis: It has been reported that some are not desired at all.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.006511688232421875,
+        "B": -5.0390625,
+        "C": -13.1015625
+      },
+      "margin": 5.032550811767578
+    },
+    {
+      "idx": 199,
+      "prompt": "Premise: but you're without a paycheck during that time and i don't at least that's my understanding is even you know the first time you go for counseling and it's six weeks before you're back to work\nHypothesis: I don't think you lose any money if you got to counciling.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.984375,
+        "B": -14.28125,
+        "C": -5.960464477539062e-07
+      },
+      "margin": 14.281249403953552
+    },
+    {
+      "idx": 200,
+      "prompt": "Premise: Hang it all! said Tommy indignantly.\nHypothesis: Tommy happily declared to hang nothing.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -24.0,
+        "B": -20.796875,
+        "C": 0.0
+      },
+      "margin": 20.796875
+    },
+    {
+      "idx": 201,
+      "prompt": "Premise: And, although I got a Ph.D. in philosophy many years ago and have thought and read about these matters ever since, heaven (or whatever) knows I don't have too many answers that I feel confident about.\nHypothesis: I have been thinking about this since I earned my degree, but I still don't know for sure.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.55078125,
+        "B": -0.081298828125,
+        "C": -11.765625
+      },
+      "margin": 2.469482421875
+    },
+    {
+      "idx": 202,
+      "prompt": "Premise: Can I help you?'\nHypothesis: Can i help you with that order?\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.0,
+        "B": -1.6808509826660156e-05,
+        "C": -16.4375
+      },
+      "margin": 10.999983191490173
+    },
+    {
+      "idx": 203,
+      "prompt": "Premise: it was really easy i mean just just did a thumb print you know\nHypothesis: It was very easy because I just did a thumb print.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.4373016357421875e-06,
+        "B": -12.0,
+        "C": -15.34375
+      },
+      "margin": 11.999993562698364
+    },
+    {
+      "idx": 204,
+      "prompt": "Premise: looking at that and you know and if it's if it's funny or if it keeps my interest if it's exciting i'll watch it if not i don't and times that i saw that or pieces of that it wasn't any it wasn't great Thirty Something i watched a few times because there was a few good episodes and then after that it it i just lost interest in it\nHypothesis: Thirty Something was one of my favorite shows until I lost interest in it.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.62109375,
+        "B": -0.056884765625,
+        "C": -2.962890625
+      },
+      "margin": 2.906005859375
+    },
+    {
+      "idx": 205,
+      "prompt": "Premise: Tom is the winner of a year's supply of Turtle Wax, and he will receive his prize just as soon as the Shopping Avenger figures out how much Turtle Wax actually constitutes a year's supply.\nHypothesis: There are no winners of the one year supply of Turtle wax.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.109375,
+        "B": -16.59375,
+        "C": -1.1920928955078125e-07
+      },
+      "margin": 16.59374988079071
+    },
+    {
+      "idx": 206,
+      "prompt": "Premise: in well i think i think my long-term sense of of budget concerns is that we're going is a lot of others government's spending goes on goes towards this uh health care and things like that and a lot of causes of poor health or need for health care are brought about by various factors such as such as pollution stress you know work work environment conditions and so forth but generally the government is\nHypothesis: It's better to prevent some of the strain on the health care system by limiting pollution but the political capital isn't necessarily there.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.125,
+        "B": -0.0002484321594238281,
+        "C": -8.375
+      },
+      "margin": 8.374751567840576
+    },
+    {
+      "idx": 207,
+      "prompt": "Premise: Along the eastern coastline are several fine beaches with perfect windsurfing conditions in their wide, shallow bays.\nHypothesis: The shallow bays are great places for windsurfing, especially in the summer.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.017578125,
+        "B": -0.1427001953125,
+        "C": -10.859375
+      },
+      "margin": 1.8748779296875
+    },
+    {
+      "idx": 208,
+      "prompt": "Premise: Recommendations\nHypothesis: staff recommendations\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.78125,
+        "B": -2.2649765014648438e-05,
+        "C": -13.1875
+      },
+      "margin": 10.781227350234985
+    },
+    {
+      "idx": 209,
+      "prompt": "Premise: Still, commercial calculation isn't sufficient to explain his stand.\nHypothesis: Commercial calculation is still not enough to explain his resolve.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.25390625,
+        "B": -0.0052337646484375,
+        "C": -15.3984375
+      },
+      "margin": 5.2486724853515625
+    },
+    {
+      "idx": 210,
+      "prompt": "Premise: Tabulations of actual meetings and of consequent actions for same-agency funded and different-agency funded services can help check out whether this impression is reliable.\nHypothesis: The reliability of impressions can be measured at least partially by tabulating meetings.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.3589859008789062e-05,
+        "B": -11.3125,
+        "C": -13.53125
+      },
+      "margin": 11.312486410140991
+    },
+    {
+      "idx": 211,
+      "prompt": "Premise: The world ripped apart around them replaced with a world of fear and blood and fire.\nHypothesis: They were trying to escape the chaos around them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.03125,
+        "B": -1.5020370483398438e-05,
+        "C": -11.125
+      },
+      "margin": 11.124984979629517
+    },
+    {
+      "idx": 212,
+      "prompt": "Premise: i wish it was as good over here as it is over there but if you're the\nHypothesis: I am glad it is better here than over there.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.21875,
+        "B": -14.1875,
+        "C": -7.152557373046875e-07
+      },
+      "margin": 14.187499284744263
+    },
+    {
+      "idx": 213,
+      "prompt": "Premise: I have to tell you, I tried to understand it.\nHypothesis: I have figured it out.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.953125,
+        "B": -1.0728836059570312e-05,
+        "C": -11.4375
+      },
+      "margin": 11.43748927116394
+    },
+    {
+      "idx": 214,
+      "prompt": "Premise: You will learn later that the person who usually poured out Mrs. Inglethorp's medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed. \nHypothesis: The person was after Mrs. Inglethorp's vast fortune. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.515625,
+        "B": -2.3484230041503906e-05,
+        "C": -10.875
+      },
+      "margin": 10.874976515769958
+    },
+    {
+      "idx": 215,
+      "prompt": "Premise: However, SCR installations designed to comply with the NOX SIP Call are generally already into the installation process or, at a minimum, into the engineering phase of the project.\nHypothesis: SCR installs have NOX SIP to comply with.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.333740234375,
+        "B": -1.302734375,
+        "C": -4.42578125
+      },
+      "margin": 0.968994140625
+    },
+    {
+      "idx": 216,
+      "prompt": "Premise: Along with each step, certain practices proved especially important to the success of their efforts.\nHypothesis: Certain practices were really important to their efforts\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.5497207641601562e-06,
+        "B": -14.0,
+        "C": -14.09375
+      },
+      "margin": 13.999998450279236
+    },
+    {
+      "idx": 217,
+      "prompt": "Premise: You have to walk through it).\nHypothesis: Walking is the best way to get through it.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.296875,
+        "B": -5.245208740234375e-06,
+        "C": -12.15625
+      },
+      "margin": 12.15624475479126
+    },
+    {
+      "idx": 218,
+      "prompt": "Premise: you know they can't really defend themselves like somebody grown uh say my age you know yeah\nHypothesis: They can't defend themselves because of their age.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.356201171875,
+        "B": -1.2939453125,
+        "C": -3.66796875
+      },
+      "margin": 0.937744140625
+    },
+    {
+      "idx": 219,
+      "prompt": "Premise: approaches to achieving missions vary considerably between agencies.\nHypothesis: Approaches to achieving missions might change a lot from the FDA to the IRS.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.0012388229370117188,
+        "B": -6.71875,
+        "C": -10.375
+      },
+      "margin": 6.717511177062988
+    },
+    {
+      "idx": 220,
+      "prompt": "Premise: Jon was fighting at full speed, sweat forming on his brow.\nHypothesis: Jon was fighting demons at full speed.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.609375,
+        "B": -1.1920928955078125e-06,
+        "C": -13.65625
+      },
+      "margin": 13.656248807907104
+    },
+    {
+      "idx": 221,
+      "prompt": "Premise: Never trust a Sather, Bork said softly.\nHypothesis: Trust a Sather, Jenna said.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.484375,
+        "B": -17.65625,
+        "C": 0.0
+      },
+      "margin": 17.65625
+    },
+    {
+      "idx": 222,
+      "prompt": "Premise: It's all right.\nHypothesis: It is well and we will be on our way.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.8125,
+        "B": -4.0531158447265625e-06,
+        "C": -12.40625
+      },
+      "margin": 12.406245946884155
+    },
+    {
+      "idx": 223,
+      "prompt": "Premise: Executives do so by examining their internal environments and asking a series of questions about the problems that need fixing, how information technology and management can help, and how a CIO might best fit within their management structures to guide technology solutions.\nHypothesis: More powerful computers are directly correlated to more effective information technology outcomes.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.515625,
+        "B": -2.5153160095214844e-05,
+        "C": -10.59375
+      },
+      "margin": 10.593724846839905
+    },
+    {
+      "idx": 224,
+      "prompt": "Premise: uh it's in Georgia it's yeah it's right outside of Macon and and it's just a i like the way that i like the way that idea of the south is\nHypothesis: It's in Georgia but it's a very long distance from Macon.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.296875,
+        "B": -14.46875,
+        "C": -4.76837158203125e-07
+      },
+      "margin": 14.468749523162842
+    },
+    {
+      "idx": 225,
+      "prompt": "Premise: Finish it, someone yelled.\nHypothesis: Someone yelled to finish the battle.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.796875,
+        "B": -2.384185791015625e-06,
+        "C": -13.0
+      },
+      "margin": 12.999997615814209
+    },
+    {
+      "idx": 226,
+      "prompt": "Premise: Among the disadvantages are that the degree of innovation and product differentiation might continue to be limited.\nHypothesis: Limited innovation is not going to be an advantage. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.1484375,
+        "B": -0.02264404296875,
+        "C": -3.8046875
+      },
+      "margin": 3.78204345703125
+    },
+    {
+      "idx": 227,
+      "prompt": "Premise: It also describes the results of the scenario analysis, both in terms of the various marginal costs associated with emission control strategies and the economy-wide impact of each scenario.\nHypothesis: It gives a breakdown of both the costs and impacts of the scenarios.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1205673217773438e-05,
+        "B": -11.5625,
+        "C": -13.3125
+      },
+      "margin": 11.562488794326782
+    },
+    {
+      "idx": 228,
+      "prompt": "Premise: 120 \"You do not think I ought to go to the police?\"\nHypothesis: Should I not go to the police?\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.10986328125,
+        "B": -2.265625,
+        "C": -8.078125
+      },
+      "margin": 2.15576171875
+    },
+    {
+      "idx": 229,
+      "prompt": "Premise: We always knew it was an outside chance.\nHypothesis: As we were well aware, the odds were not favorable.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.05841064453125,
+        "B": -2.87109375,
+        "C": -9.2421875
+      },
+      "margin": 2.81268310546875
+    },
+    {
+      "idx": 230,
+      "prompt": "Premise: for me now the address is the same you know my my office address\nHypothesis: I am able to receive mail at my workplace.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.003971099853515625,
+        "B": -5.53515625,
+        "C": -11.0078125
+      },
+      "margin": 5.531185150146484
+    },
+    {
+      "idx": 231,
+      "prompt": "Premise: Sun Ra's spaceships did not come, as it were, out of nowhere.\nHypothesis: The spaceships did not come out of nowhere but they were welcome.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.28125,
+        "B": -1.9073486328125e-06,
+        "C": -15.46875
+      },
+      "margin": 13.281248092651367
+    },
+    {
+      "idx": 232,
+      "prompt": "Premise: According to the Natural Resources Conservation Service, this single, voluntary program will provide flexible technical, financial, and educational assistance to farmers and ranchers who face serious threats to soil, water, and related natural resources on agricultural and other lands, including grazing lands, wetlands, forest lands, and wildlife habitats.\nHypothesis: This program aims to destroy all farms. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.734375,
+        "B": -18.671875,
+        "C": 0.0
+      },
+      "margin": 18.671875
+    },
+    {
+      "idx": 233,
+      "prompt": "Premise: Up here, gazing out at strikingly lush mountains, you may find yourself higher than the clouds, which adds to the extraordinarily eerie atmosphere of the place.\nHypothesis: You might be above the cloud line here, the atmosphere is eerie and you can see the mountains.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.491474151611328e-05,
+        "B": -11.375,
+        "C": -11.21875
+      },
+      "margin": 11.218725085258484
+    },
+    {
+      "idx": 234,
+      "prompt": "Premise: As the budgets, functions, and points of service of many government programs devolve to state and local government, private entities and nonprofit organizations, and other third parties, it may become harder for GAO to obtain the records it needs to complete audits and evaluations.\nHypothesis: Audits and evaluations are harder because it is more difficult for GAO to get the records.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0003066062927246094,
+        "B": -13.59375,
+        "C": -8.09375
+      },
+      "margin": 8.093443393707275
+    },
+    {
+      "idx": 235,
+      "prompt": "Premise: Many Greeks in Asia Minor were forced to leave their homes and brought an influence of eastern cadences with them.\nHypothesis: The poor Greeks shouldn't have had to leave their homes. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.71875,
+        "B": -0.00041747093200683594,
+        "C": -7.78125
+      },
+      "margin": 7.780832529067993
+    },
+    {
+      "idx": 236,
+      "prompt": "Premise: 11 These departures permit them take advantage of the lower cost of living as well as to be reunited with their spouses and children.\nHypothesis: The departures help them take advantage of the high cost of living in other areas.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.90625,
+        "B": -14.53125,
+        "C": -4.76837158203125e-07
+      },
+      "margin": 14.531249523162842
+    },
+    {
+      "idx": 237,
+      "prompt": "Premise: yeah right right yeah i know i uh i remember my college days  and having to do that too\nHypothesis: I didn't have to do that once I left college.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -16.3125,
+        "B": -1.625,
+        "C": -0.21923828125
+      },
+      "margin": 1.40576171875
+    },
+    {
+      "idx": 238,
+      "prompt": "Premise: Justice Kennedy does not care what law librarians across the country do with all the Supreme Court Reporters from 1790 through 1998.\nHypothesis: Justice Kennedy doesn't think the Supreme Court Reporters from 1790 to 1998 are important.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.203125,
+        "B": -0.01708984375,
+        "C": -6.203125
+      },
+      "margin": 4.18603515625
+    },
+    {
+      "idx": 239,
+      "prompt": "Premise: His mother died when he was young, and he was adopted by the Brodkeys.\nHypothesis: When his mother died, the Brodkeys took him in.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.3113021850585938e-06,
+        "B": -14.25,
+        "C": -14.1875
+      },
+      "margin": 14.187498688697815
+    },
+    {
+      "idx": 240,
+      "prompt": "Premise: They returned to live in the Galilee village of Nazareth, making pilgrimages to Jerusalem.\nHypothesis: They lived in Jerusalem but would make pilgrimages to Galilee.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.3125,
+        "B": -17.3125,
+        "C": 0.0
+      },
+      "margin": 17.3125
+    },
+    {
+      "idx": 241,
+      "prompt": "Premise: yeah that's up here in New England that's we call that backpacking which is the same thing which is you're you've got everything on your back you know an aluminum camp frame uh\nHypothesis: When you go backpacking it's important to bring a rough terrain wagon to carry your gear.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.296875,
+        "B": -7.9375,
+        "C": -0.0003571510314941406
+      },
+      "margin": 7.937142848968506
+    },
+    {
+      "idx": 242,
+      "prompt": "Premise: Said we was a-staying at the inn.\nHypothesis: He was staying at the inn in town.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.09375,
+        "B": -0.0003070831298828125,
+        "C": -13.3125
+      },
+      "margin": 8.093442916870117
+    },
+    {
+      "idx": 243,
+      "prompt": "Premise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: They cannot restrict timing of the release of the product.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0004057884216308594,
+        "B": -13.546875,
+        "C": -7.8125
+      },
+      "margin": 7.812094211578369
+    },
+    {
+      "idx": 244,
+      "prompt": "Premise: Nash showed up for an MIT New Year's Eve party clad only in a diaper.\nHypothesis: Nash showed up in a suit.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -26.046875,
+        "B": -23.421875,
+        "C": 0.0
+      },
+      "margin": 23.421875
+    },
+    {
+      "idx": 245,
+      "prompt": "Premise: the hologram makes up all these things and uh i mean sometimes  sometimes it's funny sometimes it's not but uh you know it's something to pass the time until we do and then and then we watch football\nHypothesis: Sometimes it is amusing to see what the hologram creates.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.2186508178710938e-06,
+        "B": -13.0,
+        "C": -13.84375
+      },
+      "margin": 12.999996781349182
+    },
+    {
+      "idx": 246,
+      "prompt": "Premise: In the depths of the Cold War, many Americans suspected Communists had infiltrated Washington and were about to subvert our democracy.\nHypothesis: Communists infiltrated Washington during the Cold War.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.75,
+        "B": -0.0005917549133300781,
+        "C": -7.4375
+      },
+      "margin": 7.43690824508667
+    },
+    {
+      "idx": 247,
+      "prompt": "Premise: The analysis also addresses the various alternatives to the final rule which were considered, including differing compliance or reporting requirements, use of performance rather than design standards, and an exemption for small entities from coverage of the rule.\nHypothesis: The rule is subject to change.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.4375,
+        "B": -1.2278556823730469e-05,
+        "C": -11.6875
+      },
+      "margin": 11.687487721443176
+    },
+    {
+      "idx": 248,
+      "prompt": "Premise: California is high\nHypothesis: California is hyped up!\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.6875,
+        "B": -0.0002028942108154297,
+        "C": -10.28125
+      },
+      "margin": 8.687297105789185
+    },
+    {
+      "idx": 249,
+      "prompt": "Premise: Possibly three months.\"\nHypothesis: At no time ever. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.109375,
+        "B": -19.96875,
+        "C": 0.0
+      },
+      "margin": 19.96875
+    },
+    {
+      "idx": 250,
+      "prompt": "Premise: I'm sure he'll be back to work soon enough- it's only a leg wound, barely broken flesh.\nHypothesis: The legs will be healed soon.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.01006317138671875,
+        "B": -4.60546875,
+        "C": -13.3203125
+      },
+      "margin": 4.595405578613281
+    },
+    {
+      "idx": 251,
+      "prompt": "Premise: My brain refusing to command properly.\nHypothesis: My brain was not commanding properly.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00022554397583007812,
+        "B": -8.53125,
+        "C": -10.46875
+      },
+      "margin": 8.53102445602417
+    },
+    {
+      "idx": 252,
+      "prompt": "Premise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Being totally supportive of a more comprehensive business model is not something regulators may do.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.375,
+        "B": -10.46875,
+        "C": -0.0017309188842773438
+      },
+      "margin": 6.373269081115723
+    },
+    {
+      "idx": 253,
+      "prompt": "Premise: 'Wait here,' I was ordered.\nHypothesis: He told me to wait until he opened the gate.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.875,
+        "B": -1.9073486328125e-06,
+        "C": -13.25
+      },
+      "margin": 13.249998092651367
+    },
+    {
+      "idx": 254,
+      "prompt": "Premise: yeah i'm trying to find out how long we're supposed talk\nHypothesis: We have to talk for exactly two minutes.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.375,
+        "B": -1.9073486328125e-06,
+        "C": -13.1875
+      },
+      "margin": 13.187498092651367
+    },
+    {
+      "idx": 255,
+      "prompt": "Premise: This man claims that he has been robbed en route and is stranded without money or his plane ticket in an airport somewhere in Europe or the Middle East.\nHypothesis: He claimed he was robbed but was able to get away without losing anything.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.53125,
+        "B": -19.9375,
+        "C": 0.0
+      },
+      "margin": 19.9375
+    },
+    {
+      "idx": 256,
+      "prompt": "Premise: Krugman's column will henceforth be known as The Dismal Science, a phrase too famous to be ownable by anyone, except possibly British essayist Thomas Carlyle (1795-1881), who coined it.\nHypothesis: Krugman writes a column.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.8133392333984375e-05,
+        "B": -10.59375,
+        "C": -12.6875
+      },
+      "margin": 10.593721866607666
+    },
+    {
+      "idx": 257,
+      "prompt": "Premise: There are two challengers to these top dogs.\nHypothesis: These top dogs face two tough financial challenges.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.171875,
+        "B": -0.006317138671875,
+        "C": -5.0703125
+      },
+      "margin": 5.063995361328125
+    },
+    {
+      "idx": 258,
+      "prompt": "Premise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Funds should never be transferred between program accounts and financing accounts.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.9609375,
+        "B": -4.48046875,
+        "C": -0.0113983154296875
+      },
+      "margin": 4.4690704345703125
+    },
+    {
+      "idx": 259,
+      "prompt": "Premise: Other examples of cumulative case studies come from two international agencies.\nHypothesis: There are no examples of case studies, so it is a new territoriy.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.703125,
+        "B": -14.15625,
+        "C": -7.152557373046875e-07
+      },
+      "margin": 14.156249284744263
+    },
+    {
+      "idx": 260,
+      "prompt": "Premise: There never will be.\nHypothesis: It should happen soon.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -24.125,
+        "B": -19.890625,
+        "C": 0.0
+      },
+      "margin": 19.890625
+    },
+    {
+      "idx": 261,
+      "prompt": "Premise: Though prehistoric remains from the Paleolithic, Neolithic, and Bronze Ages have been unearthed in the Manzanares Valley, prior to Madrid's sudden elevation to capital city in 1561 its history was rather undistinguished.\nHypothesis: There were remains in the Manzanares Valley.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -1.1920928955078125e-07,
+        "B": -16.390625,
+        "C": -17.78125
+      },
+      "margin": 16.39062488079071
+    },
+    {
+      "idx": 262,
+      "prompt": "Premise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Regulators will be fully supportive of this business model.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.28125,
+        "B": -19.5625,
+        "C": 0.0
+      },
+      "margin": 19.5625
+    },
+    {
+      "idx": 263,
+      "prompt": "Premise: (It may resemble Dungeons &amp\nHypothesis: It could never look like Dungeons and\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.609375,
+        "B": -13.96875,
+        "C": -9.5367431640625e-07
+      },
+      "margin": 13.968749046325684
+    },
+    {
+      "idx": 264,
+      "prompt": "Premise: The great attraction of the church is the splendid exterior, which is crowned by golden onion-shaped cupolas.\nHypothesis: The interior of the church, while still lovely, is much plainer.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.4375,
+        "B": -2.7298927307128906e-05,
+        "C": -10.53125
+      },
+      "margin": 10.531222701072693
+    },
+    {
+      "idx": 265,
+      "prompt": "Premise: To address these concerns, we supplement our Base Estimate of benefits with a series of sensitivity calculations that make use of other sources of concentration-response and valuation data for key benefits categories.\nHypothesis: Supplemental data is less accurate than primary data.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.609375,
+        "B": -2.9802322387695312e-06,
+        "C": -12.75
+      },
+      "margin": 12.749997019767761
+    },
+    {
+      "idx": 266,
+      "prompt": "Premise: 8 million in relief in the form of emergency housing.\nHypothesis: No money was spent on emergency housing relief.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.578125,
+        "B": -22.78125,
+        "C": 0.0
+      },
+      "margin": 22.578125
+    },
+    {
+      "idx": 267,
+      "prompt": "Premise: Escaped or abandoned raccoons have been breeding in the wild for the past 20 years and have damaged corn crops, watermelon and melon farms, and rainbow trout hatcheries, the paper said.\nHypothesis: Raccoons, if they are abandoned, tend to damage things- this is what has been happening for the past 20 years.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.00011372566223144531,
+        "B": -11.375,
+        "C": -9.1875
+      },
+      "margin": 9.187386274337769
+    },
+    {
+      "idx": 268,
+      "prompt": "Premise: It features over 50 outlets for discounted designer fashions, from Armani to DKNY.\nHypothesis: It has over 50 discount stores for designer fashion brands.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.0225677490234375,
+        "B": -3.8046875,
+        "C": -10.6484375
+      },
+      "margin": 3.7821197509765625
+    },
+    {
+      "idx": 269,
+      "prompt": "Premise: yeah well are you you with TI\nHypothesis: TI is the tourism international society.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.90625,
+        "B": -1.701171875,
+        "C": -0.201416015625
+      },
+      "margin": 1.499755859375
+    },
+    {
+      "idx": 270,
+      "prompt": "Premise: They did this to us.\nHypothesis: This was done by them.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -1.83984375,
+        "B": -1.08984375,
+        "C": -0.68359375
+      },
+      "margin": 0.40625
+    },
+    {
+      "idx": 271,
+      "prompt": "Premise: But he said he thought the Ledfords understood they could qualify only if he put down a stated income, typically an undocumented business income that raises the borrower's interest rate. \nHypothesis: He also believed that a tax return was necessary.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.734375,
+        "B": -8.940696716308594e-06,
+        "C": -12.40625
+      },
+      "margin": 12.406241059303284
+    },
+    {
+      "idx": 272,
+      "prompt": "Premise: On Fox News Sunday , host Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.\nHypothesis: Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.0994415283203125e-06,
+        "B": -12.71875,
+        "C": -15.65625
+      },
+      "margin": 12.718746900558472
+    },
+    {
+      "idx": 273,
+      "prompt": "Premise: In a further role reversal, Gingrich may have positioned himself to fill it.\nHypothesis: Gingrich may fill the position. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.002330780029296875,
+        "B": -6.06640625,
+        "C": -12.0625
+      },
+      "margin": 6.064075469970703
+    },
+    {
+      "idx": 274,
+      "prompt": "Premise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: Federal refers to national and state refers to local, duties and responsibilities may vary between Federal and State levels.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -0.35009765625,
+        "B": -1.224609375,
+        "C": -6.4453125
+      },
+      "margin": 0.87451171875
+    },
+    {
+      "idx": 275,
+      "prompt": "Premise: If all else failed, I could always make myself an exhibit.\nHypothesis: Making myself an exhibit is a last resort. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.822845458984375e-05,
+        "B": -13.03125,
+        "C": -9.25
+      },
+      "margin": 9.24990177154541
+    },
+    {
+      "idx": 276,
+      "prompt": "Premise: 7) Nonautomated First-Class and Standard-A mailers have the option of requesting that their mail be processed manually, even though the costs for such processing are substantially higher than mechanized processing.\nHypothesis: Nonautomated First-Class and Standard-A mailers can ask for their mail to be processed by hand, though it costs the postal service more.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.398822784423828e-05,
+        "B": -11.4375,
+        "C": -10.3125
+      },
+      "margin": 10.312456011772156
+    },
+    {
+      "idx": 277,
+      "prompt": "Premise: they don't i don't i don't work at TI\nHypothesis: We all work together at TI.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -23.421875,
+        "B": -20.140625,
+        "C": 0.0
+      },
+      "margin": 20.140625
+    },
+    {
+      "idx": 278,
+      "prompt": "Premise: Transforming Control of Public Health Programs Raises Concerns (\nHypothesis: Everyone is content with the change of public health programs. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -20.4375,
+        "B": -18.09375,
+        "C": 0.0
+      },
+      "margin": 18.09375
+    },
+    {
+      "idx": 279,
+      "prompt": "Premise: uh well i figured if i had it done in the garage at the Toyota dealer i would be looking at probably three or four hundred dollars\nHypothesis: The cost at the dealer's garage is twice as much as what I paid.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.640625,
+        "B": -0.0002300739288330078,
+        "C": -8.46875
+      },
+      "margin": 8.468519926071167
+    },
+    {
+      "idx": 280,
+      "prompt": "Premise: um yeah that sounds kind of neat uh is location at all important to you like you know how far it is from your house or whatever\nHypothesis: That sounds really stupid. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -18.390625,
+        "B": -7.09375,
+        "C": -0.0008301734924316406
+      },
+      "margin": 7.092919826507568
+    },
+    {
+      "idx": 281,
+      "prompt": "Premise: and the nurses aren't no see you have to pay that\nHypothesis: You don't have to pay for that.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.453125,
+        "B": -20.328125,
+        "C": 0.0
+      },
+      "margin": 20.328125
+    },
+    {
+      "idx": 282,
+      "prompt": "Premise: Ca'daan felt his skin get hot and unable to come up with any suitable response, moved on.\nHypothesis: Ca'daan was getting sunburned.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.03125,
+        "B": -1.8477439880371094e-05,
+        "C": -10.90625
+      },
+      "margin": 10.90623152256012
+    },
+    {
+      "idx": 283,
+      "prompt": "Premise: so you know well a lot of the stuff you hear coming from South Africa now and from West Africa that's considered world music because it's not particularly using certain types of folk styles\nHypothesis: They rely too heavily on the types of folk styles.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.453125,
+        "B": -0.826171875,
+        "C": -0.576171875
+      },
+      "margin": 0.25
+    },
+    {
+      "idx": 284,
+      "prompt": "Premise: Together they had a force of 130 attorneys and the responsibility to serve the civil legal needs of about 550,000 poor and vulnerable people throughout the state.\nHypothesis: There were more lawyers than vulnerable people in the state.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -9.140625,
+        "B": -6.40625,
+        "C": -0.0017566680908203125
+      },
+      "margin": 6.40449333190918
+    },
+    {
+      "idx": 285,
+      "prompt": "Premise: The pieces are unloaded and fed into sorting machines.\nHypothesis: They were unloaded but not sorted\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.390625,
+        "B": -13.84375,
+        "C": -9.5367431640625e-07
+      },
+      "margin": 13.843749046325684
+    },
+    {
+      "idx": 286,
+      "prompt": "Premise: Don't mean the police, but the people that are right in it. \nHypothesis: The police were overt brutal. \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.65625,
+        "B": -0.0061187744140625,
+        "C": -5.1015625
+      },
+      "margin": 5.0954437255859375
+    },
+    {
+      "idx": 287,
+      "prompt": "Premise: Given the limits on the WTO's jurisdiction, it was probably unreasonable of Kodak to expect a real victory.\nHypothesis: Kodak was totally justified in expecting a victory.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -22.265625,
+        "B": -17.34375,
+        "C": 0.0
+      },
+      "margin": 17.34375
+    },
+    {
+      "idx": 288,
+      "prompt": "Premise: But those that are manufactured for sale in in Europe and so forth are quite the other way around\nHypothesis: Products are made with differently designed machines in Europe.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.125,
+        "B": -0.0009160041809082031,
+        "C": -7.0
+      },
+      "margin": 6.999083995819092
+    },
+    {
+      "idx": 289,
+      "prompt": "Premise: The results of the sheepshead minnow, Cyprinodon variegatus, inland silverside, Menidia beryllina, or mysid, Mysidopsis bahia, tests are acceptable if survival in the controls is 80 percent or greater.\nHypothesis: The need for high survival rates is to ensure the highest quality of results.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -8.84375,
+        "B": -0.00015723705291748047,
+        "C": -11.25
+      },
+      "margin": 8.843592762947083
+    },
+    {
+      "idx": 290,
+      "prompt": "Premise: yeah and every once in a while they'll have dressing but uh whoever makes it uh goes crazy with the sage\nHypothesis: Sometimes they have dressing but they use too much sage.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.002948760986328125,
+        "B": -5.94140625,
+        "C": -8.0625
+      },
+      "margin": 5.938457489013672
+    },
+    {
+      "idx": 291,
+      "prompt": "Premise: Some of the unmet needs are among people who can pay, but who are deterred from seeking a lawyer because of the uncertainty about legal fees and their fear of the profession.\nHypothesis: Everyone involved has plenty of money.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -17.921875,
+        "B": -13.9375,
+        "C": -9.5367431640625e-07
+      },
+      "margin": 13.937499046325684
+    },
+    {
+      "idx": 292,
+      "prompt": "Premise: really oh i thought it was great yeah\nHypothesis: that was a nice experience\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -0.1307373046875,
+        "B": -2.099609375,
+        "C": -10.6328125
+      },
+      "margin": 1.9688720703125
+    },
+    {
+      "idx": 293,
+      "prompt": "Premise: This whole unsavory episode brings back memories of skits with Monty Python ! One of my favorite lines was, You are guilty of six--no, seven--charges of heresy.\nHypothesis: This episode reminds me of skits with Monthy Python.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.8041343688964844e-05,
+        "B": -10.15625,
+        "C": -11.59375
+      },
+      "margin": 10.156201958656311
+    },
+    {
+      "idx": 294,
+      "prompt": "Premise: But for some recipients, there is a downside to the checks from Anthem Inc., issued to policyholders as part of the insurer's conversion to a publicly traded company.\nHypothesis: There is only an upside to anthem's check \nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -21.078125,
+        "B": -17.625,
+        "C": 0.0
+      },
+      "margin": 17.625
+    },
+    {
+      "idx": 295,
+      "prompt": "Premise: no uh i have a friend who works for TI and uh i work for a a tire service here in i'm from Dallas\nHypothesis: I used to work for a tire service in Dallas, my hometown, and my friend works part-time for TI.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.140625,
+        "B": -0.0232696533203125,
+        "C": -3.7734375
+      },
+      "margin": 3.7501678466796875
+    },
+    {
+      "idx": 296,
+      "prompt": "Premise: That had been made by the Cadets (Constitutional Democrats) under Prince Lvov.\nHypothesis: The Cadets made that under Prince Lvov and it was wildly successful.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.84375,
+        "B": -2.1457672119140625e-05,
+        "C": -10.875
+      },
+      "margin": 10.87497854232788
+    },
+    {
+      "idx": 297,
+      "prompt": "Premise: yeah uh-huh but we look at it sort of as an investment in the future too\nHypothesis: The results will not be noticeable until further down the line.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "B",
+      "predicted_label": "B",
+      "correct": true,
+      "label_logprobs": {
+        "A": -15.953125,
+        "B": -9.655952453613281e-06,
+        "C": -11.5625
+      },
+      "margin": 11.562490344047546
+    },
+    {
+      "idx": 298,
+      "prompt": "Premise: Pick up a map from the tourist office here and ask about walking tours.\nHypothesis: No one is usually at the tourist office, so you'll have to go somewhere else to find out about walking tours.\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "C",
+      "predicted_label": "C",
+      "correct": true,
+      "label_logprobs": {
+        "A": -19.21875,
+        "B": -14.5625,
+        "C": -4.76837158203125e-07
+      },
+      "margin": 14.562499523162842
+    },
+    {
+      "idx": 299,
+      "prompt": "Premise: '  Blankley replies, And there are fund-raisers going out in other parts of the country to raise  'The conservatives are coming, the conservatives are coming.\nHypothesis: Blankley replies, there are fundraisers in other parts of the country to raise \"the conservatives are coming\".\nDOES THE PREMISE ENTAIL, CONTRADICT, OR IS IT NEUTRAL TO THE HYPOTHESIS?\nANSWER WITH ONE LETTER ONLY: A FOR ENTAILMENT, B FOR NEUTRAL, C FOR CONTRADICTION.",
+      "gold_label": "A",
+      "predicted_label": "B",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.974609375,
+        "B": -0.037109375,
+        "C": -4.0390625
+      },
+      "margin": 3.9375
+    }
+  ]
+}

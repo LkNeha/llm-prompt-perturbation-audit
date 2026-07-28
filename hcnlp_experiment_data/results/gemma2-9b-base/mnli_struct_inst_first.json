@@ -1,0 +1,3922 @@
+{
+  "metrics": {
+    "base_accuracy": 33.33,
+    "pert_accuracy": 33.0,
+    "accuracy_drop": 0.33,
+    "flip_rate": 0.0033,
+    "consistency": 0.9967,
+    "n_examples": 300,
+    "_raw_flip_rate": 0.0033333333333333335,
+    "_raw_acc_drop": 0.33333333333332993,
+    "semantic_distance": 0.0,
+    "sensitivity_score": 0.0011,
+    "category": "structural",
+    "n_unique_preds": 2,
+    "majority_label": "A",
+    "majority_frac": 0.9967,
+    "collapsed": true,
+    "direction": "drop"
+  },
+  "pert_results": [
+    {
+      "idx": 0,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.\nHypothesis: Unfortunately his face had been mutilated in as least one way. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.71875,
+        "B": -17.671875,
+        "C": -18.90625
+      },
+      "margin": 4.953125
+    },
+    {
+      "idx": 1,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: and the wind started blowing and it was one of my earlier trips to be really out in the middle of\nHypothesis: The wind was really blowing during the trip.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.14453125,
+        "B": -7.71875,
+        "C": -8.6796875
+      },
+      "margin": 1.57421875
+    },
+    {
+      "idx": 2,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Why shouldn't he be? \nHypothesis: He is already that way.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8984375,
+        "B": -9.46875,
+        "C": -10.671875
+      },
+      "margin": 2.5703125
+    },
+    {
+      "idx": 3,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Land of Lincoln helped Tasha Johnson of Marion get Social Security benefits to support her four children after the 29-year-old woman was diagnosed with non-Hodgkin's lymphoma, a type of cancer, she said.\nHypothesis: She was cancer free at 29 years of age.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.42578125,
+        "B": -9.1875,
+        "C": -10.140625
+      },
+      "margin": 2.76171875
+    },
+    {
+      "idx": 4,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: High Crimes is painfully shoddy, even for a book rushed to press.\nHypothesis: High Crimes was carefully written and was not rushed. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.71875,
+        "B": -17.3125,
+        "C": -18.53125
+      },
+      "margin": 4.59375
+    },
+    {
+      "idx": 5,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Thus, recent evidence suggests that by not including an estimate of reductions in short-term mortality due to changes in ambient ozone, both the Base and Alternative Estimates may underestimate the benefits of implementation of the Clear Skies Act.\nHypothesis: Base and Alternative estimates perfectly understand the benefits of implementing the Clear Skies Act.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.515625,
+        "B": -9.109375,
+        "C": -10.1171875
+      },
+      "margin": 2.59375
+    },
+    {
+      "idx": 6,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: and i don't think they've repainted since\nHypothesis: I'm not sure if they've repainted it since.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.265625,
+        "B": -8.5859375,
+        "C": -9.7578125
+      },
+      "margin": 2.3203125
+    },
+    {
+      "idx": 7,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: If there was a bit of Fuller in Leonardo, there was also a bit of Liberace in this theatrical, high-living dandy who favored brocade doublets and bad boys with pretty faces.\nHypothesis: Leonardo's character was based on the lifestyle of Liberace.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.109375,
+        "B": -9.8984375,
+        "C": -10.5078125
+      },
+      "margin": 3.7890625
+    },
+    {
+      "idx": 8,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In the ancestral environment a man would be likely to have more offspring if he got his pick of the most fertile-seeming women.\nHypothesis: Only a man who stayed with one female spread his genes most efficiently.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.96484375,
+        "B": -9.6640625,
+        "C": -10.9453125
+      },
+      "margin": 2.69921875
+    },
+    {
+      "idx": 9,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The town is also known for its sparkling wine and for the caves where about 70 per?\u00adcent of France's cultivated mushrooms are grown.\nHypothesis: The town grows 40% of the sparkling wine.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.33203125,
+        "B": -8.90625,
+        "C": -10.078125
+      },
+      "margin": 2.57421875
+    },
+    {
+      "idx": 10,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Judge Bailey was chosen because he should be looked at as the representative of all future winners.\nHypothesis: The judge was an upstanding guy.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6484375,
+        "B": -9.6484375,
+        "C": -10.5703125
+      },
+      "margin": 3.0
+    },
+    {
+      "idx": 11,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: (A bigger contribution may or may not mean, I really, really support Candidate X.) Freedom of association is an even bigger stretch--one that Justice Thomas would laugh out of court if some liberal proposed it.\nHypothesis: Justice Thomas wanted to have freedom of association.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7109375,
+        "B": -8.296875,
+        "C": -8.8828125
+      },
+      "margin": 2.5859375
+    },
+    {
+      "idx": 12,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: And really it's a great relief to think he's going, Hastings, continued my honest friend. \nHypothesis: \"Are you sure we can't do anything to keep him here?,\" admitted my long-time nemesis.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.13671875,
+        "B": -8.546875,
+        "C": -9.0390625
+      },
+      "margin": 2.41015625
+    },
+    {
+      "idx": 13,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Sainte-Anne itself has a long, broad beach used not only by fishermen in vividly painted boats, but also by families with small children.\nHypothesis: The families attending the beach of Sainte-Anne commonly purchase seafood meals from the fishermen as they return with their catch.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.74609375,
+        "B": -10.25,
+        "C": -10.859375
+      },
+      "margin": 3.50390625
+    },
+    {
+      "idx": 14,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Something in his mind seemed also to have developed a \"tan\" that let him face the bite of chance without flinching.\nHypothesis: He had already lost most of his life savings at the roulette wheel, so what did one more spin count for.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7109375,
+        "B": -8.390625,
+        "C": -8.5
+      },
+      "margin": 2.6796875
+    },
+    {
+      "idx": 15,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Emergency physician attitudes concerning intervention for alcohol abuse/dependence in the emergency department.\nHypothesis: Physicians were never consulted about substance abuse interventions in the ER.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.52734375,
+        "B": -9.4453125,
+        "C": -10.3046875
+      },
+      "margin": 2.91796875
+    },
+    {
+      "idx": 16,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Explanation building is the inverse  starting with the observations, the evaluator develops a picture of what is happening and why.\nHypothesis: Explanation building is going to be the standard approach in the future.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.7890625,
+        "B": -10.296875,
+        "C": -11.40625
+      },
+      "margin": 3.5078125
+    },
+    {
+      "idx": 17,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Divers can explore the deeps but you can also snorkel here, or take a glass-bottom boat or submarine tour to get a glimpse of this watery world.\nHypothesis: Divers do not like to explore the deeps here.  ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.50390625,
+        "B": -4.66015625,
+        "C": -5.51953125
+      },
+      "margin": 2.15625
+    },
+    {
+      "idx": 18,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Every August young women convene to light joss sticks and some even climb the nine-meter (30-ft) rock to pray for good husbands.\nHypothesis: Women converge on this place to light joss sticks and climb the rock.  ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.91015625,
+        "B": -4.97265625,
+        "C": -5.69140625
+      },
+      "margin": 2.0625
+    },
+    {
+      "idx": 19,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The last 12 years of his life are a blank.\nHypothesis: He can't remember the last 12 years of his life",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.03125,
+        "B": -13.4609375,
+        "C": -14.6484375
+      },
+      "margin": 2.4296875
+    },
+    {
+      "idx": 20,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Visigoths sack Rome\nHypothesis: The Visigoths were not successful.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8046875,
+        "B": -9.671875,
+        "C": -10.515625
+      },
+      "margin": 2.8671875
+    },
+    {
+      "idx": 21,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I am not aware of any studies comparing the number of words an average person could expect to hear spoken in a typical day 500 years ago vs. the number that can be heard now, but the increase surely is vast.\nHypothesis: It makes me upset that I've yet to see any study done on how many words the average person hears throughout the day.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.96875,
+        "B": -10.140625,
+        "C": -11.03125
+      },
+      "margin": 3.171875
+    },
+    {
+      "idx": 22,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: More detailed implementation plans also will be necessary to address business system, processes, and resource issues.\nHypothesis: Less detailed plans will be necessary to address business systems ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -18.1875,
+        "B": -19.75,
+        "C": -20.5625
+      },
+      "margin": 1.5625
+    },
+    {
+      "idx": 23,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: There are a number of expensive jewelry and other duty-free shops, all with goods priced in US dollars (duty-free goods must always be paid for in foreign currency).\nHypothesis: You can pay using the US dollar when buying goods from the duty-free shops.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.77734375,
+        "B": -9.9453125,
+        "C": -10.7421875
+      },
+      "margin": 3.16796875
+    },
+    {
+      "idx": 24,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Also, the final rule is not intended to have any retroactive effect and administrative procedures must be exhausted prior to any judicial challenge to the provisions of the rule.\nHypothesis: The final rule is meant to have a retroactive effect.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.49609375,
+        "B": -8.4296875,
+        "C": -9.453125
+      },
+      "margin": 1.93359375
+    },
+    {
+      "idx": 25,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: After being diagnosed with cancer, Carrey's Kaufman decides to do a show at Carnegie Hall.\nHypothesis: Carrey's Kaufman eventually recovers from the cancer he was diagnosed with.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.921875,
+        "B": -9.484375,
+        "C": -10.34375
+      },
+      "margin": 2.5625
+    },
+    {
+      "idx": 26,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It was like looking into a mirror, except infinitely more realistic.\nHypothesis: It was like looking into the toilet. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.984375,
+        "B": -16.40625,
+        "C": -18.03125
+      },
+      "margin": 4.421875
+    },
+    {
+      "idx": 27,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But they reached a shrubbery near the house quite unmolested.\nHypothesis: Try as they might, they could not reach the shrubbery unmolested.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.3046875,
+        "B": -8.859375,
+        "C": -9.8515625
+      },
+      "margin": 2.5546875
+    },
+    {
+      "idx": 28,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: that's right you can work yourself to death well i'm sorry to hear your color didn't come out so good over the weekend\nHypothesis: I'm glad it didn't go as planned. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.578125,
+        "B": -15.9296875,
+        "C": -18.609375
+      },
+      "margin": 3.3515625
+    },
+    {
+      "idx": 29,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Part of the original design, they were destroyed by Emperor Aurangzeb, who refused images susceptible to idolatry.\nHypothesis: The images have been restored by contemporary historians.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0859375,
+        "B": -8.8203125,
+        "C": -9.5546875
+      },
+      "margin": 2.734375
+    },
+    {
+      "idx": 30,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: i'm not sure what the overnight low was\nHypothesis: I don't know how cold it got last night, but it was definitely freezing.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.33984375,
+        "B": -9.2265625,
+        "C": -10.015625
+      },
+      "margin": 2.88671875
+    },
+    {
+      "idx": 31,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The Journal put the point succinctly to  Is any publicity good publicity?\nHypothesis: The Journal asked \"Is this a good political move?\"",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.90234375,
+        "B": -10.2890625,
+        "C": -10.859375
+      },
+      "margin": 3.38671875
+    },
+    {
+      "idx": 32,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Then he shrugged.\nHypothesis: He wasn't sure what to say.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -7.04296875,
+        "B": -9.96875,
+        "C": -10.875
+      },
+      "margin": 2.92578125
+    },
+    {
+      "idx": 33,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Under the rule, HUD may also accept an assignment of\nHypothesis: Depending on the rule, hud may or may not be able to accept. They have to check first.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.59765625,
+        "B": -7.34375,
+        "C": -8.0859375
+      },
+      "margin": 1.74609375
+    },
+    {
+      "idx": 34,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Blair has just published a volume of speeches and articles titled New Britain : My\nHypothesis: Blair recently published an assortment of speeches.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.0078125,
+        "B": -7.51953125,
+        "C": -9.90625
+      },
+      "margin": 1.51171875
+    },
+    {
+      "idx": 35,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: now you know the ball'll go straight and i go  i never broke a club or anything but you know i'd get upset about it sometimes and now i guess you know being in my forties i just kind of mellowed out a little bit i don't get upset any more so\nHypothesis: I still get upset when I don't perform well.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.90625,
+        "B": -8.8125,
+        "C": -9.546875
+      },
+      "margin": 2.90625
+    },
+    {
+      "idx": 36,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: you know our church each year has a one of their major fund raisers is you know a garage sale and there's a ton of clothes always you know left over and i take those down to the uh\nHypothesis: Our church has a garage sale each year. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.2109375,
+        "B": -15.9453125,
+        "C": -18.390625
+      },
+      "margin": 2.734375
+    },
+    {
+      "idx": 37,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But is the Internet so miraculous an advertising vehicle that Gross will be able to siphon off $400 per person from total ad spending of $1,000 per family--or persuade advertisers to spend an additional $400 to reach each of his customers?\nHypothesis: The internet is so great at advertising that is saved Gross money.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.00390625,
+        "B": -8.7578125,
+        "C": -9.6328125
+      },
+      "margin": 2.75390625
+    },
+    {
+      "idx": 38,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The other bank pays the fund interest based upon tiered account levels, more typical of a large commercial account.\nHypothesis: The fund collects a flat interest rate from the bank.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.26953125,
+        "B": -9.03125,
+        "C": -9.7265625
+      },
+      "margin": 2.76171875
+    },
+    {
+      "idx": 39,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Long Bay is seven miles of sublime fine sand, gentle azure water, and cooling palm trees.\nHypothesis: Long Bay is a five mile stretch of sublime fine sand.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.43359375,
+        "B": -8.34375,
+        "C": -9.3203125
+      },
+      "margin": 1.91015625
+    },
+    {
+      "idx": 40,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Venice and its Repubblica Serena rebounded to turn to the mainland, extending its Veneto territory from Padua across the Po valley as far as Bergamo.\nHypothesis: Venice had hopes of expanding its territory.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.4609375,
+        "B": -9.5390625,
+        "C": -10.2578125
+      },
+      "margin": 3.078125
+    },
+    {
+      "idx": 41,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: As long as Assad lives, he can manage these troubles and keep an agreement with Israel.\nHypothesis: As long as Assad doesn't die in the hurricane, he will still be able to take care of the trouble with the soldiers. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.578125,
+        "B": -16.15625,
+        "C": -18.546875
+      },
+      "margin": 3.578125
+    },
+    {
+      "idx": 42,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Larger boats for up to 20 people, plus crew, offer organized gourmet cruises.\nHypothesis: You can easily find gourmet cruises.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.828125,
+        "B": -9.7890625,
+        "C": -10.6328125
+      },
+      "margin": 2.9609375
+    },
+    {
+      "idx": 43,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: , First-Class Mail used by households to pay their bills) and the household bill mail (i.e.\nHypothesis: First-Class Mail used by households to pay their bills",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.03125,
+        "B": -11.9609375,
+        "C": -11.2578125
+      },
+      "margin": 1.2265625
+    },
+    {
+      "idx": 44,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 36 AC usage nationally for mercury control from power plants should be roughly proportional to the total MWe of coal-fired facilities that are equipped with the technology (this assumes an average capacity factor of 85 percent and other assumptions of Tables 4-4 and 4-5).\nHypothesis: AC usage for mercury control should be related to total coal facilities MWe.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.63671875,
+        "B": -9.2578125,
+        "C": -9.515625
+      },
+      "margin": 2.62109375
+    },
+    {
+      "idx": 45,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Small boats tie up here with batches of crayfish, fresh fish, and eel, and housewives clamor for the fishermen to weigh their choices on rudimentary scales.\nHypothesis: The fishermen fish crayfish, fresh fish, and eel.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.51953125,
+        "B": -9.5390625,
+        "C": -10.34375
+      },
+      "margin": 3.01953125
+    },
+    {
+      "idx": 46,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The final rule contains a Federalism Assessment under Executive Order\nHypothesis: The final rule had a federalism assessment that was added through a special election.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.5859375,
+        "B": -7.09375,
+        "C": -7.37890625
+      },
+      "margin": 1.5078125
+    },
+    {
+      "idx": 47,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: She's a crutch.\nHypothesis: She's an essential, key role in this, and is being used as a crutch.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.203125,
+        "B": -8.8515625,
+        "C": -10.140625
+      },
+      "margin": 2.6484375
+    },
+    {
+      "idx": 48,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Nothing prior to May 7, 1915.\nHypothesis: Everything is before May 7, 1915.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.12890625,
+        "B": -8.4765625,
+        "C": -9.2734375
+      },
+      "margin": 2.34765625
+    },
+    {
+      "idx": 49,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It will be held in the Maryland woods, and the telecast will consist of jittery footage of the contestants' slow descent into madness as they are systematically stalked and disappeared/disqualified by Bob Barker.\nHypothesis: The show will be set in the woods north of Boston.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.82421875,
+        "B": -10.0546875,
+        "C": -11.0625
+      },
+      "margin": 3.23046875
+    },
+    {
+      "idx": 50,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: You're all right now.\nHypothesis: You're not okay now. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.6171875,
+        "B": -17.0625,
+        "C": -17.71875
+      },
+      "margin": 4.4453125
+    },
+    {
+      "idx": 51,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I don't know what I would have done without Legal Services, said James. \nHypothesis: James said Legal Services helped him a lot.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.578125,
+        "B": -9.203125,
+        "C": -10.3125
+      },
+      "margin": 2.625
+    },
+    {
+      "idx": 52,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I saw that a faint streak of daylight was showing through the curtains of the windows, and that the clock on the mantelpiece pointed to close upon five o'clock. \nHypothesis: I saw that it was still the middle of the night.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.42578125,
+        "B": -9.1875,
+        "C": -10.3046875
+      },
+      "margin": 2.76171875
+    },
+    {
+      "idx": 53,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: For their part, family-planning organizations and the Clinton administration seem equally adamant.\nHypothesis: family-planning organizations agree with the Clinton administration about certain things.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.71484375,
+        "B": -9.6875,
+        "C": -10.265625
+      },
+      "margin": 2.97265625
+    },
+    {
+      "idx": 54,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah it's just a matter of education i think\nHypothesis: I think it just depends on education.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.46484375,
+        "B": -9.1796875,
+        "C": -10.34375
+      },
+      "margin": 2.71484375
+    },
+    {
+      "idx": 55,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: A more unusual dish is azure, a kind of sweet porridge made with cereals, nuts, and fruit sprinkled with rosewater.\nHypothesis: Azure is the name of a coffee.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.31640625,
+        "B": -9.140625,
+        "C": -10.0234375
+      },
+      "margin": 2.82421875
+    },
+    {
+      "idx": 56,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise:  Folklore of Ibiza\nHypothesis: Ibiza's traditions and lore",
+      "gold_label": "A",
+      "predicted_label": "C",
+      "correct": false,
+      "label_logprobs": {
+        "A": -17.375,
+        "B": -17.09375,
+        "C": -16.875
+      },
+      "margin": 0.21875
+    },
+    {
+      "idx": 57,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It's thought he used the same architect who worked on the Taj Mahal.\nHypothesis: Everyone thinks he used a different architect from the one who worked on the Taj Mahal.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.41015625,
+        "B": -9.203125,
+        "C": -9.9765625
+      },
+      "margin": 2.79296875
+    },
+    {
+      "idx": 58,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Their supplies scarce, their harvest meager, and their spirit broken, they abandoned the fort in 1858.\nHypothesis: Their spirit was never broken despite having no more food.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.875,
+        "B": -8.625,
+        "C": -10.140625
+      },
+      "margin": 2.75
+    },
+    {
+      "idx": 59,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: If I work at it, I might even be able to pick up some endorsements from members of the Sonics.\nHypothesis: I'll be able to get endorsements from Sonic if I put some work into it.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.21875,
+        "B": -8.9140625,
+        "C": -9.984375
+      },
+      "margin": 2.6953125
+    },
+    {
+      "idx": 60,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Jon's feeling of age and weariness must have shown.\nHypothesis: Jon was weary and feeling his age.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.39453125,
+        "B": -9.1484375,
+        "C": -9.8671875
+      },
+      "margin": 2.75390625
+    },
+    {
+      "idx": 61,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Cultural transitions of major organizations are never easy to accomplish, and I would certainly not claim that it will be easy for GAO.\nHypothesis: GAO will likely have an easier time achieving cultural transitions than other organizations of similar size.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.16015625,
+        "B": -8.9921875,
+        "C": -9.640625
+      },
+      "margin": 2.83203125
+    },
+    {
+      "idx": 62,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: the the Iranian borders are still open uh from what i understand understand um\nHypothesis: From what I know the borders of Iran are still open.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.9765625,
+        "B": -8.0078125,
+        "C": -8.78125
+      },
+      "margin": 2.03125
+    },
+    {
+      "idx": 63,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: oh really i was um i was TDY at Bent Waters\nHypothesis: I enjoyed my temporary duty at Bent Waters. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.109375,
+        "B": -16.0,
+        "C": -18.515625
+      },
+      "margin": 2.890625
+    },
+    {
+      "idx": 64,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: Co-requesters cannot approve more co-requesters.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.54296875,
+        "B": -8.828125,
+        "C": -10.1015625
+      },
+      "margin": 2.28515625
+    },
+    {
+      "idx": 65,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The lucrative tin mines of Kuala Lumpur in the State of Selangor, of Sungai Ujong in Negeri Sembilan, and of Larut and Taiping in Perak were run for the Malay rulers by Chinese managers providing coolie labor.\nHypothesis: The Malay rulers directed administrated their own tin mines.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.70703125,
+        "B": -9.2421875,
+        "C": -10.2265625
+      },
+      "margin": 2.53515625
+    },
+    {
+      "idx": 66,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Did the ancestors of the Indians really come from Asia over the Aleutian land bridge?\nHypothesis: I wonder if the Indians ancestors actually came over the Aleutian land bridge? ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.390625,
+        "B": -16.546875,
+        "C": -18.640625
+      },
+      "margin": 4.15625
+    },
+    {
+      "idx": 67,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Overlapping the others?\nHypothesis: Separate from the others?",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.57421875,
+        "B": -8.8359375,
+        "C": -9.5546875
+      },
+      "margin": 3.26171875
+    },
+    {
+      "idx": 68,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah that's where i got to too the first i got chills up and down when i heard the on the radio and the first time they started doing the bombing\nHypothesis: The bombing in Korea was shocking to the world.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.08203125,
+        "B": -8.65625,
+        "C": -9.484375
+      },
+      "margin": 2.57421875
+    },
+    {
+      "idx": 69,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: And the trunk? Big? Mother asked again to keep up appearances.\nHypothesis: Mother, trying to keep up appearances, asked if the trunk was big.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.3515625,
+        "B": -9.2109375,
+        "C": -9.8046875
+      },
+      "margin": 2.859375
+    },
+    {
+      "idx": 70,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise:  The tents had been burned, but there was a new building where the main tent had been.\nHypothesis: The tents were in the way of the building.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.953125,
+        "B": -10.203125,
+        "C": -11.125
+      },
+      "margin": 3.25
+    },
+    {
+      "idx": 71,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But she's not like her photo one bit.\nHypothesis: The girl in the photo has freckles and red hair. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.1015625,
+        "B": -16.828125,
+        "C": -18.484375
+      },
+      "margin": 3.7265625
+    },
+    {
+      "idx": 72,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The baker was not jolly.\nHypothesis: The baker was very festive last night.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.125,
+        "B": -8.640625,
+        "C": -9.5234375
+      },
+      "margin": 2.515625
+    },
+    {
+      "idx": 73,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: taken up by the oh okay oh so you know well that's i had wondered sometimes i knew that there was a lot of a lot of effort and a lot of work went into a lot of that and i just wondered if if it lasted and if it took you know like yeah\nHypothesis: A great deal of effort and work went into that.  ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -2.57421875,
+        "B": -4.44921875,
+        "C": -5.57421875
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 74,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: um-hum yes i was amazed we spent the only time we played on our trip was in Douglas Arizona and uh that was just\nHypothesis: Douglas, Arizona was a highlight of our trip.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.8828125,
+        "B": -8.3984375,
+        "C": -9.46875
+      },
+      "margin": 2.515625
+    },
+    {
+      "idx": 75,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The formal splendor of the grounds testify to the 18th-century desire to tame nature, but it is done with such superlative results that one can only be thankful that the work was undertaken.\nHypothesis: The grounds were trashy and ugly.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.98828125,
+        "B": -8.796875,
+        "C": -9.953125
+      },
+      "margin": 2.80859375
+    },
+    {
+      "idx": 76,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The church has an even more elaborate Baroque pulpit.\nHypothesis: The church has a Barogue style pulpit",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.359375,
+        "B": -14.546875,
+        "C": -13.546875
+      },
+      "margin": 2.1875
+    },
+    {
+      "idx": 77,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I've always jumped on sentiment and here I am being more sentimental than anybody.\nHypothesis: I'm being the most sentimental of all, which isn't normal.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.2734375,
+        "B": -8.9375,
+        "C": -9.8359375
+      },
+      "margin": 2.6640625
+    },
+    {
+      "idx": 78,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: As a result, an estimated four out of five low-income people requiring legal help in our community do not receive it.\nHypothesis: The people with low incomes do not know what s available to them as far as legal help is concerned.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.54296875,
+        "B": -9.1796875,
+        "C": -9.9140625
+      },
+      "margin": 2.63671875
+    },
+    {
+      "idx": 79,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: him?\" she asked.\nHypothesis: She asked about him.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.74609375,
+        "B": -8.4375,
+        "C": -9.09375
+      },
+      "margin": 2.69140625
+    },
+    {
+      "idx": 80,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Legal Services Corp., 02-CV-3866, names as defendants the national Legal Services Corp., which distributes federal grants to providers, and Legal Services of New Jersey, which distributes state money.\nHypothesis: Legal Services Corp. wasn't a named defendant.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.70703125,
+        "B": -9.828125,
+        "C": -9.5625
+      },
+      "margin": 2.85546875
+    },
+    {
+      "idx": 81,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: He works himself into a fake froth; does some calculated, halfhearted gonzo writing; then collects a fat check.\nHypothesis: He's well-known in writing circles as a hack who is willing to sell out to the highest bidder.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.25,
+        "B": -9.2265625,
+        "C": -9.9453125
+      },
+      "margin": 2.9765625
+    },
+    {
+      "idx": 82,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Working for Philip Morris isn't like defending an indigent murderer in a death penalty appeal.\nHypothesis: Working for Philip Morris is a legal challenge.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.87109375,
+        "B": -10.1796875,
+        "C": -10.8359375
+      },
+      "margin": 3.30859375
+    },
+    {
+      "idx": 83,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: U.S. civil legal services delivery system.\nHypothesis: The us has a legal services delivery system ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -14.1171875,
+        "B": -18.953125,
+        "C": -19.6875
+      },
+      "margin": 4.8359375
+    },
+    {
+      "idx": 84,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Daniel nodded, fetching me a glass of beer.\nHypothesis: It was Daniel who got me the beer. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.4140625,
+        "B": -16.828125,
+        "C": -18.671875
+      },
+      "margin": 4.4140625
+    },
+    {
+      "idx": 85,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: probably yeah i would imagine the judge could throw it out\nHypothesis: I would guess that the judge would be able to toss that out.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.7890625,
+        "B": -9.125,
+        "C": -10.2421875
+      },
+      "margin": 2.3359375
+    },
+    {
+      "idx": 86,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: When Mr. Hastings and Mr. Lawrence came in yesterday evening, they found your mistress busy writing letters. \nHypothesis: Last night no one saw your mistress.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.30078125,
+        "B": -9.4453125,
+        "C": -10.3515625
+      },
+      "margin": 3.14453125
+    },
+    {
+      "idx": 87,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Look out for that overseer up there.\nHypothesis: You do not need to worry about that overseer.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.625,
+        "B": -9.40625,
+        "C": -10.5625
+      },
+      "margin": 2.78125
+    },
+    {
+      "idx": 88,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: He needs to keep his finger on the pulse to succeed during the short tourist season.\nHypothesis: The tourism season is so long that he will be successful eventually.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.109375,
+        "B": -8.84375,
+        "C": -9.75
+      },
+      "margin": 2.734375
+    },
+    {
+      "idx": 89,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Although it's hard to disagree with James Surowiecki's roasting of Wade Cook in The Book on Cook, Surowiecki's assertion that the equity stock option market is simply a big casino that contribute[s] nothing to the smooth functioning of capital markets is both wrong and silly.\nHypothesis: James Surowiecki asserts that the equity stock option market contributes nothing to the smooth functioning of capital markets.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.2890625,
+        "B": -10.3984375,
+        "C": -11.2578125
+      },
+      "margin": 3.109375
+    },
+    {
+      "idx": 90,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: My own little corner of the world, policy wonking, is an example.\nHypothesis: An example is birdwatching.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.9921875,
+        "B": -8.625,
+        "C": -9.8046875
+      },
+      "margin": 2.6328125
+    },
+    {
+      "idx": 91,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: To reach any of the three Carbet falls, you must continue walking after the roads come to an end for 20 minutes, 30 minutes, or two hours respectively.\nHypothesis: To reach any of the three Carbet falls you can take any of the three paths, it doesn't matter which because they are all the same length.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8671875,
+        "B": -9.40625,
+        "C": -10.4375
+      },
+      "margin": 2.5390625
+    },
+    {
+      "idx": 92,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Thorn held a sword different from any Ca'daan had ever seen.\nHypothesis: Ca'daan had never seen someone hold a sword like Thorn held it.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.86328125,
+        "B": -9.734375,
+        "C": -10.46875
+      },
+      "margin": 2.87109375
+    },
+    {
+      "idx": 93,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: To savour the full effect of the architect's skill, enter the courtyard through the gate which opens onto the Hippodrome.\nHypothesis: The gate to the Hippodrome is an example of the architect's skill.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.0625,
+        "B": -8.9765625,
+        "C": -9.9453125
+      },
+      "margin": 2.9140625
+    },
+    {
+      "idx": 94,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Local legend claims that he wrote part of his great saga, Os Lusadas, in what is now called the Camees Grotto, situated in the spacious tropical Camees Garden.\nHypothesis: It is claimed that a portion of Os Lusadas was written in the Camees Grotto.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.43359375,
+        "B": -9.734375,
+        "C": -10.7578125
+      },
+      "margin": 3.30078125
+    },
+    {
+      "idx": 95,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707 of the Employee Retirement Income Security Act (Pub.\nHypothesis: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.0390625,
+        "B": -6.63671875,
+        "C": -7.86328125
+      },
+      "margin": 1.59765625
+    },
+    {
+      "idx": 96,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In most methods, we plan for data collection, then we collect the information, then we analyze it, and then we write the report.\nHypothesis: information is collected, analyzed, and then a report is written.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.34765625,
+        "B": -9.40625,
+        "C": -10.2890625
+      },
+      "margin": 3.05859375
+    },
+    {
+      "idx": 97,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Sandstone and granite were the materials used to build the Baroque church of Bom Jesus, famous for its casket of St. Francis Xavier's relics in the mausoleum to the right of the altar.\nHypothesis: Sandstone and granite were chosen as the materials for the Baroque church of Bom Jesus because of how sturdy they are.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.640625,
+        "B": -10.3359375,
+        "C": -11.1484375
+      },
+      "margin": 3.6953125
+    },
+    {
+      "idx": 98,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: i cried when the horse got killed and when the wolf got killed\nHypothesis: I went through the entire thing without crying.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.56640625,
+        "B": -9.375,
+        "C": -9.9375
+      },
+      "margin": 2.80859375
+    },
+    {
+      "idx": 99,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This is the island's main city and financial, governmental, and administrative centre, and its charms match those of other Mediterranean  jewels.  \nHypothesis: The city is the island's governmental and financial centre. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.0859375,
+        "B": -16.9375,
+        "C": -18.515625
+      },
+      "margin": 3.8515625
+    },
+    {
+      "idx": 100,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: So unlike people who are fortunate enough to be able to afford attorneys and can go to another lawyer, our clients are simply lost in the legal system if they cannot get access to it from us.\nHypothesis: Our clients can afford attorneys and bouncing between lawyers.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.44140625,
+        "B": -8.8984375,
+        "C": -10.3203125
+      },
+      "margin": 2.45703125
+    },
+    {
+      "idx": 101,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: British action wouldn't have mattered.\nHypothesis: It wouldn't have mattered if Britain got involved.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.04296875,
+        "B": -9.1484375,
+        "C": -10.1796875
+      },
+      "margin": 2.10546875
+    },
+    {
+      "idx": 102,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Under Ferdinand and Isabella, Spain underwent a dramatic transformation.\nHypothesis: Ferdinand and Isabella caused stunning changes to take place in Spain.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.8515625,
+        "B": -9.1875,
+        "C": -9.8984375
+      },
+      "margin": 2.3359375
+    },
+    {
+      "idx": 103,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: We should seek to achieve the most good or benefit, with the least harm and destruction of things that we value, he argued.\nHypothesis: He argued that we should recklessly destroy all the things that we care the most about.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.5390625,
+        "B": -9.234375,
+        "C": -10.3515625
+      },
+      "margin": 2.6953125
+    },
+    {
+      "idx": 104,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: and i and i may have been the only one that did both because the mentality in Dallas was that you couldn't like both you had to like one and hate the other\nHypothesis: In Dallas, the mentality is that you have to like both of them.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.28515625,
+        "B": -8.953125,
+        "C": -9.5390625
+      },
+      "margin": 2.66796875
+    },
+    {
+      "idx": 105,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: On the west side of the square is Old King's House (built in 1762), which was the official residence of the British governor; it was here that the proclamation of emancipation was issued in 1838.\nHypothesis: The Old King's House had an incident where the King was murdered inside of it.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.66796875,
+        "B": -10.5234375,
+        "C": -11.5390625
+      },
+      "margin": 3.85546875
+    },
+    {
+      "idx": 106,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: ooh that does get high yeah i mean\nHypothesis: That does get high because you want so many different extras.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.5234375,
+        "B": -9.3125,
+        "C": -10.25
+      },
+      "margin": 2.7890625
+    },
+    {
+      "idx": 107,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: GAO's recommendations are intended to improve the economy, efficiency, and effectiveness of an agency's operations and to improve the accountability of the federal government for the benefit of the American people.\nHypothesis: The American people look up to the GAO to handle and improve the economy of an agency's operations.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.89453125,
+        "B": -8.96875,
+        "C": -10.6015625
+      },
+      "margin": 2.07421875
+    },
+    {
+      "idx": 108,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: i like the Moody Blues\nHypothesis: I do not like the music of the Moody Blues.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.765625,
+        "B": -7.71875,
+        "C": -8.2578125
+      },
+      "margin": 1.953125
+    },
+    {
+      "idx": 109,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Mortifyingly enough, it is all  the difficulty, the laziness, the pathetic formlessness in youth, the round peg in the square hole, the whatever do you want?\nHypothesis: Youth are always formless and lazy.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.1484375,
+        "B": -8.59375,
+        "C": -9.546875
+      },
+      "margin": 2.4453125
+    },
+    {
+      "idx": 110,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 8 A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product, while a stoichiometry of 1.05 is needed to produce waste suitable for a landfill.\nHypothesis: A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -10.03125,
+        "B": -12.3359375,
+        "C": -13.1640625
+      },
+      "margin": 2.3046875
+    },
+    {
+      "idx": 111,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: He's a bad lot. \nHypothesis: He's a dishonest person",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.7890625,
+        "B": -12.5859375,
+        "C": -13.25
+      },
+      "margin": 2.796875
+    },
+    {
+      "idx": 112,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah okay yeah those games are fun to watch you you you watch those games\nHypothesis: Those games are a lot of fun.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.66796875,
+        "B": -8.7890625,
+        "C": -11.1171875
+      },
+      "margin": 2.12109375
+    },
+    {
+      "idx": 113,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: you know your children are going you know you've got five children in school instead of somebody that only has one or none and so you they're paying more income tax to pay for your children to go to school it just you know doesn't make sense\nHypothesis: The income tax laws need to be changed to make them fair.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6875,
+        "B": -9.8359375,
+        "C": -10.765625
+      },
+      "margin": 3.1484375
+    },
+    {
+      "idx": 114,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: These are issues that we wrestle with in practice groups of law firms, she said. \nHypothesis: The practice groups find possible solutions to the issues.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.328125,
+        "B": -9.984375,
+        "C": -10.90625
+      },
+      "margin": 3.65625
+    },
+    {
+      "idx": 115,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The governing statute provides that a committee consisting of the Comptroller General, the Speaker of the House and President Pro Tempore of the Senate, the Majority and Minority leaders, and the Chairmen and Ranking Minority Members of the Senate Governmental Affairs and House Government Reform Committees recommend an individual to the President for appointment.\nHypothesis: The governing statute has considerations that have to be followed.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.1875,
+        "B": -9.734375,
+        "C": -10.3125
+      },
+      "margin": 3.546875
+    },
+    {
+      "idx": 116,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: And put like that, she added confidentially to Tommy, \"nobody could boggle at the expense!\" Nobody did, which was the great thing.\nHypothesis: People boggled at the expense.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.1640625,
+        "B": -8.0390625,
+        "C": -9.28125
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 117,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Others are Zao (in Tohoku) and a number of resorts in Joshin-etsu Kogen National Park in the Japan Alps, where there are now splendid facilities thanks to the 1998 Winter Olympic Games in Nagano.\nHypothesis: There are a lot of resorts in the national park.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.06640625,
+        "B": -9.921875,
+        "C": -11.625
+      },
+      "margin": 2.85546875
+    },
+    {
+      "idx": 118,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: They just don't like it as much as men do.\nHypothesis: Guys seem to like it way more than them.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.03125,
+        "B": -10.1640625,
+        "C": -11.1875
+      },
+      "margin": 3.1328125
+    },
+    {
+      "idx": 119,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Blue says Blumenthal claimed Clinton had told him that Lewinsky had made unwanted sexual advances.\nHypothesis: Clinton allegedly told Blumenthal that Lewinsky made unwanted sexual advances towards him. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -11.734375,
+        "B": -15.4921875,
+        "C": -17.375
+      },
+      "margin": 3.7578125
+    },
+    {
+      "idx": 120,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah i think i'll probably just have to go with one of those splint braces or something\nHypothesis: The doctors will most likely say to use a splint brace. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.2421875,
+        "B": -15.6953125,
+        "C": -17.890625
+      },
+      "margin": 3.453125
+    },
+    {
+      "idx": 121,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Jon shifted and the sword tip slid past.\nHypothesis: Jon was too slow and the sword got him in the stomach.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.47265625,
+        "B": -9.390625,
+        "C": -10.0
+      },
+      "margin": 2.91796875
+    },
+    {
+      "idx": 122,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: To be fair, Si doesn't pay for all such treats.\nHypothesis: Si only pays for some treats.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.87109375,
+        "B": -9.328125,
+        "C": -9.7890625
+      },
+      "margin": 2.45703125
+    },
+    {
+      "idx": 123,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Per week?\nHypothesis: Every day.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.6328125,
+        "B": -7.5234375,
+        "C": -8.515625
+      },
+      "margin": 1.890625
+    },
+    {
+      "idx": 124,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This one-at-a-time, uncoordinated series of regulatory requirements for the power industry is not the optimal approach for the environment, the power generation sector, or American consumers.\nHypothesis: The environment and American consumers are better off as a result of this regulation.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.24609375,
+        "B": -9.1171875,
+        "C": -10.0546875
+      },
+      "margin": 2.87109375
+    },
+    {
+      "idx": 125,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Write, write, and write.\nHypothesis: Keep on writing.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.43359375,
+        "B": -9.1328125,
+        "C": -10.0
+      },
+      "margin": 2.69921875
+    },
+    {
+      "idx": 126,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Many had to leave their birthplaces, fleeing to Lesvos, Chios, and Samos, the Greek-ruled islands just offshore.\nHypothesis: The Greek people were in danger.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.69921875,
+        "B": -9.3125,
+        "C": -9.828125
+      },
+      "margin": 2.61328125
+    },
+    {
+      "idx": 127,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: All of the islands are now officially and proudly part of France, not colonies as they were for some three centuries.\nHypothesis: The islands were not allowed to join France.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.53125,
+        "B": -9.4375,
+        "C": -10.4140625
+      },
+      "margin": 2.90625
+    },
+    {
+      "idx": 128,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: And she came to you?\nHypothesis: The person asked if the woman came to him.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.58203125,
+        "B": -9.375,
+        "C": -10.375
+      },
+      "margin": 2.79296875
+    },
+    {
+      "idx": 129,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: After four years, Clinton has learned how to avoid looking unpresidential.\nHypothesis: After four torturous years, Clinton finally gets how to avoid unpresidential behavior.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.73828125,
+        "B": -9.4375,
+        "C": -10.03125
+      },
+      "margin": 2.69921875
+    },
+    {
+      "idx": 130,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 'Wait here,' I was ordered.\nHypothesis: He told me to come with him.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.125,
+        "B": -9.2890625,
+        "C": -10.03125
+      },
+      "margin": 3.1640625
+    },
+    {
+      "idx": 131,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In fact, European nations need to do some serious fiscal housecleaning.\nHypothesis: European nations have a lot of wasteful spending practices.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.41015625,
+        "B": -9.3671875,
+        "C": -9.984375
+      },
+      "margin": 2.95703125
+    },
+    {
+      "idx": 132,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: After criticizing the GOP openly for weeks, Buchanan announced that he would seek the Reform presidential nomination, which would bring him $12 million in federal funds.\nHypothesis: Buchanan decided to seek the presidential nomination after he had been criticizing the GOP.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.4296875,
+        "B": -9.609375,
+        "C": -10.171875
+      },
+      "margin": 3.1796875
+    },
+    {
+      "idx": 133,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah yeah you know we're kind of that way too i try to i'm the same way you are i kind of try to judge from day to day i know you know where i am we work a lot with the customers and we have a lot of government folks come in all the time and\nHypothesis: We've never had a visit from someone from the government.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.4921875,
+        "B": -8.59375,
+        "C": -9.5234375
+      },
+      "margin": 2.1015625
+    },
+    {
+      "idx": 134,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah because i was saying to him i said i'm not that heavy i'm not heavy you know maybe ten to fifteen pounds like any other human being\nHypothesis: i told him i've gained a lot of weight",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.703125,
+        "B": -12.7890625,
+        "C": -13.1796875
+      },
+      "margin": 2.0859375
+    },
+    {
+      "idx": 135,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: did you well it's not just that are there enough jobs for people here now\nHypothesis: there still aren't enough jobs for everyone here",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -10.5546875,
+        "B": -11.9765625,
+        "C": -13.59375
+      },
+      "margin": 1.421875
+    },
+    {
+      "idx": 136,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: While documenting the basis for judgments can be more difficult than documenting nonjudgmental information, overall the chain of evidence or audit trail techniques should not pose any greater difficulty for GAO evaluators than our documentation procedures for other evaluation methods.\nHypothesis: GAO evaluators should not have much more difficulty with the chain of evidence.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.84375,
+        "B": -9.140625,
+        "C": -9.765625
+      },
+      "margin": 2.296875
+    },
+    {
+      "idx": 137,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: If a trace of tropical lethargy still adds to the charm in this city of sidewalk cafe, palm trees, and pedicabs, any torpor definitely ends once inside the doors of Macau's casinos, scene of some of the liveliest gambling west of Las Vegas.\nHypothesis: Macau's casinos are some of the dullest establishments in Asia.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.453125,
+        "B": -9.6796875,
+        "C": -10.5546875
+      },
+      "margin": 3.2265625
+    },
+    {
+      "idx": 138,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: With most plants needing to install control equipment to meet these requirements, it is likely that this approach would lead to installation of controls that become obsolete and stranded capital investments as additional requirements are promulgated.\nHypothesis: Most plants need to install control equipment to meet requirements.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.453125,
+        "B": -9.5703125,
+        "C": -10.0703125
+      },
+      "margin": 3.1171875
+    },
+    {
+      "idx": 139,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah then you don't have you don't have that mess to clean up when you use an oil oil base painting and boy i'll tell you oh\nHypothesis: I've had to clean up oil base paint before, it isn't fun. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.2421875,
+        "B": -15.546875,
+        "C": -17.625
+      },
+      "margin": 3.3046875
+    },
+    {
+      "idx": 140,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Workers are also represented in civil rights and retaliation claims.\nHypothesis: Some workers are represented in civil rights and retaliation claims.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.5625,
+        "B": -9.34375,
+        "C": -10.140625
+      },
+      "margin": 2.78125
+    },
+    {
+      "idx": 141,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: You wonder what youre going to be when you grow up, lawyer Smith said. \nHypothesis: The lawyer, Smith, pointed out that you wanted to know what you would be when you grew up.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.48046875,
+        "B": -9.1875,
+        "C": -10.2578125
+      },
+      "margin": 2.70703125
+    },
+    {
+      "idx": 142,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: The State and Federal courts are the same regardless of location.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.33203125,
+        "B": -9.1953125,
+        "C": -10.1484375
+      },
+      "margin": 2.86328125
+    },
+    {
+      "idx": 143,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Local residents will tell you where to find them.\nHypothesis: There are local tour guides to help you find them.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.34375,
+        "B": -10.5078125,
+        "C": -11.0546875
+      },
+      "margin": 4.1640625
+    },
+    {
+      "idx": 144,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: they just didn't watch him on TV\nHypothesis: They watched him on TV all the time. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.4140625,
+        "B": -16.765625,
+        "C": -17.796875
+      },
+      "margin": 4.3515625
+    },
+    {
+      "idx": 145,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Are you sure we should take him down there?' Greuze asked Natalia.\nHypothesis: Natalia was certain it was alright to bring him down there, and told Greuze that no matter what, he must end up down there. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.0234375,
+        "B": -15.7421875,
+        "C": -18.359375
+      },
+      "margin": 3.71875
+    },
+    {
+      "idx": 146,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This is a powerful and evocative museum.\nHypothesis: The museum is powerful.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.4453125,
+        "B": -8.953125,
+        "C": -10.0078125
+      },
+      "margin": 2.5078125
+    },
+    {
+      "idx": 147,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: David Cope, a professor of music at the University of California at Santa Cruz, claims to have created a 42 nd Mozart symphony.\nHypothesis: Professor of Music David Cope claims to have written a 43rd Mozart Symphony.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.09375,
+        "B": -8.6171875,
+        "C": -9.3203125
+      },
+      "margin": 2.5234375
+    },
+    {
+      "idx": 148,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: As a professional courtesy, GAO will inform requesters of substantive media inquiries during an ongoing assignment.\nHypothesis: It is rare for GAO to do something as a professional courtesy. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.75,
+        "B": -18.296875,
+        "C": -19.8125
+      },
+      "margin": 4.546875
+    },
+    {
+      "idx": 149,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: No, Dave Hanson, you were too important to us for that.\nHypothesis: No, Dave Hanson, you were too important to us.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.3359375,
+        "B": -10.046875,
+        "C": -10.4609375
+      },
+      "margin": 2.7109375
+    },
+    {
+      "idx": 150,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: His plan was to drive straight up to the house.\nHypothesis: He had planned to drive a block away from the house and slowly creep up.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.9609375,
+        "B": -9.1015625,
+        "C": -10.1953125
+      },
+      "margin": 3.140625
+    },
+    {
+      "idx": 151,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: uh-huh yeah yeah they're good\nHypothesis: They were better before.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -7.03515625,
+        "B": -8.9921875,
+        "C": -10.390625
+      },
+      "margin": 1.95703125
+    },
+    {
+      "idx": 152,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: South Carolina has no referendum right, so the Supreme Court canceled the vote and upheld the ban.\nHypothesis: South Carolina has a referendum right, so the Supreme Court was powerless over the state.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.2109375,
+        "B": -9.1171875,
+        "C": -10.203125
+      },
+      "margin": 2.90625
+    },
+    {
+      "idx": 153,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah yeah and i took a five year note out on my car when i right when i got out of college and uh i'll never do that again i still got a couple of years on it to go and i'm\nHypothesis: My biggest mistake was taking a five year note out on my car.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.73828125,
+        "B": -8.5390625,
+        "C": -9.2890625
+      },
+      "margin": 2.80078125
+    },
+    {
+      "idx": 154,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The majority of the agencies that responded appreciated GAO's initiative to develop the protocols and said that they were comprehensive and provided a framework for meaningful communication.\nHypothesis: The agencies that responded despised the initiative by GAO.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.71484375,
+        "B": -9.3671875,
+        "C": -10.5625
+      },
+      "margin": 2.65234375
+    },
+    {
+      "idx": 155,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: no no not at all it\nHypothesis: Not all of the animals",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.3046875,
+        "B": -12.1328125,
+        "C": -13.1953125
+      },
+      "margin": 2.828125
+    },
+    {
+      "idx": 156,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Starting from Scratch\nHypothesis: Hanging on to what we have.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8828125,
+        "B": -9.5546875,
+        "C": -10.359375
+      },
+      "margin": 2.671875
+    },
+    {
+      "idx": 157,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: year, they gave morethan a half million dollars to Western Michigan Legal Services.\nHypothesis: Western Michigan Legal Services got half a million dollars from them.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.62109375,
+        "B": -8.2109375,
+        "C": -9.2109375
+      },
+      "margin": 2.58984375
+    },
+    {
+      "idx": 158,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I thought working on Liddy's campaign would be better than working on Bob's.\nHypothesis: Turns out, I was wrong and wished I had worked on Bob's campaign.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.96875,
+        "B": -9.8515625,
+        "C": -10.5625
+      },
+      "margin": 2.8828125
+    },
+    {
+      "idx": 159,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: or yeah exactly and that's what i say you'll you'll be you'll be so much better off for it as you get older because you know a lot of kids resent things that parents tell them and and stuff but it's because you've been there\nHypothesis: Kids don't like what their parents have told them. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.0,
+        "B": -15.515625,
+        "C": -17.359375
+      },
+      "margin": 3.515625
+    },
+    {
+      "idx": 160,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I felt an immeasurable 230 contempt for him\u2026 .\nHypothesis: I felt great respect for him...",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.80078125,
+        "B": -8.5703125,
+        "C": -8.4453125
+      },
+      "margin": 2.64453125
+    },
+    {
+      "idx": 161,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Do not talk.\nHypothesis: You should start talking now.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.62109375,
+        "B": -7.93359375,
+        "C": -8.671875
+      },
+      "margin": 2.3125
+    },
+    {
+      "idx": 162,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Another thing those early French and Dutch settlers agreed upon was that their island should be free of levies on any imported goods.\nHypothesis: The French settlers did not mind income taxes at all.  ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -2.53125,
+        "B": -4.59375,
+        "C": -5.34375
+      },
+      "margin": 2.0625
+    },
+    {
+      "idx": 163,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: GAO also issued over 160 reports detailing specific findings and made over 100 recommendations to agencies and to the President's Council on Year 2000 Conversion for improving the government's readiness.\nHypothesis: The GAO made no difference to the President's Council on Year 2000 and issued no reports at all.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.9140625,
+        "B": -9.7890625,
+        "C": -10.765625
+      },
+      "margin": 2.875
+    },
+    {
+      "idx": 164,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 'Why isn't a lookalike good enough for them?'\nHypothesis: What are the reasons the lookalike isn't good enough?",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.44140625,
+        "B": -9.8984375,
+        "C": -10.2421875
+      },
+      "margin": 3.45703125
+    },
+    {
+      "idx": 165,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: All these sites will automatically lead into George Dubbawya's Web site (www.georgewbush.com).\nHypothesis: These sites lead to George W. Bush's website.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.390625,
+        "B": -8.953125,
+        "C": -9.6171875
+      },
+      "margin": 2.5625
+    },
+    {
+      "idx": 166,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: If I had chosen to be an actor, I should have been the greatest actor living! \nHypothesis: I chose to become an actor, but I wasn't very good at it. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.2734375,
+        "B": -17.5625,
+        "C": -18.8125
+      },
+      "margin": 3.2890625
+    },
+    {
+      "idx": 167,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Recent SAB deliberations on mortality and morbidity valuation approaches suggest that some adjustments to unit values are appropriate to reflect economic theory (EPA-SAB-EEAC-00-013, 2000).\nHypothesis: Adjustments can never be made to mortality valuation.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.36328125,
+        "B": -8.5625,
+        "C": -9.9140625
+      },
+      "margin": 2.19921875
+    },
+    {
+      "idx": 168,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: so uh i hope you like your office\nHypothesis: I hope you like your new office.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6484375,
+        "B": -8.9765625,
+        "C": -10.265625
+      },
+      "margin": 2.328125
+    },
+    {
+      "idx": 169,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Yet, in the mouths of the white townsfolk of Salisbury, N.C., it sounds convincing.\nHypothesis: White townsfolk in Salisbury, N.C. think it sounds convincing.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.47265625,
+        "B": -9.7734375,
+        "C": -10.4765625
+      },
+      "margin": 3.30078125
+    },
+    {
+      "idx": 170,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Postal Service could increase those same rates by at least 13.\nHypothesis: The rates can not be changed by the Postal Service.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.80859375,
+        "B": -8.15625,
+        "C": -8.9453125
+      },
+      "margin": 2.34765625
+    },
+    {
+      "idx": 171,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Recently, however, I have settled down and become decidedly less experimental.\nHypothesis: Lately, I have not been as wild and curious as I used to be.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.8359375,
+        "B": -8.9140625,
+        "C": -9.6953125
+      },
+      "margin": 3.078125
+    },
+    {
+      "idx": 172,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah i mean just when uh the they military paid for her education\nHypothesis: The military didn't pay for her education.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.18359375,
+        "B": -7.77734375,
+        "C": -8.984375
+      },
+      "margin": 1.59375
+    },
+    {
+      "idx": 173,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Taking an ecumenical tack, nation officials in Chicago recently issued edicts commanding preachers to back off their anti-Semitic rhetoric.\nHypothesis: Nation officials in Chicago are involved in religious issues.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.21875,
+        "B": -8.828125,
+        "C": -9.8203125
+      },
+      "margin": 2.609375
+    },
+    {
+      "idx": 174,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The Ile Saint-Louis is an enchanted self-contained island of gracious living, long popular with the more affluent gentry and celebrities of Paris.\nHypothesis: The Ile Saint-Louis is popular with the wealthier citizens of Paris.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.69140625,
+        "B": -9.734375,
+        "C": -10.71875
+      },
+      "margin": 3.04296875
+    },
+    {
+      "idx": 175,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In the meantime, the philosophy is to seize present-day opportunities in the thriving economy.\nHypothesis: The philosophy was to seize opportunities when the economy is doing poorly.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.18359375,
+        "B": -9.125,
+        "C": -10.0859375
+      },
+      "margin": 2.94140625
+    },
+    {
+      "idx": 176,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Diamonds are graded from D to X, with only D, E, and F considered good, D being colorless or  river white,  J  slightly tinted,  Q  light yellow,  and S to X  yellow.  \nHypothesis: The most expensive diamonds on the planet are graded with D.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.90625,
+        "B": -9.3984375,
+        "C": -9.90625
+      },
+      "margin": 2.4921875
+    },
+    {
+      "idx": 177,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Expenses included in calculating net cost for education and training programs that are intended to increase or maintain national economic productive capacity shall be reported as investments in human capital as required supplementary stewardship information accompanying the financial statements of the Federal Government and its component units.\nHypothesis: Net cost for college programs can be calculated as a way to increase productivity.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.55078125,
+        "B": -9.7109375,
+        "C": -10.3515625
+      },
+      "margin": 3.16015625
+    },
+    {
+      "idx": 178,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: oh i enjoyed it i mean it was just more for my money\nHypothesis: The performance was a good deal.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0078125,
+        "B": -8.640625,
+        "C": -9.8125
+      },
+      "margin": 2.6328125
+    },
+    {
+      "idx": 179,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Beyond the Quantitative Cul-de- A Qualitative Perspective on Youth Employment Programs.\nHypothesis: The paper says youth employment programs are helpful.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.26953125,
+        "B": -7.75,
+        "C": -9.546875
+      },
+      "margin": 1.48046875
+    },
+    {
+      "idx": 180,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah well at least as they told us uh two shifts\nHypothesis: They said there was only one shift.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.16015625,
+        "B": -8.625,
+        "C": -9.71875
+      },
+      "margin": 2.46484375
+    },
+    {
+      "idx": 181,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Hall said that Britain has enjoyed a half-century of pre-eminence in this field of endeavor and that this could now be destroyed.\nHypothesis: Britain could lose its place at the top of this field of endeavor.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.73828125,
+        "B": -9.5390625,
+        "C": -10.4609375
+      },
+      "margin": 2.80078125
+    },
+    {
+      "idx": 182,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah pay fifteen yeah yes i know yeah and when you pay fifteen dollars a month it sure takes a long time\nHypothesis: When you pay $15 a month, it takes a long time but I can't afford any more.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.2578125,
+        "B": -8.453125,
+        "C": -9.484375
+      },
+      "margin": 2.1953125
+    },
+    {
+      "idx": 183,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: An Indian traveler described the prosperous Bujang Valley settlement as  the seat of all felicities.  \nHypothesis: A traveler said the settlement was prospering. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -16.015625,
+        "B": -19.484375,
+        "C": -20.4375
+      },
+      "margin": 3.46875
+    },
+    {
+      "idx": 184,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: DOD's common practice for managing this environment has been to create aggressive risk reduction efforts in its programs.\nHypothesis: The DOD increases risk to manage the environment.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.078125,
+        "B": -8.796875,
+        "C": -9.703125
+      },
+      "margin": 2.71875
+    },
+    {
+      "idx": 185,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: it was really a nice compromise especially because she felt like she was still living in her own house and she still had her own couch and her own bed and it it really helped a lot and she was a lot more comfortable and she didn't\nHypothesis: Having her own furniture in the house made it much more comfortable for her. Yet still able get assistance if she needed it.They check on them two or three times a day and give their medication also.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.41796875,
+        "B": -10.046875,
+        "C": -11.4375
+      },
+      "margin": 4.62890625
+    },
+    {
+      "idx": 186,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Basically, to sell myself.\nHypothesis: Selling myself is a very important thing.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.2734375,
+        "B": -9.828125,
+        "C": -10.8046875
+      },
+      "margin": 3.5546875
+    },
+    {
+      "idx": 187,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: and have been back and every now and then some news filters in that they went to see some of the old things and of course the savings and loan program um that was that you know that that just continued to grow in fact after my group i mean we were just a very small specialized group too to get that going and spread and then of course Peace Corps bowed out of that because that's uh uh something that nationalized very quickly and the same with the coops\nHypothesis: I try to keep up with the program but since I left the Peace Corps I just do not have the time.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.24609375,
+        "B": -9.234375,
+        "C": -9.2421875
+      },
+      "margin": 2.98828125
+    },
+    {
+      "idx": 188,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: that's hilarious to to get that jack off that's right oh that's a funny story\nHypothesis: The story is about the washing machine.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7109375,
+        "B": -8.4921875,
+        "C": -9.671875
+      },
+      "margin": 2.78125
+    },
+    {
+      "idx": 189,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The  rock  has a soft texture and can be bought in a variety of shapes.\nHypothesis: The texture of the rock comes from the way that it is formed.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6640625,
+        "B": -9.921875,
+        "C": -11.125
+      },
+      "margin": 3.2578125
+    },
+    {
+      "idx": 190,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It spoke of thousands of years, even before the times of the old empire.\nHypothesis: The old Empire is still ongoing.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.29296875,
+        "B": -9.3125,
+        "C": -10.125
+      },
+      "margin": 3.01953125
+    },
+    {
+      "idx": 191,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This is my old friend, Monsieur Poirot, whom I have not seen for years.\"\nHypothesis: I haven't seen this old friend in over a year. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.359375,
+        "B": -16.625,
+        "C": -18.34375
+      },
+      "margin": 3.265625
+    },
+    {
+      "idx": 192,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Financing accounts are used to fund day to day operations.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.14453125,
+        "B": -9.328125,
+        "C": -10.2421875
+      },
+      "margin": 3.18359375
+    },
+    {
+      "idx": 193,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Jon drew it out and stabbed again in the man's throat.\nHypothesis: Jon stabbed the man's throat multiple times.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.84765625,
+        "B": -10.0390625,
+        "C": -10.90625
+      },
+      "margin": 3.19140625
+    },
+    {
+      "idx": 194,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: He felt the off-hand dagger's weight in the small of his back.\nHypothesis: The knife was on his back.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.09765625,
+        "B": -9.1796875,
+        "C": -10.046875
+      },
+      "margin": 3.08203125
+    },
+    {
+      "idx": 195,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Vrenna looked it and smiled.\nHypothesis: Vrenna was happy it was destroyed",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.640625,
+        "B": -13.0625,
+        "C": -14.0625
+      },
+      "margin": 1.421875
+    },
+    {
+      "idx": 196,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The remaining parts of the north, although enticing, are difficult to explore.\nHypothesis: Inexperienced explorers should take care to avoid dangerous areas of the north.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8984375,
+        "B": -10.1484375,
+        "C": -10.984375
+      },
+      "margin": 3.25
+    },
+    {
+      "idx": 197,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The most comfortable way to see these important Hoysala temples is to visit them on either side of an overnight stay at Hassan, 120 km (75 miles) northwest of Mysore.\nHypothesis: Do not book a hotel in Hassan as it is not near the Hoysala temples.  ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -3.275390625,
+        "B": -6.07421875,
+        "C": -7.63671875
+      },
+      "margin": 2.798828125
+    },
+    {
+      "idx": 198,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Some are reported as not having been wanted at all.\nHypothesis: It has been reported that some are not desired at all.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.6796875,
+        "B": -9.671875,
+        "C": -10.46875
+      },
+      "margin": 2.9921875
+    },
+    {
+      "idx": 199,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: but you're without a paycheck during that time and i don't at least that's my understanding is even you know the first time you go for counseling and it's six weeks before you're back to work\nHypothesis: I don't think you lose any money if you got to counciling.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.3515625,
+        "B": -8.7578125,
+        "C": -9.78125
+      },
+      "margin": 2.40625
+    },
+    {
+      "idx": 200,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Hang it all! said Tommy indignantly.\nHypothesis: Tommy happily declared to hang nothing.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.81640625,
+        "B": -8.3125,
+        "C": -8.9765625
+      },
+      "margin": 2.49609375
+    },
+    {
+      "idx": 201,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: And, although I got a Ph.D. in philosophy many years ago and have thought and read about these matters ever since, heaven (or whatever) knows I don't have too many answers that I feel confident about.\nHypothesis: I have been thinking about this since I earned my degree, but I still don't know for sure.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.8671875,
+        "B": -9.625,
+        "C": -10.6171875
+      },
+      "margin": 2.7578125
+    },
+    {
+      "idx": 202,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Can I help you?'\nHypothesis: Can i help you with that order?",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.296875,
+        "B": -7.4765625,
+        "C": -8.828125
+      },
+      "margin": 2.1796875
+    },
+    {
+      "idx": 203,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: it was really easy i mean just just did a thumb print you know\nHypothesis: It was very easy because I just did a thumb print.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.31640625,
+        "B": -9.4140625,
+        "C": -10.3359375
+      },
+      "margin": 3.09765625
+    },
+    {
+      "idx": 204,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: looking at that and you know and if it's if it's funny or if it keeps my interest if it's exciting i'll watch it if not i don't and times that i saw that or pieces of that it wasn't any it wasn't great Thirty Something i watched a few times because there was a few good episodes and then after that it it i just lost interest in it\nHypothesis: Thirty Something was one of my favorite shows until I lost interest in it.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.18359375,
+        "B": -10.2421875,
+        "C": -10.375
+      },
+      "margin": 4.05859375
+    },
+    {
+      "idx": 205,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Tom is the winner of a year's supply of Turtle Wax, and he will receive his prize just as soon as the Shopping Avenger figures out how much Turtle Wax actually constitutes a year's supply.\nHypothesis: There are no winners of the one year supply of Turtle wax.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.8046875,
+        "B": -9.84375,
+        "C": -10.75
+      },
+      "margin": 3.0390625
+    },
+    {
+      "idx": 206,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: in well i think i think my long-term sense of of budget concerns is that we're going is a lot of others government's spending goes on goes towards this uh health care and things like that and a lot of causes of poor health or need for health care are brought about by various factors such as such as pollution stress you know work work environment conditions and so forth but generally the government is\nHypothesis: It's better to prevent some of the strain on the health care system by limiting pollution but the political capital isn't necessarily there.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.6875,
+        "B": -7.92578125,
+        "C": -8.84375
+      },
+      "margin": 2.23828125
+    },
+    {
+      "idx": 207,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Along the eastern coastline are several fine beaches with perfect windsurfing conditions in their wide, shallow bays.\nHypothesis: The shallow bays are great places for windsurfing, especially in the summer.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.3203125,
+        "B": -9.3125,
+        "C": -10.109375
+      },
+      "margin": 2.9921875
+    },
+    {
+      "idx": 208,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Recommendations\nHypothesis: staff recommendations",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -8.84375,
+        "B": -12.9921875,
+        "C": -13.453125
+      },
+      "margin": 4.1484375
+    },
+    {
+      "idx": 209,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Still, commercial calculation isn't sufficient to explain his stand.\nHypothesis: Commercial calculation is still not enough to explain his resolve.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.3125,
+        "B": -9.5703125,
+        "C": -10.5234375
+      },
+      "margin": 3.2578125
+    },
+    {
+      "idx": 210,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Tabulations of actual meetings and of consequent actions for same-agency funded and different-agency funded services can help check out whether this impression is reliable.\nHypothesis: The reliability of impressions can be measured at least partially by tabulating meetings.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.765625,
+        "B": -9.9921875,
+        "C": -10.3046875
+      },
+      "margin": 3.2265625
+    },
+    {
+      "idx": 211,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The world ripped apart around them replaced with a world of fear and blood and fire.\nHypothesis: They were trying to escape the chaos around them.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.546875,
+        "B": -9.2578125,
+        "C": -10.1484375
+      },
+      "margin": 2.7109375
+    },
+    {
+      "idx": 212,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: i wish it was as good over here as it is over there but if you're the\nHypothesis: I am glad it is better here than over there.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0625,
+        "B": -7.703125,
+        "C": -9.03125
+      },
+      "margin": 1.640625
+    },
+    {
+      "idx": 213,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I have to tell you, I tried to understand it.\nHypothesis: I have figured it out.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.91015625,
+        "B": -9.1328125,
+        "C": -9.984375
+      },
+      "margin": 3.22265625
+    },
+    {
+      "idx": 214,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: You will learn later that the person who usually poured out Mrs. Inglethorp's medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed. \nHypothesis: The person was after Mrs. Inglethorp's vast fortune. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.3984375,
+        "B": -17.234375,
+        "C": -18.984375
+      },
+      "margin": 3.8359375
+    },
+    {
+      "idx": 215,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: However, SCR installations designed to comply with the NOX SIP Call are generally already into the installation process or, at a minimum, into the engineering phase of the project.\nHypothesis: SCR installs have NOX SIP to comply with.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.01171875,
+        "B": -9.1328125,
+        "C": -9.9296875
+      },
+      "margin": 3.12109375
+    },
+    {
+      "idx": 216,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Along with each step, certain practices proved especially important to the success of their efforts.\nHypothesis: Certain practices were really important to their efforts",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.7265625,
+        "B": -16.9375,
+        "C": -17.734375
+      },
+      "margin": 4.2109375
+    },
+    {
+      "idx": 217,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: You have to walk through it).\nHypothesis: Walking is the best way to get through it.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.62109375,
+        "B": -8.1484375,
+        "C": -9.140625
+      },
+      "margin": 2.52734375
+    },
+    {
+      "idx": 218,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: you know they can't really defend themselves like somebody grown uh say my age you know yeah\nHypothesis: They can't defend themselves because of their age.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.0859375,
+        "B": -8.34375,
+        "C": -9.453125
+      },
+      "margin": 2.2578125
+    },
+    {
+      "idx": 219,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: approaches to achieving missions vary considerably between agencies.\nHypothesis: Approaches to achieving missions might change a lot from the FDA to the IRS.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.51171875,
+        "B": -8.9140625,
+        "C": -9.828125
+      },
+      "margin": 2.40234375
+    },
+    {
+      "idx": 220,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Jon was fighting at full speed, sweat forming on his brow.\nHypothesis: Jon was fighting demons at full speed.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.375,
+        "B": -9.4453125,
+        "C": -10.203125
+      },
+      "margin": 3.0703125
+    },
+    {
+      "idx": 221,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Never trust a Sather, Bork said softly.\nHypothesis: Trust a Sather, Jenna said.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.17578125,
+        "B": -7.80859375,
+        "C": -9.5390625
+      },
+      "margin": 1.6328125
+    },
+    {
+      "idx": 222,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It's all right.\nHypothesis: It is well and we will be on our way.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.390625,
+        "B": -9.3828125,
+        "C": -10.0546875
+      },
+      "margin": 2.9921875
+    },
+    {
+      "idx": 223,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Executives do so by examining their internal environments and asking a series of questions about the problems that need fixing, how information technology and management can help, and how a CIO might best fit within their management structures to guide technology solutions.\nHypothesis: More powerful computers are directly correlated to more effective information technology outcomes.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.80078125,
+        "B": -10.6171875,
+        "C": -10.734375
+      },
+      "margin": 3.81640625
+    },
+    {
+      "idx": 224,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: uh it's in Georgia it's yeah it's right outside of Macon and and it's just a i like the way that i like the way that idea of the south is\nHypothesis: It's in Georgia but it's a very long distance from Macon.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.28515625,
+        "B": -8.5078125,
+        "C": -9.7421875
+      },
+      "margin": 2.22265625
+    },
+    {
+      "idx": 225,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Finish it, someone yelled.\nHypothesis: Someone yelled to finish the battle.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.19921875,
+        "B": -9.234375,
+        "C": -10.28125
+      },
+      "margin": 3.03515625
+    },
+    {
+      "idx": 226,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Among the disadvantages are that the degree of innovation and product differentiation might continue to be limited.\nHypothesis: Limited innovation is not going to be an advantage. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.78125,
+        "B": -17.453125,
+        "C": -19.4375
+      },
+      "margin": 4.671875
+    },
+    {
+      "idx": 227,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It also describes the results of the scenario analysis, both in terms of the various marginal costs associated with emission control strategies and the economy-wide impact of each scenario.\nHypothesis: It gives a breakdown of both the costs and impacts of the scenarios.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.48046875,
+        "B": -9.046875,
+        "C": -9.8125
+      },
+      "margin": 2.56640625
+    },
+    {
+      "idx": 228,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 120 \"You do not think I ought to go to the police?\"\nHypothesis: Should I not go to the police?",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.29296875,
+        "B": -8.390625,
+        "C": -9.4296875
+      },
+      "margin": 2.09765625
+    },
+    {
+      "idx": 229,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: We always knew it was an outside chance.\nHypothesis: As we were well aware, the odds were not favorable.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.7265625,
+        "B": -9.484375,
+        "C": -10.53125
+      },
+      "margin": 2.7578125
+    },
+    {
+      "idx": 230,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: for me now the address is the same you know my my office address\nHypothesis: I am able to receive mail at my workplace.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.875,
+        "B": -8.625,
+        "C": -9.3046875
+      },
+      "margin": 2.75
+    },
+    {
+      "idx": 231,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Sun Ra's spaceships did not come, as it were, out of nowhere.\nHypothesis: The spaceships did not come out of nowhere but they were welcome.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.73046875,
+        "B": -9.3671875,
+        "C": -10.4453125
+      },
+      "margin": 2.63671875
+    },
+    {
+      "idx": 232,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: According to the Natural Resources Conservation Service, this single, voluntary program will provide flexible technical, financial, and educational assistance to farmers and ranchers who face serious threats to soil, water, and related natural resources on agricultural and other lands, including grazing lands, wetlands, forest lands, and wildlife habitats.\nHypothesis: This program aims to destroy all farms. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.15625,
+        "B": -17.09375,
+        "C": -18.953125
+      },
+      "margin": 4.9375
+    },
+    {
+      "idx": 233,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Up here, gazing out at strikingly lush mountains, you may find yourself higher than the clouds, which adds to the extraordinarily eerie atmosphere of the place.\nHypothesis: You might be above the cloud line here, the atmosphere is eerie and you can see the mountains.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.421875,
+        "B": -9.71875,
+        "C": -10.53125
+      },
+      "margin": 3.296875
+    },
+    {
+      "idx": 234,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: As the budgets, functions, and points of service of many government programs devolve to state and local government, private entities and nonprofit organizations, and other third parties, it may become harder for GAO to obtain the records it needs to complete audits and evaluations.\nHypothesis: Audits and evaluations are harder because it is more difficult for GAO to get the records.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.32421875,
+        "B": -9.15625,
+        "C": -9.890625
+      },
+      "margin": 2.83203125
+    },
+    {
+      "idx": 235,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Many Greeks in Asia Minor were forced to leave their homes and brought an influence of eastern cadences with them.\nHypothesis: The poor Greeks shouldn't have had to leave their homes. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.1640625,
+        "B": -16.78125,
+        "C": -18.6875
+      },
+      "margin": 4.6171875
+    },
+    {
+      "idx": 236,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 11 These departures permit them take advantage of the lower cost of living as well as to be reunited with their spouses and children.\nHypothesis: The departures help them take advantage of the high cost of living in other areas.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.19921875,
+        "B": -8.65625,
+        "C": -9.765625
+      },
+      "margin": 2.45703125
+    },
+    {
+      "idx": 237,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah right right yeah i know i uh i remember my college days  and having to do that too\nHypothesis: I didn't have to do that once I left college.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.859375,
+        "B": -9.1015625,
+        "C": -9.984375
+      },
+      "margin": 2.2421875
+    },
+    {
+      "idx": 238,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Justice Kennedy does not care what law librarians across the country do with all the Supreme Court Reporters from 1790 through 1998.\nHypothesis: Justice Kennedy doesn't think the Supreme Court Reporters from 1790 to 1998 are important.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.98828125,
+        "B": -9.65625,
+        "C": -10.84375
+      },
+      "margin": 2.66796875
+    },
+    {
+      "idx": 239,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: His mother died when he was young, and he was adopted by the Brodkeys.\nHypothesis: When his mother died, the Brodkeys took him in.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.9921875,
+        "B": -10.0390625,
+        "C": -10.765625
+      },
+      "margin": 3.046875
+    },
+    {
+      "idx": 240,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: They returned to live in the Galilee village of Nazareth, making pilgrimages to Jerusalem.\nHypothesis: They lived in Jerusalem but would make pilgrimages to Galilee.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.5703125,
+        "B": -9.1796875,
+        "C": -10.25
+      },
+      "margin": 2.609375
+    },
+    {
+      "idx": 241,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah that's up here in New England that's we call that backpacking which is the same thing which is you're you've got everything on your back you know an aluminum camp frame uh\nHypothesis: When you go backpacking it's important to bring a rough terrain wagon to carry your gear.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.54296875,
+        "B": -9.0703125,
+        "C": -10.3515625
+      },
+      "margin": 2.52734375
+    },
+    {
+      "idx": 242,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Said we was a-staying at the inn.\nHypothesis: He was staying at the inn in town.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.53125,
+        "B": -9.2265625,
+        "C": -10.171875
+      },
+      "margin": 2.6953125
+    },
+    {
+      "idx": 243,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: They cannot restrict timing of the release of the product.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.609375,
+        "B": -9.21875,
+        "C": -10.3828125
+      },
+      "margin": 2.609375
+    },
+    {
+      "idx": 244,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Nash showed up for an MIT New Year's Eve party clad only in a diaper.\nHypothesis: Nash showed up in a suit.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.91015625,
+        "B": -8.4140625,
+        "C": -9.25
+      },
+      "margin": 2.50390625
+    },
+    {
+      "idx": 245,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: the hologram makes up all these things and uh i mean sometimes  sometimes it's funny sometimes it's not but uh you know it's something to pass the time until we do and then and then we watch football\nHypothesis: Sometimes it is amusing to see what the hologram creates.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.2578125,
+        "B": -9.2265625,
+        "C": -9.703125
+      },
+      "margin": 2.96875
+    },
+    {
+      "idx": 246,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In the depths of the Cold War, many Americans suspected Communists had infiltrated Washington and were about to subvert our democracy.\nHypothesis: Communists infiltrated Washington during the Cold War.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.63671875,
+        "B": -8.9375,
+        "C": -9.7734375
+      },
+      "margin": 2.30078125
+    },
+    {
+      "idx": 247,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The analysis also addresses the various alternatives to the final rule which were considered, including differing compliance or reporting requirements, use of performance rather than design standards, and an exemption for small entities from coverage of the rule.\nHypothesis: The rule is subject to change.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.78125,
+        "B": -9.609375,
+        "C": -10.140625
+      },
+      "margin": 2.828125
+    },
+    {
+      "idx": 248,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: California is high\nHypothesis: California is hyped up!",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.87890625,
+        "B": -8.34375,
+        "C": -9.3671875
+      },
+      "margin": 2.46484375
+    },
+    {
+      "idx": 249,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Possibly three months.\"\nHypothesis: At no time ever. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.375,
+        "B": -17.109375,
+        "C": -18.109375
+      },
+      "margin": 4.734375
+    },
+    {
+      "idx": 250,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: I'm sure he'll be back to work soon enough- it's only a leg wound, barely broken flesh.\nHypothesis: The legs will be healed soon.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.98828125,
+        "B": -9.171875,
+        "C": -10.1171875
+      },
+      "margin": 3.18359375
+    },
+    {
+      "idx": 251,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: My brain refusing to command properly.\nHypothesis: My brain was not commanding properly.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.5546875,
+        "B": -8.78125,
+        "C": -9.921875
+      },
+      "margin": 2.2265625
+    },
+    {
+      "idx": 252,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Being totally supportive of a more comprehensive business model is not something regulators may do.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.7578125,
+        "B": -9.7578125,
+        "C": -10.578125
+      },
+      "margin": 3.0
+    },
+    {
+      "idx": 253,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 'Wait here,' I was ordered.\nHypothesis: He told me to wait until he opened the gate.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.20703125,
+        "B": -9.484375,
+        "C": -10.3046875
+      },
+      "margin": 3.27734375
+    },
+    {
+      "idx": 254,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah i'm trying to find out how long we're supposed talk\nHypothesis: We have to talk for exactly two minutes.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.265625,
+        "B": -8.453125,
+        "C": -9.546875
+      },
+      "margin": 2.1875
+    },
+    {
+      "idx": 255,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This man claims that he has been robbed en route and is stranded without money or his plane ticket in an airport somewhere in Europe or the Middle East.\nHypothesis: He claimed he was robbed but was able to get away without losing anything.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -7.046875,
+        "B": -9.671875,
+        "C": -10.9453125
+      },
+      "margin": 2.625
+    },
+    {
+      "idx": 256,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Krugman's column will henceforth be known as The Dismal Science, a phrase too famous to be ownable by anyone, except possibly British essayist Thomas Carlyle (1795-1881), who coined it.\nHypothesis: Krugman writes a column.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.53515625,
+        "B": -9.703125,
+        "C": -10.34375
+      },
+      "margin": 3.16796875
+    },
+    {
+      "idx": 257,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: There are two challengers to these top dogs.\nHypothesis: These top dogs face two tough financial challenges.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.49609375,
+        "B": -10.3359375,
+        "C": -10.765625
+      },
+      "margin": 3.83984375
+    },
+    {
+      "idx": 258,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Funds should never be transferred between program accounts and financing accounts.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.19921875,
+        "B": -9.859375,
+        "C": -10.40625
+      },
+      "margin": 3.66015625
+    },
+    {
+      "idx": 259,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Other examples of cumulative case studies come from two international agencies.\nHypothesis: There are no examples of case studies, so it is a new territoriy.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.234375,
+        "B": -8.6328125,
+        "C": -9.5
+      },
+      "margin": 2.3984375
+    },
+    {
+      "idx": 260,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: There never will be.\nHypothesis: It should happen soon.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.71484375,
+        "B": -7.84375,
+        "C": -8.6640625
+      },
+      "margin": 2.12890625
+    },
+    {
+      "idx": 261,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Though prehistoric remains from the Paleolithic, Neolithic, and Bronze Ages have been unearthed in the Manzanares Valley, prior to Madrid's sudden elevation to capital city in 1561 its history was rather undistinguished.\nHypothesis: There were remains in the Manzanares Valley.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.5234375,
+        "B": -9.0390625,
+        "C": -10.3046875
+      },
+      "margin": 2.515625
+    },
+    {
+      "idx": 262,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Regulators will be fully supportive of this business model.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.42578125,
+        "B": -9.0859375,
+        "C": -10.015625
+      },
+      "margin": 2.66015625
+    },
+    {
+      "idx": 263,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: (It may resemble Dungeons &amp\nHypothesis: It could never look like Dungeons and",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -9.8515625,
+        "B": -11.1171875,
+        "C": -10.828125
+      },
+      "margin": 0.9765625
+    },
+    {
+      "idx": 264,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The great attraction of the church is the splendid exterior, which is crowned by golden onion-shaped cupolas.\nHypothesis: The interior of the church, while still lovely, is much plainer.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7734375,
+        "B": -9.140625,
+        "C": -9.9296875
+      },
+      "margin": 3.3671875
+    },
+    {
+      "idx": 265,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: To address these concerns, we supplement our Base Estimate of benefits with a series of sensitivity calculations that make use of other sources of concentration-response and valuation data for key benefits categories.\nHypothesis: Supplemental data is less accurate than primary data.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.5703125,
+        "B": -9.6640625,
+        "C": -10.234375
+      },
+      "margin": 3.09375
+    },
+    {
+      "idx": 266,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 8 million in relief in the form of emergency housing.\nHypothesis: No money was spent on emergency housing relief.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0703125,
+        "B": -9.21875,
+        "C": -10.0078125
+      },
+      "margin": 3.1484375
+    },
+    {
+      "idx": 267,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Escaped or abandoned raccoons have been breeding in the wild for the past 20 years and have damaged corn crops, watermelon and melon farms, and rainbow trout hatcheries, the paper said.\nHypothesis: Raccoons, if they are abandoned, tend to damage things- this is what has been happening for the past 20 years.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.18359375,
+        "B": -9.15625,
+        "C": -10.78125
+      },
+      "margin": 2.97265625
+    },
+    {
+      "idx": 268,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: It features over 50 outlets for discounted designer fashions, from Armani to DKNY.\nHypothesis: It has over 50 discount stores for designer fashion brands.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.390625,
+        "B": -9.875,
+        "C": -11.1796875
+      },
+      "margin": 3.484375
+    },
+    {
+      "idx": 269,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah well are you you with TI\nHypothesis: TI is the tourism international society.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.5390625,
+        "B": -8.765625,
+        "C": -9.9140625
+      },
+      "margin": 2.2265625
+    },
+    {
+      "idx": 270,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: They did this to us.\nHypothesis: This was done by them.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.54296875,
+        "B": -8.96875,
+        "C": -9.8828125
+      },
+      "margin": 2.42578125
+    },
+    {
+      "idx": 271,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But he said he thought the Ledfords understood they could qualify only if he put down a stated income, typically an undocumented business income that raises the borrower's interest rate. \nHypothesis: He also believed that a tax return was necessary.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6484375,
+        "B": -10.265625,
+        "C": -10.9765625
+      },
+      "margin": 3.6171875
+    },
+    {
+      "idx": 272,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: On Fox News Sunday , host Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.\nHypothesis: Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.42578125,
+        "B": -9.5234375,
+        "C": -10.3046875
+      },
+      "margin": 3.09765625
+    },
+    {
+      "idx": 273,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: In a further role reversal, Gingrich may have positioned himself to fill it.\nHypothesis: Gingrich may fill the position. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -13.4140625,
+        "B": -17.28125,
+        "C": -19.3125
+      },
+      "margin": 3.8671875
+    },
+    {
+      "idx": 274,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: Federal refers to national and state refers to local, duties and responsibilities may vary between Federal and State levels.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.21875,
+        "B": -9.859375,
+        "C": -10.5859375
+      },
+      "margin": 3.640625
+    },
+    {
+      "idx": 275,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: If all else failed, I could always make myself an exhibit.\nHypothesis: Making myself an exhibit is a last resort. ",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -12.515625,
+        "B": -17.1875,
+        "C": -18.578125
+      },
+      "margin": 4.671875
+    },
+    {
+      "idx": 276,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: 7) Nonautomated First-Class and Standard-A mailers have the option of requesting that their mail be processed manually, even though the costs for such processing are substantially higher than mechanized processing.\nHypothesis: Nonautomated First-Class and Standard-A mailers can ask for their mail to be processed by hand, though it costs the postal service more.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.76171875,
+        "B": -9.4296875,
+        "C": -10.2265625
+      },
+      "margin": 2.66796875
+    },
+    {
+      "idx": 277,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: they don't i don't i don't work at TI\nHypothesis: We all work together at TI.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.9609375,
+        "B": -8.0078125,
+        "C": -8.9609375
+      },
+      "margin": 2.046875
+    },
+    {
+      "idx": 278,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Transforming Control of Public Health Programs Raises Concerns (\nHypothesis: Everyone is content with the change of public health programs. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -14.59375,
+        "B": -16.671875,
+        "C": -19.265625
+      },
+      "margin": 2.078125
+    },
+    {
+      "idx": 279,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: uh well i figured if i had it done in the garage at the Toyota dealer i would be looking at probably three or four hundred dollars\nHypothesis: The cost at the dealer's garage is twice as much as what I paid.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0625,
+        "B": -8.625,
+        "C": -9.2578125
+      },
+      "margin": 2.5625
+    },
+    {
+      "idx": 280,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: um yeah that sounds kind of neat uh is location at all important to you like you know how far it is from your house or whatever\nHypothesis: That sounds really stupid. ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -13.8046875,
+        "B": -16.859375,
+        "C": -18.859375
+      },
+      "margin": 3.0546875
+    },
+    {
+      "idx": 281,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: and the nurses aren't no see you have to pay that\nHypothesis: You don't have to pay for that.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.921875,
+        "B": -7.984375,
+        "C": -9.0234375
+      },
+      "margin": 2.0625
+    },
+    {
+      "idx": 282,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Ca'daan felt his skin get hot and unable to come up with any suitable response, moved on.\nHypothesis: Ca'daan was getting sunburned.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.9921875,
+        "B": -8.3984375,
+        "C": -9.15625
+      },
+      "margin": 2.40625
+    },
+    {
+      "idx": 283,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: so you know well a lot of the stuff you hear coming from South Africa now and from West Africa that's considered world music because it's not particularly using certain types of folk styles\nHypothesis: They rely too heavily on the types of folk styles.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.140625,
+        "B": -8.75,
+        "C": -9.4609375
+      },
+      "margin": 2.609375
+    },
+    {
+      "idx": 284,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Together they had a force of 130 attorneys and the responsibility to serve the civil legal needs of about 550,000 poor and vulnerable people throughout the state.\nHypothesis: There were more lawyers than vulnerable people in the state.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.58203125,
+        "B": -9.5,
+        "C": -10.640625
+      },
+      "margin": 2.91796875
+    },
+    {
+      "idx": 285,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The pieces are unloaded and fed into sorting machines.\nHypothesis: They were unloaded but not sorted",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -11.90625,
+        "B": -15.234375,
+        "C": -16.421875
+      },
+      "margin": 3.328125
+    },
+    {
+      "idx": 286,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Don't mean the police, but the people that are right in it. \nHypothesis: The police were overt brutal. ",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -15.5546875,
+        "B": -18.859375,
+        "C": -19.578125
+      },
+      "margin": 3.3046875
+    },
+    {
+      "idx": 287,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Given the limits on the WTO's jurisdiction, it was probably unreasonable of Kodak to expect a real victory.\nHypothesis: Kodak was totally justified in expecting a victory.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.30859375,
+        "B": -8.625,
+        "C": -9.3359375
+      },
+      "margin": 2.31640625
+    },
+    {
+      "idx": 288,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But those that are manufactured for sale in in Europe and so forth are quite the other way around\nHypothesis: Products are made with differently designed machines in Europe.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.0390625,
+        "B": -9.1015625,
+        "C": -9.890625
+      },
+      "margin": 3.0625
+    },
+    {
+      "idx": 289,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: The results of the sheepshead minnow, Cyprinodon variegatus, inland silverside, Menidia beryllina, or mysid, Mysidopsis bahia, tests are acceptable if survival in the controls is 80 percent or greater.\nHypothesis: The need for high survival rates is to ensure the highest quality of results.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.28515625,
+        "B": -9.3203125,
+        "C": -9.84375
+      },
+      "margin": 3.03515625
+    },
+    {
+      "idx": 290,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah and every once in a while they'll have dressing but uh whoever makes it uh goes crazy with the sage\nHypothesis: Sometimes they have dressing but they use too much sage.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.30078125,
+        "B": -8.8359375,
+        "C": -9.8203125
+      },
+      "margin": 2.53515625
+    },
+    {
+      "idx": 291,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Some of the unmet needs are among people who can pay, but who are deterred from seeking a lawyer because of the uncertainty about legal fees and their fear of the profession.\nHypothesis: Everyone involved has plenty of money.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.17578125,
+        "B": -8.8828125,
+        "C": -9.78125
+      },
+      "margin": 2.70703125
+    },
+    {
+      "idx": 292,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: really oh i thought it was great yeah\nHypothesis: that was a nice experience",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -7.80078125,
+        "B": -9.3125,
+        "C": -11.2890625
+      },
+      "margin": 1.51171875
+    },
+    {
+      "idx": 293,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: This whole unsavory episode brings back memories of skits with Monty Python ! One of my favorite lines was, You are guilty of six--no, seven--charges of heresy.\nHypothesis: This episode reminds me of skits with Monthy Python.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.09765625,
+        "B": -8.875,
+        "C": -9.5546875
+      },
+      "margin": 2.77734375
+    },
+    {
+      "idx": 294,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: But for some recipients, there is a downside to the checks from Anthem Inc., issued to policyholders as part of the insurer's conversion to a publicly traded company.\nHypothesis: There is only an upside to anthem's check ",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -12.3828125,
+        "B": -16.28125,
+        "C": -17.625
+      },
+      "margin": 3.8984375
+    },
+    {
+      "idx": 295,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: no uh i have a friend who works for TI and uh i work for a a tire service here in i'm from Dallas\nHypothesis: I used to work for a tire service in Dallas, my hometown, and my friend works part-time for TI.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.90234375,
+        "B": -8.578125,
+        "C": -9.6796875
+      },
+      "margin": 2.67578125
+    },
+    {
+      "idx": 296,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: That had been made by the Cadets (Constitutional Democrats) under Prince Lvov.\nHypothesis: The Cadets made that under Prince Lvov and it was wildly successful.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.4375,
+        "B": -9.8359375,
+        "C": -10.6484375
+      },
+      "margin": 3.3984375
+    },
+    {
+      "idx": 297,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: yeah uh-huh but we look at it sort of as an investment in the future too\nHypothesis: The results will not be noticeable until further down the line.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.6015625,
+        "B": -8.8671875,
+        "C": -9.984375
+      },
+      "margin": 2.265625
+    },
+    {
+      "idx": 298,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: Pick up a map from the tourist office here and ask about walking tours.\nHypothesis: No one is usually at the tourist office, so you'll have to go somewhere else to find out about walking tours.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -6.51171875,
+        "B": -9.0078125,
+        "C": -9.9765625
+      },
+      "margin": 2.49609375
+    },
+    {
+      "idx": 299,
+      "prompt": "Does the premise entail, contradict, or is it neutral to the hypothesis?\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.\nPremise: '  Blankley replies, And there are fund-raisers going out in other parts of the country to raise  'The conservatives are coming, the conservatives are coming.\nHypothesis: Blankley replies, there are fundraisers in other parts of the country to raise \"the conservatives are coming\".",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -6.45703125,
+        "B": -7.9375,
+        "C": -9.9453125
+      },
+      "margin": 1.48046875
+    }
+  ]
+}

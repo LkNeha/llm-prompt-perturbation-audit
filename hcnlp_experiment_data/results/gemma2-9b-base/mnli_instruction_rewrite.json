@@ -1,0 +1,3922 @@
+{
+  "metrics": {
+    "base_accuracy": 33.33,
+    "pert_accuracy": 33.33,
+    "accuracy_drop": 0.0,
+    "flip_rate": 0.0,
+    "consistency": 1.0,
+    "n_examples": 300,
+    "_raw_flip_rate": 0.0,
+    "_raw_acc_drop": 0.0,
+    "semantic_distance": 0.148178,
+    "sensitivity_score": 0.0,
+    "category": "rewrite",
+    "n_unique_preds": 1,
+    "majority_label": "A",
+    "majority_frac": 1.0,
+    "collapsed": true,
+    "direction": "no_change"
+  },
+  "pert_results": [
+    {
+      "idx": 0,
+      "prompt": "Premise: I touched my palm to his mutilated cheek, and tried to stem my instinctive revulsion.\nHypothesis: Unfortunately his face had been mutilated in as least one way. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.32421875,
+        "B": -7.171875,
+        "C": -7.390625
+      },
+      "margin": 1.84765625
+    },
+    {
+      "idx": 1,
+      "prompt": "Premise: and the wind started blowing and it was one of my earlier trips to be really out in the middle of\nHypothesis: The wind was really blowing during the trip.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.89453125,
+        "B": -6.33203125,
+        "C": -6.84765625
+      },
+      "margin": 1.4375
+    },
+    {
+      "idx": 2,
+      "prompt": "Premise: Why shouldn't he be? \nHypothesis: He is already that way.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.5546875,
+        "B": -7.55859375,
+        "C": -7.6640625
+      },
+      "margin": 2.00390625
+    },
+    {
+      "idx": 3,
+      "prompt": "Premise: Land of Lincoln helped Tasha Johnson of Marion get Social Security benefits to support her four children after the 29-year-old woman was diagnosed with non-Hodgkin's lymphoma, a type of cancer, she said.\nHypothesis: She was cancer free at 29 years of age.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.390625,
+        "B": -7.26171875,
+        "C": -7.578125
+      },
+      "margin": 1.87109375
+    },
+    {
+      "idx": 4,
+      "prompt": "Premise: High Crimes is painfully shoddy, even for a book rushed to press.\nHypothesis: High Crimes was carefully written and was not rushed. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2109375,
+        "B": -7.31640625,
+        "C": -7.47265625
+      },
+      "margin": 2.10546875
+    },
+    {
+      "idx": 5,
+      "prompt": "Premise: Thus, recent evidence suggests that by not including an estimate of reductions in short-term mortality due to changes in ambient ozone, both the Base and Alternative Estimates may underestimate the benefits of implementation of the Clear Skies Act.\nHypothesis: Base and Alternative estimates perfectly understand the benefits of implementing the Clear Skies Act.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.171875,
+        "B": -6.43359375,
+        "C": -7.359375
+      },
+      "margin": 1.26171875
+    },
+    {
+      "idx": 6,
+      "prompt": "Premise: and i don't think they've repainted since\nHypothesis: I'm not sure if they've repainted it since.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.68359375,
+        "B": -6.390625,
+        "C": -6.8125
+      },
+      "margin": 1.70703125
+    },
+    {
+      "idx": 7,
+      "prompt": "Premise: If there was a bit of Fuller in Leonardo, there was also a bit of Liberace in this theatrical, high-living dandy who favored brocade doublets and bad boys with pretty faces.\nHypothesis: Leonardo's character was based on the lifestyle of Liberace.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4296875,
+        "B": -7.39453125,
+        "C": -7.69140625
+      },
+      "margin": 1.96484375
+    },
+    {
+      "idx": 8,
+      "prompt": "Premise: In the ancestral environment a man would be likely to have more offspring if he got his pick of the most fertile-seeming women.\nHypothesis: Only a man who stayed with one female spread his genes most efficiently.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.59765625,
+        "B": -7.203125,
+        "C": -7.765625
+      },
+      "margin": 1.60546875
+    },
+    {
+      "idx": 9,
+      "prompt": "Premise: The town is also known for its sparkling wine and for the caves where about 70 per?\u00adcent of France's cultivated mushrooms are grown.\nHypothesis: The town grows 40% of the sparkling wine.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1953125,
+        "B": -7.0390625,
+        "C": -7.46484375
+      },
+      "margin": 1.84375
+    },
+    {
+      "idx": 10,
+      "prompt": "Premise: Judge Bailey was chosen because he should be looked at as the representative of all future winners.\nHypothesis: The judge was an upstanding guy.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.265625,
+        "B": -7.1171875,
+        "C": -7.5
+      },
+      "margin": 1.8515625
+    },
+    {
+      "idx": 11,
+      "prompt": "Premise: (A bigger contribution may or may not mean, I really, really support Candidate X.) Freedom of association is an even bigger stretch--one that Justice Thomas would laugh out of court if some liberal proposed it.\nHypothesis: Justice Thomas wanted to have freedom of association.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2578125,
+        "B": -6.6796875,
+        "C": -7.19140625
+      },
+      "margin": 1.421875
+    },
+    {
+      "idx": 12,
+      "prompt": "Premise: And really it's a great relief to think he's going, Hastings, continued my honest friend. \nHypothesis: \"Are you sure we can't do anything to keep him here?,\" admitted my long-time nemesis.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7265625,
+        "B": -7.28515625,
+        "C": -7.72265625
+      },
+      "margin": 1.55859375
+    },
+    {
+      "idx": 13,
+      "prompt": "Premise: Sainte-Anne itself has a long, broad beach used not only by fishermen in vividly painted boats, but also by families with small children.\nHypothesis: The families attending the beach of Sainte-Anne commonly purchase seafood meals from the fishermen as they return with their catch.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.43359375,
+        "B": -7.1484375,
+        "C": -7.77734375
+      },
+      "margin": 1.71484375
+    },
+    {
+      "idx": 14,
+      "prompt": "Premise: Something in his mind seemed also to have developed a \"tan\" that let him face the bite of chance without flinching.\nHypothesis: He had already lost most of his life savings at the roulette wheel, so what did one more spin count for.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.33984375,
+        "B": -7.07421875,
+        "C": -7.54296875
+      },
+      "margin": 1.734375
+    },
+    {
+      "idx": 15,
+      "prompt": "Premise: Emergency physician attitudes concerning intervention for alcohol abuse/dependence in the emergency department.\nHypothesis: Physicians were never consulted about substance abuse interventions in the ER.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.890625,
+        "B": -6.98828125,
+        "C": -7.41015625
+      },
+      "margin": 2.09765625
+    },
+    {
+      "idx": 16,
+      "prompt": "Premise: Explanation building is the inverse  starting with the observations, the evaluator develops a picture of what is happening and why.\nHypothesis: Explanation building is going to be the standard approach in the future.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.76953125,
+        "B": -6.80859375,
+        "C": -6.79296875
+      },
+      "margin": 2.0234375
+    },
+    {
+      "idx": 17,
+      "prompt": "Premise: Divers can explore the deeps but you can also snorkel here, or take a glass-bottom boat or submarine tour to get a glimpse of this watery world.\nHypothesis: Divers do not like to explore the deeps here.  \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.7265625,
+        "B": -7.7890625,
+        "C": -8.25
+      },
+      "margin": 2.0625
+    },
+    {
+      "idx": 18,
+      "prompt": "Premise: Every August young women convene to light joss sticks and some even climb the nine-meter (30-ft) rock to pray for good husbands.\nHypothesis: Women converge on this place to light joss sticks and climb the rock.  \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.671875,
+        "B": -7.328125,
+        "C": -7.734375
+      },
+      "margin": 1.65625
+    },
+    {
+      "idx": 19,
+      "prompt": "Premise: The last 12 years of his life are a blank.\nHypothesis: He can't remember the last 12 years of his life\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.96484375,
+        "B": -6.921875,
+        "C": -7.15625
+      },
+      "margin": 1.95703125
+    },
+    {
+      "idx": 20,
+      "prompt": "Premise: Visigoths sack Rome\nHypothesis: The Visigoths were not successful.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2734375,
+        "B": -7.21484375,
+        "C": -7.54296875
+      },
+      "margin": 1.94140625
+    },
+    {
+      "idx": 21,
+      "prompt": "Premise: I am not aware of any studies comparing the number of words an average person could expect to hear spoken in a typical day 500 years ago vs. the number that can be heard now, but the increase surely is vast.\nHypothesis: It makes me upset that I've yet to see any study done on how many words the average person hears throughout the day.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.25,
+        "B": -6.66796875,
+        "C": -7.43359375
+      },
+      "margin": 1.41796875
+    },
+    {
+      "idx": 22,
+      "prompt": "Premise: More detailed implementation plans also will be necessary to address business system, processes, and resource issues.\nHypothesis: Less detailed plans will be necessary to address business systems \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.12890625,
+        "B": -6.5234375,
+        "C": -7.4609375
+      },
+      "margin": 1.39453125
+    },
+    {
+      "idx": 23,
+      "prompt": "Premise: There are a number of expensive jewelry and other duty-free shops, all with goods priced in US dollars (duty-free goods must always be paid for in foreign currency).\nHypothesis: You can pay using the US dollar when buying goods from the duty-free shops.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.484375,
+        "B": -7.51171875,
+        "C": -8.109375
+      },
+      "margin": 2.02734375
+    },
+    {
+      "idx": 24,
+      "prompt": "Premise: Also, the final rule is not intended to have any retroactive effect and administrative procedures must be exhausted prior to any judicial challenge to the provisions of the rule.\nHypothesis: The final rule is meant to have a retroactive effect.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2734375,
+        "B": -6.70703125,
+        "C": -7.3359375
+      },
+      "margin": 1.43359375
+    },
+    {
+      "idx": 25,
+      "prompt": "Premise: After being diagnosed with cancer, Carrey's Kaufman decides to do a show at Carnegie Hall.\nHypothesis: Carrey's Kaufman eventually recovers from the cancer he was diagnosed with.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2421875,
+        "B": -7.02734375,
+        "C": -7.6875
+      },
+      "margin": 1.78515625
+    },
+    {
+      "idx": 26,
+      "prompt": "Premise: It was like looking into a mirror, except infinitely more realistic.\nHypothesis: It was like looking into the toilet. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.625,
+        "B": -7.5625,
+        "C": -7.671875
+      },
+      "margin": 1.9375
+    },
+    {
+      "idx": 27,
+      "prompt": "Premise: But they reached a shrubbery near the house quite unmolested.\nHypothesis: Try as they might, they could not reach the shrubbery unmolested.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.375,
+        "B": -7.08984375,
+        "C": -7.390625
+      },
+      "margin": 1.71484375
+    },
+    {
+      "idx": 28,
+      "prompt": "Premise: that's right you can work yourself to death well i'm sorry to hear your color didn't come out so good over the weekend\nHypothesis: I'm glad it didn't go as planned. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.96484375,
+        "B": -6.71875,
+        "C": -7.07421875
+      },
+      "margin": 1.75390625
+    },
+    {
+      "idx": 29,
+      "prompt": "Premise: Part of the original design, they were destroyed by Emperor Aurangzeb, who refused images susceptible to idolatry.\nHypothesis: The images have been restored by contemporary historians.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21875,
+        "B": -7.203125,
+        "C": -7.5
+      },
+      "margin": 1.984375
+    },
+    {
+      "idx": 30,
+      "prompt": "Premise: i'm not sure what the overnight low was\nHypothesis: I don't know how cold it got last night, but it was definitely freezing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.92578125,
+        "B": -6.68359375,
+        "C": -7.2734375
+      },
+      "margin": 1.7578125
+    },
+    {
+      "idx": 31,
+      "prompt": "Premise: The Journal put the point succinctly to  Is any publicity good publicity?\nHypothesis: The Journal asked \"Is this a good political move?\"\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -7.0625,
+        "C": -7.21484375
+      },
+      "margin": 1.859375
+    },
+    {
+      "idx": 32,
+      "prompt": "Premise: Then he shrugged.\nHypothesis: He wasn't sure what to say.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.29296875,
+        "B": -7.18359375,
+        "C": -7.44921875
+      },
+      "margin": 1.890625
+    },
+    {
+      "idx": 33,
+      "prompt": "Premise: Under the rule, HUD may also accept an assignment of\nHypothesis: Depending on the rule, hud may or may not be able to accept. They have to check first.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.78125,
+        "B": -6.546875,
+        "C": -6.640625
+      },
+      "margin": 1.765625
+    },
+    {
+      "idx": 34,
+      "prompt": "Premise: Blair has just published a volume of speeches and articles titled New Britain : My\nHypothesis: Blair recently published an assortment of speeches.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.69140625,
+        "B": -6.3984375,
+        "C": -6.75390625
+      },
+      "margin": 1.70703125
+    },
+    {
+      "idx": 35,
+      "prompt": "Premise: now you know the ball'll go straight and i go  i never broke a club or anything but you know i'd get upset about it sometimes and now i guess you know being in my forties i just kind of mellowed out a little bit i don't get upset any more so\nHypothesis: I still get upset when I don't perform well.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2734375,
+        "B": -6.91796875,
+        "C": -7.54296875
+      },
+      "margin": 1.64453125
+    },
+    {
+      "idx": 36,
+      "prompt": "Premise: you know our church each year has a one of their major fund raisers is you know a garage sale and there's a ton of clothes always you know left over and i take those down to the uh\nHypothesis: Our church has a garage sale each year. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.87890625,
+        "B": -6.5703125,
+        "C": -6.8203125
+      },
+      "margin": 1.69140625
+    },
+    {
+      "idx": 37,
+      "prompt": "Premise: But is the Internet so miraculous an advertising vehicle that Gross will be able to siphon off $400 per person from total ad spending of $1,000 per family--or persuade advertisers to spend an additional $400 to reach each of his customers?\nHypothesis: The internet is so great at advertising that is saved Gross money.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.59375,
+        "B": -7.0,
+        "C": -7.6328125
+      },
+      "margin": 1.40625
+    },
+    {
+      "idx": 38,
+      "prompt": "Premise: The other bank pays the fund interest based upon tiered account levels, more typical of a large commercial account.\nHypothesis: The fund collects a flat interest rate from the bank.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.35546875,
+        "B": -7.2421875,
+        "C": -7.73046875
+      },
+      "margin": 1.88671875
+    },
+    {
+      "idx": 39,
+      "prompt": "Premise: Long Bay is seven miles of sublime fine sand, gentle azure water, and cooling palm trees.\nHypothesis: Long Bay is a five mile stretch of sublime fine sand.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.25390625,
+        "B": -6.90625,
+        "C": -7.42578125
+      },
+      "margin": 1.65234375
+    },
+    {
+      "idx": 40,
+      "prompt": "Premise: Venice and its Repubblica Serena rebounded to turn to the mainland, extending its Veneto territory from Padua across the Po valley as far as Bergamo.\nHypothesis: Venice had hopes of expanding its territory.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.4296875,
+        "B": -7.09765625,
+        "C": -7.8359375
+      },
+      "margin": 1.66796875
+    },
+    {
+      "idx": 41,
+      "prompt": "Premise: As long as Assad lives, he can manage these troubles and keep an agreement with Israel.\nHypothesis: As long as Assad doesn't die in the hurricane, he will still be able to take care of the trouble with the soldiers. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4296875,
+        "B": -7.1484375,
+        "C": -7.78515625
+      },
+      "margin": 1.71875
+    },
+    {
+      "idx": 42,
+      "prompt": "Premise: Larger boats for up to 20 people, plus crew, offer organized gourmet cruises.\nHypothesis: You can easily find gourmet cruises.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.17578125,
+        "B": -7.4921875,
+        "C": -7.7890625
+      },
+      "margin": 2.31640625
+    },
+    {
+      "idx": 43,
+      "prompt": "Premise: , First-Class Mail used by households to pay their bills) and the household bill mail (i.e.\nHypothesis: First-Class Mail used by households to pay their bills\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.13671875,
+        "B": -6.74609375,
+        "C": -7.35546875
+      },
+      "margin": 1.609375
+    },
+    {
+      "idx": 44,
+      "prompt": "Premise: 36 AC usage nationally for mercury control from power plants should be roughly proportional to the total MWe of coal-fired facilities that are equipped with the technology (this assumes an average capacity factor of 85 percent and other assumptions of Tables 4-4 and 4-5).\nHypothesis: AC usage for mercury control should be related to total coal facilities MWe.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.52734375,
+        "B": -6.8984375,
+        "C": -7.6484375
+      },
+      "margin": 1.37109375
+    },
+    {
+      "idx": 45,
+      "prompt": "Premise: Small boats tie up here with batches of crayfish, fresh fish, and eel, and housewives clamor for the fishermen to weigh their choices on rudimentary scales.\nHypothesis: The fishermen fish crayfish, fresh fish, and eel.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.265625,
+        "B": -7.10546875,
+        "C": -7.484375
+      },
+      "margin": 1.83984375
+    },
+    {
+      "idx": 46,
+      "prompt": "Premise: The final rule contains a Federalism Assessment under Executive Order\nHypothesis: The final rule had a federalism assessment that was added through a special election.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.0859375,
+        "B": -6.6484375,
+        "C": -7.26171875
+      },
+      "margin": 1.5625
+    },
+    {
+      "idx": 47,
+      "prompt": "Premise: She's a crutch.\nHypothesis: She's an essential, key role in this, and is being used as a crutch.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.22265625,
+        "B": -7.30078125,
+        "C": -7.44140625
+      },
+      "margin": 2.078125
+    },
+    {
+      "idx": 48,
+      "prompt": "Premise: Nothing prior to May 7, 1915.\nHypothesis: Everything is before May 7, 1915.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.25,
+        "B": -7.35546875,
+        "C": -7.46875
+      },
+      "margin": 2.10546875
+    },
+    {
+      "idx": 49,
+      "prompt": "Premise: It will be held in the Maryland woods, and the telecast will consist of jittery footage of the contestants' slow descent into madness as they are systematically stalked and disappeared/disqualified by Bob Barker.\nHypothesis: The show will be set in the woods north of Boston.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3984375,
+        "B": -6.87890625,
+        "C": -7.28515625
+      },
+      "margin": 1.48046875
+    },
+    {
+      "idx": 50,
+      "prompt": "Premise: You're all right now.\nHypothesis: You're not okay now. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.68359375,
+        "B": -7.93359375,
+        "C": -8.0546875
+      },
+      "margin": 2.25
+    },
+    {
+      "idx": 51,
+      "prompt": "Premise: I don't know what I would have done without Legal Services, said James. \nHypothesis: James said Legal Services helped him a lot.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.30859375,
+        "B": -7.375,
+        "C": -7.71875
+      },
+      "margin": 2.06640625
+    },
+    {
+      "idx": 52,
+      "prompt": "Premise: I saw that a faint streak of daylight was showing through the curtains of the windows, and that the clock on the mantelpiece pointed to close upon five o'clock. \nHypothesis: I saw that it was still the middle of the night.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.53125,
+        "B": -7.40625,
+        "C": -7.96484375
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 53,
+      "prompt": "Premise: For their part, family-planning organizations and the Clinton administration seem equally adamant.\nHypothesis: family-planning organizations agree with the Clinton administration about certain things.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.453125,
+        "B": -7.359375,
+        "C": -7.640625
+      },
+      "margin": 1.90625
+    },
+    {
+      "idx": 54,
+      "prompt": "Premise: yeah it's just a matter of education i think\nHypothesis: I think it just depends on education.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.84765625,
+        "B": -6.48046875,
+        "C": -6.7890625
+      },
+      "margin": 1.6328125
+    },
+    {
+      "idx": 55,
+      "prompt": "Premise: A more unusual dish is azure, a kind of sweet porridge made with cereals, nuts, and fruit sprinkled with rosewater.\nHypothesis: Azure is the name of a coffee.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4375,
+        "B": -7.31640625,
+        "C": -7.703125
+      },
+      "margin": 1.87890625
+    },
+    {
+      "idx": 56,
+      "prompt": "Premise:  Folklore of Ibiza\nHypothesis: Ibiza's traditions and lore\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.99609375,
+        "B": -7.484375,
+        "C": -7.484375
+      },
+      "margin": 2.48828125
+    },
+    {
+      "idx": 57,
+      "prompt": "Premise: It's thought he used the same architect who worked on the Taj Mahal.\nHypothesis: Everyone thinks he used a different architect from the one who worked on the Taj Mahal.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4609375,
+        "B": -7.3203125,
+        "C": -7.74609375
+      },
+      "margin": 1.859375
+    },
+    {
+      "idx": 58,
+      "prompt": "Premise: Their supplies scarce, their harvest meager, and their spirit broken, they abandoned the fort in 1858.\nHypothesis: Their spirit was never broken despite having no more food.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.25,
+        "B": -7.11328125,
+        "C": -7.515625
+      },
+      "margin": 1.86328125
+    },
+    {
+      "idx": 59,
+      "prompt": "Premise: If I work at it, I might even be able to pick up some endorsements from members of the Sonics.\nHypothesis: I'll be able to get endorsements from Sonic if I put some work into it.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.30859375,
+        "B": -7.1328125,
+        "C": -7.4609375
+      },
+      "margin": 1.82421875
+    },
+    {
+      "idx": 60,
+      "prompt": "Premise: Jon's feeling of age and weariness must have shown.\nHypothesis: Jon was weary and feeling his age.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.09765625,
+        "B": -7.05078125,
+        "C": -7.14453125
+      },
+      "margin": 1.953125
+    },
+    {
+      "idx": 61,
+      "prompt": "Premise: Cultural transitions of major organizations are never easy to accomplish, and I would certainly not claim that it will be easy for GAO.\nHypothesis: GAO will likely have an easier time achieving cultural transitions than other organizations of similar size.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4765625,
+        "B": -6.98828125,
+        "C": -7.92578125
+      },
+      "margin": 1.51171875
+    },
+    {
+      "idx": 62,
+      "prompt": "Premise: the the Iranian borders are still open uh from what i understand understand um\nHypothesis: From what I know the borders of Iran are still open.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.3984375,
+        "B": -6.04296875,
+        "C": -6.28515625
+      },
+      "margin": 1.64453125
+    },
+    {
+      "idx": 63,
+      "prompt": "Premise: oh really i was um i was TDY at Bent Waters\nHypothesis: I enjoyed my temporary duty at Bent Waters. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.125,
+        "B": -6.78515625,
+        "C": -7.125
+      },
+      "margin": 1.66015625
+    },
+    {
+      "idx": 64,
+      "prompt": "Premise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: Co-requesters cannot approve more co-requesters.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.359375,
+        "B": -6.921875,
+        "C": -7.64453125
+      },
+      "margin": 1.5625
+    },
+    {
+      "idx": 65,
+      "prompt": "Premise: The lucrative tin mines of Kuala Lumpur in the State of Selangor, of Sungai Ujong in Negeri Sembilan, and of Larut and Taiping in Perak were run for the Malay rulers by Chinese managers providing coolie labor.\nHypothesis: The Malay rulers directed administrated their own tin mines.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.58203125,
+        "B": -7.08984375,
+        "C": -7.75
+      },
+      "margin": 1.5078125
+    },
+    {
+      "idx": 66,
+      "prompt": "Premise: Did the ancestors of the Indians really come from Asia over the Aleutian land bridge?\nHypothesis: I wonder if the Indians ancestors actually came over the Aleutian land bridge? \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.12890625,
+        "B": -7.1796875,
+        "C": -7.34765625
+      },
+      "margin": 2.05078125
+    },
+    {
+      "idx": 67,
+      "prompt": "Premise: Overlapping the others?\nHypothesis: Separate from the others?\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.234375,
+        "B": -7.515625,
+        "C": -7.66015625
+      },
+      "margin": 2.28125
+    },
+    {
+      "idx": 68,
+      "prompt": "Premise: yeah that's where i got to too the first i got chills up and down when i heard the on the radio and the first time they started doing the bombing\nHypothesis: The bombing in Korea was shocking to the world.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.31640625,
+        "B": -5.8984375,
+        "C": -6.01953125
+      },
+      "margin": 1.58203125
+    },
+    {
+      "idx": 69,
+      "prompt": "Premise: And the trunk? Big? Mother asked again to keep up appearances.\nHypothesis: Mother, trying to keep up appearances, asked if the trunk was big.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.92578125,
+        "B": -6.59765625,
+        "C": -6.7734375
+      },
+      "margin": 1.671875
+    },
+    {
+      "idx": 70,
+      "prompt": "Premise:  The tents had been burned, but there was a new building where the main tent had been.\nHypothesis: The tents were in the way of the building.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.48828125,
+        "B": -7.47265625,
+        "C": -7.6640625
+      },
+      "margin": 1.984375
+    },
+    {
+      "idx": 71,
+      "prompt": "Premise: But she's not like her photo one bit.\nHypothesis: The girl in the photo has freckles and red hair. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3671875,
+        "B": -7.46484375,
+        "C": -7.4765625
+      },
+      "margin": 2.09765625
+    },
+    {
+      "idx": 72,
+      "prompt": "Premise: The baker was not jolly.\nHypothesis: The baker was very festive last night.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.55859375,
+        "B": -7.52734375,
+        "C": -7.74609375
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 73,
+      "prompt": "Premise: taken up by the oh okay oh so you know well that's i had wondered sometimes i knew that there was a lot of a lot of effort and a lot of work went into a lot of that and i just wondered if if it lasted and if it took you know like yeah\nHypothesis: A great deal of effort and work went into that.  \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.03125,
+        "B": -6.796875,
+        "C": -7.18359375
+      },
+      "margin": 1.765625
+    },
+    {
+      "idx": 74,
+      "prompt": "Premise: um-hum yes i was amazed we spent the only time we played on our trip was in Douglas Arizona and uh that was just\nHypothesis: Douglas, Arizona was a highlight of our trip.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.67578125,
+        "B": -6.38671875,
+        "C": -6.56640625
+      },
+      "margin": 1.7109375
+    },
+    {
+      "idx": 75,
+      "prompt": "Premise: The formal splendor of the grounds testify to the 18th-century desire to tame nature, but it is done with such superlative results that one can only be thankful that the work was undertaken.\nHypothesis: The grounds were trashy and ugly.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.40234375,
+        "B": -7.1171875,
+        "C": -7.65234375
+      },
+      "margin": 1.71484375
+    },
+    {
+      "idx": 76,
+      "prompt": "Premise: The church has an even more elaborate Baroque pulpit.\nHypothesis: The church has a Barogue style pulpit\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.0859375,
+        "B": -6.890625,
+        "C": -7.0859375
+      },
+      "margin": 1.8046875
+    },
+    {
+      "idx": 77,
+      "prompt": "Premise: I've always jumped on sentiment and here I am being more sentimental than anybody.\nHypothesis: I'm being the most sentimental of all, which isn't normal.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.35546875,
+        "B": -7.54296875,
+        "C": -7.71484375
+      },
+      "margin": 2.1875
+    },
+    {
+      "idx": 78,
+      "prompt": "Premise: As a result, an estimated four out of five low-income people requiring legal help in our community do not receive it.\nHypothesis: The people with low incomes do not know what s available to them as far as legal help is concerned.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.12890625,
+        "B": -6.53515625,
+        "C": -7.30078125
+      },
+      "margin": 1.40625
+    },
+    {
+      "idx": 79,
+      "prompt": "Premise: him?\" she asked.\nHypothesis: She asked about him.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.71484375,
+        "B": -6.35546875,
+        "C": -6.6171875
+      },
+      "margin": 1.640625
+    },
+    {
+      "idx": 80,
+      "prompt": "Premise: Legal Services Corp., 02-CV-3866, names as defendants the national Legal Services Corp., which distributes federal grants to providers, and Legal Services of New Jersey, which distributes state money.\nHypothesis: Legal Services Corp. wasn't a named defendant.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.27734375,
+        "B": -7.2265625,
+        "C": -7.54296875
+      },
+      "margin": 1.94921875
+    },
+    {
+      "idx": 81,
+      "prompt": "Premise: He works himself into a fake froth; does some calculated, halfhearted gonzo writing; then collects a fat check.\nHypothesis: He's well-known in writing circles as a hack who is willing to sell out to the highest bidder.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.42578125,
+        "B": -7.171875,
+        "C": -7.390625
+      },
+      "margin": 1.74609375
+    },
+    {
+      "idx": 82,
+      "prompt": "Premise: Working for Philip Morris isn't like defending an indigent murderer in a death penalty appeal.\nHypothesis: Working for Philip Morris is a legal challenge.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.03515625,
+        "B": -7.06640625,
+        "C": -7.30078125
+      },
+      "margin": 2.03125
+    },
+    {
+      "idx": 83,
+      "prompt": "Premise: U.S. civil legal services delivery system.\nHypothesis: The us has a legal services delivery system \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.69921875,
+        "B": -6.69921875,
+        "C": -7.19921875
+      },
+      "margin": 2.0
+    },
+    {
+      "idx": 84,
+      "prompt": "Premise: Daniel nodded, fetching me a glass of beer.\nHypothesis: It was Daniel who got me the beer. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.51171875,
+        "B": -7.44921875,
+        "C": -7.57421875
+      },
+      "margin": 1.9375
+    },
+    {
+      "idx": 85,
+      "prompt": "Premise: probably yeah i would imagine the judge could throw it out\nHypothesis: I would guess that the judge would be able to toss that out.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -3.935546875,
+        "B": -5.6796875,
+        "C": -5.64453125
+      },
+      "margin": 1.708984375
+    },
+    {
+      "idx": 86,
+      "prompt": "Premise: When Mr. Hastings and Mr. Lawrence came in yesterday evening, they found your mistress busy writing letters. \nHypothesis: Last night no one saw your mistress.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.640625,
+        "B": -7.92578125,
+        "C": -7.91015625
+      },
+      "margin": 2.26953125
+    },
+    {
+      "idx": 87,
+      "prompt": "Premise: Look out for that overseer up there.\nHypothesis: You do not need to worry about that overseer.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.1328125,
+        "C": -7.3515625
+      },
+      "margin": 1.75
+    },
+    {
+      "idx": 88,
+      "prompt": "Premise: He needs to keep his finger on the pulse to succeed during the short tourist season.\nHypothesis: The tourism season is so long that he will be successful eventually.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4140625,
+        "B": -7.1796875,
+        "C": -7.58203125
+      },
+      "margin": 1.765625
+    },
+    {
+      "idx": 89,
+      "prompt": "Premise: Although it's hard to disagree with James Surowiecki's roasting of Wade Cook in The Book on Cook, Surowiecki's assertion that the equity stock option market is simply a big casino that contribute[s] nothing to the smooth functioning of capital markets is both wrong and silly.\nHypothesis: James Surowiecki asserts that the equity stock option market contributes nothing to the smooth functioning of capital markets.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.19921875,
+        "B": -6.7265625,
+        "C": -7.51171875
+      },
+      "margin": 1.52734375
+    },
+    {
+      "idx": 90,
+      "prompt": "Premise: My own little corner of the world, policy wonking, is an example.\nHypothesis: An example is birdwatching.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.140625,
+        "B": -7.06640625,
+        "C": -7.28515625
+      },
+      "margin": 1.92578125
+    },
+    {
+      "idx": 91,
+      "prompt": "Premise: To reach any of the three Carbet falls, you must continue walking after the roads come to an end for 20 minutes, 30 minutes, or two hours respectively.\nHypothesis: To reach any of the three Carbet falls you can take any of the three paths, it doesn't matter which because they are all the same length.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.296875,
+        "B": -7.359375,
+        "C": -8.0234375
+      },
+      "margin": 2.0625
+    },
+    {
+      "idx": 92,
+      "prompt": "Premise: Thorn held a sword different from any Ca'daan had ever seen.\nHypothesis: Ca'daan had never seen someone hold a sword like Thorn held it.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.22265625,
+        "B": -7.14453125,
+        "C": -7.7421875
+      },
+      "margin": 1.921875
+    },
+    {
+      "idx": 93,
+      "prompt": "Premise: To savour the full effect of the architect's skill, enter the courtyard through the gate which opens onto the Hippodrome.\nHypothesis: The gate to the Hippodrome is an example of the architect's skill.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.21875,
+        "B": -7.234375,
+        "C": -7.55078125
+      },
+      "margin": 2.015625
+    },
+    {
+      "idx": 94,
+      "prompt": "Premise: Local legend claims that he wrote part of his great saga, Os Lusadas, in what is now called the Camees Grotto, situated in the spacious tropical Camees Garden.\nHypothesis: It is claimed that a portion of Os Lusadas was written in the Camees Grotto.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.5078125,
+        "B": -7.23828125,
+        "C": -8.1015625
+      },
+      "margin": 1.73046875
+    },
+    {
+      "idx": 95,
+      "prompt": "Premise: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707 of the Employee Retirement Income Security Act (Pub.\nHypothesis: The Department of Labor's interim rule is adopted pursuant to the authority contained in Section 707.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.13671875,
+        "B": -6.0859375,
+        "C": -6.6171875
+      },
+      "margin": 0.94921875
+    },
+    {
+      "idx": 96,
+      "prompt": "Premise: In most methods, we plan for data collection, then we collect the information, then we analyze it, and then we write the report.\nHypothesis: information is collected, analyzed, and then a report is written.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -6.9765625,
+        "C": -7.76171875
+      },
+      "margin": 1.59375
+    },
+    {
+      "idx": 97,
+      "prompt": "Premise: Sandstone and granite were the materials used to build the Baroque church of Bom Jesus, famous for its casket of St. Francis Xavier's relics in the mausoleum to the right of the altar.\nHypothesis: Sandstone and granite were chosen as the materials for the Baroque church of Bom Jesus because of how sturdy they are.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.43359375,
+        "C": -8.0859375
+      },
+      "margin": 2.05078125
+    },
+    {
+      "idx": 98,
+      "prompt": "Premise: i cried when the horse got killed and when the wolf got killed\nHypothesis: I went through the entire thing without crying.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -7.125,
+        "C": -7.58984375
+      },
+      "margin": 1.91015625
+    },
+    {
+      "idx": 99,
+      "prompt": "Premise: This is the island's main city and financial, governmental, and administrative centre, and its charms match those of other Mediterranean  jewels.  \nHypothesis: The city is the island's governmental and financial centre. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.4296875,
+        "B": -7.4296875,
+        "C": -7.8984375
+      },
+      "margin": 2.0
+    },
+    {
+      "idx": 100,
+      "prompt": "Premise: So unlike people who are fortunate enough to be able to afford attorneys and can go to another lawyer, our clients are simply lost in the legal system if they cannot get access to it from us.\nHypothesis: Our clients can afford attorneys and bouncing between lawyers.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.171875,
+        "B": -6.84765625,
+        "C": -7.56640625
+      },
+      "margin": 1.67578125
+    },
+    {
+      "idx": 101,
+      "prompt": "Premise: British action wouldn't have mattered.\nHypothesis: It wouldn't have mattered if Britain got involved.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -6.953125,
+        "C": -7.3125
+      },
+      "margin": 1.75
+    },
+    {
+      "idx": 102,
+      "prompt": "Premise: Under Ferdinand and Isabella, Spain underwent a dramatic transformation.\nHypothesis: Ferdinand and Isabella caused stunning changes to take place in Spain.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -7.20703125,
+        "C": -7.78125
+      },
+      "margin": 2.00390625
+    },
+    {
+      "idx": 103,
+      "prompt": "Premise: We should seek to achieve the most good or benefit, with the least harm and destruction of things that we value, he argued.\nHypothesis: He argued that we should recklessly destroy all the things that we care the most about.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4140625,
+        "B": -6.9453125,
+        "C": -7.58203125
+      },
+      "margin": 1.53125
+    },
+    {
+      "idx": 104,
+      "prompt": "Premise: and i and i may have been the only one that did both because the mentality in Dallas was that you couldn't like both you had to like one and hate the other\nHypothesis: In Dallas, the mentality is that you have to like both of them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.0703125,
+        "B": -6.4296875,
+        "C": -7.11328125
+      },
+      "margin": 1.359375
+    },
+    {
+      "idx": 105,
+      "prompt": "Premise: On the west side of the square is Old King's House (built in 1762), which was the official residence of the British governor; it was here that the proclamation of emancipation was issued in 1838.\nHypothesis: The Old King's House had an incident where the King was murdered inside of it.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.38671875,
+        "B": -7.26171875,
+        "C": -7.93359375
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 106,
+      "prompt": "Premise: ooh that does get high yeah i mean\nHypothesis: That does get high because you want so many different extras.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.69921875,
+        "B": -6.265625,
+        "C": -6.57421875
+      },
+      "margin": 1.56640625
+    },
+    {
+      "idx": 107,
+      "prompt": "Premise: GAO's recommendations are intended to improve the economy, efficiency, and effectiveness of an agency's operations and to improve the accountability of the federal government for the benefit of the American people.\nHypothesis: The American people look up to the GAO to handle and improve the economy of an agency's operations.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.390625,
+        "B": -7.25,
+        "C": -8.03125
+      },
+      "margin": 1.859375
+    },
+    {
+      "idx": 108,
+      "prompt": "Premise: i like the Moody Blues\nHypothesis: I do not like the music of the Moody Blues.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.23046875,
+        "C": -7.421875
+      },
+      "margin": 1.84765625
+    },
+    {
+      "idx": 109,
+      "prompt": "Premise: Mortifyingly enough, it is all  the difficulty, the laziness, the pathetic formlessness in youth, the round peg in the square hole, the whatever do you want?\nHypothesis: Youth are always formless and lazy.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.38671875,
+        "B": -7.1640625,
+        "C": -7.1171875
+      },
+      "margin": 1.73046875
+    },
+    {
+      "idx": 110,
+      "prompt": "Premise: 8 A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product, while a stoichiometry of 1.05 is needed to produce waste suitable for a landfill.\nHypothesis: A stoichiometry of 1.03 is typical when the FGD process is producing gypsum by-product\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.1796875,
+        "B": -6.25390625,
+        "C": -7.2890625
+      },
+      "margin": 1.07421875
+    },
+    {
+      "idx": 111,
+      "prompt": "Premise: He's a bad lot. \nHypothesis: He's a dishonest person\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.37109375,
+        "B": -7.55859375,
+        "C": -7.33984375
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 112,
+      "prompt": "Premise: yeah okay yeah those games are fun to watch you you you watch those games\nHypothesis: Those games are a lot of fun.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.14453125,
+        "B": -6.75390625,
+        "C": -7.23828125
+      },
+      "margin": 1.609375
+    },
+    {
+      "idx": 113,
+      "prompt": "Premise: you know your children are going you know you've got five children in school instead of somebody that only has one or none and so you they're paying more income tax to pay for your children to go to school it just you know doesn't make sense\nHypothesis: The income tax laws need to be changed to make them fair.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1015625,
+        "B": -6.76171875,
+        "C": -7.2265625
+      },
+      "margin": 1.66015625
+    },
+    {
+      "idx": 114,
+      "prompt": "Premise: These are issues that we wrestle with in practice groups of law firms, she said. \nHypothesis: The practice groups find possible solutions to the issues.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.19140625,
+        "B": -7.18359375,
+        "C": -7.5078125
+      },
+      "margin": 1.9921875
+    },
+    {
+      "idx": 115,
+      "prompt": "Premise: The governing statute provides that a committee consisting of the Comptroller General, the Speaker of the House and President Pro Tempore of the Senate, the Majority and Minority leaders, and the Chairmen and Ranking Minority Members of the Senate Governmental Affairs and House Government Reform Committees recommend an individual to the President for appointment.\nHypothesis: The governing statute has considerations that have to be followed.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.046875,
+        "B": -6.765625,
+        "C": -7.51953125
+      },
+      "margin": 1.71875
+    },
+    {
+      "idx": 116,
+      "prompt": "Premise: And put like that, she added confidentially to Tommy, \"nobody could boggle at the expense!\" Nobody did, which was the great thing.\nHypothesis: People boggled at the expense.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.07421875,
+        "B": -6.48828125,
+        "C": -6.6484375
+      },
+      "margin": 1.4140625
+    },
+    {
+      "idx": 117,
+      "prompt": "Premise: Others are Zao (in Tohoku) and a number of resorts in Joshin-etsu Kogen National Park in the Japan Alps, where there are now splendid facilities thanks to the 1998 Winter Olympic Games in Nagano.\nHypothesis: There are a lot of resorts in the national park.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.1953125,
+        "B": -7.23828125,
+        "C": -7.6015625
+      },
+      "margin": 2.04296875
+    },
+    {
+      "idx": 118,
+      "prompt": "Premise: They just don't like it as much as men do.\nHypothesis: Guys seem to like it way more than them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.23046875,
+        "B": -7.078125,
+        "C": -7.46875
+      },
+      "margin": 1.84765625
+    },
+    {
+      "idx": 119,
+      "prompt": "Premise: Blue says Blumenthal claimed Clinton had told him that Lewinsky had made unwanted sexual advances.\nHypothesis: Clinton allegedly told Blumenthal that Lewinsky made unwanted sexual advances towards him. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.390625,
+        "C": -7.88671875
+      },
+      "margin": 2.0078125
+    },
+    {
+      "idx": 120,
+      "prompt": "Premise: yeah i think i'll probably just have to go with one of those splint braces or something\nHypothesis: The doctors will most likely say to use a splint brace. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.50390625,
+        "B": -6.2421875,
+        "C": -6.3515625
+      },
+      "margin": 1.73828125
+    },
+    {
+      "idx": 121,
+      "prompt": "Premise: Jon shifted and the sword tip slid past.\nHypothesis: Jon was too slow and the sword got him in the stomach.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.296875,
+        "B": -7.10546875,
+        "C": -7.44921875
+      },
+      "margin": 1.80859375
+    },
+    {
+      "idx": 122,
+      "prompt": "Premise: To be fair, Si doesn't pay for all such treats.\nHypothesis: Si only pays for some treats.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.44140625,
+        "B": -7.40625,
+        "C": -7.59375
+      },
+      "margin": 1.96484375
+    },
+    {
+      "idx": 123,
+      "prompt": "Premise: Per week?\nHypothesis: Every day.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.9921875,
+        "B": -7.3984375,
+        "C": -7.3203125
+      },
+      "margin": 2.328125
+    },
+    {
+      "idx": 124,
+      "prompt": "Premise: This one-at-a-time, uncoordinated series of regulatory requirements for the power industry is not the optimal approach for the environment, the power generation sector, or American consumers.\nHypothesis: The environment and American consumers are better off as a result of this regulation.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.515625,
+        "B": -7.15234375,
+        "C": -7.85546875
+      },
+      "margin": 1.63671875
+    },
+    {
+      "idx": 125,
+      "prompt": "Premise: Write, write, and write.\nHypothesis: Keep on writing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.91015625,
+        "B": -6.83203125,
+        "C": -6.87890625
+      },
+      "margin": 1.921875
+    },
+    {
+      "idx": 126,
+      "prompt": "Premise: Many had to leave their birthplaces, fleeing to Lesvos, Chios, and Samos, the Greek-ruled islands just offshore.\nHypothesis: The Greek people were in danger.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.41015625,
+        "B": -7.3984375,
+        "C": -7.80078125
+      },
+      "margin": 1.98828125
+    },
+    {
+      "idx": 127,
+      "prompt": "Premise: All of the islands are now officially and proudly part of France, not colonies as they were for some three centuries.\nHypothesis: The islands were not allowed to join France.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.5078125,
+        "B": -7.55078125,
+        "C": -7.9296875
+      },
+      "margin": 2.04296875
+    },
+    {
+      "idx": 128,
+      "prompt": "Premise: And she came to you?\nHypothesis: The person asked if the woman came to him.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.1640625,
+        "B": -7.0703125,
+        "C": -7.1953125
+      },
+      "margin": 1.90625
+    },
+    {
+      "idx": 129,
+      "prompt": "Premise: After four years, Clinton has learned how to avoid looking unpresidential.\nHypothesis: After four torturous years, Clinton finally gets how to avoid unpresidential behavior.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.28125,
+        "B": -7.09765625,
+        "C": -7.44140625
+      },
+      "margin": 1.81640625
+    },
+    {
+      "idx": 130,
+      "prompt": "Premise: 'Wait here,' I was ordered.\nHypothesis: He told me to come with him.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2890625,
+        "B": -7.0703125,
+        "C": -7.26171875
+      },
+      "margin": 1.78125
+    },
+    {
+      "idx": 131,
+      "prompt": "Premise: In fact, European nations need to do some serious fiscal housecleaning.\nHypothesis: European nations have a lot of wasteful spending practices.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -7.07421875,
+        "C": -7.41796875
+      },
+      "margin": 1.859375
+    },
+    {
+      "idx": 132,
+      "prompt": "Premise: After criticizing the GOP openly for weeks, Buchanan announced that he would seek the Reform presidential nomination, which would bring him $12 million in federal funds.\nHypothesis: Buchanan decided to seek the presidential nomination after he had been criticizing the GOP.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.328125,
+        "B": -7.234375,
+        "C": -7.6875
+      },
+      "margin": 1.90625
+    },
+    {
+      "idx": 133,
+      "prompt": "Premise: yeah yeah you know we're kind of that way too i try to i'm the same way you are i kind of try to judge from day to day i know you know where i am we work a lot with the customers and we have a lot of government folks come in all the time and\nHypothesis: We've never had a visit from someone from the government.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.9765625,
+        "B": -6.8203125,
+        "C": -7.1640625
+      },
+      "margin": 1.84375
+    },
+    {
+      "idx": 134,
+      "prompt": "Premise: yeah because i was saying to him i said i'm not that heavy i'm not heavy you know maybe ten to fifteen pounds like any other human being\nHypothesis: i told him i've gained a lot of weight\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.37890625,
+        "B": -6.125,
+        "C": -6.69921875
+      },
+      "margin": 1.74609375
+    },
+    {
+      "idx": 135,
+      "prompt": "Premise: did you well it's not just that are there enough jobs for people here now\nHypothesis: there still aren't enough jobs for everyone here\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.11328125,
+        "B": -6.76953125,
+        "C": -7.17578125
+      },
+      "margin": 1.65625
+    },
+    {
+      "idx": 136,
+      "prompt": "Premise: While documenting the basis for judgments can be more difficult than documenting nonjudgmental information, overall the chain of evidence or audit trail techniques should not pose any greater difficulty for GAO evaluators than our documentation procedures for other evaluation methods.\nHypothesis: GAO evaluators should not have much more difficulty with the chain of evidence.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.91015625,
+        "B": -6.359375,
+        "C": -6.86328125
+      },
+      "margin": 1.44921875
+    },
+    {
+      "idx": 137,
+      "prompt": "Premise: If a trace of tropical lethargy still adds to the charm in this city of sidewalk cafe, palm trees, and pedicabs, any torpor definitely ends once inside the doors of Macau's casinos, scene of some of the liveliest gambling west of Las Vegas.\nHypothesis: Macau's casinos are some of the dullest establishments in Asia.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.62890625,
+        "B": -7.0625,
+        "C": -7.89453125
+      },
+      "margin": 1.43359375
+    },
+    {
+      "idx": 138,
+      "prompt": "Premise: With most plants needing to install control equipment to meet these requirements, it is likely that this approach would lead to installation of controls that become obsolete and stranded capital investments as additional requirements are promulgated.\nHypothesis: Most plants need to install control equipment to meet requirements.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.18359375,
+        "B": -6.3046875,
+        "C": -7.3046875
+      },
+      "margin": 1.12109375
+    },
+    {
+      "idx": 139,
+      "prompt": "Premise: yeah then you don't have you don't have that mess to clean up when you use an oil oil base painting and boy i'll tell you oh\nHypothesis: I've had to clean up oil base paint before, it isn't fun. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.625,
+        "B": -6.47265625,
+        "C": -6.359375
+      },
+      "margin": 1.734375
+    },
+    {
+      "idx": 140,
+      "prompt": "Premise: Workers are also represented in civil rights and retaliation claims.\nHypothesis: Some workers are represented in civil rights and retaliation claims.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.27734375,
+        "B": -7.24609375,
+        "C": -7.60546875
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 141,
+      "prompt": "Premise: You wonder what youre going to be when you grow up, lawyer Smith said. \nHypothesis: The lawyer, Smith, pointed out that you wanted to know what you would be when you grew up.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.25390625,
+        "B": -7.23046875,
+        "C": -7.80078125
+      },
+      "margin": 1.9765625
+    },
+    {
+      "idx": 142,
+      "prompt": "Premise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: The State and Federal courts are the same regardless of location.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21875,
+        "B": -7.421875,
+        "C": -7.50390625
+      },
+      "margin": 2.203125
+    },
+    {
+      "idx": 143,
+      "prompt": "Premise: Local residents will tell you where to find them.\nHypothesis: There are local tour guides to help you find them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.36328125,
+        "B": -7.50390625,
+        "C": -7.78515625
+      },
+      "margin": 2.140625
+    },
+    {
+      "idx": 144,
+      "prompt": "Premise: they just didn't watch him on TV\nHypothesis: They watched him on TV all the time. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.51953125,
+        "B": -7.50390625,
+        "C": -7.73828125
+      },
+      "margin": 1.984375
+    },
+    {
+      "idx": 145,
+      "prompt": "Premise: Are you sure we should take him down there?' Greuze asked Natalia.\nHypothesis: Natalia was certain it was alright to bring him down there, and told Greuze that no matter what, he must end up down there. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.54296875,
+        "B": -7.29296875,
+        "C": -7.75
+      },
+      "margin": 1.75
+    },
+    {
+      "idx": 146,
+      "prompt": "Premise: This is a powerful and evocative museum.\nHypothesis: The museum is powerful.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.2734375,
+        "B": -7.37109375,
+        "C": -7.40234375
+      },
+      "margin": 2.09765625
+    },
+    {
+      "idx": 147,
+      "prompt": "Premise: David Cope, a professor of music at the University of California at Santa Cruz, claims to have created a 42 nd Mozart symphony.\nHypothesis: Professor of Music David Cope claims to have written a 43rd Mozart Symphony.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.109375,
+        "B": -7.0,
+        "C": -7.53125
+      },
+      "margin": 1.890625
+    },
+    {
+      "idx": 148,
+      "prompt": "Premise: As a professional courtesy, GAO will inform requesters of substantive media inquiries during an ongoing assignment.\nHypothesis: It is rare for GAO to do something as a professional courtesy. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.609375,
+        "B": -7.375,
+        "C": -8.046875
+      },
+      "margin": 1.765625
+    },
+    {
+      "idx": 149,
+      "prompt": "Premise: No, Dave Hanson, you were too important to us for that.\nHypothesis: No, Dave Hanson, you were too important to us.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.15625,
+        "B": -6.9765625,
+        "C": -7.2734375
+      },
+      "margin": 1.8203125
+    },
+    {
+      "idx": 150,
+      "prompt": "Premise: His plan was to drive straight up to the house.\nHypothesis: He had planned to drive a block away from the house and slowly creep up.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.18359375,
+        "B": -6.91796875,
+        "C": -7.38671875
+      },
+      "margin": 1.734375
+    },
+    {
+      "idx": 151,
+      "prompt": "Premise: uh-huh yeah yeah they're good\nHypothesis: They were better before.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.0390625,
+        "C": -7.23828125
+      },
+      "margin": 1.65625
+    },
+    {
+      "idx": 152,
+      "prompt": "Premise: South Carolina has no referendum right, so the Supreme Court canceled the vote and upheld the ban.\nHypothesis: South Carolina has a referendum right, so the Supreme Court was powerless over the state.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.41015625,
+        "B": -7.42578125,
+        "C": -7.8203125
+      },
+      "margin": 2.015625
+    },
+    {
+      "idx": 153,
+      "prompt": "Premise: yeah yeah and i took a five year note out on my car when i right when i got out of college and uh i'll never do that again i still got a couple of years on it to go and i'm\nHypothesis: My biggest mistake was taking a five year note out on my car.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.89453125,
+        "B": -6.39453125,
+        "C": -6.84375
+      },
+      "margin": 1.5
+    },
+    {
+      "idx": 154,
+      "prompt": "Premise: The majority of the agencies that responded appreciated GAO's initiative to develop the protocols and said that they were comprehensive and provided a framework for meaningful communication.\nHypothesis: The agencies that responded despised the initiative by GAO.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.6015625,
+        "B": -7.1171875,
+        "C": -7.80078125
+      },
+      "margin": 1.515625
+    },
+    {
+      "idx": 155,
+      "prompt": "Premise: no no not at all it\nHypothesis: Not all of the animals\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.44921875,
+        "B": -6.17578125,
+        "C": -6.625
+      },
+      "margin": 1.7265625
+    },
+    {
+      "idx": 156,
+      "prompt": "Premise: Starting from Scratch\nHypothesis: Hanging on to what we have.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.04296875,
+        "B": -6.93359375,
+        "C": -7.08984375
+      },
+      "margin": 1.890625
+    },
+    {
+      "idx": 157,
+      "prompt": "Premise: year, they gave morethan a half million dollars to Western Michigan Legal Services.\nHypothesis: Western Michigan Legal Services got half a million dollars from them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.02734375,
+        "B": -6.609375,
+        "C": -7.15234375
+      },
+      "margin": 1.58203125
+    },
+    {
+      "idx": 158,
+      "prompt": "Premise: I thought working on Liddy's campaign would be better than working on Bob's.\nHypothesis: Turns out, I was wrong and wished I had worked on Bob's campaign.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.19921875,
+        "B": -7.078125,
+        "C": -7.41796875
+      },
+      "margin": 1.87890625
+    },
+    {
+      "idx": 159,
+      "prompt": "Premise: or yeah exactly and that's what i say you'll you'll be you'll be so much better off for it as you get older because you know a lot of kids resent things that parents tell them and and stuff but it's because you've been there\nHypothesis: Kids don't like what their parents have told them. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.65625,
+        "B": -6.3125,
+        "C": -6.48046875
+      },
+      "margin": 1.65625
+    },
+    {
+      "idx": 160,
+      "prompt": "Premise: I felt an immeasurable 230 contempt for him\u2026 .\nHypothesis: I felt great respect for him...\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.98046875,
+        "B": -6.796875,
+        "C": -6.921875
+      },
+      "margin": 1.81640625
+    },
+    {
+      "idx": 161,
+      "prompt": "Premise: Do not talk.\nHypothesis: You should start talking now.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.44140625,
+        "B": -7.4921875,
+        "C": -7.5703125
+      },
+      "margin": 2.05078125
+    },
+    {
+      "idx": 162,
+      "prompt": "Premise: Another thing those early French and Dutch settlers agreed upon was that their island should be free of levies on any imported goods.\nHypothesis: The French settlers did not mind income taxes at all.  \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.921875,
+        "B": -7.6171875,
+        "C": -8.1796875
+      },
+      "margin": 1.6953125
+    },
+    {
+      "idx": 163,
+      "prompt": "Premise: GAO also issued over 160 reports detailing specific findings and made over 100 recommendations to agencies and to the President's Council on Year 2000 Conversion for improving the government's readiness.\nHypothesis: The GAO made no difference to the President's Council on Year 2000 and issued no reports at all.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.34375,
+        "B": -6.78125,
+        "C": -7.765625
+      },
+      "margin": 1.4375
+    },
+    {
+      "idx": 164,
+      "prompt": "Premise: 'Why isn't a lookalike good enough for them?'\nHypothesis: What are the reasons the lookalike isn't good enough?\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.08203125,
+        "B": -7.01953125,
+        "C": -7.17578125
+      },
+      "margin": 1.9375
+    },
+    {
+      "idx": 165,
+      "prompt": "Premise: All these sites will automatically lead into George Dubbawya's Web site (www.georgewbush.com).\nHypothesis: These sites lead to George W. Bush's website.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.43359375,
+        "B": -7.3671875,
+        "C": -7.3515625
+      },
+      "margin": 1.91796875
+    },
+    {
+      "idx": 166,
+      "prompt": "Premise: If I had chosen to be an actor, I should have been the greatest actor living! \nHypothesis: I chose to become an actor, but I wasn't very good at it. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.53125,
+        "B": -7.703125,
+        "C": -7.73828125
+      },
+      "margin": 2.171875
+    },
+    {
+      "idx": 167,
+      "prompt": "Premise: Recent SAB deliberations on mortality and morbidity valuation approaches suggest that some adjustments to unit values are appropriate to reflect economic theory (EPA-SAB-EEAC-00-013, 2000).\nHypothesis: Adjustments can never be made to mortality valuation.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.10546875,
+        "B": -6.56640625,
+        "C": -7.328125
+      },
+      "margin": 1.4609375
+    },
+    {
+      "idx": 168,
+      "prompt": "Premise: so uh i hope you like your office\nHypothesis: I hope you like your new office.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.76171875,
+        "B": -6.44140625,
+        "C": -6.953125
+      },
+      "margin": 1.6796875
+    },
+    {
+      "idx": 169,
+      "prompt": "Premise: Yet, in the mouths of the white townsfolk of Salisbury, N.C., it sounds convincing.\nHypothesis: White townsfolk in Salisbury, N.C. think it sounds convincing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.25,
+        "B": -7.1875,
+        "C": -7.375
+      },
+      "margin": 1.9375
+    },
+    {
+      "idx": 170,
+      "prompt": "Premise: Postal Service could increase those same rates by at least 13.\nHypothesis: The rates can not be changed by the Postal Service.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.16015625,
+        "B": -6.9765625,
+        "C": -7.1796875
+      },
+      "margin": 1.81640625
+    },
+    {
+      "idx": 171,
+      "prompt": "Premise: Recently, however, I have settled down and become decidedly less experimental.\nHypothesis: Lately, I have not been as wild and curious as I used to be.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.0078125,
+        "B": -6.74609375,
+        "C": -7.04296875
+      },
+      "margin": 1.73828125
+    },
+    {
+      "idx": 172,
+      "prompt": "Premise: yeah i mean just when uh the they military paid for her education\nHypothesis: The military didn't pay for her education.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.91796875,
+        "B": -6.47265625,
+        "C": -6.875
+      },
+      "margin": 1.5546875
+    },
+    {
+      "idx": 173,
+      "prompt": "Premise: Taking an ecumenical tack, nation officials in Chicago recently issued edicts commanding preachers to back off their anti-Semitic rhetoric.\nHypothesis: Nation officials in Chicago are involved in religious issues.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.27734375,
+        "B": -7.04296875,
+        "C": -7.32421875
+      },
+      "margin": 1.765625
+    },
+    {
+      "idx": 174,
+      "prompt": "Premise: The Ile Saint-Louis is an enchanted self-contained island of gracious living, long popular with the more affluent gentry and celebrities of Paris.\nHypothesis: The Ile Saint-Louis is popular with the wealthier citizens of Paris.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.3984375,
+        "B": -7.41015625,
+        "C": -7.6484375
+      },
+      "margin": 2.01171875
+    },
+    {
+      "idx": 175,
+      "prompt": "Premise: In the meantime, the philosophy is to seize present-day opportunities in the thriving economy.\nHypothesis: The philosophy was to seize opportunities when the economy is doing poorly.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.26171875,
+        "B": -6.91796875,
+        "C": -7.29296875
+      },
+      "margin": 1.65625
+    },
+    {
+      "idx": 176,
+      "prompt": "Premise: Diamonds are graded from D to X, with only D, E, and F considered good, D being colorless or  river white,  J  slightly tinted,  Q  light yellow,  and S to X  yellow.  \nHypothesis: The most expensive diamonds on the planet are graded with D.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.8515625,
+        "B": -7.68359375,
+        "C": -8.2890625
+      },
+      "margin": 1.83203125
+    },
+    {
+      "idx": 177,
+      "prompt": "Premise: Expenses included in calculating net cost for education and training programs that are intended to increase or maintain national economic productive capacity shall be reported as investments in human capital as required supplementary stewardship information accompanying the financial statements of the Federal Government and its component units.\nHypothesis: Net cost for college programs can be calculated as a way to increase productivity.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -6.7734375,
+        "C": -7.62109375
+      },
+      "margin": 1.55859375
+    },
+    {
+      "idx": 178,
+      "prompt": "Premise: oh i enjoyed it i mean it was just more for my money\nHypothesis: The performance was a good deal.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.75,
+        "B": -6.3203125,
+        "C": -6.7734375
+      },
+      "margin": 1.5703125
+    },
+    {
+      "idx": 179,
+      "prompt": "Premise: Beyond the Quantitative Cul-de- A Qualitative Perspective on Youth Employment Programs.\nHypothesis: The paper says youth employment programs are helpful.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.96875,
+        "B": -6.6640625,
+        "C": -7.234375
+      },
+      "margin": 1.6953125
+    },
+    {
+      "idx": 180,
+      "prompt": "Premise: yeah well at least as they told us uh two shifts\nHypothesis: They said there was only one shift.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.92578125,
+        "B": -6.3984375,
+        "C": -6.89453125
+      },
+      "margin": 1.47265625
+    },
+    {
+      "idx": 181,
+      "prompt": "Premise: Hall said that Britain has enjoyed a half-century of pre-eminence in this field of endeavor and that this could now be destroyed.\nHypothesis: Britain could lose its place at the top of this field of endeavor.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.27734375,
+        "B": -6.88671875,
+        "C": -7.14453125
+      },
+      "margin": 1.609375
+    },
+    {
+      "idx": 182,
+      "prompt": "Premise: yeah pay fifteen yeah yes i know yeah and when you pay fifteen dollars a month it sure takes a long time\nHypothesis: When you pay $15 a month, it takes a long time but I can't afford any more.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.03515625,
+        "B": -6.62890625,
+        "C": -7.01953125
+      },
+      "margin": 1.59375
+    },
+    {
+      "idx": 183,
+      "prompt": "Premise: An Indian traveler described the prosperous Bujang Valley settlement as  the seat of all felicities.  \nHypothesis: A traveler said the settlement was prospering. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.5625,
+        "B": -7.53515625,
+        "C": -7.80078125
+      },
+      "margin": 1.97265625
+    },
+    {
+      "idx": 184,
+      "prompt": "Premise: DOD's common practice for managing this environment has been to create aggressive risk reduction efforts in its programs.\nHypothesis: The DOD increases risk to manage the environment.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2890625,
+        "B": -6.84765625,
+        "C": -7.6171875
+      },
+      "margin": 1.55859375
+    },
+    {
+      "idx": 185,
+      "prompt": "Premise: it was really a nice compromise especially because she felt like she was still living in her own house and she still had her own couch and her own bed and it it really helped a lot and she was a lot more comfortable and she didn't\nHypothesis: Having her own furniture in the house made it much more comfortable for her. Yet still able get assistance if she needed it.They check on them two or three times a day and give their medication also.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.2109375,
+        "B": -5.890625,
+        "C": -6.01953125
+      },
+      "margin": 1.6796875
+    },
+    {
+      "idx": 186,
+      "prompt": "Premise: Basically, to sell myself.\nHypothesis: Selling myself is a very important thing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.10546875,
+        "B": -7.15625,
+        "C": -7.07421875
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 187,
+      "prompt": "Premise: and have been back and every now and then some news filters in that they went to see some of the old things and of course the savings and loan program um that was that you know that that just continued to grow in fact after my group i mean we were just a very small specialized group too to get that going and spread and then of course Peace Corps bowed out of that because that's uh uh something that nationalized very quickly and the same with the coops\nHypothesis: I try to keep up with the program but since I left the Peace Corps I just do not have the time.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.984375,
+        "B": -6.96875,
+        "C": -7.203125
+      },
+      "margin": 1.984375
+    },
+    {
+      "idx": 188,
+      "prompt": "Premise: that's hilarious to to get that jack off that's right oh that's a funny story\nHypothesis: The story is about the washing machine.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.70703125,
+        "B": -6.5546875,
+        "C": -6.58203125
+      },
+      "margin": 1.84765625
+    },
+    {
+      "idx": 189,
+      "prompt": "Premise: The  rock  has a soft texture and can be bought in a variety of shapes.\nHypothesis: The texture of the rock comes from the way that it is formed.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.44140625,
+        "B": -7.1640625,
+        "C": -7.8515625
+      },
+      "margin": 1.72265625
+    },
+    {
+      "idx": 190,
+      "prompt": "Premise: It spoke of thousands of years, even before the times of the old empire.\nHypothesis: The old Empire is still ongoing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.12109375,
+        "B": -7.046875,
+        "C": -7.421875
+      },
+      "margin": 1.92578125
+    },
+    {
+      "idx": 191,
+      "prompt": "Premise: This is my old friend, Monsieur Poirot, whom I have not seen for years.\"\nHypothesis: I haven't seen this old friend in over a year. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.35546875,
+        "B": -7.24609375,
+        "C": -7.5234375
+      },
+      "margin": 1.890625
+    },
+    {
+      "idx": 192,
+      "prompt": "Premise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Financing accounts are used to fund day to day operations.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -6.75,
+        "C": -7.55078125
+      },
+      "margin": 1.546875
+    },
+    {
+      "idx": 193,
+      "prompt": "Premise: Jon drew it out and stabbed again in the man's throat.\nHypothesis: Jon stabbed the man's throat multiple times.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.25390625,
+        "B": -7.03515625,
+        "C": -7.40625
+      },
+      "margin": 1.78125
+    },
+    {
+      "idx": 194,
+      "prompt": "Premise: He felt the off-hand dagger's weight in the small of his back.\nHypothesis: The knife was on his back.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.3515625,
+        "B": -7.1640625,
+        "C": -7.4296875
+      },
+      "margin": 1.8125
+    },
+    {
+      "idx": 195,
+      "prompt": "Premise: Vrenna looked it and smiled.\nHypothesis: Vrenna was happy it was destroyed\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.03125,
+        "B": -6.66015625,
+        "C": -7.06640625
+      },
+      "margin": 1.62890625
+    },
+    {
+      "idx": 196,
+      "prompt": "Premise: The remaining parts of the north, although enticing, are difficult to explore.\nHypothesis: Inexperienced explorers should take care to avoid dangerous areas of the north.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.375,
+        "B": -7.046875,
+        "C": -7.55859375
+      },
+      "margin": 1.671875
+    },
+    {
+      "idx": 197,
+      "prompt": "Premise: The most comfortable way to see these important Hoysala temples is to visit them on either side of an overnight stay at Hassan, 120 km (75 miles) northwest of Mysore.\nHypothesis: Do not book a hotel in Hassan as it is not near the Hoysala temples.  \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.63671875,
+        "B": -7.60546875,
+        "C": -7.984375
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 198,
+      "prompt": "Premise: Some are reported as not having been wanted at all.\nHypothesis: It has been reported that some are not desired at all.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.20703125,
+        "B": -7.20703125,
+        "C": -7.33203125
+      },
+      "margin": 2.0
+    },
+    {
+      "idx": 199,
+      "prompt": "Premise: but you're without a paycheck during that time and i don't at least that's my understanding is even you know the first time you go for counseling and it's six weeks before you're back to work\nHypothesis: I don't think you lose any money if you got to counciling.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.93359375,
+        "B": -6.69140625,
+        "C": -7.078125
+      },
+      "margin": 1.7578125
+    },
+    {
+      "idx": 200,
+      "prompt": "Premise: Hang it all! said Tommy indignantly.\nHypothesis: Tommy happily declared to hang nothing.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.55859375,
+        "B": -7.4140625,
+        "C": -7.6015625
+      },
+      "margin": 1.85546875
+    },
+    {
+      "idx": 201,
+      "prompt": "Premise: And, although I got a Ph.D. in philosophy many years ago and have thought and read about these matters ever since, heaven (or whatever) knows I don't have too many answers that I feel confident about.\nHypothesis: I have been thinking about this since I earned my degree, but I still don't know for sure.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -7.0078125,
+        "C": -7.3359375
+      },
+      "margin": 1.8046875
+    },
+    {
+      "idx": 202,
+      "prompt": "Premise: Can I help you?'\nHypothesis: Can i help you with that order?\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.6640625,
+        "B": -6.40234375,
+        "C": -6.82421875
+      },
+      "margin": 1.73828125
+    },
+    {
+      "idx": 203,
+      "prompt": "Premise: it was really easy i mean just just did a thumb print you know\nHypothesis: It was very easy because I just did a thumb print.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.109375,
+        "B": -5.7890625,
+        "C": -5.84765625
+      },
+      "margin": 1.6796875
+    },
+    {
+      "idx": 204,
+      "prompt": "Premise: looking at that and you know and if it's if it's funny or if it keeps my interest if it's exciting i'll watch it if not i don't and times that i saw that or pieces of that it wasn't any it wasn't great Thirty Something i watched a few times because there was a few good episodes and then after that it it i just lost interest in it\nHypothesis: Thirty Something was one of my favorite shows until I lost interest in it.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.30859375,
+        "B": -6.046875,
+        "C": -6.15625
+      },
+      "margin": 1.73828125
+    },
+    {
+      "idx": 205,
+      "prompt": "Premise: Tom is the winner of a year's supply of Turtle Wax, and he will receive his prize just as soon as the Shopping Avenger figures out how much Turtle Wax actually constitutes a year's supply.\nHypothesis: There are no winners of the one year supply of Turtle wax.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4375,
+        "B": -7.19921875,
+        "C": -7.515625
+      },
+      "margin": 1.76171875
+    },
+    {
+      "idx": 206,
+      "prompt": "Premise: in well i think i think my long-term sense of of budget concerns is that we're going is a lot of others government's spending goes on goes towards this uh health care and things like that and a lot of causes of poor health or need for health care are brought about by various factors such as such as pollution stress you know work work environment conditions and so forth but generally the government is\nHypothesis: It's better to prevent some of the strain on the health care system by limiting pollution but the political capital isn't necessarily there.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.04296875,
+        "B": -6.55859375,
+        "C": -7.1171875
+      },
+      "margin": 1.515625
+    },
+    {
+      "idx": 207,
+      "prompt": "Premise: Along the eastern coastline are several fine beaches with perfect windsurfing conditions in their wide, shallow bays.\nHypothesis: The shallow bays are great places for windsurfing, especially in the summer.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -7.01171875,
+        "C": -7.51171875
+      },
+      "margin": 1.796875
+    },
+    {
+      "idx": 208,
+      "prompt": "Premise: Recommendations\nHypothesis: staff recommendations\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.91796875,
+        "B": -7.07421875,
+        "C": -7.35546875
+      },
+      "margin": 2.15625
+    },
+    {
+      "idx": 209,
+      "prompt": "Premise: Still, commercial calculation isn't sufficient to explain his stand.\nHypothesis: Commercial calculation is still not enough to explain his resolve.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.77734375,
+        "B": -6.546875,
+        "C": -6.890625
+      },
+      "margin": 1.76953125
+    },
+    {
+      "idx": 210,
+      "prompt": "Premise: Tabulations of actual meetings and of consequent actions for same-agency funded and different-agency funded services can help check out whether this impression is reliable.\nHypothesis: The reliability of impressions can be measured at least partially by tabulating meetings.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.60546875,
+        "B": -7.18359375,
+        "C": -7.49609375
+      },
+      "margin": 1.578125
+    },
+    {
+      "idx": 211,
+      "prompt": "Premise: The world ripped apart around them replaced with a world of fear and blood and fire.\nHypothesis: They were trying to escape the chaos around them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.04296875,
+        "B": -6.921875,
+        "C": -7.4375
+      },
+      "margin": 1.87890625
+    },
+    {
+      "idx": 212,
+      "prompt": "Premise: i wish it was as good over here as it is over there but if you're the\nHypothesis: I am glad it is better here than over there.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.296875,
+        "B": -6.78515625,
+        "C": -7.234375
+      },
+      "margin": 1.48828125
+    },
+    {
+      "idx": 213,
+      "prompt": "Premise: I have to tell you, I tried to understand it.\nHypothesis: I have figured it out.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.09765625,
+        "B": -7.3671875,
+        "C": -7.4609375
+      },
+      "margin": 2.26953125
+    },
+    {
+      "idx": 214,
+      "prompt": "Premise: You will learn later that the person who usually poured out Mrs. Inglethorp's medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed. \nHypothesis: The person was after Mrs. Inglethorp's vast fortune. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.60546875,
+        "B": -7.79296875,
+        "C": -8.21875
+      },
+      "margin": 2.1875
+    },
+    {
+      "idx": 215,
+      "prompt": "Premise: However, SCR installations designed to comply with the NOX SIP Call are generally already into the installation process or, at a minimum, into the engineering phase of the project.\nHypothesis: SCR installs have NOX SIP to comply with.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.01953125,
+        "B": -6.56640625,
+        "C": -7.6171875
+      },
+      "margin": 1.546875
+    },
+    {
+      "idx": 216,
+      "prompt": "Premise: Along with each step, certain practices proved especially important to the success of their efforts.\nHypothesis: Certain practices were really important to their efforts\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.26953125,
+        "B": -7.0703125,
+        "C": -7.421875
+      },
+      "margin": 1.80078125
+    },
+    {
+      "idx": 217,
+      "prompt": "Premise: You have to walk through it).\nHypothesis: Walking is the best way to get through it.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.30078125,
+        "B": -7.11328125,
+        "C": -7.515625
+      },
+      "margin": 1.8125
+    },
+    {
+      "idx": 218,
+      "prompt": "Premise: you know they can't really defend themselves like somebody grown uh say my age you know yeah\nHypothesis: They can't defend themselves because of their age.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.01953125,
+        "B": -6.76171875,
+        "C": -7.1015625
+      },
+      "margin": 1.7421875
+    },
+    {
+      "idx": 219,
+      "prompt": "Premise: approaches to achieving missions vary considerably between agencies.\nHypothesis: Approaches to achieving missions might change a lot from the FDA to the IRS.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.02734375,
+        "B": -6.75,
+        "C": -7.37109375
+      },
+      "margin": 1.72265625
+    },
+    {
+      "idx": 220,
+      "prompt": "Premise: Jon was fighting at full speed, sweat forming on his brow.\nHypothesis: Jon was fighting demons at full speed.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.06640625,
+        "B": -6.97265625,
+        "C": -7.26953125
+      },
+      "margin": 1.90625
+    },
+    {
+      "idx": 221,
+      "prompt": "Premise: Never trust a Sather, Bork said softly.\nHypothesis: Trust a Sather, Jenna said.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.58984375,
+        "B": -7.0546875,
+        "C": -7.546875
+      },
+      "margin": 1.46484375
+    },
+    {
+      "idx": 222,
+      "prompt": "Premise: It's all right.\nHypothesis: It is well and we will be on our way.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.0390625,
+        "B": -6.9921875,
+        "C": -7.1484375
+      },
+      "margin": 1.953125
+    },
+    {
+      "idx": 223,
+      "prompt": "Premise: Executives do so by examining their internal environments and asking a series of questions about the problems that need fixing, how information technology and management can help, and how a CIO might best fit within their management structures to guide technology solutions.\nHypothesis: More powerful computers are directly correlated to more effective information technology outcomes.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.22265625,
+        "B": -6.76171875,
+        "C": -7.515625
+      },
+      "margin": 1.5390625
+    },
+    {
+      "idx": 224,
+      "prompt": "Premise: uh it's in Georgia it's yeah it's right outside of Macon and and it's just a i like the way that i like the way that idea of the south is\nHypothesis: It's in Georgia but it's a very long distance from Macon.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.796875,
+        "B": -6.56640625,
+        "C": -6.90625
+      },
+      "margin": 1.76953125
+    },
+    {
+      "idx": 225,
+      "prompt": "Premise: Finish it, someone yelled.\nHypothesis: Someone yelled to finish the battle.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -7.09765625,
+        "C": -7.328125
+      },
+      "margin": 1.89453125
+    },
+    {
+      "idx": 226,
+      "prompt": "Premise: Among the disadvantages are that the degree of innovation and product differentiation might continue to be limited.\nHypothesis: Limited innovation is not going to be an advantage. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.484375,
+        "B": -7.08203125,
+        "C": -7.83203125
+      },
+      "margin": 1.59765625
+    },
+    {
+      "idx": 227,
+      "prompt": "Premise: It also describes the results of the scenario analysis, both in terms of the various marginal costs associated with emission control strategies and the economy-wide impact of each scenario.\nHypothesis: It gives a breakdown of both the costs and impacts of the scenarios.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.8828125,
+        "B": -6.59765625,
+        "C": -7.0
+      },
+      "margin": 1.71484375
+    },
+    {
+      "idx": 228,
+      "prompt": "Premise: 120 \"You do not think I ought to go to the police?\"\nHypothesis: Should I not go to the police?\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.1875,
+        "B": -7.06640625,
+        "C": -7.28515625
+      },
+      "margin": 1.87890625
+    },
+    {
+      "idx": 229,
+      "prompt": "Premise: We always knew it was an outside chance.\nHypothesis: As we were well aware, the odds were not favorable.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.0078125,
+        "B": -6.8359375,
+        "C": -7.1484375
+      },
+      "margin": 1.828125
+    },
+    {
+      "idx": 230,
+      "prompt": "Premise: for me now the address is the same you know my my office address\nHypothesis: I am able to receive mail at my workplace.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.99609375,
+        "B": -6.78125,
+        "C": -6.921875
+      },
+      "margin": 1.78515625
+    },
+    {
+      "idx": 231,
+      "prompt": "Premise: Sun Ra's spaceships did not come, as it were, out of nowhere.\nHypothesis: The spaceships did not come out of nowhere but they were welcome.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3984375,
+        "B": -7.3671875,
+        "C": -7.74609375
+      },
+      "margin": 1.96875
+    },
+    {
+      "idx": 232,
+      "prompt": "Premise: According to the Natural Resources Conservation Service, this single, voluntary program will provide flexible technical, financial, and educational assistance to farmers and ranchers who face serious threats to soil, water, and related natural resources on agricultural and other lands, including grazing lands, wetlands, forest lands, and wildlife habitats.\nHypothesis: This program aims to destroy all farms. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.4921875,
+        "B": -7.3984375,
+        "C": -8.125
+      },
+      "margin": 1.90625
+    },
+    {
+      "idx": 233,
+      "prompt": "Premise: Up here, gazing out at strikingly lush mountains, you may find yourself higher than the clouds, which adds to the extraordinarily eerie atmosphere of the place.\nHypothesis: You might be above the cloud line here, the atmosphere is eerie and you can see the mountains.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.1484375,
+        "B": -6.8515625,
+        "C": -7.4296875
+      },
+      "margin": 1.703125
+    },
+    {
+      "idx": 234,
+      "prompt": "Premise: As the budgets, functions, and points of service of many government programs devolve to state and local government, private entities and nonprofit organizations, and other third parties, it may become harder for GAO to obtain the records it needs to complete audits and evaluations.\nHypothesis: Audits and evaluations are harder because it is more difficult for GAO to get the records.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.6171875,
+        "B": -7.15234375,
+        "C": -8.0703125
+      },
+      "margin": 1.53515625
+    },
+    {
+      "idx": 235,
+      "prompt": "Premise: Many Greeks in Asia Minor were forced to leave their homes and brought an influence of eastern cadences with them.\nHypothesis: The poor Greeks shouldn't have had to leave their homes. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.5625,
+        "B": -7.35546875,
+        "C": -7.7265625
+      },
+      "margin": 1.79296875
+    },
+    {
+      "idx": 236,
+      "prompt": "Premise: 11 These departures permit them take advantage of the lower cost of living as well as to be reunited with their spouses and children.\nHypothesis: The departures help them take advantage of the high cost of living in other areas.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -6.66796875,
+        "C": -7.2109375
+      },
+      "margin": 1.453125
+    },
+    {
+      "idx": 237,
+      "prompt": "Premise: yeah right right yeah i know i uh i remember my college days  and having to do that too\nHypothesis: I didn't have to do that once I left college.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.0234375,
+        "B": -6.5859375,
+        "C": -6.93359375
+      },
+      "margin": 1.5625
+    },
+    {
+      "idx": 238,
+      "prompt": "Premise: Justice Kennedy does not care what law librarians across the country do with all the Supreme Court Reporters from 1790 through 1998.\nHypothesis: Justice Kennedy doesn't think the Supreme Court Reporters from 1790 to 1998 are important.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.29296875,
+        "B": -7.3046875,
+        "C": -7.51171875
+      },
+      "margin": 2.01171875
+    },
+    {
+      "idx": 239,
+      "prompt": "Premise: His mother died when he was young, and he was adopted by the Brodkeys.\nHypothesis: When his mother died, the Brodkeys took him in.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.22265625,
+        "B": -7.25390625,
+        "C": -7.5703125
+      },
+      "margin": 2.03125
+    },
+    {
+      "idx": 240,
+      "prompt": "Premise: They returned to live in the Galilee village of Nazareth, making pilgrimages to Jerusalem.\nHypothesis: They lived in Jerusalem but would make pilgrimages to Galilee.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3984375,
+        "B": -7.10546875,
+        "C": -7.60546875
+      },
+      "margin": 1.70703125
+    },
+    {
+      "idx": 241,
+      "prompt": "Premise: yeah that's up here in New England that's we call that backpacking which is the same thing which is you're you've got everything on your back you know an aluminum camp frame uh\nHypothesis: When you go backpacking it's important to bring a rough terrain wagon to carry your gear.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.05859375,
+        "B": -6.81640625,
+        "C": -7.203125
+      },
+      "margin": 1.7578125
+    },
+    {
+      "idx": 242,
+      "prompt": "Premise: Said we was a-staying at the inn.\nHypothesis: He was staying at the inn in town.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3828125,
+        "B": -7.3046875,
+        "C": -7.3515625
+      },
+      "margin": 1.921875
+    },
+    {
+      "idx": 243,
+      "prompt": "Premise: However, co-requesters cannot approve additional co-requesters or restrict the timing of the release of the product after it is issued.\nHypothesis: They cannot restrict timing of the release of the product.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.40234375,
+        "B": -6.93359375,
+        "C": -7.578125
+      },
+      "margin": 1.53125
+    },
+    {
+      "idx": 244,
+      "prompt": "Premise: Nash showed up for an MIT New Year's Eve party clad only in a diaper.\nHypothesis: Nash showed up in a suit.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.6015625,
+        "B": -7.67578125,
+        "C": -7.8046875
+      },
+      "margin": 2.07421875
+    },
+    {
+      "idx": 245,
+      "prompt": "Premise: the hologram makes up all these things and uh i mean sometimes  sometimes it's funny sometimes it's not but uh you know it's something to pass the time until we do and then and then we watch football\nHypothesis: Sometimes it is amusing to see what the hologram creates.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.04296875,
+        "B": -6.71484375,
+        "C": -7.0234375
+      },
+      "margin": 1.671875
+    },
+    {
+      "idx": 246,
+      "prompt": "Premise: In the depths of the Cold War, many Americans suspected Communists had infiltrated Washington and were about to subvert our democracy.\nHypothesis: Communists infiltrated Washington during the Cold War.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.265625,
+        "B": -7.3125,
+        "C": -7.625
+      },
+      "margin": 2.046875
+    },
+    {
+      "idx": 247,
+      "prompt": "Premise: The analysis also addresses the various alternatives to the final rule which were considered, including differing compliance or reporting requirements, use of performance rather than design standards, and an exemption for small entities from coverage of the rule.\nHypothesis: The rule is subject to change.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.86328125,
+        "B": -6.47265625,
+        "C": -6.92578125
+      },
+      "margin": 1.609375
+    },
+    {
+      "idx": 248,
+      "prompt": "Premise: California is high\nHypothesis: California is hyped up!\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.38671875,
+        "B": -7.171875,
+        "C": -7.65234375
+      },
+      "margin": 1.78515625
+    },
+    {
+      "idx": 249,
+      "prompt": "Premise: Possibly three months.\"\nHypothesis: At no time ever. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.09375,
+        "B": -6.85546875,
+        "C": -7.23046875
+      },
+      "margin": 1.76171875
+    },
+    {
+      "idx": 250,
+      "prompt": "Premise: I'm sure he'll be back to work soon enough- it's only a leg wound, barely broken flesh.\nHypothesis: The legs will be healed soon.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3984375,
+        "B": -7.17578125,
+        "C": -7.56640625
+      },
+      "margin": 1.77734375
+    },
+    {
+      "idx": 251,
+      "prompt": "Premise: My brain refusing to command properly.\nHypothesis: My brain was not commanding properly.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.3125,
+        "B": -7.1875,
+        "C": -7.375
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 252,
+      "prompt": "Premise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Being totally supportive of a more comprehensive business model is not something regulators may do.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.2890625,
+        "B": -6.89453125,
+        "C": -7.6015625
+      },
+      "margin": 1.60546875
+    },
+    {
+      "idx": 253,
+      "prompt": "Premise: 'Wait here,' I was ordered.\nHypothesis: He told me to wait until he opened the gate.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.14453125,
+        "B": -6.8359375,
+        "C": -7.1328125
+      },
+      "margin": 1.69140625
+    },
+    {
+      "idx": 254,
+      "prompt": "Premise: yeah i'm trying to find out how long we're supposed talk\nHypothesis: We have to talk for exactly two minutes.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1328125,
+        "B": -6.58984375,
+        "C": -7.0859375
+      },
+      "margin": 1.45703125
+    },
+    {
+      "idx": 255,
+      "prompt": "Premise: This man claims that he has been robbed en route and is stranded without money or his plane ticket in an airport somewhere in Europe or the Middle East.\nHypothesis: He claimed he was robbed but was able to get away without losing anything.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.2890625,
+        "B": -7.1484375,
+        "C": -7.6796875
+      },
+      "margin": 1.859375
+    },
+    {
+      "idx": 256,
+      "prompt": "Premise: Krugman's column will henceforth be known as The Dismal Science, a phrase too famous to be ownable by anyone, except possibly British essayist Thomas Carlyle (1795-1881), who coined it.\nHypothesis: Krugman writes a column.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.78515625,
+        "B": -7.58203125,
+        "C": -7.90234375
+      },
+      "margin": 1.796875
+    },
+    {
+      "idx": 257,
+      "prompt": "Premise: There are two challengers to these top dogs.\nHypothesis: These top dogs face two tough financial challenges.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.15234375,
+        "B": -7.125,
+        "C": -7.453125
+      },
+      "margin": 1.97265625
+    },
+    {
+      "idx": 258,
+      "prompt": "Premise: PROGRAM ACCOUNT -The budget account into which an appropriation to cover the subsidy cost of a direct loan or loan guarantee program is made and from which such cost is disbursed to the financing account.\nHypothesis: Funds should never be transferred between program accounts and financing accounts.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.421875,
+        "B": -6.890625,
+        "C": -7.61328125
+      },
+      "margin": 1.46875
+    },
+    {
+      "idx": 259,
+      "prompt": "Premise: Other examples of cumulative case studies come from two international agencies.\nHypothesis: There are no examples of case studies, so it is a new territoriy.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.21484375,
+        "B": -7.17578125,
+        "C": -7.35546875
+      },
+      "margin": 1.9609375
+    },
+    {
+      "idx": 260,
+      "prompt": "Premise: There never will be.\nHypothesis: It should happen soon.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.48828125,
+        "B": -7.53515625,
+        "C": -7.62890625
+      },
+      "margin": 2.046875
+    },
+    {
+      "idx": 261,
+      "prompt": "Premise: Though prehistoric remains from the Paleolithic, Neolithic, and Bronze Ages have been unearthed in the Manzanares Valley, prior to Madrid's sudden elevation to capital city in 1561 its history was rather undistinguished.\nHypothesis: There were remains in the Manzanares Valley.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.46875,
+        "B": -6.99609375,
+        "C": -7.77734375
+      },
+      "margin": 1.52734375
+    },
+    {
+      "idx": 262,
+      "prompt": "Premise: Regulators may not be totally supportive of a more comprehensive business model because they are concerned that the information would be based on a lot of judgment and, therefore, lack of precision, which could make enforcement of reporting standards difficult.\nHypothesis: Regulators will be fully supportive of this business model.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.40625,
+        "B": -6.88671875,
+        "C": -7.671875
+      },
+      "margin": 1.48046875
+    },
+    {
+      "idx": 263,
+      "prompt": "Premise: (It may resemble Dungeons &amp\nHypothesis: It could never look like Dungeons and\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.13671875,
+        "B": -6.5,
+        "C": -6.99609375
+      },
+      "margin": 1.36328125
+    },
+    {
+      "idx": 264,
+      "prompt": "Premise: The great attraction of the church is the splendid exterior, which is crowned by golden onion-shaped cupolas.\nHypothesis: The interior of the church, while still lovely, is much plainer.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3515625,
+        "B": -7.4453125,
+        "C": -7.63671875
+      },
+      "margin": 2.09375
+    },
+    {
+      "idx": 265,
+      "prompt": "Premise: To address these concerns, we supplement our Base Estimate of benefits with a series of sensitivity calculations that make use of other sources of concentration-response and valuation data for key benefits categories.\nHypothesis: Supplemental data is less accurate than primary data.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.8984375,
+        "B": -6.5078125,
+        "C": -6.8828125
+      },
+      "margin": 1.609375
+    },
+    {
+      "idx": 266,
+      "prompt": "Premise: 8 million in relief in the form of emergency housing.\nHypothesis: No money was spent on emergency housing relief.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1484375,
+        "B": -7.10546875,
+        "C": -7.484375
+      },
+      "margin": 1.95703125
+    },
+    {
+      "idx": 267,
+      "prompt": "Premise: Escaped or abandoned raccoons have been breeding in the wild for the past 20 years and have damaged corn crops, watermelon and melon farms, and rainbow trout hatcheries, the paper said.\nHypothesis: Raccoons, if they are abandoned, tend to damage things- this is what has been happening for the past 20 years.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.234375,
+        "B": -6.859375,
+        "C": -7.63671875
+      },
+      "margin": 1.625
+    },
+    {
+      "idx": 268,
+      "prompt": "Premise: It features over 50 outlets for discounted designer fashions, from Armani to DKNY.\nHypothesis: It has over 50 discount stores for designer fashion brands.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.9609375,
+        "B": -6.6640625,
+        "C": -7.24609375
+      },
+      "margin": 1.703125
+    },
+    {
+      "idx": 269,
+      "prompt": "Premise: yeah well are you you with TI\nHypothesis: TI is the tourism international society.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.87890625,
+        "B": -6.86328125,
+        "C": -6.9375
+      },
+      "margin": 1.984375
+    },
+    {
+      "idx": 270,
+      "prompt": "Premise: They did this to us.\nHypothesis: This was done by them.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.34375,
+        "B": -7.5,
+        "C": -7.64453125
+      },
+      "margin": 2.15625
+    },
+    {
+      "idx": 271,
+      "prompt": "Premise: But he said he thought the Ledfords understood they could qualify only if he put down a stated income, typically an undocumented business income that raises the borrower's interest rate. \nHypothesis: He also believed that a tax return was necessary.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.5625,
+        "B": -7.484375,
+        "C": -8.0078125
+      },
+      "margin": 1.921875
+    },
+    {
+      "idx": 272,
+      "prompt": "Premise: On Fox News Sunday , host Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.\nHypothesis: Tony Snow touted a poll showing that 60 percent of Americans think the allegations represent a pattern of behavior.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.86328125,
+        "B": -6.78515625,
+        "C": -6.9296875
+      },
+      "margin": 1.921875
+    },
+    {
+      "idx": 273,
+      "prompt": "Premise: In a further role reversal, Gingrich may have positioned himself to fill it.\nHypothesis: Gingrich may fill the position. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.46875,
+        "B": -7.3828125,
+        "C": -7.6953125
+      },
+      "margin": 1.9140625
+    },
+    {
+      "idx": 274,
+      "prompt": "Premise: facilitate suits for benefits by using the State and Federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities.\nHypothesis: Federal refers to national and state refers to local, duties and responsibilities may vary between Federal and State levels.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.14453125,
+        "B": -7.15625,
+        "C": -7.484375
+      },
+      "margin": 2.01171875
+    },
+    {
+      "idx": 275,
+      "prompt": "Premise: If all else failed, I could always make myself an exhibit.\nHypothesis: Making myself an exhibit is a last resort. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.25,
+        "B": -7.09765625,
+        "C": -7.21875
+      },
+      "margin": 1.84765625
+    },
+    {
+      "idx": 276,
+      "prompt": "Premise: 7) Nonautomated First-Class and Standard-A mailers have the option of requesting that their mail be processed manually, even though the costs for such processing are substantially higher than mechanized processing.\nHypothesis: Nonautomated First-Class and Standard-A mailers can ask for their mail to be processed by hand, though it costs the postal service more.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -5.234375,
+        "B": -6.83984375,
+        "C": -7.40625
+      },
+      "margin": 1.60546875
+    },
+    {
+      "idx": 277,
+      "prompt": "Premise: they don't i don't i don't work at TI\nHypothesis: We all work together at TI.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1640625,
+        "B": -6.9609375,
+        "C": -7.1796875
+      },
+      "margin": 1.796875
+    },
+    {
+      "idx": 278,
+      "prompt": "Premise: Transforming Control of Public Health Programs Raises Concerns (\nHypothesis: Everyone is content with the change of public health programs. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.02734375,
+        "B": -6.62109375,
+        "C": -7.3125
+      },
+      "margin": 1.59375
+    },
+    {
+      "idx": 279,
+      "prompt": "Premise: uh well i figured if i had it done in the garage at the Toyota dealer i would be looking at probably three or four hundred dollars\nHypothesis: The cost at the dealer's garage is twice as much as what I paid.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.9609375,
+        "B": -6.43359375,
+        "C": -7.015625
+      },
+      "margin": 1.47265625
+    },
+    {
+      "idx": 280,
+      "prompt": "Premise: um yeah that sounds kind of neat uh is location at all important to you like you know how far it is from your house or whatever\nHypothesis: That sounds really stupid. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.28515625,
+        "B": -7.01953125,
+        "C": -7.15625
+      },
+      "margin": 1.734375
+    },
+    {
+      "idx": 281,
+      "prompt": "Premise: and the nurses aren't no see you have to pay that\nHypothesis: You don't have to pay for that.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.92578125,
+        "B": -6.66015625,
+        "C": -6.94140625
+      },
+      "margin": 1.734375
+    },
+    {
+      "idx": 282,
+      "prompt": "Premise: Ca'daan felt his skin get hot and unable to come up with any suitable response, moved on.\nHypothesis: Ca'daan was getting sunburned.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.39453125,
+        "B": -7.125,
+        "C": -7.48828125
+      },
+      "margin": 1.73046875
+    },
+    {
+      "idx": 283,
+      "prompt": "Premise: so you know well a lot of the stuff you hear coming from South Africa now and from West Africa that's considered world music because it's not particularly using certain types of folk styles\nHypothesis: They rely too heavily on the types of folk styles.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.203125,
+        "B": -6.69921875,
+        "C": -7.27734375
+      },
+      "margin": 1.49609375
+    },
+    {
+      "idx": 284,
+      "prompt": "Premise: Together they had a force of 130 attorneys and the responsibility to serve the civil legal needs of about 550,000 poor and vulnerable people throughout the state.\nHypothesis: There were more lawyers than vulnerable people in the state.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.3671875,
+        "B": -7.09765625,
+        "C": -7.6328125
+      },
+      "margin": 1.73046875
+    },
+    {
+      "idx": 285,
+      "prompt": "Premise: The pieces are unloaded and fed into sorting machines.\nHypothesis: They were unloaded but not sorted\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.0625,
+        "B": -6.78125,
+        "C": -7.1875
+      },
+      "margin": 1.71875
+    },
+    {
+      "idx": 286,
+      "prompt": "Premise: Don't mean the police, but the people that are right in it. \nHypothesis: The police were overt brutal. \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1015625,
+        "B": -7.10546875,
+        "C": -7.2734375
+      },
+      "margin": 2.00390625
+    },
+    {
+      "idx": 287,
+      "prompt": "Premise: Given the limits on the WTO's jurisdiction, it was probably unreasonable of Kodak to expect a real victory.\nHypothesis: Kodak was totally justified in expecting a victory.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.6171875,
+        "B": -7.37890625,
+        "C": -7.7421875
+      },
+      "margin": 1.76171875
+    },
+    {
+      "idx": 288,
+      "prompt": "Premise: But those that are manufactured for sale in in Europe and so forth are quite the other way around\nHypothesis: Products are made with differently designed machines in Europe.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.28125,
+        "B": -7.15625,
+        "C": -7.375
+      },
+      "margin": 1.875
+    },
+    {
+      "idx": 289,
+      "prompt": "Premise: The results of the sheepshead minnow, Cyprinodon variegatus, inland silverside, Menidia beryllina, or mysid, Mysidopsis bahia, tests are acceptable if survival in the controls is 80 percent or greater.\nHypothesis: The need for high survival rates is to ensure the highest quality of results.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.39453125,
+        "B": -6.546875,
+        "C": -7.34375
+      },
+      "margin": 1.15234375
+    },
+    {
+      "idx": 290,
+      "prompt": "Premise: yeah and every once in a while they'll have dressing but uh whoever makes it uh goes crazy with the sage\nHypothesis: Sometimes they have dressing but they use too much sage.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.9609375,
+        "B": -6.3671875,
+        "C": -6.78515625
+      },
+      "margin": 1.40625
+    },
+    {
+      "idx": 291,
+      "prompt": "Premise: Some of the unmet needs are among people who can pay, but who are deterred from seeking a lawyer because of the uncertainty about legal fees and their fear of the profession.\nHypothesis: Everyone involved has plenty of money.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.34765625,
+        "B": -7.16015625,
+        "C": -7.66015625
+      },
+      "margin": 1.8125
+    },
+    {
+      "idx": 292,
+      "prompt": "Premise: really oh i thought it was great yeah\nHypothesis: that was a nice experience\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.6953125,
+        "B": -6.46484375,
+        "C": -6.79296875
+      },
+      "margin": 1.76953125
+    },
+    {
+      "idx": 293,
+      "prompt": "Premise: This whole unsavory episode brings back memories of skits with Monty Python ! One of my favorite lines was, You are guilty of six--no, seven--charges of heresy.\nHypothesis: This episode reminds me of skits with Monthy Python.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.84375,
+        "B": -6.56640625,
+        "C": -6.640625
+      },
+      "margin": 1.72265625
+    },
+    {
+      "idx": 294,
+      "prompt": "Premise: But for some recipients, there is a downside to the checks from Anthem Inc., issued to policyholders as part of the insurer's conversion to a publicly traded company.\nHypothesis: There is only an upside to anthem's check \nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.26953125,
+        "B": -6.9921875,
+        "C": -7.4375
+      },
+      "margin": 1.72265625
+    },
+    {
+      "idx": 295,
+      "prompt": "Premise: no uh i have a friend who works for TI and uh i work for a a tire service here in i'm from Dallas\nHypothesis: I used to work for a tire service in Dallas, my hometown, and my friend works part-time for TI.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.85546875,
+        "B": -6.46875,
+        "C": -6.921875
+      },
+      "margin": 1.61328125
+    },
+    {
+      "idx": 296,
+      "prompt": "Premise: That had been made by the Cadets (Constitutional Democrats) under Prince Lvov.\nHypothesis: The Cadets made that under Prince Lvov and it was wildly successful.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.1953125,
+        "B": -7.12109375,
+        "C": -7.58984375
+      },
+      "margin": 1.92578125
+    },
+    {
+      "idx": 297,
+      "prompt": "Premise: yeah uh-huh but we look at it sort of as an investment in the future too\nHypothesis: The results will not be noticeable until further down the line.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "B",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -4.73046875,
+        "B": -6.40625,
+        "C": -6.828125
+      },
+      "margin": 1.67578125
+    },
+    {
+      "idx": 298,
+      "prompt": "Premise: Pick up a map from the tourist office here and ask about walking tours.\nHypothesis: No one is usually at the tourist office, so you'll have to go somewhere else to find out about walking tours.\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "C",
+      "predicted_label": "A",
+      "correct": false,
+      "label_logprobs": {
+        "A": -5.46875,
+        "B": -7.484375,
+        "C": -7.890625
+      },
+      "margin": 2.015625
+    },
+    {
+      "idx": 299,
+      "prompt": "Premise: '  Blankley replies, And there are fund-raisers going out in other parts of the country to raise  'The conservatives are coming, the conservatives are coming.\nHypothesis: Blankley replies, there are fundraisers in other parts of the country to raise \"the conservatives are coming\".\nDetermine the relation between the premise and the hypothesis.\nAnswer with one letter only: A for entailment, B for neutral, C for contradiction.",
+      "gold_label": "A",
+      "predicted_label": "A",
+      "correct": true,
+      "label_logprobs": {
+        "A": -4.8984375,
+        "B": -6.58203125,
+        "C": -7.09375
+      },
+      "margin": 1.68359375
+    }
+  ]
+}
